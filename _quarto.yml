@@ -12,7 +12,7 @@ website:
       - cursos.md
     tools:
       - icon: envelope-fill
-        href: biologiacomputacional42@gmail.com
+        href: mailto:biologiacomputacional42@gmail.com
       - icon: mastodon
         href: https://mastodon.social/@biocomputacional
       - icon: telegram
