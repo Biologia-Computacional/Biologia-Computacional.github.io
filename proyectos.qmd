@@ -1,0 +1,19 @@
+---
+title: "Proyectos"
+date-modified: last-modified
+---
+
+Conoce en qué temas estamos trabajando.
+
+## Proyectos activos
+
+- Dinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.
+- [Factores autosómicos implicados en la inactivación del cromosoma
+  X](https://biologia-computacional.github.io/posts/2023/10/inactivacion-x/).
+- Representación del ADN en aplicaciones de Machine Learning.
+- Espaciadores autodirigidos y nuevas funciones de los sistemas CRISPR.
+
+## Proyectos anteriores
+
+- Circuitos de regulación genética con funciones morfogenéticas.
+

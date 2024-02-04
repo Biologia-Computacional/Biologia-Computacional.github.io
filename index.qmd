@@ -1,0 +1,59 @@
+---
+title: "Grupo de Biología Computacional"
+author: "Juan C. Arboleda R."
+date-modified: last-modified
+---
+
+El Grupo de Biología Computacional hace parte del Instituto de Biología de la
+Universidad de Antioquia y su objetivo es comprender diversos fenómenos
+biológicos usando herramientas computacionales, además de promover la Biología
+Computacional en Colombia.
+
+# ¿Por qué hacer Biología Computacional en Colombia?
+
+Lamentablemente, hacer investigación experimental en Colombia no es tan fácil
+como en otros países, ya que juegan en contra factores como la financiación de
+la investigación, la compra de reactivos y el tiempo que se demoran en llegar
+al país, la infraestructura necesaria para desarrollar investigación
+experimental y la competencia por los recursos entre diferentes laboratorios y
+las restricciones de tener que investigar solo las temáticas que los dirigentes
+políticos consideran de mayor relevancia en lugar de investigar libremente.
+
+Por esta razón, la Biología Computacional es una oportunidad magnífica para
+liberarse de muchas de estas ataduras. Generalmente no se necesitan grandes
+recursos ni supercomputadores para realizar investigaciones en Biología
+Computacional. La Biología Computacional se puede desarrollar desde cualquier
+parte del mundo, sin depender de infraestructuras como laboratorios ni de
+equipos o reactivos costosos. Además, gracias al Software Libre, la mayoría de
+herramientas de software que se necesitan son gratuitas y accesibles para todo
+el mundo y lo único que se necesita para hacer Biología Computacional es
+capital humano, y de eso nos sobra en Colombia.
+
+Así que la Biología Computacional es una oportunidad única para convertir
+nuestras debilidades en fortalezas y seguir construyendo ciencia de alto nivel
+sin tener que esperar cambios en políticas públicas que siempre son lentos y
+tortuosos.
+
+Por último, si lo anterior aún no te convence, te invito a leer [las mejores
+razones para incursionar en la Biología
+Computacional](https://caseybergman.wordpress.com/2012/07/31/top-n-reasons-to-do-a-ph-d-or-post-doc-in-bioinformaticscomputational-biology/).
+
+¡Únete ya a la comunidad de Biología Computacional! ¡Todos son bienvenidos!
+
+# Pertenencia al grupo
+
+Para hacer parte del grupo de Biología Computacional no se necesita ningún
+requisito excepto mucha motivación e interés por el tema. Así que si te gusta
+trastear con computadores, o te interesa la programación y el mundo digital y
+además eres un apasionado de la Biología este grupo es para ti.
+
+El hecho de pertenecer a otro grupo no te impide unirte a nuestro grupo de
+Biología Computacional, por el contrario, nos encanta la posibilidad de formar
+una comunidad interconectada e interdisciplinaria, en la que podamos aprender
+de otros temas y además otros grupos también se beneficien de nuestra
+experiencia.
+
+Si tienes alguna duda no dudes en escribirnos a
+<biologiacomputacional42@gmail.com>.
+
+![](imgs/experimental-vs-computational.jpeg)

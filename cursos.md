@@ -1,0 +1,43 @@
+---
+layout: archive
+title: "Cursos y talleres"
+permalink: /cursos/
+author_profile: true
+---
+
+Como parte del esfuerzo para promover la Biología Computacional y el
+Software Libre, nuestro grupo desarrolla cursos y talleres en los que
+enseñamos diferentes herramientas que son muy útiles no solo en la ciencia
+sino en el mundo digital en general. A continuación encontrarás una lista de
+herramientas que usamos en nuestro grupo y que te podemos enseñar.
+
+- [Linux](https://www.arimetrics.com/glosario-digital/linux)
+- [Git/GitHub](https://aprendeia.com/que-es-git-y-github/)
+- [Python](https://www.becas-santander.com/es/blog/python-que-es.html)
+- C++
+- Bash (Requisito Linux)
+- R
+- [LaTeX](https://computerhoy.com/tecnologia/latex-como-funciona-util-herramienta-crear-documentos-1165366)
+- Vim (Requisito Linux)
+- Biología de Sistemas
+	- Modelamiento matemático
+	- Teoría de grafos
+- Bioinformática (Requisito Linux)
+	- FastQC
+	- Trimmomatic
+	- Ensamblaje de genomas
+	- Metagenómica
+	- Análisis de expresión genética
+- Análisis de datos en [Pandas](https://profile.es/blog/pandas-python/) (Requisito Python básico)
+- Make (Requisito Linux)
+- Sistemas Dinámicos
+- Machine Learning
+- Bases de datos SQL
+- Dinámica molecular (Requisito Linux)
+- Robótica con
+  [Arduino](https://www.xataka.com/basics/que-arduino-como-funciona-que-puedes-hacer-uno)
+- Desarrollo de GUIs con Qt (Requisito C++)
+- [Markdown](https://www.silocreativo.com/que-es-markdown-por-que-deberias-empezar-a-usarlo/)
+
+Si quieres aprender sobre alguno de estos temas no dudes en escribirnos y
+manifestarnos tu interés.
