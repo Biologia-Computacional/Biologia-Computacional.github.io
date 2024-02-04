@@ -5,5 +5,7 @@ listing:
   sort: "date desc"
   categories: true
   type: default
+  sort-ui: true
+  filter-ui: true
 ---
 
