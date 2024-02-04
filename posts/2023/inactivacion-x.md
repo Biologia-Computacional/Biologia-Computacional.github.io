@@ -16,7 +16,7 @@ placentarios.
 
 La lionización, nombre por el que también se conoce **el silenciamiento del
 cromosoma X** en hembras mamíferas placentarias fue descubierto por la
-genetista **Mary Lyon** en 1961. Es un proceso crucial en el temprano
+genetista **Mary Lyon** en 1961 [@lyon1961]. Es un proceso crucial en el temprano
 desarrollo embrionario porque produce la **igualación de expresión de
 genes** ya que el sexo en estos organismos esta definido por la combinación
 de un par de cromosomas sexuales *X* y *Y*, hembras XX y machos XY. El
