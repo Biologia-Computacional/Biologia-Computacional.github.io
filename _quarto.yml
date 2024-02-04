@@ -25,6 +25,7 @@ website:
         href: https://github.com/Biologia-Computacional
   margin-header: |
     ![](/imgs/profile.png)
+  favicon: /imgs/favicon.png
 
 format:
   html:
