@@ -10,6 +10,19 @@ website:
       - proyectos.qmd
       - club-de-revista.md
       - cursos.md
+    tools:
+      - icon: envelope-fill
+        href: biologiacomputacional42@gmail.com
+      - icon: mastodon
+        href: https://mastodon.social/@biocomputacional
+      - icon: telegram
+        href: https://t.me/biologia_computacional
+      - icon: twitter
+        href: https://twitter.com/biocomp42
+      - icon: facebook
+        href: https://www.facebook.com/groups/biologiacomputacional
+      - icon: github
+        href: https://github.com/Biologia-Computacional
 
 format:
   html:
