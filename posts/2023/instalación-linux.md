@@ -95,13 +95,14 @@ simple":
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s2TKizTY4s4" title="Cómo reducir y crear particiones en Windows 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+::: {.callout-note}
 **Problemas liberando espacio:**
 Al intentar liberar espacio en tu disco te puedes encontrar con que a pesar
 de que tienes más de 30 GB disponibles, no puedes liberar esa cantidad de
 espacio. Esto puede deberse a que tu disco duro está fragmentado y lo que
 debes hacer es
 [desfragmentarlo](https://www.xataka.com/basics/desfragmentar-el-disco-duro-como-se-hace-y-para-que-sirve).
-{: .notice}
+:::
 
 ## Paso 4: Acceder a la BIOS
 
@@ -134,12 +135,13 @@ archivos.
 
 ¡Mucha suerte con el proceso y disfruta de tu nuevo sistema libre!
 
+::: {.callout-note}
 **Problemas con RST:** Algunos computadores no permiten instalar Linux si
 está habilitada la tecnología de RST (Rapid Storage Technology). En [este
 video](https://youtu.be/wDrCaAdGuMk) se explica la solución, aunque en
 nuestro grupo no la hemos probado y deberías documentarte muy bien sobre el
 tema antes de intentarlo.
-{: .notice}
+:::
 
 ## Video tutorial
 
