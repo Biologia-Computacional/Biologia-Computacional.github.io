@@ -93,7 +93,7 @@ También puedes ver el siguiente video donde se muestra el proceso. Puedes
 saltarte el final del video desde la parte donde dan click a "Nuevo volumen
 simple":
 
-<iframe width="835" height="522" src="https://www.youtube.com/embed/s2TKizTY4s4" title="Cómo reducir y crear particiones en Windows 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s2TKizTY4s4" title="Cómo reducir y crear particiones en Windows 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Problemas liberando espacio:**
 Al intentar liberar espacio en tu disco te puedes encontrar con que a pesar
@@ -143,4 +143,4 @@ tema antes de intentarlo.
 
 ## Video tutorial
 
-<iframe width="928" height="522" src="https://www.youtube.com/embed/yMgzz1fvVCc" title="Linux &amp; Windows, Instalación Dual Boot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yMgzz1fvVCc" title="Linux &amp; Windows, Instalación Dual Boot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
