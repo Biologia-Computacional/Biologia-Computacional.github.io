@@ -1,1 +1,1 @@
-Sitemap: https://Nesper94.github.io/gbc/sitemap.xml
+Sitemap: https://biologia-computacional.github.io/sitemap.xml
