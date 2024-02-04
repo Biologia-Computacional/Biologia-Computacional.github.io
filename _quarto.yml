@@ -14,21 +14,28 @@ website:
     tools:
       - icon: envelope-fill
         href: mailto:biologiacomputacional42@gmail.com
+        text: Email
       - icon: mastodon
         href: https://mastodon.social/@biocomputacional
+        text: Mastodon
       - icon: telegram
         href: https://t.me/biologia_computacional
+        text: Telegram
       - icon: twitter
         href: https://twitter.com/biocomp42
+        text: Twitter
       - icon: facebook
         href: https://www.facebook.com/groups/biologiacomputacional
+        text: Facebook
       - icon: github
         href: https://github.com/Biologia-Computacional
+        text: GitHub
   margin-header: |
     ![](/imgs/profile.png)
   favicon: /imgs/favicon.png
   twitter-card:
     creator: "@Nesper94"
+  back-to-top-navigation: true
 
 format:
   html:
