@@ -23,6 +23,8 @@ website:
         href: https://www.facebook.com/groups/biologiacomputacional
       - icon: github
         href: https://github.com/Biologia-Computacional
+  margin-header: |
+    ![](/imgs/profile.png)
 
 format:
   html:
