@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "cursos.html",
+    "href": "cursos.html",
+    "title": "Cursos y talleres",
+    "section": "",
+    "text": "Como parte del esfuerzo para promover la Biología Computacional y el Software Libre, nuestro grupo desarrolla cursos y talleres en los que enseñamos diferentes herramientas que son muy útiles no solo en la ciencia sino en el mundo digital en general. A continuación encontrarás una lista de herramientas que usamos en nuestro grupo y que te podemos enseñar.\n\nLinux\nGit/GitHub\nPython\nC++\nBash (Requisito Linux)\nR\nLaTeX\nVim (Requisito Linux)\nBiología de Sistemas\n\nModelamiento matemático\nTeoría de grafos\n\nBioinformática (Requisito Linux)\n\nFastQC\nTrimmomatic\nEnsamblaje de genomas\nMetagenómica\nAnálisis de expresión genética\n\nAnálisis de datos en Pandas (Requisito Python básico)\nMake (Requisito Linux)\nSistemas Dinámicos\nMachine Learning\nBases de datos SQL\nDinámica molecular (Requisito Linux)\nRobótica con Arduino\nDesarrollo de GUIs con Qt (Requisito C++)\nMarkdown\n\nSi quieres aprender sobre alguno de estos temas no dudes en escribirnos y manifestarnos tu interés."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Grupo de Biología Computacional",
+    "section": "",
+    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia.\n\n¿Por qué hacer Biología Computacional en Colombia?\nLamentablemente, hacer investigación experimental en Colombia no es tan fácil como en otros países, ya que juegan en contra factores como la financiación de la investigación, la compra de reactivos y el tiempo que se demoran en llegar al país, la infraestructura necesaria para desarrollar investigación experimental y la competencia por los recursos entre diferentes laboratorios y las restricciones de tener que investigar solo las temáticas que los dirigentes políticos consideran de mayor relevancia en lugar de investigar libremente.\nPor esta razón, la Biología Computacional es una oportunidad magnífica para liberarse de muchas de estas ataduras. Generalmente no se necesitan grandes recursos ni supercomputadores para realizar investigaciones en Biología Computacional. La Biología Computacional se puede desarrollar desde cualquier parte del mundo, sin depender de infraestructuras como laboratorios ni de equipos o reactivos costosos. Además, gracias al Software Libre, la mayoría de herramientas de software que se necesitan son gratuitas y accesibles para todo el mundo y lo único que se necesita para hacer Biología Computacional es capital humano, y de eso nos sobra en Colombia.\nAsí que la Biología Computacional es una oportunidad única para convertir nuestras debilidades en fortalezas y seguir construyendo ciencia de alto nivel sin tener que esperar cambios en políticas públicas que siempre son lentos y tortuosos.\nPor último, si lo anterior aún no te convence, te invito a leer las mejores razones para incursionar en la Biología Computacional.\n¡Únete ya a la comunidad de Biología Computacional! ¡Todos son bienvenidos!\n\n\nPertenencia al grupo\nPara hacer parte del grupo de Biología Computacional no se necesita ningún requisito excepto mucha motivación e interés por el tema. Así que si te gusta trastear con computadores, o te interesa la programación y el mundo digital y además eres un apasionado de la Biología este grupo es para ti.\nEl hecho de pertenecer a otro grupo no te impide unirte a nuestro grupo de Biología Computacional, por el contrario, nos encanta la posibilidad de formar una comunidad interconectada e interdisciplinaria, en la que podamos aprender de otros temas y además otros grupos también se beneficien de nuestra experiencia.\nSi tienes alguna duda no dudes en escribirnos a biologiacomputacional42@gmail.com."
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Conoce en qué temas estamos trabajando."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-activos",
+    "href": "proyectos.html#proyectos-activos",
+    "title": "Proyectos",
+    "section": "Proyectos activos",
+    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-anteriores",
+    "href": "proyectos.html#proyectos-anteriores",
+    "title": "Proyectos",
+    "section": "Proyectos anteriores",
+    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
+  },
+  {
+    "objectID": "club-de-revista.html",
+    "href": "club-de-revista.html",
+    "title": "Club de Revista",
+    "section": "",
+    "text": "Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.\nHorario: Martes de 1 a 2 pm\nLugar: Instituto de Biología, Universidad de Antioquia\nLa siguiente es la programación del club de revista para el año 2024:\n\n\n\nFecha\nExpositor\nArtículo\nLínea de investigación\n\n\n\n\nFebrero 6\nJuan Camilo Arboleda Rivera\nAn essential role for the DXPas34 tandem repeat and Tsix transcription in the counting process of X chromosome inactivation\nInactivación del X\n\n\nFebrero 13\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n\n\nFebrero 20\nNicole Rivera Parra\n\n\n\n\nFebrero 27\nJose Miguel Tobón García\n\nMachine-Learning\n\n\nMarzo 5\nSimón Tamayo Martínez\n\nCRISPR\n\n\nMarzo 12\nHaminton Alexander Poveda Alonso\n\nCRISPR\n\n\nMarzo 19\nInvitado (por definir)\n\n\n\n\nMarzo 26\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n\n\nAbril 2\nTomás Duque Rueda\n\nCianobacterias\n\n\nAbril 9\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n\n\nAbril 16\nInvitado (por definir)\n\n\n\n\nAbril 23\nJoshua Taborda Mejía\n\n\n\n\nAbril 30\nLaura Builes Cerón\n\nCRISPR\n\n\nMayo 7\nJuan Camilo Arboleda Rivera\n\nCRISPR\n\n\nMayo 14\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n\n\nMayo 21\nInvitado (por definir)\n\n\n\n\nMayo 28\nJose Miguel Tobón García\n\nMachine-Learning\n\n\nJunio 4\nSimón Tamayo Martínez\n\nCRISPR\n\n\nJunio 11\nHaminton Alexander Poveda Alonso\n\nCRISPR\n\n\nJunio 18\nInvitado (por definir)\n\n\n\n\nJunio 25\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n\n\njulio 2\nTomás Duque Rueda\n\nCianobacterias\n\n\njulio 9\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n\n\njulio 16\nInvitado (por definir)\n\n\n\n\njulio 23\nJoshua Taborda Mejía\n\n\n\n\njulio 30\nLaura Builes Cerón\n\nCRISPR\n\n\nagosto 6\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n\n\nagosto 13\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n\n\nagosto 20\nInvitado (por definir)\n\n\n\n\nagosto 27\nJose Miguel Tobón García\n\nMachine-Learning\n\n\nseptiembre 3\nSimón Tamayo Martínez\n\nCRISPR\n\n\nseptiembre 10\nHaminton Alexander Poveda Alonso\n\nCRISPR\n\n\nseptiembre 17\nInvitado (por definir)\n\n\n\n\nseptiembre 24\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n\n\noctubre 1\nTomás Duque Rueda\n\nCianobacterias\n\n\noctubre 8\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n\n\noctubre 15\nInvitado (por definir)\n\n\n\n\noctubre 22\nJoshua Taborda Mejía\n\n\n\n\noctubre 29\nLaura Builes Cerón\n\nCRISPR\n\n\nnoviembre 5\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n\n\nnoviembre 12\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n\n\nnoviembre 19\nInvitado (por definir)\n\n\n\n\nnoviembre 26\nJose Miguel Tobón García\n\nMachine-Learning\n\n\ndiciembre 3\nSimón Tamayo Martínez\n\nCRISPR\n\n\ndiciembre 10\nHaminton Alexander Poveda Alonso\n\nCRISPR"
+  }
+]
