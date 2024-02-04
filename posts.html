@@ -74,9 +74,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="./imgs/profile.png" class="img-fluid"></p>
 </div></div>
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Biología computacional">Biología computacional <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Cursos">Cursos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Educación">Educación <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Inactivación del X">Inactivación del X <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linux">Linux <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -189,9 +189,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1696222800000" data-listing-file-modified-sort="1696288941132" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="0" data-categories="Inactivación del X,Biología computacional" data-listing-date-sort="1696222800000" data-listing-file-modified-sort="1707026131825" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/2023-10-02-inactivacion-x.html"> <p class="card-img-top"><img src="https://slideplayer.es/14598364/90/images/slide_10.jpg" alt="corpusculo de Barr"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2023-10-02-inactivacion-x.html"> <p class="card-img-top"><img src="https://slideplayer.es/14598364/90/images/slide_10.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2023-10-02-inactivacion-x.html">
@@ -201,8 +201,18 @@ Proyecto de la inactivación del X
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Inactivación del X'); return false;">
+Inactivación del X
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
+Biología computacional
+</div>
+</div>
+<a href="./posts/2023-10-02-inactivacion-x.html">
 <div class="listing-description">
-Breve introduccion al mecanismo de inactivacion del cromosoma X en mamíferos placentenarios
+Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios.
 </div>
 </a>
 </div>
@@ -211,10 +221,13 @@ Breve introduccion al mecanismo de inactivacion del cromosoma X en mamíferos pl
 <div class="listing-date">
 Oct 2, 2023
 </div>
+<div class="listing-author">
+María de los Ángeles Benavides Guaca
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1695272400000" data-listing-file-modified-sort="1707022805153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="1" data-categories="Biología computacional,Linux,Tutorial,Educación" data-listing-date-sort="1695272400000" data-listing-file-modified-sort="1707025632252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
 <p><a href="./posts/2023-09-21-instalación-linux.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -226,6 +239,22 @@ Tutorial de instalación de Linux
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
+Biología computacional
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Linux'); return false;">
+Linux
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Educación'); return false;">
+Educación
+</div>
+</div>
+<a href="./posts/2023-09-21-instalación-linux.html">
 <div class="listing-description">
 ¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación de Linux que nos permitirá tener nuestro equipo con Windows y Linux al mismo tiempo.
 </div>
@@ -236,10 +265,13 @@ Tutorial de instalación de Linux
 <div class="listing-date">
 Sep 21, 2023
 </div>
+<div class="listing-author">
+Juan Camilo Arboleda Rivera
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1693458000000" data-listing-file-modified-sort="1694189724969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="Biología computacional,Linux,Cursos,Educación" data-listing-date-sort="1693458000000" data-listing-file-modified-sort="1707025583556" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./posts/2023-08-31-curso-linux.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -251,6 +283,22 @@ Curso de Introducción a Linux y el Software Libre 2023-2
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
+Biología computacional
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Linux'); return false;">
+Linux
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Cursos'); return false;">
+Cursos
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Educación'); return false;">
+Educación
+</div>
+</div>
+<a href="./posts/2023-08-31-curso-linux.html">
 <div class="listing-description">
 Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux…
 </div>
@@ -261,10 +309,13 @@ Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del
 <div class="listing-date">
 Aug 31, 2023
 </div>
+<div class="listing-author">
+Juan Camilo Arboleda Rivera
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1692766800000" data-listing-file-modified-sort="1692832022711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="Biología computacional" data-listing-date-sort="1692766800000" data-listing-file-modified-sort="1707025552674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./posts/2023-08-23-bienvenida.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -276,6 +327,13 @@ Bienvenida
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
+Biología computacional
+</div>
+</div>
+<a href="./posts/2023-08-23-bienvenida.html">
 <div class="listing-description">
 Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre.
 </div>
@@ -285,6 +343,9 @@ Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a en
 <a href="./posts/2023-08-23-bienvenida.html">
 <div class="listing-date">
 Aug 23, 2023
+</div>
+<div class="listing-author">
+Juan Camilo Arboleda Rivera
 </div>
 </a>
 </div>
