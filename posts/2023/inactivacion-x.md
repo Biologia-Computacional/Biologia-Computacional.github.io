@@ -6,6 +6,7 @@ author: María de los Ángeles Benavides Guaca
 categories:
  - Inactivación del X
  - Biología computacional
+bibliography: xci.bib
 ---
 
 Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos
@@ -25,7 +26,7 @@ uno de los tantos mecanismos de dosis de compensación que se han
 desarrollado en animales que tienen este problema.
 
 El resultado final es la presencia de un cromosoma X activo y otro inactivo
-en la mayoría de sus genes, convertido en un **cuerpo de Barr**.
+en la mayoría de sus genes, convertido en un **cuerpo de Barr** [@barr1949].
 
 ![corpusculo de Barr](https://slideplayer.es/14598364/90/images/slide_10.jpg)
 
@@ -56,7 +57,7 @@ En adición, dada la amplitud de los genomas, es necesario reducir los
 candidatos a este factor, por lo que nos podemos referir a una serie de
 estudios recientes en genomas humanos que sugiere que este factor puede
 encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo
-corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma. 
+corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma [@migeon2017].
 
 ![Regiones de interés en el cromosoma 19 humano](https://journals.plos.org/plosone/article/figure/image?size=inline&id=10.1371/journal.pone.0170403.g003)
 
