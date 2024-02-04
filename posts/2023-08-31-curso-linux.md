@@ -1,12 +1,13 @@
 ---
 title: 'Curso de Introducción a Linux y el Software Libre 2023-2'
 date: 2023-08-31
+author: Juan Camilo Arboleda Rivera
 permalink: /posts/2023/08/curso-linux-2023-2/
-tags:
-  - Biolog&iacute;a Computacional
+categories:
+  - Biología computacional
   - Linux
   - Cursos
-  - Educaci&oacute;n
+  - Educación
 ---
 
 Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio

@@ -1,12 +1,13 @@
 ---
 title: 'Tutorial de instalación de Linux'
 date: 2023-09-21
+author: Juan Camilo Arboleda Rivera
 permalink: /posts/2023/09/instalar-linux/
-tags:
-  - Biolog&iacute;a Computacional
+categories:
+  - Biología computacional
   - Linux
   - Tutorial
-  - Educaci&oacute;n
+  - Educación
 ---
 
 ¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación

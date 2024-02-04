@@ -1,9 +1,10 @@
 ---
 title: 'Bienvenida'
 date: 2023-08-23
+author: Juan Camilo Arboleda Rivera
 permalink: /posts/2023/08/bienvenida/
-tags:
-  - Biolog&iacute;a Computacional
+categories:
+  - Biología computacional
 ---
 
 Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a
