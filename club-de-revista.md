@@ -8,10 +8,12 @@ tags:
 date-modified: last-modified
 ---
 
-Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.
+Te invitamos a participar en nuestro club de revista donde discutimos las
+últimas investigaciones y avances de la ciencia.
 
 **Horario:** Martes de 1 a 2 pm\
-**Lugar:** Instituto de Biología, Universidad de Antioquia
+**Lugar:** Salón 7-325 (Laboratorio de Entomología), Instituto de Biología,
+Universidad de Antioquia
 
 La siguiente es la programación del club de revista para el año 2024:
 
