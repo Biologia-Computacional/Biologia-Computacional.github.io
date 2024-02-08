@@ -12,7 +12,7 @@ Te invitamos a participar en nuestro club de revista donde discutimos las
 últimas investigaciones y avances de la ciencia.
 
 **Horario:** Miércoles de 12 a 1 pm\
-**Lugar:** Salón 7-305 (Laboratorio de Entomología), Instituto de Biología,
+**Lugar:** Salón 7-305, Instituto de Biología,
 Universidad de Antioquia
 
 La siguiente es la programación del club de revista para el año 2024:
@@ -20,7 +20,7 @@ La siguiente es la programación del club de revista para el año 2024:
 |     Fecha     |              Expositor               |                                                                                  Artículo                                                                                  | Línea de investigación |
 |:----------------:|:----------------:|:----------------:|:----------------:|
 |   Febrero 7   |     Juan Camilo Arboleda Rivera      | [An essential role for the *DXPas34* tandem repeat and *Tsix* transcription in the counting process of X chromosome inactivation](https://doi.org/10.1073/pnas.0602381103) |   Inactivación del X   |
-|  Febrero 14   |     Daniela Sánchez Aristizábal      |                                                                                                                                                                            |    Machine-Learning    |
+|  Febrero 14   |     Daniela Sánchez Aristizábal      | [A primer on deep learning in genomics](https://doi.org/10.1038/s41588-018-0295-5) |    Machine-Learning    |
 |  Febrero 21   |         Nicole Rivera Parra          |                                                                                                                                                                            |                        |
 |  Febrero 28   |       Jose Miguel Tobón García       |                                                                                                                                                                            |    Machine-Learning    |
 |    Marzo 6    |        Simón Tamayo Martínez         |                                                                                                                                                                            |         CRISPR         |
