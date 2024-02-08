@@ -1,6 +1,8 @@
 project:
   type: website
 
+lang: es
+
 website:
   title: "Grupo de Biología Computacional"
   navbar:
