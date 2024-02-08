@@ -93,7 +93,7 @@ También puedes ver el siguiente video donde se muestra el proceso. Puedes
 saltarte el final del video desde la parte donde dan click a "Nuevo volumen
 simple":
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s2TKizTY4s4" title="Cómo reducir y crear particiones en Windows 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< video https://www.youtube.com/watch?v=s2TKizTY4s4 >}}
 
 ::: {.callout-note}
 **Problemas liberando espacio:**
@@ -145,4 +145,4 @@ tema antes de intentarlo.
 
 ## Video tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yMgzz1fvVCc" title="Linux &amp; Windows, Instalación Dual Boot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< video https://www.youtube.com/watch?v=yMgzz1fvVCc >}}
