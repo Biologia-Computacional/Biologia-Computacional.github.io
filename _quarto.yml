@@ -16,22 +16,22 @@ website:
     tools:
       - icon: envelope-fill
         href: mailto:biologiacomputacional42@gmail.com
-        text: Email
+        text: Envíanos un email
       - icon: mastodon
         href: https://mastodon.social/@biocomputacional
-        text: Mastodon
+        text: Síguenos en Mastodon
       - icon: telegram
         href: https://t.me/biologia_computacional
-        text: Telegram
+        text: Únete a nuestro grupo en Telegram
       - icon: twitter
         href: https://twitter.com/biocomp42
-        text: Twitter
+        text: Síguenos en Twitter
       - icon: facebook
         href: https://www.facebook.com/groups/biologiacomputacional
-        text: Facebook
+        text: Síguenos en Facebook
       - icon: github
         href: https://github.com/Biologia-Computacional
-        text: GitHub
+        text: Mira nuestro GitHub
   margin-header: |
     ![](/imgs/profile.png)
   favicon: /imgs/favicon.png
