@@ -42,8 +42,8 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: flatly
+      dark: cyborg
     css: styles.css
     toc: true
 
