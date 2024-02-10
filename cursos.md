@@ -40,4 +40,7 @@ herramientas que usamos en nuestro grupo y que te podemos enseñar.
 - [Markdown](https://www.silocreativo.com/que-es-markdown-por-que-deberias-empezar-a-usarlo/)
 
 Si quieres aprender sobre alguno de estos temas no dudes en escribirnos y
-manifestarnos tu interés.
+manifestarnos tu interés. También te sugerimos llenar el siguiente
+formulario para saber cuáles son tus intereses:
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjHtbC2atnHBbXFtQe482mK56HNDfIwyNjloJ9vVs57J5eMA/viewform?embedded=true" width="640" height="1784" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
