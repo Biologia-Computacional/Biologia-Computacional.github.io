@@ -15,5 +15,6 @@ Conoce en qué temas estamos trabajando.
 
 ## Proyectos anteriores
 
-- Circuitos de regulación genética con funciones morfogenéticas.
+- [Circuitos de regulación genética con funciones
+  morfogenéticas](https://doi.org/10.1371/journal.pcbi.1009704).
 
