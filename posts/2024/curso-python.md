@@ -28,5 +28,6 @@ aprenderán los elementos básicos de la programación orientada a objetos.
 
 El curso se realizará los lunes de cada semana, comenzando el Lunes 26 de
 Febrero de 10 am a 12 m en la sala de cómputo del Instituto de Biología,
-UdeA.
+UdeA. Este curso **no requiere inscripción** sino solamente asistir y su
+duración *estimada* es de 2 a 3 meses.
 
