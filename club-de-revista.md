@@ -21,7 +21,7 @@ La siguiente es la programación del club de revista para el año 2024:
 |:----------------:|:----------------:|:----------------:|:----------------:|
 |   Febrero 7   |     Juan Camilo Arboleda Rivera      | [An essential role for the *DXPas34* tandem repeat and *Tsix* transcription in the counting process of X chromosome inactivation](https://doi.org/10.1073/pnas.0602381103) |   Inactivación del X   |
 |  Febrero 14   |     Daniela Sánchez Aristizábal      | [A primer on deep learning in genomics](https://doi.org/10.1038/s41588-018-0295-5) |    Machine-Learning    |
-|  Febrero 21   |         Nicole Rivera Parra          |                                                                                                                                                                            |                        |
+|  Febrero 21   | Juan Camilo Arboleda Rivera | Efecto de la representación de secuencias en aplicaciones de Machine Learning |      Machine-Learning      |
 |  Febrero 28   |       Jose Miguel Tobón García       |                                                                                                                                                                            |    Machine-Learning    |
 |    Marzo 6    |        Simón Tamayo Martínez         |                                                                                                                                                                            |         CRISPR         |
 |   Marzo 13    |   Haminton Alexander Poveda Alonso   |                                                                                                                                                                            |         CRISPR         |
