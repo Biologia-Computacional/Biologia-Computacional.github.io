@@ -2,6 +2,7 @@
 title: "Grupo de Biología Computacional"
 author: "Juan C. Arboleda R."
 date-modified: last-modified
+image: "/imgs/profile.png"
 ---
 
 El Grupo de Biología Computacional hace parte del Instituto de Biología de la
@@ -56,4 +57,3 @@ experiencia.
 Si tienes alguna duda no dudes en escribirnos a
 <biologiacomputacional42@gmail.com>.
 
-![](imgs/experimental-vs-computational.jpeg)
