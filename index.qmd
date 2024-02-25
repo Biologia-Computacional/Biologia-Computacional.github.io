@@ -59,5 +59,5 @@ Si tienes alguna duda no dudes en escribirnos a
 
 ## Contacto
 
-{{< fa user >}} [Juan Camilo Arboleda Rivera](juan.arboleda2@udea.edu.co)\
+{{< fa user >}} [Juan Camilo Arboleda Rivera](https://nesper94.github.io)\
 {{< fa envelope >}} <juan.arboleda2@udea.edu.co>
