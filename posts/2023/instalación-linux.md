@@ -1,13 +1,17 @@
 ---
 title: 'Tutorial de instalación de Linux'
 date: 2023-09-21
-author: Juan Camilo Arboleda Rivera
+author:
+  - name: Juan Camilo Arboleda Rivera
+    url: https://nesper94.github.io
+    email: juan.arboleda2@udea.edu.co
 permalink: /posts/2023/09/instalar-linux/
 categories:
   - Biología computacional
   - Linux
   - Tutorial
   - Educación
+image: https://derivadacero.com/wp-content/uploads/linux.jpg
 ---
 
 ¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación

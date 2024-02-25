@@ -1,7 +1,9 @@
 ---
 title: 'Curso de Introducción a Linux y el Software Libre 2023-2'
 date: 2023-08-31
-author: Juan Camilo Arboleda Rivera
+author:
+  - name: Juan Camilo Arboleda Rivera
+    url: https://nesper94.github.io
 permalink: /posts/2023/08/curso-linux-2023-2/
 categories:
   - Biología computacional

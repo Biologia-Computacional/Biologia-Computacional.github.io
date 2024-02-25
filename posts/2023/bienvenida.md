@@ -1,7 +1,9 @@
 ---
 title: 'Bienvenida'
 date: 2023-08-23
-author: Juan Camilo Arboleda Rivera
+author:
+  - name: Juan Camilo Arboleda Rivera
+    url: https://nesper94.github.io
 permalink: /posts/2023/08/bienvenida/
 categories:
   - Biología computacional

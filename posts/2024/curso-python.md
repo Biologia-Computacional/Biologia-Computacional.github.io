@@ -1,6 +1,8 @@
 ---
 title: 'Curso de introducción a Python 2024-1'
-author: Juan Camilo Arboleda Rivera
+author:
+  - name: Juan Camilo Arboleda Rivera
+    url: https://nesper94.github.io
 date: 2024-02-18
 date-modified: last-modified
 image: https://i.blogs.es/1d8a5b/python1/1366_2000.jpg

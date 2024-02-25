@@ -57,3 +57,7 @@ experiencia.
 Si tienes alguna duda no dudes en escribirnos a
 <biologiacomputacional42@gmail.com>.
 
+## Contacto
+
+{{< fa user >}} [Juan Camilo Arboleda Rivera](juan.arboleda2@udea.edu.co)\
+{{< fa envelope >}} <juan.arboleda2@udea.edu.co>
