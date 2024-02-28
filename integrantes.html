@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Grupo de Biología Computacional - Club de Revista</title>
+<title>Grupo de Biología Computacional - Integrantes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//imgs/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,13 +64,72 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-current .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-current'] = new List('listing-current', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Grupo de Biología Computacional - Club de Revista">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Grupo de Biología Computacional - Integrantes">
+<meta name="twitter:image" content="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg">
 <meta name="twitter:creator" content="@Nesper94">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -89,15 +150,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Quiénes somos</span></a>
+    <a class="nav-link active" href="./integrantes.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Integrantes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./proyectos.html" rel="" target="">
  <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./club-de-revista.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./club-de-revista.html" rel="" target="">
  <span class="menu-text">Club de Revista</span></a>
   </li>  
   <li class="nav-item">
@@ -129,14 +190,20 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p><img src="./imgs/profile.png" class="img-fluid"></p>
 </div></div>
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#alumni" id="toc-alumni" class="nav-link active" data-scroll-target="#alumni">Alumni</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Club de Revista</h1>
+<h1 class="title">Integrantes</h1>
 </div>
 
 
@@ -148,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Fecha de modificación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">28 de febrero de 2024</p>
+      <p class="date-modified">25 de febrero de 2024</p>
     </div>
   </div>
     
@@ -157,340 +224,312 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.</p>
-<p><strong>Horario:</strong> Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.<br>
-<strong>Lugar:</strong> Salón 7-305, Instituto de Biología, Universidad de Antioquia</p>
-<p>La siguiente es la programación del club de revista para el año 2024:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">Fecha</th>
-<th style="text-align: center;">Expositor</th>
-<th style="text-align: center;">Artículo</th>
-<th style="text-align: center;">Línea de investigación</th>
-<th style="text-align: center;">Hora de inicio</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">Febrero 7</td>
-<td style="text-align: center;">Juan Camilo Arboleda Rivera</td>
-<td style="text-align: center;"><a href="https://doi.org/10.1073/pnas.0602381103">An essential role for the <em>DXPas34</em> tandem repeat and <em>Tsix</em> transcription in the counting process of X chromosome inactivation</a></td>
-<td style="text-align: center;">Inactivación del X</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Febrero 14</td>
-<td style="text-align: center;">Daniela Sánchez Aristizábal</td>
-<td style="text-align: center;"><a href="https://doi.org/10.1038/s41588-018-0295-5">A primer on deep learning in genomics</a></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Febrero 21</td>
-<td style="text-align: center;">Juan Camilo Arboleda Rivera</td>
-<td style="text-align: center;">Efecto de la representación de secuencias en aplicaciones de Machine Learning</td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Febrero&nbsp;28</td>
-<td style="text-align: center;">Jose Miguel Tobón García</td>
-<td style="text-align: center;"><a href="https://doi.org/10.1073/pnas.2122636119">Taxonomic classification of DNA sequences beyond sequence similarity using deep neural networks</a></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">13:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Marzo&nbsp;6</td>
-<td style="text-align: center;">Simón Tamayo Martínez</td>
-<td style="text-align: center;"><a href="https://doi.org/10.3389%2Ffmed.2022.797104">The Involvement of the <em>csy1</em> Gene in the Antimicrobial Resistance of <em>Acinetobacter baumannii</em></a></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Marzo&nbsp;13</td>
-<td style="text-align: center;">Haminton Alexander Poveda Alonso</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Marzo&nbsp;20</td>
-<td style="text-align: center;">Alex Espinosa Correa</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Marzo&nbsp;27</td>
-<td style="text-align: center;">David Salomón Bonilla Cárdenas</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Abril&nbsp;3</td>
-<td style="text-align: center;">Tomás Duque Rueda</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Cianobacterias</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Abril&nbsp;10</td>
-<td style="text-align: center;">Maria de los Ángeles Benavides Guaca</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Inactivación del X</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Abril&nbsp;17</td>
-<td style="text-align: center;">Alejandro Jaramillo Urán</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Abril&nbsp;24</td>
-<td style="text-align: center;">Joshua Taborda Mejía</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Mayo 1</td>
-<td style="text-align: center;">Festivo</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Mayo&nbsp;8</td>
-<td style="text-align: center;">Laura Builes Cerón</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Mayo&nbsp;15</td>
-<td style="text-align: center;">Juan Camilo Arboleda Rivera</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Mayo&nbsp;22</td>
-<td style="text-align: center;">Invitado (por definir)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Mayo&nbsp;29</td>
-<td style="text-align: center;">Daniela Sánchez Aristizábal</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Junio&nbsp;5</td>
-<td style="text-align: center;">Jose Miguel Tobón García</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">13:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Junio&nbsp;12</td>
-<td style="text-align: center;">Simón Tamayo Martínez</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Junio&nbsp;19</td>
-<td style="text-align: center;">Invitado (por definir)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Junio&nbsp;26</td>
-<td style="text-align: center;">Haminton Alexander Poveda Alonso</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Julio&nbsp;3</td>
-<td style="text-align: center;">David Salomón Bonilla Cárdenas</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Julio&nbsp;10</td>
-<td style="text-align: center;">Tomás Duque Rueda</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Cianobacterias</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Julio&nbsp;17</td>
-<td style="text-align: center;">Invitado (por definir)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Julio&nbsp;24</td>
-<td style="text-align: center;">Maria de los Ángeles Benavides Guaca</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Inactivación del X</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Julio&nbsp;31</td>
-<td style="text-align: center;">Joshua Taborda Mejía</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Agosto&nbsp;7</td>
-<td style="text-align: center;">Festivo</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Agosto&nbsp;14</td>
-<td style="text-align: center;">Laura Builes Cerón</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Agosto&nbsp;21</td>
-<td style="text-align: center;">Invitado (por definir)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Agosto&nbsp;28</td>
-<td style="text-align: center;">Juan Camilo Arboleda Rivera</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Septiembre&nbsp;4</td>
-<td style="text-align: center;">Daniela Sánchez Aristizábal</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Septiembre&nbsp;11</td>
-<td style="text-align: center;">Jose Miguel Tobón García</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">13:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Septiembre&nbsp;18</td>
-<td style="text-align: center;">Invitado (por definir)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Septiembre&nbsp;25</td>
-<td style="text-align: center;">Simón Tamayo Martínez</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Octubre&nbsp;2</td>
-<td style="text-align: center;">Haminton Alexander Poveda Alonso</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Octubre&nbsp;9</td>
-<td style="text-align: center;">David Salomón Bonilla Cárdenas</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Octubre&nbsp;16</td>
-<td style="text-align: center;">Invitado (por definir)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Octubre&nbsp;23</td>
-<td style="text-align: center;">Tomás Duque Rueda</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Cianobacterias</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Octubre&nbsp;30</td>
-<td style="text-align: center;">Maria de los Ángeles Benavides Guaca</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Inactivación del X</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Noviembre&nbsp;6</td>
-<td style="text-align: center;">Joshua Taborda Mejía</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Noviembre&nbsp;13</td>
-<td style="text-align: center;">Laura Builes Cerón</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">CRISPR</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Noviembre&nbsp;20</td>
-<td style="text-align: center;">Invitado (por definir)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Noviembre&nbsp;27</td>
-<td style="text-align: center;">Juan Camilo Arboleda Rivera</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Diciembre&nbsp;4</td>
-<td style="text-align: center;">Daniela Sánchez Aristizábal</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">12:00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Diciembre&nbsp;11</td>
-<td style="text-align: center;">Jose Miguel Tobón García</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Machine-Learning</td>
-<td style="text-align: center;">13:00</td>
-</tr>
-</tbody>
-</table>
+<div id="listing-current" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1708918477208" data-listing-reading-time-sort="1">
+<a href="./members/current/daniela-sánchez.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Daniela Sánchez Aristizábal
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1708904637134" data-listing-reading-time-sort="1">
+<a href="./members/current/david-salomón-bonilla.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+David Salomón Bonilla Cárdenas
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1708904803483" data-listing-reading-time-sort="1">
+<a href="./members/current/gloria-machado-rodríguez.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gloria Machado Rodríguez
+</h5>
+<div class="card-text listing-description">
+Profesora del Instituto de Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1708904850167" data-listing-reading-time-sort="1">
+<a href="./members/current/haminton-alexander-poveda-alonso.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Haminton Alexander Poveda Alonso
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1708904878159" data-listing-reading-time-sort="1">
+<a href="./members/current/jose-miguel-tobón-garcía.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jose Miguel Tobón García
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1708904913182" data-listing-reading-time-sort="1">
+<a href="./members/current/joshua-taborda-mejía.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Joshua Taborda Mejía
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1708903444964" data-listing-reading-time-sort="1">
+<a href="./members/current/jcar.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://nesper94.github.io/imgs/profile.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Juan Camilo Arboleda Rivera
+</h5>
+<div class="card-text listing-description">
+Profesor del Instituto de Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1708918563482" data-listing-reading-time-sort="1">
+<a href="./members/current/laura-manuela-builes-cerón.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Laura Manuela Builes Cerón
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1708903584930" data-listing-reading-time-sort="1">
+<a href="./members/current/maria-de-los-ángeles-benavides.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Maria de los Ángeles Benavides Guaca
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1708907796429" data-listing-reading-time-sort="1">
+<a href="./members/current/nicole-rivera-parra.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nicole Rivera Parra
+</h5>
+<div class="card-text listing-description">
+Estudiante de Maestría en Física
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1708905024923" data-listing-reading-time-sort="1">
+<a href="./members/current/simón-tamayo-martínez.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simón Tamayo Martínez
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1708903943167" data-listing-reading-time-sort="1">
+<a href="./members/current/tomás-duque-rueda.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tomás Duque Rueda
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1708911041220" data-listing-reading-time-sort="1">
+<a href="./members/alumni/emmanuel-ortega-atehortúa.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2022/09/27160823/EDNA_Coomp-biology_ComputerData.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Emmanuel Ortega Atehortúa
+</h5>
+<div class="card-text listing-description">
+Biólogo
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
 
 
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
