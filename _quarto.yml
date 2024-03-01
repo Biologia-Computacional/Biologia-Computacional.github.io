@@ -9,10 +9,22 @@ website:
     left:
       - href: index.qmd
         text: Quiénes somos
-      - proyectos.qmd
-      - club-de-revista.md
-      - cursos.md
-      - posts.md
+      - url: proyectos.qmd
+        icon: terminal-fill
+      - url: club-de-revista.md
+        icon: easel3-fill
+      - text: 'Cursos'
+        icon: journal-code
+        menu:
+          - cursos/cursos.md
+          - text: 'Curso Linux'
+            url: cursos/curso-linux.md
+            icon: terminal
+          - text: 'Curso Python'
+            url: cursos/curso-python.md
+            icon: code
+      - url: posts.md
+        icon: chat-square-text
     tools:
       - icon: envelope-fill
         href: mailto:biologiacomputacional42@gmail.com
