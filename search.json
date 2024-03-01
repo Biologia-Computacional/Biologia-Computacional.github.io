@@ -1,10 +1,178 @@
 [
   {
-    "objectID": "cursos.html",
-    "href": "cursos.html",
+    "objectID": "posts/2023/bienvenida.html",
+    "href": "posts/2023/bienvenida.html",
+    "title": "Bienvenida",
+    "section": "",
+    "text": "Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre."
+  },
+  {
+    "objectID": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
+    "href": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
+    "title": "Bienvenida",
+    "section": "¿De qué se trata la Biología Computacional?",
+    "text": "¿De qué se trata la Biología Computacional?\nLa Biología Computacional es una disciplina muy extensa, y podríamos definirla como un área interdisciplinaria en la que se usan métodos computacionales para analizar datos biológicos, incluyendo en su campo de acción el análisis de secuencias, la metagenómica y la bioinformática tradicional; sin embargo, también incluye el modelamiento matemático, las simulaciones computacionales de sistemas biológicos, la Biología de Sistemas y el desarrollo de software para Biología."
+  },
+  {
+    "objectID": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
+    "href": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
+    "title": "Bienvenida",
+    "section": "¿Cuál es el objetivo del grupo?",
+    "text": "¿Cuál es el objetivo del grupo?\nNuestro objetivo es difundir, enseñar y promover la investigación y el desarrollo de la Biología Computacional en Colombia, además de promover también el uso de herramientas de Software Libre en general."
+  },
+  {
+    "objectID": "posts/2023/inactivacion-x.html",
+    "href": "posts/2023/inactivacion-x.html",
+    "title": "Proyecto de la inactivación del X",
+    "section": "",
+    "text": "Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios."
+  },
+  {
+    "objectID": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
+    "href": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
+    "title": "Proyecto de la inactivación del X",
+    "section": "Búsqueda del factor autosómico responsable del X activo en la lionización",
+    "text": "Búsqueda del factor autosómico responsable del X activo en la lionización\nLa lionización, nombre por el que también se conoce el silenciamiento del cromosoma X en hembras mamíferas placentarias fue descubierto por la genetista Mary Lyon en 1961 (Lyon 1961). Es un proceso crucial en el temprano desarrollo embrionario porque produce la igualación de expresión de genes ya que el sexo en estos organismos esta definido por la combinación de un par de cromosomas sexuales X y Y, hembras XX y machos XY. El cromosoma X, que posee al rededor de 1000 genes más que el Y, lo supera con creces, por lo que el silenciamiento de uno de los X en las mamíferas es uno de los tantos mecanismos de dosis de compensación que se han desarrollado en animales que tienen este problema.\nEl resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un cuerpo de Barr (Barr y Bertram 1949).\n\n\n\ncorpusculo de Barr\n\n\nEn el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de conteo de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la elección de cual de ellos silenciará y dará inicio a la expresión del Xist, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un espacimiento a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el establecimiento.\nAquí nos centramos en los pasos de conteo y elección de los futuros cromosomas x activo Xa e inactivo Xi, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.\n\n\n\nconteo de cromosomas X en relación a los autosomas\n\n\nEn adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma (Migeon 2017).\n\n\n\nRegiones de interés en el cromosoma 19 humano\n\n\nNuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea."
+  },
+  {
+    "objectID": "posts/2024/curso-python.html",
+    "href": "posts/2024/curso-python.html",
+    "title": "Curso de introducción a Python 2024-1",
+    "section": "",
+    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de introducción a Python en su versión 2024-1 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "posts/2024/curso-python.html#qué-vas-a-aprender",
+    "href": "posts/2024/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python 2024-1",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
+  },
+  {
+    "objectID": "posts/2024/curso-python.html#información",
+    "href": "posts/2024/curso-python.html#información",
+    "title": "Curso de introducción a Python 2024-1",
+    "section": "Información",
+    "text": "Información\nEl curso se realizará los lunes de cada semana, comenzando el Lunes 26 de Febrero de 10 am a 12 m en la sala de cómputo del Instituto de Biología, UdeA. Este curso no requiere inscripción sino solamente asistir y su duración estimada es de 2 a 3 meses."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Grupo de Biología Computacional",
+    "section": "",
+    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia."
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Grupo de Biología Computacional",
+    "section": "Contacto",
+    "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
+  },
+  {
+    "objectID": "cursos/curso-linux.html",
+    "href": "cursos/curso-linux.html",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "",
+    "text": "Nuestro grupo ofrece de manera regular el Curso de Introducción a Linux y el Software Libre. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "href": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+  },
+  {
+    "objectID": "cursos/curso-linux.html#información",
+    "href": "cursos/curso-linux.html#información",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "Información",
+    "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Conoce en qué temas estamos trabajando."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-activos",
+    "href": "proyectos.html#proyectos-activos",
+    "title": "Proyectos",
+    "section": "Proyectos activos",
+    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-anteriores",
+    "href": "proyectos.html#proyectos-anteriores",
+    "title": "Proyectos",
+    "section": "Proyectos anteriores",
+    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Entradas del blog",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n  \n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nBienvenida\n\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
+  },
+  {
+    "objectID": "cursos/curso-python.html",
+    "href": "cursos/curso-python.html",
+    "title": "Curso de introducción a Python",
+    "section": "",
+    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
+    "href": "cursos/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
+  },
+  {
+    "objectID": "cursos/curso-python.html#información",
+    "href": "cursos/curso-python.html#información",
+    "title": "Curso de introducción a Python",
+    "section": "Información",
+    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 3 a 4 meses. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
+  },
+  {
+    "objectID": "cursos/cursos.html",
+    "href": "cursos/cursos.html",
     "title": "Cursos y talleres",
     "section": "",
     "text": "Como parte del esfuerzo para promover la Biología Computacional y el Software Libre, nuestro grupo desarrolla cursos y talleres en los que enseñamos diferentes herramientas que son muy útiles no solo en la ciencia sino en el mundo digital en general. A continuación encontrarás una lista de herramientas que usamos en nuestro grupo y que te podemos enseñar.\n\nLinux\nGit/GitHub\nPython\nC++\nBash (Requisito Linux)\nR\nLaTeX\nVim (Requisito Linux)\nBiología de Sistemas\n\nModelamiento matemático\nTeoría de grafos\n\nBioinformática (Requisito Linux)\n\nFastQC\nTrimmomatic\nEnsamblaje de genomas\nMetagenómica\nAnálisis de expresión genética\n\nAnálisis de datos en Pandas (Requisito Python básico)\nMake (Requisito Linux)\nSistemas Dinámicos\nMachine Learning\nBases de datos SQL\nDinámica molecular (Requisito Linux)\nRobótica con Arduino\nDesarrollo de GUIs con Qt (Requisito C++)\nMarkdown\n\nSi quieres aprender sobre alguno de estos temas no dudes en escribirnos y manifestarnos tu interés. También te sugerimos llenar el siguiente formulario para saber cuáles son tus intereses:\n\nCargando…\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "club-de-revista.html",
+    "href": "club-de-revista.html",
+    "title": "Club de Revista",
+    "section": "",
+    "text": "Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.\nHorario: Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\nLugar: Salón 7-305, Instituto de Biología, Universidad de Antioquia\nLa siguiente es la programación del club de revista para el año 2024:\n\n\n\nFecha\nExpositor\nArtículo\nLínea de investigación\nHora de inicio\n\n\n\n\nFebrero 7\nJuan Camilo Arboleda Rivera\nAn essential role for the DXPas34 tandem repeat and Tsix transcription in the counting process of X chromosome inactivation\nInactivación del X\n12:00\n\n\nFebrero 14\nDaniela Sánchez Aristizábal\nA primer on deep learning in genomics\nMachine-Learning\n12:00\n\n\nFebrero 21\nJuan Camilo Arboleda Rivera\nEfecto de la representación de secuencias en aplicaciones de Machine Learning\nMachine-Learning\n12:00\n\n\nFebrero 28\nJose Miguel Tobón García\nTaxonomic classification of DNA sequences beyond sequence similarity using deep neural networks\nMachine-Learning\n13:00\n\n\nMarzo 6\nSimón Tamayo Martínez\nThe Involvement of the csy1 Gene in the Antimicrobial Resistance of Acinetobacter baumannii\nCRISPR\n12:00\n\n\nMarzo 13\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nMarzo 20\nAlex Espinosa Correa\n\n\n12:00\n\n\nMarzo 27\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nAbril 3\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nAbril 10\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nAbril 17\nAlejandro Jaramillo Urán\n\n\n12:00\n\n\nAbril 24\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nMayo 1\nFestivo\n\n\n\n\n\nMayo 8\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nMayo 15\nJuan Camilo Arboleda Rivera\n\nCRISPR\n12:00\n\n\nMayo 22\nInvitado (por definir)\n\n\n12:00\n\n\nMayo 29\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nJunio 5\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\nJunio 12\nSimón Tamayo Martínez\n\nCRISPR\n12:00\n\n\nJunio 19\nInvitado (por definir)\n\n\n12:00\n\n\nJunio 26\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nJulio 3\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nJulio 10\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nJulio 17\nInvitado (por definir)\n\n\n12:00\n\n\nJulio 24\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nJulio 31\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nAgosto 7\nFestivo\n\n\n\n\n\nAgosto 14\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nAgosto 21\nInvitado (por definir)\n\n\n12:00\n\n\nAgosto 28\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n12:00\n\n\nSeptiembre 4\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nSeptiembre 11\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\nSeptiembre 18\nInvitado (por definir)\n\n\n12:00\n\n\nSeptiembre 25\nSimón Tamayo Martínez\n\nCRISPR\n12:00\n\n\nOctubre 2\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nOctubre 9\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nOctubre 16\nInvitado (por definir)\n\n\n12:00\n\n\nOctubre 23\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nOctubre 30\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nNoviembre 6\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nNoviembre 13\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nNoviembre 20\nInvitado (por definir)\n\n\n12:00\n\n\nNoviembre 27\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n12:00\n\n\nDiciembre 4\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nDiciembre 11\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html",
+    "href": "posts/2023/curso-linux.html",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "",
+    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux y el Software Libre en su versión 2023-2 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html#qué-vas-a-aprender",
+    "href": "posts/2023/curso-linux.html#qué-vas-a-aprender",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html#información",
+    "href": "posts/2023/curso-linux.html#información",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "Información",
+    "text": "Información\nEl curso se realizará el miércoles de cada semana, comenzando el Miércoles 13 de Septiembre de 4 pm a 6 pm en el salón 7-325 del Instituto de Biología, UdeA."
   },
   {
     "objectID": "posts/2023/instalación-linux.html",
@@ -54,131 +222,5 @@
     "title": "Tutorial de instalación de Linux",
     "section": "Video tutorial",
     "text": "Video tutorial"
-  },
-  {
-    "objectID": "posts/2023/curso-linux.html",
-    "href": "posts/2023/curso-linux.html",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
-    "section": "",
-    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux y el Software Libre en su versión 2023-2 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "posts/2023/curso-linux.html#qué-vas-a-aprender",
-    "href": "posts/2023/curso-linux.html#qué-vas-a-aprender",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
-  },
-  {
-    "objectID": "posts/2023/curso-linux.html#información",
-    "href": "posts/2023/curso-linux.html#información",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
-    "section": "Información",
-    "text": "Información\nEl curso se realizará el miércoles de cada semana, comenzando el Miércoles 13 de Septiembre de 4 pm a 6 pm en el salón 7-325 del Instituto de Biología, UdeA."
-  },
-  {
-    "objectID": "club-de-revista.html",
-    "href": "club-de-revista.html",
-    "title": "Club de Revista",
-    "section": "",
-    "text": "Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.\nHorario: Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\nLugar: Salón 7-305, Instituto de Biología, Universidad de Antioquia\nLa siguiente es la programación del club de revista para el año 2024:\n\n\n\nFecha\nExpositor\nArtículo\nLínea de investigación\nHora de inicio\n\n\n\n\nFebrero 7\nJuan Camilo Arboleda Rivera\nAn essential role for the DXPas34 tandem repeat and Tsix transcription in the counting process of X chromosome inactivation\nInactivación del X\n12:00\n\n\nFebrero 14\nDaniela Sánchez Aristizábal\nA primer on deep learning in genomics\nMachine-Learning\n12:00\n\n\nFebrero 21\nJuan Camilo Arboleda Rivera\nEfecto de la representación de secuencias en aplicaciones de Machine Learning\nMachine-Learning\n12:00\n\n\nFebrero 28\nJose Miguel Tobón García\nTaxonomic classification of DNA sequences beyond sequence similarity using deep neural networks\nMachine-Learning\n13:00\n\n\nMarzo 6\nSimón Tamayo Martínez\nThe Involvement of the csy1 Gene in the Antimicrobial Resistance of Acinetobacter baumannii\nCRISPR\n12:00\n\n\nMarzo 13\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nMarzo 20\nAlex Espinosa Correa\n\n\n12:00\n\n\nMarzo 27\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nAbril 3\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nAbril 10\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nAbril 17\nAlejandro Jaramillo Urán\n\n\n12:00\n\n\nAbril 24\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nMayo 1\nFestivo\n\n\n\n\n\nMayo 8\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nMayo 15\nJuan Camilo Arboleda Rivera\n\nCRISPR\n12:00\n\n\nMayo 22\nInvitado (por definir)\n\n\n12:00\n\n\nMayo 29\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nJunio 5\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\nJunio 12\nSimón Tamayo Martínez\n\nCRISPR\n12:00\n\n\nJunio 19\nInvitado (por definir)\n\n\n12:00\n\n\nJunio 26\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nJulio 3\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nJulio 10\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nJulio 17\nInvitado (por definir)\n\n\n12:00\n\n\nJulio 24\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nJulio 31\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nAgosto 7\nFestivo\n\n\n\n\n\nAgosto 14\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nAgosto 21\nInvitado (por definir)\n\n\n12:00\n\n\nAgosto 28\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n12:00\n\n\nSeptiembre 4\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nSeptiembre 11\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\nSeptiembre 18\nInvitado (por definir)\n\n\n12:00\n\n\nSeptiembre 25\nSimón Tamayo Martínez\n\nCRISPR\n12:00\n\n\nOctubre 2\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nOctubre 9\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nOctubre 16\nInvitado (por definir)\n\n\n12:00\n\n\nOctubre 23\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nOctubre 30\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nNoviembre 6\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nNoviembre 13\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nNoviembre 20\nInvitado (por definir)\n\n\n12:00\n\n\nNoviembre 27\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n12:00\n\n\nDiciembre 4\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nDiciembre 11\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\n\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Proyectos",
-    "section": "",
-    "text": "Conoce en qué temas estamos trabajando."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-activos",
-    "href": "proyectos.html#proyectos-activos",
-    "title": "Proyectos",
-    "section": "Proyectos activos",
-    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-anteriores",
-    "href": "proyectos.html#proyectos-anteriores",
-    "title": "Proyectos",
-    "section": "Proyectos anteriores",
-    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Entradas del blog",
-    "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n  \n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nBienvenida\n\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Grupo de Biología Computacional",
-    "section": "",
-    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia."
-  },
-  {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Grupo de Biología Computacional",
-    "section": "Contacto",
-    "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
-  },
-  {
-    "objectID": "posts/2024/curso-python.html",
-    "href": "posts/2024/curso-python.html",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "",
-    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de introducción a Python en su versión 2024-1 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html#qué-vas-a-aprender",
-    "href": "posts/2024/curso-python.html#qué-vas-a-aprender",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html#información",
-    "href": "posts/2024/curso-python.html#información",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "Información",
-    "text": "Información\nEl curso se realizará los lunes de cada semana, comenzando el Lunes 26 de Febrero de 10 am a 12 m en la sala de cómputo del Instituto de Biología, UdeA. Este curso no requiere inscripción sino solamente asistir y su duración estimada es de 2 a 3 meses."
-  },
-  {
-    "objectID": "posts/2023/inactivacion-x.html",
-    "href": "posts/2023/inactivacion-x.html",
-    "title": "Proyecto de la inactivación del X",
-    "section": "",
-    "text": "Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios."
-  },
-  {
-    "objectID": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
-    "href": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
-    "title": "Proyecto de la inactivación del X",
-    "section": "Búsqueda del factor autosómico responsable del X activo en la lionización",
-    "text": "Búsqueda del factor autosómico responsable del X activo en la lionización\nLa lionización, nombre por el que también se conoce el silenciamiento del cromosoma X en hembras mamíferas placentarias fue descubierto por la genetista Mary Lyon en 1961 (Lyon 1961). Es un proceso crucial en el temprano desarrollo embrionario porque produce la igualación de expresión de genes ya que el sexo en estos organismos esta definido por la combinación de un par de cromosomas sexuales X y Y, hembras XX y machos XY. El cromosoma X, que posee al rededor de 1000 genes más que el Y, lo supera con creces, por lo que el silenciamiento de uno de los X en las mamíferas es uno de los tantos mecanismos de dosis de compensación que se han desarrollado en animales que tienen este problema.\nEl resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un cuerpo de Barr (Barr y Bertram 1949).\n\n\n\ncorpusculo de Barr\n\n\nEn el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de conteo de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la elección de cual de ellos silenciará y dará inicio a la expresión del Xist, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un espacimiento a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el establecimiento.\nAquí nos centramos en los pasos de conteo y elección de los futuros cromosomas x activo Xa e inactivo Xi, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.\n\n\n\nconteo de cromosomas X en relación a los autosomas\n\n\nEn adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma (Migeon 2017).\n\n\n\nRegiones de interés en el cromosoma 19 humano\n\n\nNuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html",
-    "href": "posts/2023/bienvenida.html",
-    "title": "Bienvenida",
-    "section": "",
-    "text": "Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
-    "href": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
-    "title": "Bienvenida",
-    "section": "¿De qué se trata la Biología Computacional?",
-    "text": "¿De qué se trata la Biología Computacional?\nLa Biología Computacional es una disciplina muy extensa, y podríamos definirla como un área interdisciplinaria en la que se usan métodos computacionales para analizar datos biológicos, incluyendo en su campo de acción el análisis de secuencias, la metagenómica y la bioinformática tradicional; sin embargo, también incluye el modelamiento matemático, las simulaciones computacionales de sistemas biológicos, la Biología de Sistemas y el desarrollo de software para Biología."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
-    "href": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
-    "title": "Bienvenida",
-    "section": "¿Cuál es el objetivo del grupo?",
-    "text": "¿Cuál es el objetivo del grupo?\nNuestro objetivo es difundir, enseñar y promover la investigación y el desarrollo de la Biología Computacional en Colombia, además de promover también el uso de herramientas de Software Libre en general."
   }
 ]
