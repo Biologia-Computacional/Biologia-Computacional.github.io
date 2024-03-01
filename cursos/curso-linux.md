@@ -25,7 +25,7 @@ herramientas. También aprenderán sobre la filosofía del Software Libre y
 algunas herramientas usadas para su desarrollo.
 
 Puedes descargar el plan del curso con información más detallada [en este
-enlace](https://biologia-computacional.github.io/files/plan-de-estudios-curso-Linux.pdf).
+enlace](/files/plan-de-estudios-curso-Linux.pdf).
 
 ## Información
 
