@@ -1,7 +1,7 @@
 ---
 title: "Entradas del blog"
 listing:
-  contents: "posts/**"
+  contents: "posts/**/*.md"
   sort: "date desc"
   categories: true
   type: default
