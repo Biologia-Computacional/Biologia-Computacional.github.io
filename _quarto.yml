@@ -23,7 +23,7 @@ website:
             url: cursos/curso-python.md
             icon: code
       - url: posts.md
-        icon: chat-square-text
+        icon: pencil-square
     tools:
       - icon: envelope-fill
         href: mailto:biologiacomputacional42@gmail.com
