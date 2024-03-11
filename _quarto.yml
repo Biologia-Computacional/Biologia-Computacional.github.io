@@ -7,8 +7,8 @@ website:
   title: "Grupo de Biología Computacional"
   navbar:
     left:
-      - href: index.qmd
-        text: Quiénes somos
+      - url: integrantes.md
+        icon: people-fill
       - url: proyectos.qmd
         icon: terminal-fill
       - url: club-de-revista.md

@@ -1,0 +1,39 @@
+---
+title: Juan Camilo Arboleda Rivera
+description: Profesor del Instituto de Biología
+image: https://nesper94.github.io/imgs/profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:juan.arboleda2@udea.edu.co
+    - icon: mastodon
+      text: Mastodon
+      href: https://biologists.social/@Nesper94
+    - icon: telegram
+      text: Telegram
+      href: https://t.me/Nesper94
+    - icon: github
+      text: GitHub
+      href: https://github.com/Nesper94
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Nesper94
+    - text: "{{< fa brands orcid >}} ORCID"
+      href: https://orcid.org/0000-0002-0030-056X
+---
+
+Soy biólogo y trabajo actualmente en el [Grupo de Fundamentos y Enseñanza de
+la Física y los Sistemas Dinámicos](https://fenfisdi.weebly.com/) y el
+[Grupo de Biología Computacional](https://biologia-computacional.github.io/)
+en la [Universidad de Antioquia (UdeA)](https://www.udea.edu.co), Colombia.
+Trabajo como profesor en el curso de Genética en el Instituto de Biología en
+la UdeA.
+
+## Intereses
+
+Estoy principalmente interesado en áreas como la Biología Computacional, la
+Biología de Sistemas, Biología Molecular, Genética y Bioinformática. También
+soy un entusiasta de Linux y el Software Libre y me gusta aprender sobre
+programación y sus aplicaciones en Biología.

@@ -1,0 +1,25 @@
+---
+title: 
+description: Estudiante de pregrado en Biología
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:@udea.edu.co
+    - icon: mastodon
+      text: Mastodon
+      href: https://biologists.social/@Nesper94
+    - icon: telegram
+      text: Telegram
+      href: https://t.me/Nesper94
+    - icon: github
+      text: GitHub
+      href: https://github.com/Nesper94
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Nesper94
+    - text: "{{< fa brands orcid >}} ORCID"
+      href: https://orcid.org/0000-0002-0030-056X
+---
+
