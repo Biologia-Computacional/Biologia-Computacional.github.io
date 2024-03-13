@@ -2,50 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://Biologia-Computacional.github.io/posts/2023/bienvenida.html</loc>
-    <lastmod>2024-03-09T03:32:56.057Z</lastmod>
+    <lastmod>2024-03-13T03:45:41.366Z</lastmod>
   </url>
   <url>
     <loc>https://Biologia-Computacional.github.io/posts/2023/inactivacion-x.html</loc>
-    <lastmod>2024-03-09T03:32:55.169Z</lastmod>
+    <lastmod>2024-03-13T03:45:40.513Z</lastmod>
   </url>
   <url>
     <loc>https://Biologia-Computacional.github.io/posts/2024/curso-python.html</loc>
-    <lastmod>2024-03-09T03:32:54.325Z</lastmod>
+    <lastmod>2024-03-13T03:45:39.656Z</lastmod>
   </url>
   <url>
-    <loc>https://Biologia-Computacional.github.io/index.html</loc>
-    <lastmod>2024-03-09T03:32:53.306Z</lastmod>
+    <loc>https://Biologia-Computacional.github.io/members/current/daniela-sánchez.html</loc>
+    <lastmod>2024-03-13T03:45:39.012Z</lastmod>
   </url>
   <url>
-    <loc>https://Biologia-Computacional.github.io/cursos/curso-linux.html</loc>
-    <lastmod>2024-03-09T03:32:52.538Z</lastmod>
+    <loc>https://Biologia-Computacional.github.io/members/current/maria-de-los-ángeles-benavides.html</loc>
+    <lastmod>2024-03-13T03:45:38.363Z</lastmod>
   </url>
   <url>
-    <loc>https://Biologia-Computacional.github.io/proyectos.html</loc>
-    <lastmod>2024-03-09T03:32:51.842Z</lastmod>
+    <loc>https://Biologia-Computacional.github.io/members/current/gloria-machado-rodríguez.html</loc>
+    <lastmod>2024-03-13T03:45:37.746Z</lastmod>
   </url>
   <url>
-    <loc>https://Biologia-Computacional.github.io/posts.html</loc>
-    <lastmod>2024-03-09T03:32:51.446Z</lastmod>
+    <loc>https://Biologia-Computacional.github.io/members/current/laura-manuela-builes-cerón.html</loc>
+    <lastmod>2024-03-13T03:45:37.146Z</lastmod>
   </url>
   <url>
-    <loc>https://Biologia-Computacional.github.io/cursos/curso-python.html</loc>
-    <lastmod>2024-03-09T03:32:52.190Z</lastmod>
+    <loc>https://Biologia-Computacional.github.io/members/current/jcar.html</loc>
+    <lastmod>2024-03-13T03:45:36.545Z</lastmod>
   </url>
   <url>
-    <loc>https://Biologia-Computacional.github.io/cursos/cursos.html</loc>
-    <lastmod>2024-03-09T03:32:52.926Z</lastmod>
+    <loc>https://Biologia-Computacional.github.io/members/current/ana-maría-lópez-pérez.html</loc>
+    <lastmod>2024-03-13T03:45:35.889Z</lastmod>
   </url>
   <url>
     <loc>https://Biologia-Computacional.github.io/club-de-revista.html</loc>
-    <lastmod>2024-03-09T03:32:53.962Z</lastmod>
+    <lastmod>2024-03-13T03:45:35.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/cursos/cursos.html</loc>
+    <lastmod>2024-03-13T03:45:34.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/cursos/curso-python.html</loc>
+    <lastmod>2024-03-13T03:45:33.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/proyectos.html</loc>
+    <lastmod>2024-03-13T03:45:32.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/posts.html</loc>
+    <lastmod>2024-03-13T03:45:31.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/integrantes.html</loc>
+    <lastmod>2024-03-13T03:45:33.086Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/cursos/curso-linux.html</loc>
+    <lastmod>2024-03-13T03:45:33.835Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/index.html</loc>
+    <lastmod>2024-03-13T03:45:34.627Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/members/alumni/emmanuel-ortega-atehortúa.html</loc>
+    <lastmod>2024-03-13T03:45:35.588Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/members/current/joshua-taborda-mejía.html</loc>
+    <lastmod>2024-03-13T03:45:36.209Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/members/current/david-salomón-bonilla.html</loc>
+    <lastmod>2024-03-13T03:45:36.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/members/current/tomás-duque-rueda.html</loc>
+    <lastmod>2024-03-13T03:45:37.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/members/current/simón-tamayo-martínez.html</loc>
+    <lastmod>2024-03-13T03:45:38.051Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/members/current/haminton-alexander-poveda-alonso.html</loc>
+    <lastmod>2024-03-13T03:45:38.695Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/members/current/jose-miguel-tobón-garcía.html</loc>
+    <lastmod>2024-03-13T03:45:39.324Z</lastmod>
   </url>
   <url>
     <loc>https://Biologia-Computacional.github.io/posts/2023/curso-linux.html</loc>
-    <lastmod>2024-03-09T03:32:54.669Z</lastmod>
+    <lastmod>2024-03-13T03:45:40.028Z</lastmod>
   </url>
   <url>
     <loc>https://Biologia-Computacional.github.io/posts/2023/instalación-linux.html</loc>
-    <lastmod>2024-03-09T03:32:55.697Z</lastmod>
+    <lastmod>2024-03-13T03:45:41.033Z</lastmod>
   </url>
 </urlset>
