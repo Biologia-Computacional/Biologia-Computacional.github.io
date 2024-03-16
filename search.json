@@ -1,115 +1,129 @@
 [
   {
-    "objectID": "posts/2023/bienvenida.html",
-    "href": "posts/2023/bienvenida.html",
-    "title": "Bienvenida",
-    "section": "",
-    "text": "Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
-    "href": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
-    "title": "Bienvenida",
-    "section": "¿De qué se trata la Biología Computacional?",
-    "text": "¿De qué se trata la Biología Computacional?\nLa Biología Computacional es una disciplina muy extensa, y podríamos definirla como un área interdisciplinaria en la que se usan métodos computacionales para analizar datos biológicos, incluyendo en su campo de acción el análisis de secuencias, la metagenómica y la bioinformática tradicional; sin embargo, también incluye el modelamiento matemático, las simulaciones computacionales de sistemas biológicos, la Biología de Sistemas y el desarrollo de software para Biología."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
-    "href": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
-    "title": "Bienvenida",
-    "section": "¿Cuál es el objetivo del grupo?",
-    "text": "¿Cuál es el objetivo del grupo?\nNuestro objetivo es difundir, enseñar y promover la investigación y el desarrollo de la Biología Computacional en Colombia, además de promover también el uso de herramientas de Software Libre en general."
-  },
-  {
-    "objectID": "posts/2023/inactivacion-x.html",
-    "href": "posts/2023/inactivacion-x.html",
-    "title": "Proyecto de la inactivación del X",
-    "section": "",
-    "text": "Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios."
-  },
-  {
-    "objectID": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
-    "href": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
-    "title": "Proyecto de la inactivación del X",
-    "section": "Búsqueda del factor autosómico responsable del X activo en la lionización",
-    "text": "Búsqueda del factor autosómico responsable del X activo en la lionización\nLa lionización, nombre por el que también se conoce el silenciamiento del cromosoma X en hembras mamíferas placentarias fue descubierto por la genetista Mary Lyon en 1961 (Lyon 1961). Es un proceso crucial en el temprano desarrollo embrionario porque produce la igualación de expresión de genes ya que el sexo en estos organismos esta definido por la combinación de un par de cromosomas sexuales X y Y, hembras XX y machos XY. El cromosoma X, que posee al rededor de 1000 genes más que el Y, lo supera con creces, por lo que el silenciamiento de uno de los X en las mamíferas es uno de los tantos mecanismos de dosis de compensación que se han desarrollado en animales que tienen este problema.\nEl resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un cuerpo de Barr (Barr y Bertram 1949).\n\n\n\ncorpusculo de Barr\n\n\nEn el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de conteo de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la elección de cual de ellos silenciará y dará inicio a la expresión del Xist, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un espacimiento a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el establecimiento.\nAquí nos centramos en los pasos de conteo y elección de los futuros cromosomas x activo Xa e inactivo Xi, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.\n\n\n\nconteo de cromosomas X en relación a los autosomas\n\n\nEn adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma (Migeon 2017).\n\n\n\nRegiones de interés en el cromosoma 19 humano\n\n\nNuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html",
-    "href": "posts/2024/curso-python.html",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "",
-    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de introducción a Python en su versión 2024-1 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html#qué-vas-a-aprender",
-    "href": "posts/2024/curso-python.html#qué-vas-a-aprender",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html#información",
-    "href": "posts/2024/curso-python.html#información",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "Información",
-    "text": "Información\nEl curso se realizará los lunes de cada semana, comenzando el Lunes 26 de Febrero de 10 am a 12 m en la sala de cómputo del Instituto de Biología, UdeA. Este curso no requiere inscripción sino solamente asistir y su duración estimada es de 2 a 3 meses."
-  },
-  {
-    "objectID": "members/current/daniela-sánchez.html",
-    "href": "members/current/daniela-sánchez.html",
-    "title": "Daniela Sánchez Aristizábal",
-    "section": "",
-    "text": "¡Hola! Soy Daniela Sánchez, actualmente estoy en mi último año de Biología en la Universidad de Antioquia. Me apasiona mucho la biología molecular y me llama la atención el uso de herramientas computacionales para comprender fenómenos moleculares.\nMis intereses se centran en la regulación de la expresión génica, la biología de sistemas dinámicos y las aplicaciones de Machine Learning en el análisis de datos ómicos. Fuera del ámbito académico, disfruto de pasar tiempo en la naturaleza, especialmente en el río, y compartir tiempo con mis mascotas. Además, me gusta practicar pilates y disfruto mucho el arte del crochet.\nObservar y entender fenómenos biológicos y naturales es una de mis mayores pasiones, es por esto que la ciencia se ha convertido en una parte importante en mi vida.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/maria-de-los-ángeles-benavides.html",
-    "href": "members/current/maria-de-los-ángeles-benavides.html",
-    "title": "Maria de los Ángeles Benavides Guaca",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
-    "objectID": "members/current/gloria-machado-rodríguez.html",
-    "href": "members/current/gloria-machado-rodríguez.html",
-    "title": "Gloria Machado Rodríguez",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
-    "objectID": "members/current/laura-manuela-builes-cerón.html",
-    "href": "members/current/laura-manuela-builes-cerón.html",
-    "title": "Laura Manuela Builes Cerón",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
-    "objectID": "members/current/jcar.html",
-    "href": "members/current/jcar.html",
-    "title": "Juan Camilo Arboleda Rivera",
-    "section": "",
-    "text": "Soy biólogo y trabajo actualmente en el Grupo de Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos y el Grupo de Biología Computacional en la Universidad de Antioquia (UdeA), Colombia. Trabajo como profesor en el curso de Genética en el Instituto de Biología en la UdeA."
-  },
-  {
-    "objectID": "members/current/jcar.html#intereses",
-    "href": "members/current/jcar.html#intereses",
-    "title": "Juan Camilo Arboleda Rivera",
-    "section": "Intereses",
-    "text": "Intereses\nEstoy principalmente interesado en áreas como la Biología Computacional, la Biología de Sistemas, Biología Molecular, Genética y Bioinformática. También soy un entusiasta de Linux y el Software Libre y me gusta aprender sobre programación y sus aplicaciones en Biología."
-  },
-  {
-    "objectID": "members/current/ana-maría-lópez-pérez.html",
-    "href": "members/current/ana-maría-lópez-pérez.html",
-    "title": "Ana María López Pérez",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
     "objectID": "club-de-revista.html",
     "href": "club-de-revista.html",
     "title": "Club de Revista",
     "section": "",
-    "text": "Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.\nHorario: Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\nLugar: Salón 7-305, Instituto de Biología, Universidad de Antioquia\nLa siguiente es la programación del club de revista para el año 2024:\n\n\n\nFecha\nExpositor\nArtículo\nLínea de investigación\nHora de inicio\n\n\n\n\nFebrero 7\nJuan Camilo Arboleda Rivera\nAn essential role for the DXPas34 tandem repeat and Tsix transcription in the counting process of X chromosome inactivation\nInactivación del X\n12:00\n\n\nFebrero 14\nDaniela Sánchez Aristizábal\nA primer on deep learning in genomics\nMachine-Learning\n12:00\n\n\nFebrero 21\nJuan Camilo Arboleda Rivera\nEfecto de la representación de secuencias en aplicaciones de Machine Learning\nMachine-Learning\n12:00\n\n\nFebrero 28\nJose Miguel Tobón García\nTaxonomic classification of DNA sequences beyond sequence similarity using deep neural networks\nMachine-Learning\n13:00\n\n\nMarzo 6\nSimón Tamayo Martínez\nThe Involvement of the csy1 Gene in the Antimicrobial Resistance of Acinetobacter baumannii\nCRISPR\n12:00\n\n\nMarzo 13\nHaminton Alexander Poveda Alonso\nCoordinated proteome change precedes cell lysis and death in a mat-forming cyanobacterium\nCRISPR\n13:00\n\n\nMarzo 20\nAlex Espinosa Correa\nAerobiología\n\n12:00\n\n\nMarzo 27\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nAbril 3\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nAbril 10\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nAbril 17\nAlejandro Jaramillo Urán\n\n\n12:00\n\n\nAbril 24\nAna María López Pérez\n\nCRISPR\n12:00\n\n\nMayo 1\nFestivo\n\n\n\n\n\nMayo 8\nJoshua Taborda Mejía\nSocialización intercambio Holanda\n\n12:00\n\n\nMayo 15\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nMayo 22\nInvitado\n\n\n12:00\n\n\nMayo 29\nJuan Camilo Arboleda Rivera\n\nCRISPR\n12:00\n\n\nJunio 5\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nJunio 12\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\nJunio 19\nInvitado\n\n\n12:00\n\n\nJunio 26\nSimón Tamayo Martínez\n\nCRISPR\n12:00\n\n\nJulio 3\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nJulio 10\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nJulio 17\nInvitado\n\n\n12:00\n\n\nJulio 24\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nJulio 31\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nAgosto 7\nFestivo\n\n\n\n\n\nAgosto 14\nAna María López Pérez\n\nCRISPR\n12:00\n\n\nAgosto 21\nInvitado\n\n\n12:00\n\n\nAgosto 28\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nSeptiembre 4\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\nSeptiembre 11\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n12:00\n\n\nSeptiembre 18\nInvitado\n\n\n12:00\n\n\nSeptiembre 25\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\n\n\nOctubre 2\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\n\n\nOctubre 9\nSimón Tamayo Martínez\n\nCRISPR\n12:00\n\n\nOctubre 16\nInvitado\n\n\n12:00\n\n\nOctubre 23\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\n\n\nOctubre 30\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\n\n\nNoviembre 6\nTomás Duque Rueda\n\nCianobacterias\n12:00\n\n\nNoviembre 13\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\n\n\nNoviembre 20\nInvitado\n\n\n12:00\n\n\nNoviembre 27\nAna María López Pérez\n\nCRISPR\n12:00\n\n\nDiciembre 4\nJoshua Taborda Mejía\n\nCRISPR\n12:00\n\n\nDiciembre 11\nLaura Builes Cerón\n\nCRISPR\n12:00\n\n\n\n\n\n\n Volver arriba"
+    "text": "Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.\nHorario: Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\nLugar: Salón 7-305, Instituto de Biología, Universidad de Antioquia\nLa siguiente es la programación del club de revista para el año 2024:\n\n\n\n\n\n\n  \n    \n      Fecha\n      Expositor\n      Artículo\n      Línea de investigación\n      Hora de inicio\n      Idioma\n    \n  \n  \n    7 de febrero\nJuan Camilo Arboleda Rivera\nAn essential role for the DXPas34 tandem repeat and Tsix transcription in the counting process of X chromosome inactivation\n\nInactivación del X\n12:00\nInglés\n    14 de febrero\nDaniela Sánchez Aristizábal\nA primer on deep learning in genomics\n\nMachine-Learning\n12:00\nEspañol\n    21 de febrero\nJuan Camilo Arboleda Rivera\nEfecto de la representación de secuencias en aplicaciones de Machine Learning\n\nMachine-Learning\n12:00\nEspañol\n    28 de febrero\nJose Miguel Tobón García\nTaxonomic classification of DNA sequences beyond sequence similarity using deep neural networks\n\nMachine-Learning\n13:00\nEspañol\n    6 de marzo\nSimón Tamayo Martínez\nThe Involvement of the csy1 Gene in the Antimicrobial Resistance of Acinetobacter baumannii\n\nCRISPR\n12:00\nEspañol\n    13 de marzo\nHaminton Alexander Poveda Alonso\nCoordinated proteome change precedes cell lysis and death in a mat-forming cyanobacterium\n\nCRISPR\n13:00\nEspañol\n    20 de marzo\nAlex Espinosa Correa\n\nAerobiología\n12:00\nEspañol\n    27 de marzo\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\nInglés\n    3 de abril\nTomás Duque Rueda\n\nCianobacterias\n12:00\nInglés\n    10 de abril\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\nInglés\n    17 de abril\nAlejandro Jaramillo Urán\n\nBotánica\n12:00\nEspañol\n    24 de abril\nAna María López Pérez\n\nCRISPR\n12:00\nInglés\n    1 de mayo\nFestivo\n\n\n12:00\n\n    8 de mayo\nJoshua Taborda Mejía\n\nSocialización intercambio Holanda\n12:00\nInglés\n    15 de mayo\nLaura Builes Cerón\n\nCRISPR\n12:00\nInglés\n    22 de mayo\nInvitado\n\n\n12:00\nEspañol\n    29 de mayo\nJuan Camilo Arboleda Rivera\n\nCRISPR\n12:00\nInglés\n    5 de junio\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\nInglés\n    12 de junio\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\nInglés\n    19 de junio\nInvitado\n\n\n12:00\nEspañol\n    26 de junio\nSimón Tamayo Martínez\n\nCRISPR\n12:00\nInglés\n    3 de julio\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\nInglés\n    10 de julio\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\nInglés\n    17 de julio\nInvitado\n\n\n12:00\nEspañol\n    24 de julio\nTomás Duque Rueda\n\nCianobacterias\n12:00\nInglés\n    31 de julio\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\nInglés\n    7 de agosto\nFestivo\n\n\n\n\n    14 de agosto\nAna María López Pérez\n\nCRISPR\n12:00\nInglés\n    21 de agosto\nInvitado\n\n\n12:00\nEspañol\n    28 de agosto\nJoshua Taborda Mejía\n\nCRISPR\n12:00\nInglés\n    4 de septiembre\nLaura Builes Cerón\n\nCRISPR\n12:00\nInglés\n    11 de septiembre\nJuan Camilo Arboleda Rivera\n\nMachine-Learning\n12:00\nInglés\n    18 de septiembre\nInvitado\n\n\n12:00\nEspañol\n    25 de septiembre\nDaniela Sánchez Aristizábal\n\nMachine-Learning\n12:00\nInglés\n    2 de octubre\nJose Miguel Tobón García\n\nMachine-Learning\n13:00\nInglés\n    9 de octubre\nSimón Tamayo Martínez\n\nCRISPR\n12:00\nInglés\n    16 de octubre\nInvitado\n\n\n12:00\nEspañol\n    23 de octubre\nHaminton Alexander Poveda Alonso\n\nCRISPR\n12:00\nInglés\n    30 de octubre\nDavid Salomón Bonilla Cárdenas\n\nCRISPR\n12:00\nInglés\n    6 de noviembre\nTomás Duque Rueda\n\nCianobacterias\n12:00\nInglés\n    13 de noviembre\nMaria de los Ángeles Benavides Guaca\n\nInactivación del X\n12:00\nInglés\n    20 de noviembre\nInvitado\n\n\n12:00\nEspañol\n    27 de noviembre\nAna María López Pérez\n\nCRISPR\n12:00\nInglés\n    4 de diciembre\nJoshua Taborda Mejía\n\nCRISPR\n12:00\nInglés\n    11 de diciembre\nLaura Builes Cerón\n\nCRISPR\n12:00\nInglés\n  \n  \n  \n\n\n\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html",
+    "href": "posts/2023/instalación-linux.html",
+    "title": "Tutorial de instalación de Linux",
+    "section": "",
+    "text": "¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación de Linux que nos permitirá tener nuestro equipo con Windows y Linux al mismo tiempo.\nAdemás de leer este tutorial te recomiendo también que veas el video tutorial antes de iniciar la instalación para que tengas una idea más clara sobre el proceso."
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html#paso-1-descargar-una-distribución-de-linux",
+    "href": "posts/2023/instalación-linux.html#paso-1-descargar-una-distribución-de-linux",
+    "title": "Tutorial de instalación de Linux",
+    "section": "Paso 1: Descargar una distribución de Linux",
+    "text": "Paso 1: Descargar una distribución de Linux\nLinux tiene muchas versiones diferentes, también conocidas como distribuciones o distros. Cada una tiene sus particularidades o está diseñada para un propósito en específico. A continuación encontrarás enlaces a algunas distribuciones:\nDistribuciones diseñadas para computadores viejos o con pocos recursos:\n\nLinux Lite\nLubuntu\nPuppy Linux\nLinux Mint\n\nDistribuciones más usadas:\n\nUbuntu\nDebian\nFedora\nOpenSUSE\n\nDistribuciones enfocadas en educación o escuelas:\n\nHuayra\nEdubuntu\nopenSUSE:Education-Li-f-e\nDoudouLinux\n\nOtras distribuciones:\n\nKali Linux: Distribución especializada en seguridad informática e informática forense.\nTails: Distribución enfocada en la privacidad y el anonimato. Busca promover el libre acceso al internet y evitar la vigilancia y la censura.\n\nLuego de que hayas elegido cuál distribución te gusta solo tienes que descargar el archivo .iso que normalmente se ofrece en su página web de manera gratuita."
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html#paso-2-crear-una-usb-booteable",
+    "href": "posts/2023/instalación-linux.html#paso-2-crear-una-usb-booteable",
+    "title": "Tutorial de instalación de Linux",
+    "section": "Paso 2: Crear una USB booteable",
+    "text": "Paso 2: Crear una USB booteable\nEl siguiente paso es conseguirte una USB. El tamaño de esta USB depende de la distribución de Linux que vayas a instalar, lo importante es que el archivo .iso quepa en la memoria; así que si descargaste un archivo de 4.7 GB tienes que conseguir una USB con una capacidad mayor, por ejemplo una de 8 GB.\nEs importante que la USB se pueda formatear, así que debes hacer una copia de los datos que no quieras perder, porque el siguiente paso es usar un programa como Etcher o Rufus para escribir el archivo .iso en la USB de manera que la USB sea booteable, es decir, que tu computador pueda usarla para arrancar el sistema."
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html#paso-3-liberar-espacio-en-el-disco-duro",
+    "href": "posts/2023/instalación-linux.html#paso-3-liberar-espacio-en-el-disco-duro",
+    "title": "Tutorial de instalación de Linux",
+    "section": "Paso 3: Liberar espacio en el disco duro",
+    "text": "Paso 3: Liberar espacio en el disco duro\nAhora hay que liberar espacio en el disco ya que ahí es donde vamos a instalar luego el sistema Linux. Esto puede hacerse fácilmente desde Windows abriendo el explorador de archivos, dando clic derecho en “Este quipo”, luego en “Administrar” y luego en “Administrar discos”. Allí podrás ver las particiones que tienes, elije la que tenga suficiente espacio para liberar aproximadamente 30 GB. Dale click derecho a la partición y luego en “Reducir volumen”. Te saldrá una ventana donde debes especificar el tamaño a reducir, que en nuestro caso sería 30000 MB (es decir, aproximadamente 30 GB), y luego das click en “Reducir”.\nEso sería todo, ahora verás un nuevo espacio que dice “No asignado”. NO es necesario hacer pasos adicionales como crear una partición en el espacio liberado.\nTambién puedes ver el siguiente video donde se muestra el proceso. Puedes saltarte el final del video desde la parte donde dan click a “Nuevo volumen simple”:\n\n\n\n\n\n\n\nNota\n\n\n\nProblemas liberando espacio: Al intentar liberar espacio en tu disco te puedes encontrar con que a pesar de que tienes más de 30 GB disponibles, no puedes liberar esa cantidad de espacio. Esto puede deberse a que tu disco duro está fragmentado y lo que debes hacer es desfragmentarlo."
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html#paso-4-acceder-a-la-bios",
+    "href": "posts/2023/instalación-linux.html#paso-4-acceder-a-la-bios",
+    "title": "Tutorial de instalación de Linux",
+    "section": "Paso 4: Acceder a la BIOS",
+    "text": "Paso 4: Acceder a la BIOS\nCon el nuevo espacio en el disco duro listo para instalar Linux en él, solo tenemos que arrancar nuestro computador desde la USB que creamos en el paso 2. Para esto debemos buscar en Google cómo acceder a la BIOS en nuestro modelo de computador, puesto que el proceso puede ser diferente entre diferentes equipos, pero básicamente consiste en apagar el equipo, luego apretar el botón de encendido y rápidamente apretar continuamente una tecla como F2 o F12.\nLuego de hacer procede a apagar tu equipo, luego conecta la USB con Linux y luego procede a acceder a la BIOS.\nCada BIOS es diferente, pero debes buscar una sección llamada “Boot” y desde allí indicarle a tu computador que arranque el sistema desde la USB."
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html#paso-5-iniciar-el-proceso-de-instalación",
+    "href": "posts/2023/instalación-linux.html#paso-5-iniciar-el-proceso-de-instalación",
+    "title": "Tutorial de instalación de Linux",
+    "section": "Paso 5: Iniciar el proceso de instalación",
+    "text": "Paso 5: Iniciar el proceso de instalación\nLuego de configurar la BIOS, debes guardar los cambios y salir de la BIOS. Tu computador iniciará el arranque pero lo hará desde la memoria USB en lugar de iniciar Windows. Te aparecerá una pantalla donde puedes iniciar Linux y su proceso de instalación.\nPara el resto de instrucciones sobre el proceso te remito al siguiente video que está muy bien explicado. Debes poner atención sobre todo a la parte donde se elige el espacio de disco duro donde se va a instalar Linux, no vaya a ser que formatees la partición de Windows y pierdas todos tus archivos.\n¡Mucha suerte con el proceso y disfruta de tu nuevo sistema libre!\n\n\n\n\n\n\nNota\n\n\n\nProblemas con RST: Algunos computadores no permiten instalar Linux si está habilitada la tecnología de RST (Rapid Storage Technology). En este video se explica la solución, aunque en nuestro grupo no la hemos probado y deberías documentarte muy bien sobre el tema antes de intentarlo."
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html#video-tutorial",
+    "href": "posts/2023/instalación-linux.html#video-tutorial",
+    "title": "Tutorial de instalación de Linux",
+    "section": "Video tutorial",
+    "text": "Video tutorial"
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html",
+    "href": "posts/2023/curso-linux.html",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "",
+    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux y el Software Libre en su versión 2023-2 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html#qué-vas-a-aprender",
+    "href": "posts/2023/curso-linux.html#qué-vas-a-aprender",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html#información",
+    "href": "posts/2023/curso-linux.html#información",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "Información",
+    "text": "Información\nEl curso se realizará el miércoles de cada semana, comenzando el Miércoles 13 de Septiembre de 4 pm a 6 pm en el salón 7-325 del Instituto de Biología, UdeA."
+  },
+  {
+    "objectID": "members/current/jose-miguel-tobón-garcía.html",
+    "href": "members/current/jose-miguel-tobón-garcía.html",
+    "title": "Jose Miguel Tobón García",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/haminton-alexander-poveda-alonso.html",
+    "href": "members/current/haminton-alexander-poveda-alonso.html",
+    "title": "Haminton Alexander Poveda Alonso",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/simón-tamayo-martínez.html",
+    "href": "members/current/simón-tamayo-martínez.html",
+    "title": "Simón Tamayo Martínez",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/tomás-duque-rueda.html",
+    "href": "members/current/tomás-duque-rueda.html",
+    "title": "Tomás Duque Rueda",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/david-salomón-bonilla.html",
+    "href": "members/current/david-salomón-bonilla.html",
+    "title": "David Salomón Bonilla Cárdenas",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/joshua-taborda-mejía.html",
+    "href": "members/current/joshua-taborda-mejía.html",
+    "title": "Joshua Taborda Mejía",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/alumni/emmanuel-ortega-atehortúa.html",
+    "href": "members/alumni/emmanuel-ortega-atehortúa.html",
+    "title": "Emmanuel Ortega Atehortúa",
+    "section": "",
+    "text": "Volver arriba"
   },
   {
     "objectID": "cursos/cursos.html",
@@ -224,122 +238,108 @@
     "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
   },
   {
-    "objectID": "members/alumni/emmanuel-ortega-atehortúa.html",
-    "href": "members/alumni/emmanuel-ortega-atehortúa.html",
-    "title": "Emmanuel Ortega Atehortúa",
+    "objectID": "members/current/ana-maría-lópez-pérez.html",
+    "href": "members/current/ana-maría-lópez-pérez.html",
+    "title": "Ana María López Pérez",
     "section": "",
     "text": "Volver arriba"
   },
   {
-    "objectID": "members/current/joshua-taborda-mejía.html",
-    "href": "members/current/joshua-taborda-mejía.html",
-    "title": "Joshua Taborda Mejía",
+    "objectID": "members/current/jcar.html",
+    "href": "members/current/jcar.html",
+    "title": "Juan Camilo Arboleda Rivera",
+    "section": "",
+    "text": "Soy biólogo y trabajo actualmente en el Grupo de Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos y el Grupo de Biología Computacional en la Universidad de Antioquia (UdeA), Colombia. Trabajo como profesor en el curso de Genética en el Instituto de Biología en la UdeA."
+  },
+  {
+    "objectID": "members/current/jcar.html#intereses",
+    "href": "members/current/jcar.html#intereses",
+    "title": "Juan Camilo Arboleda Rivera",
+    "section": "Intereses",
+    "text": "Intereses\nEstoy principalmente interesado en áreas como la Biología Computacional, la Biología de Sistemas, Biología Molecular, Genética y Bioinformática. También soy un entusiasta de Linux y el Software Libre y me gusta aprender sobre programación y sus aplicaciones en Biología."
+  },
+  {
+    "objectID": "members/current/laura-manuela-builes-cerón.html",
+    "href": "members/current/laura-manuela-builes-cerón.html",
+    "title": "Laura Manuela Builes Cerón",
     "section": "",
     "text": "Volver arriba"
   },
   {
-    "objectID": "members/current/david-salomón-bonilla.html",
-    "href": "members/current/david-salomón-bonilla.html",
-    "title": "David Salomón Bonilla Cárdenas",
+    "objectID": "members/current/gloria-machado-rodríguez.html",
+    "href": "members/current/gloria-machado-rodríguez.html",
+    "title": "Gloria Machado Rodríguez",
     "section": "",
     "text": "Volver arriba"
   },
   {
-    "objectID": "members/current/tomás-duque-rueda.html",
-    "href": "members/current/tomás-duque-rueda.html",
-    "title": "Tomás Duque Rueda",
+    "objectID": "members/current/maria-de-los-ángeles-benavides.html",
+    "href": "members/current/maria-de-los-ángeles-benavides.html",
+    "title": "Maria de los Ángeles Benavides Guaca",
     "section": "",
     "text": "Volver arriba"
   },
   {
-    "objectID": "members/current/simón-tamayo-martínez.html",
-    "href": "members/current/simón-tamayo-martínez.html",
-    "title": "Simón Tamayo Martínez",
+    "objectID": "members/current/daniela-sánchez.html",
+    "href": "members/current/daniela-sánchez.html",
+    "title": "Daniela Sánchez Aristizábal",
     "section": "",
-    "text": "Volver arriba"
+    "text": "¡Hola! Soy Daniela Sánchez, actualmente estoy en mi último año de Biología en la Universidad de Antioquia. Me apasiona mucho la biología molecular y me llama la atención el uso de herramientas computacionales para comprender fenómenos moleculares.\nMis intereses se centran en la regulación de la expresión génica, la biología de sistemas dinámicos y las aplicaciones de Machine Learning en el análisis de datos ómicos. Fuera del ámbito académico, disfruto de pasar tiempo en la naturaleza, especialmente en el río, y compartir tiempo con mis mascotas. Además, me gusta practicar pilates y disfruto mucho el arte del crochet.\nObservar y entender fenómenos biológicos y naturales es una de mis mayores pasiones, es por esto que la ciencia se ha convertido en una parte importante en mi vida.\n\n\n Volver arriba"
   },
   {
-    "objectID": "members/current/haminton-alexander-poveda-alonso.html",
-    "href": "members/current/haminton-alexander-poveda-alonso.html",
-    "title": "Haminton Alexander Poveda Alonso",
+    "objectID": "posts/2024/curso-python.html",
+    "href": "posts/2024/curso-python.html",
+    "title": "Curso de introducción a Python 2024-1",
     "section": "",
-    "text": "Volver arriba"
+    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de introducción a Python en su versión 2024-1 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
   },
   {
-    "objectID": "members/current/jose-miguel-tobón-garcía.html",
-    "href": "members/current/jose-miguel-tobón-garcía.html",
-    "title": "Jose Miguel Tobón García",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
-    "objectID": "posts/2023/curso-linux.html",
-    "href": "posts/2023/curso-linux.html",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
-    "section": "",
-    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux y el Software Libre en su versión 2023-2 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "posts/2023/curso-linux.html#qué-vas-a-aprender",
-    "href": "posts/2023/curso-linux.html#qué-vas-a-aprender",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "objectID": "posts/2024/curso-python.html#qué-vas-a-aprender",
+    "href": "posts/2024/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python 2024-1",
     "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
   },
   {
-    "objectID": "posts/2023/curso-linux.html#información",
-    "href": "posts/2023/curso-linux.html#información",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "objectID": "posts/2024/curso-python.html#información",
+    "href": "posts/2024/curso-python.html#información",
+    "title": "Curso de introducción a Python 2024-1",
     "section": "Información",
-    "text": "Información\nEl curso se realizará el miércoles de cada semana, comenzando el Miércoles 13 de Septiembre de 4 pm a 6 pm en el salón 7-325 del Instituto de Biología, UdeA."
+    "text": "Información\nEl curso se realizará los lunes de cada semana, comenzando el Lunes 26 de Febrero de 10 am a 12 m en la sala de cómputo del Instituto de Biología, UdeA. Este curso no requiere inscripción sino solamente asistir y su duración estimada es de 2 a 3 meses."
   },
   {
-    "objectID": "posts/2023/instalación-linux.html",
-    "href": "posts/2023/instalación-linux.html",
-    "title": "Tutorial de instalación de Linux",
+    "objectID": "posts/2023/inactivacion-x.html",
+    "href": "posts/2023/inactivacion-x.html",
+    "title": "Proyecto de la inactivación del X",
     "section": "",
-    "text": "¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación de Linux que nos permitirá tener nuestro equipo con Windows y Linux al mismo tiempo.\nAdemás de leer este tutorial te recomiendo también que veas el video tutorial antes de iniciar la instalación para que tengas una idea más clara sobre el proceso."
+    "text": "Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios."
   },
   {
-    "objectID": "posts/2023/instalación-linux.html#paso-1-descargar-una-distribución-de-linux",
-    "href": "posts/2023/instalación-linux.html#paso-1-descargar-una-distribución-de-linux",
-    "title": "Tutorial de instalación de Linux",
-    "section": "Paso 1: Descargar una distribución de Linux",
-    "text": "Paso 1: Descargar una distribución de Linux\nLinux tiene muchas versiones diferentes, también conocidas como distribuciones o distros. Cada una tiene sus particularidades o está diseñada para un propósito en específico. A continuación encontrarás enlaces a algunas distribuciones:\nDistribuciones diseñadas para computadores viejos o con pocos recursos:\n\nLinux Lite\nLubuntu\nPuppy Linux\nLinux Mint\n\nDistribuciones más usadas:\n\nUbuntu\nDebian\nFedora\nOpenSUSE\n\nDistribuciones enfocadas en educación o escuelas:\n\nHuayra\nEdubuntu\nopenSUSE:Education-Li-f-e\nDoudouLinux\n\nOtras distribuciones:\n\nKali Linux: Distribución especializada en seguridad informática e informática forense.\nTails: Distribución enfocada en la privacidad y el anonimato. Busca promover el libre acceso al internet y evitar la vigilancia y la censura.\n\nLuego de que hayas elegido cuál distribución te gusta solo tienes que descargar el archivo .iso que normalmente se ofrece en su página web de manera gratuita."
+    "objectID": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
+    "href": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
+    "title": "Proyecto de la inactivación del X",
+    "section": "Búsqueda del factor autosómico responsable del X activo en la lionización",
+    "text": "Búsqueda del factor autosómico responsable del X activo en la lionización\nLa lionización, nombre por el que también se conoce el silenciamiento del cromosoma X en hembras mamíferas placentarias fue descubierto por la genetista Mary Lyon en 1961 (Lyon 1961). Es un proceso crucial en el temprano desarrollo embrionario porque produce la igualación de expresión de genes ya que el sexo en estos organismos esta definido por la combinación de un par de cromosomas sexuales X y Y, hembras XX y machos XY. El cromosoma X, que posee al rededor de 1000 genes más que el Y, lo supera con creces, por lo que el silenciamiento de uno de los X en las mamíferas es uno de los tantos mecanismos de dosis de compensación que se han desarrollado en animales que tienen este problema.\nEl resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un cuerpo de Barr (Barr y Bertram 1949).\n\n\n\ncorpusculo de Barr\n\n\nEn el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de conteo de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la elección de cual de ellos silenciará y dará inicio a la expresión del Xist, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un espacimiento a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el establecimiento.\nAquí nos centramos en los pasos de conteo y elección de los futuros cromosomas x activo Xa e inactivo Xi, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.\n\n\n\nconteo de cromosomas X en relación a los autosomas\n\n\nEn adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma (Migeon 2017).\n\n\n\nRegiones de interés en el cromosoma 19 humano\n\n\nNuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea."
   },
   {
-    "objectID": "posts/2023/instalación-linux.html#paso-2-crear-una-usb-booteable",
-    "href": "posts/2023/instalación-linux.html#paso-2-crear-una-usb-booteable",
-    "title": "Tutorial de instalación de Linux",
-    "section": "Paso 2: Crear una USB booteable",
-    "text": "Paso 2: Crear una USB booteable\nEl siguiente paso es conseguirte una USB. El tamaño de esta USB depende de la distribución de Linux que vayas a instalar, lo importante es que el archivo .iso quepa en la memoria; así que si descargaste un archivo de 4.7 GB tienes que conseguir una USB con una capacidad mayor, por ejemplo una de 8 GB.\nEs importante que la USB se pueda formatear, así que debes hacer una copia de los datos que no quieras perder, porque el siguiente paso es usar un programa como Etcher o Rufus para escribir el archivo .iso en la USB de manera que la USB sea booteable, es decir, que tu computador pueda usarla para arrancar el sistema."
+    "objectID": "posts/2023/bienvenida.html",
+    "href": "posts/2023/bienvenida.html",
+    "title": "Bienvenida",
+    "section": "",
+    "text": "Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre."
   },
   {
-    "objectID": "posts/2023/instalación-linux.html#paso-3-liberar-espacio-en-el-disco-duro",
-    "href": "posts/2023/instalación-linux.html#paso-3-liberar-espacio-en-el-disco-duro",
-    "title": "Tutorial de instalación de Linux",
-    "section": "Paso 3: Liberar espacio en el disco duro",
-    "text": "Paso 3: Liberar espacio en el disco duro\nAhora hay que liberar espacio en el disco ya que ahí es donde vamos a instalar luego el sistema Linux. Esto puede hacerse fácilmente desde Windows abriendo el explorador de archivos, dando clic derecho en “Este quipo”, luego en “Administrar” y luego en “Administrar discos”. Allí podrás ver las particiones que tienes, elije la que tenga suficiente espacio para liberar aproximadamente 30 GB. Dale click derecho a la partición y luego en “Reducir volumen”. Te saldrá una ventana donde debes especificar el tamaño a reducir, que en nuestro caso sería 30000 MB (es decir, aproximadamente 30 GB), y luego das click en “Reducir”.\nEso sería todo, ahora verás un nuevo espacio que dice “No asignado”. NO es necesario hacer pasos adicionales como crear una partición en el espacio liberado.\nTambién puedes ver el siguiente video donde se muestra el proceso. Puedes saltarte el final del video desde la parte donde dan click a “Nuevo volumen simple”:\n\n\n\n\n\n\n\nNota\n\n\n\nProblemas liberando espacio: Al intentar liberar espacio en tu disco te puedes encontrar con que a pesar de que tienes más de 30 GB disponibles, no puedes liberar esa cantidad de espacio. Esto puede deberse a que tu disco duro está fragmentado y lo que debes hacer es desfragmentarlo."
+    "objectID": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
+    "href": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
+    "title": "Bienvenida",
+    "section": "¿De qué se trata la Biología Computacional?",
+    "text": "¿De qué se trata la Biología Computacional?\nLa Biología Computacional es una disciplina muy extensa, y podríamos definirla como un área interdisciplinaria en la que se usan métodos computacionales para analizar datos biológicos, incluyendo en su campo de acción el análisis de secuencias, la metagenómica y la bioinformática tradicional; sin embargo, también incluye el modelamiento matemático, las simulaciones computacionales de sistemas biológicos, la Biología de Sistemas y el desarrollo de software para Biología."
   },
   {
-    "objectID": "posts/2023/instalación-linux.html#paso-4-acceder-a-la-bios",
-    "href": "posts/2023/instalación-linux.html#paso-4-acceder-a-la-bios",
-    "title": "Tutorial de instalación de Linux",
-    "section": "Paso 4: Acceder a la BIOS",
-    "text": "Paso 4: Acceder a la BIOS\nCon el nuevo espacio en el disco duro listo para instalar Linux en él, solo tenemos que arrancar nuestro computador desde la USB que creamos en el paso 2. Para esto debemos buscar en Google cómo acceder a la BIOS en nuestro modelo de computador, puesto que el proceso puede ser diferente entre diferentes equipos, pero básicamente consiste en apagar el equipo, luego apretar el botón de encendido y rápidamente apretar continuamente una tecla como F2 o F12.\nLuego de hacer procede a apagar tu equipo, luego conecta la USB con Linux y luego procede a acceder a la BIOS.\nCada BIOS es diferente, pero debes buscar una sección llamada “Boot” y desde allí indicarle a tu computador que arranque el sistema desde la USB."
-  },
-  {
-    "objectID": "posts/2023/instalación-linux.html#paso-5-iniciar-el-proceso-de-instalación",
-    "href": "posts/2023/instalación-linux.html#paso-5-iniciar-el-proceso-de-instalación",
-    "title": "Tutorial de instalación de Linux",
-    "section": "Paso 5: Iniciar el proceso de instalación",
-    "text": "Paso 5: Iniciar el proceso de instalación\nLuego de configurar la BIOS, debes guardar los cambios y salir de la BIOS. Tu computador iniciará el arranque pero lo hará desde la memoria USB en lugar de iniciar Windows. Te aparecerá una pantalla donde puedes iniciar Linux y su proceso de instalación.\nPara el resto de instrucciones sobre el proceso te remito al siguiente video que está muy bien explicado. Debes poner atención sobre todo a la parte donde se elige el espacio de disco duro donde se va a instalar Linux, no vaya a ser que formatees la partición de Windows y pierdas todos tus archivos.\n¡Mucha suerte con el proceso y disfruta de tu nuevo sistema libre!\n\n\n\n\n\n\nNota\n\n\n\nProblemas con RST: Algunos computadores no permiten instalar Linux si está habilitada la tecnología de RST (Rapid Storage Technology). En este video se explica la solución, aunque en nuestro grupo no la hemos probado y deberías documentarte muy bien sobre el tema antes de intentarlo."
-  },
-  {
-    "objectID": "posts/2023/instalación-linux.html#video-tutorial",
-    "href": "posts/2023/instalación-linux.html#video-tutorial",
-    "title": "Tutorial de instalación de Linux",
-    "section": "Video tutorial",
-    "text": "Video tutorial"
+    "objectID": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
+    "href": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
+    "title": "Bienvenida",
+    "section": "¿Cuál es el objetivo del grupo?",
+    "text": "¿Cuál es el objetivo del grupo?\nNuestro objetivo es difundir, enseñar y promover la investigación y el desarrollo de la Biología Computacional en Colombia, además de promover también el uso de herramientas de Software Libre en general."
   }
 ]
