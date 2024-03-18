@@ -7,5 +7,9 @@ about:
     - icon: envelope-fill
       text: Email
       href: mailto:joshua.taborda@udea.edu.co
+    - icon: telegram
+      text: Telegram
+      href: https://t.me/jtqmm
+image: joshua-taborda-mejía.jpeg
 ---
 

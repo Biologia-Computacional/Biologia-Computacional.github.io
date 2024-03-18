@@ -11,7 +11,7 @@ website:
         icon: people-fill
       - url: proyectos.qmd
         icon: terminal-fill
-      - url: club-de-revista.md
+      - url: club-de-revista.qmd
         icon: easel3-fill
       - text: 'Cursos'
         icon: journal-code
