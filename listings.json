@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2024/curso-python.html",
-      "/posts/2023/inactivacion-x.html",
-      "/posts/2023/instalación-linux.html",
-      "/posts/2023/curso-linux.html",
-      "/posts/2023/bienvenida.html"
-    ]
-  },
-  {
     "listing": "/integrantes.html",
     "items": [
       "/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.html",
@@ -22,9 +12,20 @@
       "/members/current/juan-camilo-arboleda-rivera/juan-camilo-arboleda-rivera.html",
       "/members/current/laura-manuela-builes-cerón/laura-manuela-builes-cerón.html",
       "/members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.html",
+      "/members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html",
       "/members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
       "/members/current/tomás-duque-rueda/tomás-duque-rueda.html",
       "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2024/curso-python.html",
+      "/posts/2023/inactivacion-x.html",
+      "/posts/2023/instalación-linux.html",
+      "/posts/2023/curso-linux.html",
+      "/posts/2023/bienvenida.html"
     ]
   }
 ]

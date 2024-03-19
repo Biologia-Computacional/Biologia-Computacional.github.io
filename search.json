@@ -119,95 +119,39 @@
     "text": "Volver arriba"
   },
   {
-    "objectID": "members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
-    "href": "members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
-    "title": "Simón Tamayo Martínez",
+    "objectID": "members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html",
+    "href": "members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html",
+    "title": "Miguel Ángel Tangarife Cardona",
+    "section": "",
+    "text": "Soy estudiante de los últimos semestres de biología, estoy vinculado a el Grupo de Biología Computacional y el grupo de Bacteriología Agrícola y Ambiental (BA&A) en la Universidad de Antioquia (UdeA), Colombia."
+  },
+  {
+    "objectID": "members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html#intereses",
+    "href": "members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html#intereses",
+    "title": "Miguel Ángel Tangarife Cardona",
+    "section": "Intereses",
+    "text": "Intereses\nMis intereses se enmarcan en el campo de la microbiología agrícola, bioinformática, y biología molecular. Me encanta trabajar en biotecnología, amante de los bacteriófagos, las bacterias, el baile y el café."
+  },
+  {
+    "objectID": "members/current/tomás-duque-rueda/tomás-duque-rueda.html",
+    "href": "members/current/tomás-duque-rueda/tomás-duque-rueda.html",
+    "title": "Tomás Duque Rueda",
     "section": "",
     "text": "Volver arriba"
   },
   {
-    "objectID": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
-    "href": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
-    "title": "Emmanuel Ortega Atehortúa",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Grupo de Biología Computacional",
     "section": "",
-    "text": "Volver arriba"
+    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia."
   },
   {
-    "objectID": "cursos/cursos.html",
-    "href": "cursos/cursos.html",
-    "title": "Cursos y talleres",
-    "section": "",
-    "text": "Como parte del esfuerzo para promover la Biología Computacional y el Software Libre, nuestro grupo desarrolla cursos y talleres en los que enseñamos diferentes herramientas que son muy útiles no solo en la ciencia sino en el mundo digital en general. A continuación encontrarás una lista de herramientas que usamos en nuestro grupo y que te podemos enseñar.\n\nLinux\nGit/GitHub\nPython\nC++\nBash (Requisito Linux)\nR\nLaTeX\nVim (Requisito Linux)\nBiología de Sistemas\n\nModelamiento matemático\nTeoría de grafos\n\nBioinformática (Requisito Linux)\n\nFastQC\nTrimmomatic\nEnsamblaje de genomas\nMetagenómica\nAnálisis de expresión genética\n\nAnálisis de datos en Pandas (Requisito Python básico)\nMake (Requisito Linux)\nSistemas Dinámicos\nMachine Learning\nBases de datos SQL\nDinámica molecular (Requisito Linux)\nRobótica con Arduino\nDesarrollo de GUIs con Qt (Requisito C++)\nMarkdown\n\nSi quieres aprender sobre alguno de estos temas no dudes en escribirnos y manifestarnos tu interés. También te sugerimos llenar el siguiente formulario para saber cuáles son tus intereses:\n\nCargando…\n\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "cursos/curso-python.html",
-    "href": "cursos/curso-python.html",
-    "title": "Curso de introducción a Python",
-    "section": "",
-    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
-    "href": "cursos/curso-python.html#qué-vas-a-aprender",
-    "title": "Curso de introducción a Python",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
-  },
-  {
-    "objectID": "cursos/curso-python.html#información",
-    "href": "cursos/curso-python.html#información",
-    "title": "Curso de introducción a Python",
-    "section": "Información",
-    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 3 a 4 meses. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Proyectos",
-    "section": "",
-    "text": "Conoce en qué temas estamos trabajando."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-activos",
-    "href": "proyectos.html#proyectos-activos",
-    "title": "Proyectos",
-    "section": "Proyectos activos",
-    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-anteriores",
-    "href": "proyectos.html#proyectos-anteriores",
-    "title": "Proyectos",
-    "section": "Proyectos anteriores",
-    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Entradas del blog",
-    "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n  \n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nBienvenida\n\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
-  },
-  {
-    "objectID": "integrantes.html",
-    "href": "integrantes.html",
-    "title": "Integrantes",
-    "section": "",
-    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "integrantes.html#miembros-actuales",
-    "href": "integrantes.html#miembros-actuales",
-    "title": "Integrantes",
-    "section": "",
-    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "integrantes.html#alumni",
-    "href": "integrantes.html#alumni",
-    "title": "Integrantes",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n\n\n\n\n\n\n\n\nEmmanuel Ortega Atehortúa\n\n\nBiólogo\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Grupo de Biología Computacional",
+    "section": "Contacto",
+    "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
   },
   {
     "objectID": "cursos/curso-linux.html",
@@ -231,23 +175,93 @@
     "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Grupo de Biología Computacional",
+    "objectID": "integrantes.html",
+    "href": "integrantes.html",
+    "title": "Integrantes",
     "section": "",
-    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia."
+    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Grupo de Biología Computacional",
-    "section": "Contacto",
-    "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
+    "objectID": "integrantes.html#miembros-actuales",
+    "href": "integrantes.html#miembros-actuales",
+    "title": "Integrantes",
+    "section": "",
+    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
-    "objectID": "members/current/tomás-duque-rueda/tomás-duque-rueda.html",
-    "href": "members/current/tomás-duque-rueda/tomás-duque-rueda.html",
-    "title": "Tomás Duque Rueda",
+    "objectID": "integrantes.html#alumni",
+    "href": "integrantes.html#alumni",
+    "title": "Integrantes",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n\n\n\n\n\n\n\n\nEmmanuel Ortega Atehortúa\n\n\nBiólogo\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Entradas del blog",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n  \n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n  \n\n\n\n\nBienvenida\n\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Conoce en qué temas estamos trabajando."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-activos",
+    "href": "proyectos.html#proyectos-activos",
+    "title": "Proyectos",
+    "section": "Proyectos activos",
+    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-anteriores",
+    "href": "proyectos.html#proyectos-anteriores",
+    "title": "Proyectos",
+    "section": "Proyectos anteriores",
+    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
+  },
+  {
+    "objectID": "cursos/curso-python.html",
+    "href": "cursos/curso-python.html",
+    "title": "Curso de introducción a Python",
+    "section": "",
+    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
+    "href": "cursos/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
+  },
+  {
+    "objectID": "cursos/curso-python.html#información",
+    "href": "cursos/curso-python.html#información",
+    "title": "Curso de introducción a Python",
+    "section": "Información",
+    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 3 a 4 meses. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
+  },
+  {
+    "objectID": "cursos/cursos.html",
+    "href": "cursos/cursos.html",
+    "title": "Cursos y talleres",
+    "section": "",
+    "text": "Como parte del esfuerzo para promover la Biología Computacional y el Software Libre, nuestro grupo desarrolla cursos y talleres en los que enseñamos diferentes herramientas que son muy útiles no solo en la ciencia sino en el mundo digital en general. A continuación encontrarás una lista de herramientas que usamos en nuestro grupo y que te podemos enseñar.\n\nLinux\nGit/GitHub\nPython\nC++\nBash (Requisito Linux)\nR\nLaTeX\nVim (Requisito Linux)\nBiología de Sistemas\n\nModelamiento matemático\nTeoría de grafos\n\nBioinformática (Requisito Linux)\n\nFastQC\nTrimmomatic\nEnsamblaje de genomas\nMetagenómica\nAnálisis de expresión genética\n\nAnálisis de datos en Pandas (Requisito Python básico)\nMake (Requisito Linux)\nSistemas Dinámicos\nMachine Learning\nBases de datos SQL\nDinámica molecular (Requisito Linux)\nRobótica con Arduino\nDesarrollo de GUIs con Qt (Requisito C++)\nMarkdown\n\nSi quieres aprender sobre alguno de estos temas no dudes en escribirnos y manifestarnos tu interés. También te sugerimos llenar el siguiente formulario para saber cuáles son tus intereses:\n\nCargando…\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
+    "href": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
+    "title": "Emmanuel Ortega Atehortúa",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
+    "href": "members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
+    "title": "Simón Tamayo Martínez",
     "section": "",
     "text": "Volver arriba"
   },
@@ -277,7 +291,7 @@
     "href": "members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.html",
     "title": "Ana María López Pérez",
     "section": "",
-    "text": "Soy estudiante de biología con un particular interés por la diversidad viral y los mecanismos de infección viral y bacteriano. Mi fascinación por comprender la interacción entre los virus y sus huéspedes me lleva a explorar la biología computacional como una herramienta para analizar grandes conjuntos de datos genómicos y entender mejor la evolución y la dinámica de las infecciones virales. Por otro lado, también siento una gran pasión por las plantas, lo que me motiva a profundizar en la diversidad vegetal, la genómica de plantas y todo lo relacionado con sus metabolitos secundarios. Estoy entusiasmada por combinar mi interés en la biología con el poder de la informática para abordar preguntas biológicas complejas y contribuir al avance del conocimiento en estos campos interdisciplinarios.\n\n\n Volver arriba"
+    "text": "Soy estudiante de biología con un particular interés por la diversidad viral y los mecanismos de infección viral y bacteriano. Mi fascinación por comprender la interacción entre los virus y sus huéspedes me lleva a explorar la biología computacional como una herramienta para analizar grandes conjuntos de datos genómicos y entender mejor la evolución y la dinámica de las infecciones virales.\nPor otro lado, también siento una gran pasión por las plantas, lo que me motiva a profundizar en la diversidad vegetal, la genómica de plantas y todo lo relacionado con sus metabolitos secundarios.\nEstoy entusiasmada por combinar mi interés en la biología con el poder de la informática para abordar preguntas biológicas complejas y contribuir al avance del conocimiento en estos campos interdisciplinarios.\n\n\n Volver arriba"
   },
   {
     "objectID": "members/current/jose-miguel-tobón-garcía/jose-miguel-tobón-garcía.html",
