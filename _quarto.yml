@@ -27,22 +27,22 @@ website:
         icon: pencil-square
     tools:
       - icon: envelope-fill
-        href: mailto:biologiacomputacional42@gmail.com
+        href: "mailto:biologiacomputacional42@gmail.com"
         text: Envíanos un email
       - icon: mastodon
-        href: https://mastodon.social/@biocomputacional
+        href: "https://mastodon.social/@biocomputacional"
         text: Síguenos en Mastodon
       - icon: telegram
-        href: https://t.me/biologia_computacional
+        href: "https://t.me/biologia_computacional"
         text: Únete a nuestro grupo en Telegram
       - icon: twitter
-        href: https://twitter.com/biocomp42
+        href: "https://twitter.com/biocomp42"
         text: Síguenos en Twitter
       - icon: facebook
-        href: https://www.facebook.com/groups/biologiacomputacional
+        href: "https://www.facebook.com/groups/biologiacomputacional"
         text: Síguenos en Facebook
       - icon: github
-        href: https://github.com/Biologia-Computacional
+        href: "https://github.com/Biologia-Computacional"
         text: Mira nuestro GitHub
   margin-header: |
     ![](/imgs/profile.png)
