@@ -22,6 +22,13 @@ Además de leer este tutorial te recomiendo también que veas el [video
 tutorial](#video-tutorial) **antes de iniciar la instalación** para que
 tengas una idea más clara sobre el proceso.
 
+::: {.callout-important}
+Antes de iniciar el proceso haz una copia de seguridad de tus datos más
+importantes. Normalmente no debería haber pérdida de datos durante el
+proceso de instalación, pero siempre es una buena práctica tener copias de
+seguridad para prevenir inconvenientes.
+:::
+
 ## Paso 1: Descargar una distribución de Linux
 
 Linux tiene muchas versiones diferentes, también conocidas como
