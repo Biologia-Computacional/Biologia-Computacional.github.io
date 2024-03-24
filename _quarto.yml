@@ -20,9 +20,8 @@ website:
           - text: 'Curso Linux'
             url: cursos/curso-linux.md
             icon: terminal
-          - text: 'Curso Python'
+          - text: '{{< fa brands python >}} Curso Python'
             url: cursos/curso-python.md
-            icon: code
       - url: posts.md
         icon: pencil-square
     tools:
