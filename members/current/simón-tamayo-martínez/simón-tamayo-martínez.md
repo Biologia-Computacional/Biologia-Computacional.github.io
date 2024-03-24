@@ -9,3 +9,4 @@ about:
       href: mailto:simon.tamayo@udea.edu.co
 ---
 
+Estudiante de biología con intereses en la computación.

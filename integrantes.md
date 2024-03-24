@@ -16,6 +16,7 @@ listing:
     contents: members/alumni/
     type: grid
     image-placeholder: imgs/comp-biology.jpeg
+    image-height: 200px
     filter-ui: true
 ---
 
