@@ -24,6 +24,8 @@ website:
             url: cursos/curso-python.md
       - url: posts.md
         icon: pencil-square
+      - url: news.md
+        icon: newspaper
     tools:
       - icon: envelope-fill
         href: "mailto:biologiacomputacional42@gmail.com"
