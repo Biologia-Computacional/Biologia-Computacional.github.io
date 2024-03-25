@@ -53,8 +53,7 @@ website:
 format:
   html:
     theme:
-      light: flatly
-      dark: cyborg
+      light: [flatly, font.scss]
+      dark: [cyborg, font.scss]
     css: styles.css
     toc: true
-
