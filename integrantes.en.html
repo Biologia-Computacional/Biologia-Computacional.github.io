@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Juan C. Arboleda R.">
 
-<title>Computational Biology Research Group – index.en</title>
+<title>Computational Biology Research Group - People</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//imgs/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,9 +66,72 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-current .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-current'] = new List('listing-current', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
+<meta name="twitter:title" content="Computational Biology Research Group - People">
+<meta name="twitter:image" content="https://biologia-computacional.github.io/en/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.jpg">
+<meta name="twitter:creator" content="@Nesper94">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -88,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./integrantes.en.html" rel="" target=""><i class="bi bi-people-fill" role="img">
+    <a class="nav-link active" href="./integrantes.en.html" rel="" target="" aria-current="page"><i class="bi bi-people-fill" role="img">
 </i> 
  <span class="menu-text">People</span></a>
   </li>  
@@ -161,44 +225,379 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#computational-biology-research-group" id="toc-computational-biology-research-group" class="nav-link active" data-scroll-target="#computational-biology-research-group">Computational Biology Research Group</a></li>
-  <li><a href="#why-to-do-computational-biology-in-colombia" id="toc-why-to-do-computational-biology-in-colombia" class="nav-link" data-scroll-target="#why-to-do-computational-biology-in-colombia">Why to do Computational Biology in Colombia?</a></li>
-  <li><a href="#group-membership" id="toc-group-membership" class="nav-link" data-scroll-target="#group-membership">Group membership</a>
-  <ul class="collapse">
-  <li><a href="#contact-information" id="toc-contact-information" class="nav-link" data-scroll-target="#contact-information">Contact information</a></li>
-  </ul></li>
+  <li><a href="#current-members" id="toc-current-members" class="nav-link active" data-scroll-target="#current-members">Current members</a></li>
+  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">People</h1>
+</div>
 
 
-<section id="computational-biology-research-group" class="level1">
-<h1>Computational Biology Research Group</h1>
-<p>The Computational Biology Research Group is part of the Institute of Biology at the University of Antioquia in Medellín, Colombia and its goal is to understand diverse biological phenomena by using computational tools, in addition to promote the field of computational biology in Colombia.</p>
+
+<div class="quarto-title-meta">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">March 28, 2024</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="current-members" class="level2">
+<h2 class="anchored" data-anchor-id="current-members">Current members</h2>
+<div id="listing-current" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ana María López Pérez
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/daniela-sánchez/daniela-sánchez.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="imgs/comp-biology.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Daniela Sánchez Aristizábal
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/david-salomón-bonilla/david-salomón-bonilla.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="imgs/comp-biology.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+David Salomón Bonilla Cárdenas
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/gloria-machado-rodríguez/gloria-machado-rodríguez.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="imgs/comp-biology.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gloria Machado Rodríguez
+</h5>
+<div class="card-text listing-description">
+Professor at the Institute of Biology
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/haminton-alexander-poveda-alonso/profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Haminton Alexander Poveda Alonso
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/jose-miguel-tobón-garcía/jose-miguel-tobón-garcía.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="imgs/comp-biology.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jose Miguel Tobón García
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/joshua-taborda-mejía/joshua-taborda-mejía.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/joshua-taborda-mejía/joshua-taborda-mejía.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Joshua Taborda Mejía
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/juan-camilo-arboleda-rivera/juan-camilo-arboleda-rivera.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="https://nesper94.github.io/imgs/profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Juan Camilo Arboleda Rivera
+</h5>
+<div class="card-text listing-description">
+Professor at the Institute of Biology
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/laura-manuela-builes-cerón/laura-manuela-builes-cerón.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/laura-manuela-builes-cerón/profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Laura Manuela Builes Cerón
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Maria de los Ángeles Benavides Guaca
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Miguel Ángel Tangarife Cardona
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/simón-tamayo-martínez/simón-tamayo-martínez.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="imgs/comp-biology.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simón Tamayo Martínez
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/current/tomás-duque-rueda/tomás-duque-rueda.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="imgs/comp-biology.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tomás Duque Rueda
+</h5>
+<div class="card-text listing-description">
+Biology undergraduate student
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="why-to-do-computational-biology-in-colombia" class="level1">
-<h1>Why to do Computational Biology in Colombia?</h1>
-<p>Unfortunately, doing experimental research in Colombia is not as easy as in other countries, since several factors play against, such as financing of research, the purchase of reagents and the time it takes them to arrive in the country, the necessary infrastructure to carry out research, the competition for resources between different laboratories and the restrictions of having to research only the topics that political leaders consider most relevant instead of researching freely.</p>
-<p>For this reason, Computational Biology is a great opportunity to free yourself from many of these constraints. Large resources or supercomputers are generally not needed to carry out research in Computational Biology. Computational Biology can be developed from anywhere in the world, without depending on infrastructure such as laboratories or expensive equipment or reagents. Furthermore, thanks to Free Software, most of the software tools needed are free and accessible to everyone and the only thing needed to do Computational Biology is human capital, and we have plenty of that in Colombia.</p>
-<p>So Computational Biology is a unique opportunity to turn our weaknesses into strengths and continue building high-level science without having to wait for changes in public policies that are always slow and tortuous.</p>
-<p>Finally, if the above still does not convince you, I invite you to read <a href="https://caseybergman.wordpress.com/2012/07/31/top-n-reasons-to-do-a-ph-d-or-post-doc-in-bioinformaticscomputational-biology/">the best reasons to venture into Computational Biology</a>.</p>
-<p>Join the Computational Biology community now! Everyone is welcome!</p>
-</section>
-<section id="group-membership" class="level1">
-<h1>Group membership</h1>
-<p>To be part of the Computational Biology group you do not need any requirements except a lot of motivation and interest in the subject. So if you like tinkering with computers, or you are interested in programming and the digital world and you are also passionate about Biology, this group is for you.</p>
-<p>The fact of belonging to another group does not prevent you from joining our Computational Biology group, on the contrary, we love the possibility of forming an interconnected and interdisciplinary community, in which we can learn from other topics and other groups also benefit from our experience.</p>
-<p>If you have any questions, do not hesitate to write to us at <a href="mailto:biologiacomputacional42@gmail.com" class="email">biologiacomputacional42@gmail.com</a>.</p>
-<section id="contact-information" class="level2">
-<h2 class="anchored" data-anchor-id="contact-information">Contact information</h2>
-<p><i class="fa-solid fa-user" aria-label="user"></i> <a href="https://nesper94.github.io">Juan Camilo Arboleda Rivera</a><br>
-<i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:juan.arboleda2@udea.edu.co" class="email">juan.arboleda2@udea.edu.co</a></p>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1711637847053" data-listing-reading-time-sort="1">
+<a href="./members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./members/alumni/emmanuel-ortega-atehortúa/profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Emmanuel Ortega Atehortúa
+</h5>
+<div class="card-text listing-description">
+Biologist
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
-</section>
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
