@@ -1,21 +1,31 @@
 [
   {
+    "listing": "/posts.en.html",
+    "items": [
+      "/posts/2024/curso-python.html",
+      "/posts/2023/inactivacion-x.html",
+      "/posts/2023/instalación-linux.html",
+      "/posts/2023/curso-linux.html",
+      "/posts/2023/bienvenida.html"
+    ]
+  },
+  {
     "listing": "/integrantes.html",
     "items": [
-      "/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.html",
-      "/members/current/daniela-sánchez/daniela-sánchez.html",
-      "/members/current/david-salomón-bonilla/david-salomón-bonilla.html",
-      "/members/current/gloria-machado-rodríguez/gloria-machado-rodríguez.html",
-      "/members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.html",
-      "/members/current/jose-miguel-tobón-garcía/jose-miguel-tobón-garcía.html",
-      "/members/current/joshua-taborda-mejía/joshua-taborda-mejía.html",
-      "/members/current/juan-camilo-arboleda-rivera/juan-camilo-arboleda-rivera.html",
-      "/members/current/laura-manuela-builes-cerón/laura-manuela-builes-cerón.html",
-      "/members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.html",
-      "/members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html",
-      "/members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
-      "/members/current/tomás-duque-rueda/tomás-duque-rueda.html",
-      "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html"
+      "/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.es.html",
+      "/members/current/daniela-sánchez/daniela-sánchez.es.html",
+      "/members/current/david-salomón-bonilla/david-salomón-bonilla.es.html",
+      "/members/current/gloria-machado-rodríguez/gloria-machado-rodríguez.es.html",
+      "/members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.es.html",
+      "/members/current/jose-miguel-tobón-garcía/jose-miguel-tobón-garcía.es.html",
+      "/members/current/joshua-taborda-mejía/joshua-taborda-mejía.es.html",
+      "/members/current/juan-camilo-arboleda-rivera/juan-camilo-arboleda-rivera.es.html",
+      "/members/current/laura-manuela-builes-cerón/laura-manuela-builes-cerón.es.html",
+      "/members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.es.html",
+      "/members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.es.html",
+      "/members/current/simón-tamayo-martínez/simón-tamayo-martínez.es.html",
+      "/members/current/tomás-duque-rueda/tomás-duque-rueda.es.html",
+      "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.es.html"
     ]
   },
   {
@@ -26,6 +36,25 @@
       "/posts/2023/instalación-linux.html",
       "/posts/2023/curso-linux.html",
       "/posts/2023/bienvenida.html"
+    ]
+  },
+  {
+    "listing": "/integrantes.en.html",
+    "items": [
+      "/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.en.html",
+      "/members/current/daniela-sánchez/daniela-sánchez.en.html",
+      "/members/current/david-salomón-bonilla/david-salomón-bonilla.en.html",
+      "/members/current/gloria-machado-rodríguez/gloria-machado-rodríguez.en.html",
+      "/members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.en.html",
+      "/members/current/jose-miguel-tobón-garcía/jose-miguel-tobón-garcía.en.html",
+      "/members/current/joshua-taborda-mejía/joshua-taborda-mejía.en.html",
+      "/members/current/juan-camilo-arboleda-rivera/juan-camilo-arboleda-rivera.en.html",
+      "/members/current/laura-manuela-builes-cerón/laura-manuela-builes-cerón.en.html",
+      "/members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.en.html",
+      "/members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.en.html",
+      "/members/current/simón-tamayo-martínez/simón-tamayo-martínez.en.html",
+      "/members/current/tomás-duque-rueda/tomás-duque-rueda.en.html",
+      "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.en.html"
     ]
   }
 ]
