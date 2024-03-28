@@ -16,7 +16,9 @@ website:
       - text: 'Cursos'
         icon: journal-code
         menu:
-          - cursos/cursos.md
+          - text: 'Cursos y talleres'
+            url: cursos/cursos.md
+            icon: laptop
           - text: 'Curso Linux'
             url: cursos/curso-linux.md
             icon: terminal
