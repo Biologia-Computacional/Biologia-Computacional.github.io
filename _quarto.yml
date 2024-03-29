@@ -24,7 +24,8 @@ website:
             icon: terminal
           - text: '{{< fa brands python >}} Curso Python'
             url: cursos/curso-python.md
-      - url: posts.md
+      - text: 'Posts'
+        url: posts.md
         icon: pencil-square
       - url: news.md
         icon: newspaper
