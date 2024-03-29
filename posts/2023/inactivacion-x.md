@@ -20,7 +20,7 @@ genetista **Mary Lyon** en 1961 [@lyon1961]. Es un proceso crucial en el tempran
 desarrollo embrionario porque produce la **igualación de expresión de
 genes** ya que el sexo en estos organismos esta definido por la combinación
 de un par de cromosomas sexuales *X* y *Y*, hembras XX y machos XY. El
-cromosoma X, que posee al rededor de 1000 genes más que el Y, lo supera con
+cromosoma X, que posee alrededor de 1000 genes más que el Y, lo supera con
 creces, por lo que el silenciamiento de uno de los X en las mamíferas es
 uno de los tantos mecanismos de dosis de compensación que se han
 desarrollado en animales que tienen este problema.
@@ -36,7 +36,7 @@ que posee la célula respecto a sus autosomas. Una vez la celula ha censado
 la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n
 recurre a la *elección* de cual de ellos silenciará y dará *inicio* a la
 expresión del **Xist**, factor clave de la inactivacion, desde el futuro X
-inactivo. El producto de ARN del Xist tendrá un *espacimiento* a lo largo de
+inactivo. El producto de ARN del Xist tendrá un *esparcimiento* a lo largo de
 todo el cromosoma, promoviendo la cascada de inactivación que conlleva una
 serie de modificaciones epigenéticas que incluyen la modificación de
 histonas, metilaciones de ADN y, que finalemnte puede heredarse a las
@@ -44,7 +44,7 @@ futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del
 organismo mediante el *establecimiento*.
 
 Aquí nos centramos en los pasos de conteo y elección de los futuros
-cromosomas x activo **Xa** e inactivo **Xi**, basándonos en la evidencia de
+cromosomas X activo **Xa** e inactivo **Xi**, basándonos en la evidencia de
 su relación con los autosomas, a razón de la presencia de un solo X activo
 en organismos diploides con trisomía del X, pero que se puede presentar dos
 Xa en los casos de tetraploidía. Se estima que esta relacion está dada por

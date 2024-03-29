@@ -1,9 +1,10 @@
 ---
-title: "Grupo de Biología Computacional"
 author: "Juan C. Arboleda R."
 date-modified: last-modified
 image: "/imgs/profile.png"
 ---
+
+# Grupo de Biología Computacional
 
 El Grupo de Biología Computacional hace parte del Instituto de Biología de la
 Universidad de Antioquia y su objetivo es comprender diversos fenómenos
