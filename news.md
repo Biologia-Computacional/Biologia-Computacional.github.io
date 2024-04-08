@@ -3,6 +3,10 @@ title: "Noticias"
 date-modified: last-modified
 ---
 
+- 2024-04-08  
+¡Vamos avanzando viento en popa con nuestro curso de Python en su versión
+2024-1! [Ver más información](/posts/2024/curso-python.md).
+
 - 2024-03-25  
 ¡Nuestro grupo ahora tiene un semillero de investigación asociado a la Red
 de Semilleros de la Universidad de Antioquia!
