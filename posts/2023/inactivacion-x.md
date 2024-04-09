@@ -7,6 +7,7 @@ categories:
  - Inactivación del X
  - Biología computacional
 bibliography: xci.bib
+lightbox: true
 ---
 
 Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos
@@ -28,7 +29,7 @@ desarrollado en animales que tienen este problema.
 El resultado final es la presencia de un cromosoma X activo y otro inactivo
 en la mayoría de sus genes, convertido en un **cuerpo de Barr** [@barr1949].
 
-![corpusculo de Barr](https://slideplayer.es/14598364/90/images/slide_10.jpg)
+![Corpúsculo de Barr](https://slideplayer.es/14598364/90/images/slide_10.jpg){width=70%}
 
 En el caso de organismos diploides, para llegar a la inactivación se debe
 pasar anteriormente por una serie de pasos de *conteo* de los cromosomas X
@@ -51,7 +52,7 @@ Xa en los casos de tetraploidía. Se estima que esta relacion está dada por
 un represor sensible a la dosis con origen en los autosomas dadas las
 anteriores proporciones según los juegos de cromosomas que posea la célula.
 
-![conteo de cromosomas X en relación a los autosomas](https://www.researchgate.net/publication/316079372/figure/fig1/AS:482594723766273@1492070956423/The-XIST-repressor-model-for-the-single-active-X-Our-model-depicts-the-putative-dosage.png)
+![Conteo de cromosomas X en relación a los autosomas](https://www.researchgate.net/publication/316079372/figure/fig1/AS:482594723766273@1492070956423/The-XIST-repressor-model-for-the-single-active-X-Our-model-depicts-the-putative-dosage.png){width=60%}
 
 En adición, dada la amplitud de los genomas, es necesario reducir los
 candidatos a este factor, por lo que nos podemos referir a una serie de
@@ -59,7 +60,7 @@ estudios recientes en genomas humanos que sugiere que este factor puede
 encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo
 corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma [@migeon2017].
 
-![Regiones de interés en el cromosoma 19 humano](https://journals.plos.org/plosone/article/figure/image?size=inline&id=10.1371/journal.pone.0170403.g003)
+![Regiones de interés en el cromosoma 19 humano. Tomado de @migeon2017.](imgs/blocking-factor.png){width=70%}
 
 Nuestro objetivo es hallar este factor de conteo autosómico mediante el
 análisis con herramientas computacionales y bases de datos disponibles en
