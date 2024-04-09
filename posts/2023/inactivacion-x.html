@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -64,13 +65,22 @@ div.csl-indent {
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Sin resultados",
     "search-matching-documents-text": "documentos encontrados",
@@ -79,6 +89,7 @@ div.csl-indent {
     "search-more-match-text": "resultado adicional en este documento",
     "search-more-matches-text": "resultados adicionales en este documento",
     "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancelar",
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
@@ -89,18 +100,17 @@ div.csl-indent {
 <link rel="stylesheet" href="../../styles.css">
 <meta name="twitter:title" content="Grupo de Biología Computacional - Proyecto de la inactivación del X">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://slideplayer.es/14598364/90/images/slide_10.jpg">
 <meta name="twitter:creator" content="@Nesper94">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Grupo de Biología Computacional</span>
     </a>
@@ -112,64 +122,64 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../integrantes.html" rel="" target=""><i class="bi bi-people-fill" role="img">
+    <a class="nav-link" href="../../integrantes.html"> <i class="bi bi-people-fill" role="img">
 </i> 
- <span class="menu-text">Integrantes</span></a>
+<span class="menu-text">Integrantes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../proyectos.html" rel="" target=""><i class="bi bi-terminal-fill" role="img">
+    <a class="nav-link" href="../../proyectos.html"> <i class="bi bi-terminal-fill" role="img">
 </i> 
- <span class="menu-text">Proyectos</span></a>
+<span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../club-de-revista.html" rel="" target=""><i class="bi bi-easel3-fill" role="img">
+    <a class="nav-link" href="../../club-de-revista.html"> <i class="bi bi-easel3-fill" role="img">
 </i> 
- <span class="menu-text">Club de Revista</span></a>
+<span class="menu-text">Club de Revista</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cursos" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cursos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-journal-code" role="img">
 </i> 
  <span class="menu-text">Cursos</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-cursos">    
         <li>
-    <a class="dropdown-item" href="../../cursos/cursos.html" rel="" target=""><i class="bi bi-laptop" role="img">
+    <a class="dropdown-item" href="../../cursos/cursos.html"><i class="bi bi-laptop" role="img">
 </i> 
  <span class="dropdown-text">Cursos y talleres</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cursos/curso-linux.html" rel="" target=""><i class="bi bi-terminal" role="img">
+    <a class="dropdown-item" href="../../cursos/curso-linux.html"><i class="bi bi-terminal" role="img">
 </i> 
  <span class="dropdown-text">Curso Linux</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cursos/curso-python.html" rel="" target="">
+    <a class="dropdown-item" href="../../cursos/curso-python.html">
  <span class="dropdown-text"><i class="fa-brands fa-python" aria-label="python"></i> Curso Python</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target=""><i class="bi bi-pencil-square" role="img">
+    <a class="nav-link" href="../../posts.html"> <i class="bi bi-pencil-square" role="img">
 </i> 
- <span class="menu-text">Posts</span></a>
+<span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news.html" rel="" target=""><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="../../news.html"> <i class="bi bi-newspaper" role="img">
 </i> 
- <span class="menu-text">Noticias</span></a>
+<span class="menu-text">Noticias</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="mailto:biologiacomputacional42@gmail.com" rel="" title="Envíanos un email" class="quarto-navigation-tool px-1" aria-label="Envíanos un email"><i class="bi bi-envelope-fill"></i></a>
-    <a href="https://mastodon.social/(biocomputacional?)" rel="" title="Síguenos en Mastodon" class="quarto-navigation-tool px-1" aria-label="Síguenos en Mastodon"><i class="bi bi-mastodon"></i></a>
-    <a href="https://t.me/biologia_computacional" rel="" title="Únete a nuestro grupo en Telegram" class="quarto-navigation-tool px-1" aria-label="Únete a nuestro grupo en Telegram"><i class="bi bi-telegram"></i></a>
-    <a href="https://twitter.com/biocomp42" rel="" title="Síguenos en Twitter" class="quarto-navigation-tool px-1" aria-label="Síguenos en Twitter"><i class="bi bi-twitter"></i></a>
-    <a href="https://www.facebook.com/groups/biologiacomputacional" rel="" title="Síguenos en Facebook" class="quarto-navigation-tool px-1" aria-label="Síguenos en Facebook"><i class="bi bi-facebook"></i></a>
-    <a href="https://github.com/Biologia-Computacional" rel="" title="Mira nuestro GitHub" class="quarto-navigation-tool px-1" aria-label="Mira nuestro GitHub"><i class="bi bi-github"></i></a>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools tools-wide">
+    <a href="mailto:biologiacomputacional42@gmail.com" title="Envíanos un email" class="quarto-navigation-tool px-1" aria-label="Envíanos un email"><i class="bi bi-envelope-fill"></i></a>
+    <a href="https://mastodon.social/@biocomputacional" title="Síguenos en Mastodon" class="quarto-navigation-tool px-1" aria-label="Síguenos en Mastodon"><i class="bi bi-mastodon"></i></a>
+    <a href="https://t.me/biologia_computacional" title="Únete a nuestro grupo en Telegram" class="quarto-navigation-tool px-1" aria-label="Únete a nuestro grupo en Telegram"><i class="bi bi-telegram"></i></a>
+    <a href="https://twitter.com/biocomp42" title="Síguenos en Twitter" class="quarto-navigation-tool px-1" aria-label="Síguenos en Twitter"><i class="bi bi-twitter"></i></a>
+    <a href="https://www.facebook.com/groups/biologiacomputacional" title="Síguenos en Facebook" class="quarto-navigation-tool px-1" aria-label="Síguenos en Facebook"><i class="bi bi-facebook"></i></a>
+    <a href="https://github.com/Biologia-Computacional" title="Mira nuestro GitHub" class="quarto-navigation-tool px-1" aria-label="Mira nuestro GitHub"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -178,7 +188,7 @@ div.csl-indent {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="../../imgs/profile.png" class="img-fluid"></p>
+<p><a href="../../imgs/profile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../../imgs/profile.png" class="img-fluid"></a></p>
 </div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
@@ -222,7 +232,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <p>Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios.</p>
 <section id="búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización" class="level2">
@@ -231,32 +243,37 @@ div.csl-indent {
 <p>El resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un <strong>cuerpo de Barr</strong> <span class="citation" data-cites="barr1949">(<a href="#ref-barr1949" role="doc-biblioref">Barr y Bertram 1949</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://slideplayer.es/14598364/90/images/slide_10.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">corpusculo de Barr</figcaption>
+<p><a href="https://slideplayer.es/14598364/90/images/slide_10.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Corpúsculo de Barr"><img src="https://slideplayer.es/14598364/90/images/slide_10.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Corpúsculo de Barr"></a></p>
+<figcaption>Corpúsculo de Barr</figcaption>
 </figure>
 </div>
 <p>En el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de <em>conteo</em> de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la <em>elección</em> de cual de ellos silenciará y dará <em>inicio</em> a la expresión del <strong>Xist</strong>, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un <em>esparcimiento</em> a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el <em>establecimiento</em>.</p>
 <p>Aquí nos centramos en los pasos de conteo y elección de los futuros cromosomas X activo <strong>Xa</strong> e inactivo <strong>Xi</strong>, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://www.researchgate.net/publication/316079372/figure/fig1/AS:482594723766273@1492070956423/The-XIST-repressor-model-for-the-single-active-X-Our-model-depicts-the-putative-dosage.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">conteo de cromosomas X en relación a los autosomas</figcaption>
+<p><a href="https://www.researchgate.net/publication/316079372/figure/fig1/AS:482594723766273@1492070956423/The-XIST-repressor-model-for-the-single-active-X-Our-model-depicts-the-putative-dosage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Conteo de cromosomas X en relación a los autosomas"><img src="https://www.researchgate.net/publication/316079372/figure/fig1/AS:482594723766273@1492070956423/The-XIST-repressor-model-for-the-single-active-X-Our-model-depicts-the-putative-dosage.png" class="img-fluid figure-img" style="width:60.0%" alt="Conteo de cromosomas X en relación a los autosomas"></a></p>
+<figcaption>Conteo de cromosomas X en relación a los autosomas</figcaption>
 </figure>
 </div>
 <p>En adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma <span class="citation" data-cites="migeon2017">(<a href="#ref-migeon2017" role="doc-biblioref">Migeon 2017</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://journals.plos.org/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0170403.g003" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Regiones de interés en el cromosoma 19 humano</figcaption>
+<p><a href="imgs/blocking-factor.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3" title="Regiones de interés en el cromosoma 19 humano. Tomado de @migeon2017."><img src="imgs/blocking-factor.png" class="img-fluid figure-img" style="width:70.0%" alt="Regiones de interés en el cromosoma 19 humano. Tomado de Migeon (2017)."></a></p>
+<figcaption>Regiones de interés en el cromosoma 19 humano. Tomado de <span class="citation" data-cites="migeon2017">Migeon (<a href="#ref-migeon2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>Nuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Corpúsculo de Barr</span>
+<span class="glightbox-desc lightbox-desc-2">Conteo de cromosomas X en relación a los autosomas</span>
+<span class="glightbox-desc lightbox-desc-3">Regiones de interés en el cromosoma 19 humano. Tomado de <span class="citation" data-cites="migeon2017">Migeon (<a href="#ref-migeon2017" role="doc-biblioref">2017</a>)</span>.</span>
+</div>
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-barr1949" class="csl-entry" role="listitem">
 Barr, Murray L., y Ewart G. Bertram. 1949. <span>«A <span>Morphological Distinction</span> Between <span>Neurones</span> of the <span>Male</span> and <span>Female</span>, and the <span>Behaviour</span> of the <span>Nucleolar Satellite</span> During <span>Accelerated Nucleoprotein Synthesis</span>»</span>. <em>Nature</em> 163 (4148): 676-77. <a href="https://doi.org/10.1038/163676a0">https://doi.org/10.1038/163676a0</a>.
 </div>
@@ -308,6 +325,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -376,13 +420,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -461,10 +507,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/Biologia-Computacional\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -474,8 +537,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -487,7 +559,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -531,6 +726,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -556,6 +752,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -616,6 +838,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
 
 
 
