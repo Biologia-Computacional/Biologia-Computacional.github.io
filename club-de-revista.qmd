@@ -1,14 +1,11 @@
 ---
 title: "Club de Revista"
-permalink: /club-de-revista/
-share: true
-tags:
-  - FEnFiSDi
-  - Research 
 date-modified: last-modified
 ---
 
-Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia.
+Te invitamos a participar en nuestro club de revista donde discutimos las
+últimas investigaciones y avances de la ciencia. Cualquier persona puede
+asistir.
 
 **Horario:** Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\
 **Lugar:** Salón 7-305, Instituto de Biología, Universidad de Antioquia
@@ -29,7 +26,6 @@ cdr |> gt() |>
   fmt_date(Fecha, date_style = 'MMMMd', locale = 'es') |>
   fmt_time('Hora de inicio', time_style = 'iso-short') |>
   cols_align(align = 'center') |>
-  fmt_markdown(
-    columns = c(Artículo)
-  )
+  fmt_markdown(columns = c(Artículo)) |>
+  cols_width( Artículo ~ pct(35) )
 ```
