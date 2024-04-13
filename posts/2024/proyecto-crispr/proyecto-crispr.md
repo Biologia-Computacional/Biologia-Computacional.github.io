@@ -37,8 +37,11 @@ Charpentier identificó que una molécula previamente conocida como ARNtracr
 era parte de los sistemas CRISPR/Cas cuya función **canónica** es conferir
 resistencia a patógenos externos como los virus, con base en esto
 Charpentier y Doudna recrearon las “tijeras genéticas” de las bacterias en
-un tubo de ensayo y revolucionaron la historia de la medicina. [Alcalde,
-2020]
+un tubo de ensayo y revolucionaron la historia de la medicina
+[@alcalde2020].
+
+![Emmanuelle Charpentier y Jennifer
+Doudna](doudna-charpentier.jpg){width=80%}
 
 Los sistemas CRISPR/Cas funcionan como sistemas inmunes en las bacterias y
 arqueas; estos les permiten defenderse de virus que las han infectado
