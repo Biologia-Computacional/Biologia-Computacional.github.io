@@ -11,7 +11,8 @@ Conoce en qué temas estamos trabajando.
 - [Factores autosómicos implicados en la inactivación del cromosoma
   X](/posts/2023/inactivacion-x.md).
 - Representación del ADN en aplicaciones de Machine Learning.
-- Espaciadores autodirigidos y nuevas funciones de los sistemas CRISPR.
+- [Espaciadores autodirigidos y nuevas funciones de los sistemas
+  CRISPR](/posts/2024/proyecto-crispr/proyecto-crispr.md).
 
 ## Proyectos anteriores
 
