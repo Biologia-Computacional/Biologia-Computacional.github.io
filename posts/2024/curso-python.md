@@ -11,6 +11,7 @@ categories:
   - Cursos
   - Educación
   - Python
+lightbox: true
 ---
 
 Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio
