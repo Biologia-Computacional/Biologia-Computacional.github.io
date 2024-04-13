@@ -27,7 +27,8 @@ website:
       - text: 'Posts'
         url: posts.md
         icon: pencil-square
-      - url: news.md
+      - text: 'Noticias'
+        url: news.md
         icon: newspaper
     tools:
       - icon: envelope-fill

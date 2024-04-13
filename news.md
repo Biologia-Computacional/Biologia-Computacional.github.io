@@ -1,5 +1,5 @@
 ---
-title: "Noticias"
+title: "Noticias ![](/imgs/undraw_happy_news_re_tsbd.svg){width=80px}"
 date-modified: last-modified
 ---
 
