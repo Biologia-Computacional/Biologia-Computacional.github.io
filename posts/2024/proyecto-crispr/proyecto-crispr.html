@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="María de los Ángeles Benavides Guaca">
+<meta name="author" content="Ana María López Pérez">
+<meta name="author" content="Haminton Alexander Poveda Alonso">
+<meta name="description" content="¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?">
 
-<title>Grupo de Biología Computacional - Proyecto de la inactivación del X</title>
+<title>Grupo de Biología Computacional - Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -44,30 +46,30 @@ div.csl-indent {
 }</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../..//imgs/favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../..//imgs/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,11 +99,12 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="Grupo de Biología Computacional - Proyecto de la inactivación del X">
-<meta name="twitter:description" content="">
+<link rel="stylesheet" href="../../../styles.css">
+<meta name="twitter:title" content="Grupo de Biología Computacional - Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR">
+<meta name="twitter:description" content="¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?">
+<meta name="twitter:image" content="https://Biologia-Computacional.github.io/posts/2024/proyecto-crispr/crispr.webp">
 <meta name="twitter:creator" content="@Nesper94">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -111,7 +114,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Grupo de Biología Computacional</span>
     </a>
   </div>
@@ -122,17 +125,17 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../integrantes.html"> <i class="bi bi-people-fill" role="img">
+    <a class="nav-link" href="../../../integrantes.html"> <i class="bi bi-people-fill" role="img">
 </i> 
 <span class="menu-text">Integrantes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../proyectos.html"> <i class="bi bi-terminal-fill" role="img">
+    <a class="nav-link" href="../../../proyectos.html"> <i class="bi bi-terminal-fill" role="img">
 </i> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../club-de-revista.html"> <i class="bi bi-easel3-fill" role="img">
+    <a class="nav-link" href="../../../club-de-revista.html"> <i class="bi bi-easel3-fill" role="img">
 </i> 
 <span class="menu-text">Club de Revista</span></a>
   </li>  
@@ -144,28 +147,28 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-cursos">    
         <li>
-    <a class="dropdown-item" href="../../cursos/cursos.html"><i class="bi bi-laptop" role="img">
+    <a class="dropdown-item" href="../../../cursos/cursos.html"><i class="bi bi-laptop" role="img">
 </i> 
  <span class="dropdown-text">Cursos y talleres</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cursos/curso-linux.html"><i class="bi bi-terminal" role="img">
+    <a class="dropdown-item" href="../../../cursos/curso-linux.html"><i class="bi bi-terminal" role="img">
 </i> 
  <span class="dropdown-text">Curso Linux</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cursos/curso-python.html">
+    <a class="dropdown-item" href="../../../cursos/curso-python.html">
  <span class="dropdown-text"><i class="fa-brands fa-python" aria-label="python"></i> Curso Python</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> <i class="bi bi-pencil-square" role="img">
+    <a class="nav-link" href="../../../posts.html"> <i class="bi bi-pencil-square" role="img">
 </i> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news.html"> <i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="../../../news.html"> <i class="bi bi-newspaper" role="img">
 </i> 
 <span class="menu-text">Noticias</span></a>
   </li>  
@@ -188,13 +191,14 @@ div.csl-indent {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><a href="../../imgs/profile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../../imgs/profile.png" class="img-fluid"></a></p>
+<p><a href="../../../imgs/profile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../../../imgs/profile.png" class="img-fluid"></a></p>
 </div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización" id="toc-búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización" class="nav-link active" data-scroll-target="#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización">Búsqueda del factor autosómico responsable del X activo en la lionización</a></li>
+  <li><a href="#qué-son-los-sistemas-crispr" id="toc-qué-son-los-sistemas-crispr" class="nav-link active" data-scroll-target="#qué-son-los-sistemas-crispr">¿Qué son los sistemas CRISPR?</a></li>
+  <li><a href="#el-fenómeno-del-self-targeting" id="toc-el-fenómeno-del-self-targeting" class="nav-link" data-scroll-target="#el-fenómeno-del-self-targeting">El fenómeno del “self-targeting”</a></li>
   </ul>
 </nav>
     </div>
@@ -203,28 +207,36 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Proyecto de la inactivación del X</h1>
+<h1 class="title">Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Inactivación del X</div>
     <div class="quarto-category">Biología computacional</div>
+    <div class="quarto-category">CRISPR</div>
+    <div class="quarto-category">Bioinformática</div>
+    <div class="quarto-category">Investigación</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    ¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-heading">Autores/as</div>
     <div class="quarto-title-meta-contents">
-             <p>María de los Ángeles Benavides Guaca </p>
+             <p><a href="../../../members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.html">Ana María López Pérez</a> <a href="mailto:ana.lopez23@udea.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+             <p><a href="../../../members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.html">Haminton Alexander Poveda Alonso</a> <a href="mailto:alexander.poveda@udea.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2 de octubre de 2023</p>
+      <p class="date">12 de abril de 2024</p>
     </div>
   </div>
   
@@ -236,52 +248,46 @@ div.csl-indent {
 </header>
 
 
-<p>Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios.</p>
-<section id="búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización" class="level2">
-<h2 class="anchored" data-anchor-id="búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización">Búsqueda del factor autosómico responsable del X activo en la lionización</h2>
-<p>La lionización, nombre por el que también se conoce <strong>el silenciamiento del cromosoma X</strong> en hembras mamíferas placentarias fue descubierto por la genetista <strong>Mary Lyon</strong> en 1961 <span class="citation" data-cites="lyon1961">(<a href="#ref-lyon1961" role="doc-biblioref">Lyon 1961</a>)</span>. Es un proceso crucial en el temprano desarrollo embrionario porque produce la <strong>igualación de expresión de genes</strong> ya que el sexo en estos organismos esta definido por la combinación de un par de cromosomas sexuales <em>X</em> y <em>Y</em>, hembras XX y machos XY. El cromosoma X, que posee alrededor de 1000 genes más que el Y, lo supera con creces, por lo que el silenciamiento de uno de los X en las mamíferas es uno de los tantos mecanismos de dosis de compensación que se han desarrollado en animales que tienen este problema.</p>
-<p>El resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un <strong>cuerpo de Barr</strong> <span class="citation" data-cites="barr1949">(<a href="#ref-barr1949" role="doc-biblioref">Barr y Bertram 1949</a>)</span>.</p>
+<section id="qué-son-los-sistemas-crispr" class="level2">
+<h2 class="anchored" data-anchor-id="qué-son-los-sistemas-crispr">¿Qué son los sistemas CRISPR?</h2>
+<p>En los últimos años, CRISPR ha tomado gran relevancia en el ámbito de la biología gracias al enorme potencial en edición genómica mostrado por las “tijeras genéticas” CRISPR-Cas9, que fueron desarrolladas por Emmanuelle Charpentier y Jennifer A. Doudna lo que las hizo acreedoras del premio Nobel de Química en el año 2020; su trabajo publicado en el año 2012 titulado: <em>“A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity”</em> dio la vuelta al mundo y fue de gran importancia para el desarrollo de este método de edición genómica. El descubrimiento principal para la creación de esta herramienta se dio por casualidad: durante los estudios de Emmanuelle Charpentier sobre el patógeno <em>Streptococcus pyogenes</em>, Charpentier identificó que una molécula previamente conocida como ARNtracr era parte de los sistemas CRISPR/Cas cuya función <strong>canónica</strong> es conferir resistencia a patógenos externos como los virus, con base en esto Charpentier y Doudna recrearon las “tijeras genéticas” de las bacterias en un tubo de ensayo y revolucionaron la historia de la medicina <span class="citation" data-cites="alcalde2020">(<a href="#ref-alcalde2020" role="doc-biblioref">Alcalde 2020</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://slideplayer.es/14598364/90/images/slide_10.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Corpúsculo de Barr"><img src="https://slideplayer.es/14598364/90/images/slide_10.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Corpúsculo de Barr"></a></p>
-<figcaption>Corpúsculo de Barr</figcaption>
+<p><a href="doudna-charpentier.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Emmanuelle Charpentier y Jennifer Doudna"><img src="doudna-charpentier.jpg" class="img-fluid figure-img" style="width:80.0%" alt="Emmanuelle Charpentier y Jennifer Doudna"></a></p>
+<figcaption>Emmanuelle Charpentier y Jennifer Doudna</figcaption>
 </figure>
 </div>
-<p>En el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de <em>conteo</em> de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la <em>elección</em> de cual de ellos silenciará y dará <em>inicio</em> a la expresión del <strong>Xist</strong>, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un <em>esparcimiento</em> a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el <em>establecimiento</em>.</p>
-<p>Aquí nos centramos en los pasos de conteo y elección de los futuros cromosomas X activo <strong>Xa</strong> e inactivo <strong>Xi</strong>, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.</p>
+<p>Los sistemas CRISPR/Cas funcionan como sistemas inmunes en las bacterias y arqueas; estos les permiten defenderse de virus que las han infectado previamente: ¡tienen memoria! CRISPR por sus siglas en inglés Clustered Regularly Interspaced Short Palindromic Repeats son una serie de secuencias de ADN presentes en el genoma de algunos organismos procariotas, esta serie de regiones son responsables del funcionamiento del sistema inmune que poseen estos organismos contra la integración de material genético exógeno. Este complejo sistema está formado por el <strong>operón Cas</strong> que alberga los datos genéticos necesarios para la producción de las endonucleasas Cas (CRISPR associated) junto con otras proteínas cruciales para el funcionamiento del sistema CRISPR/Cas, además de la <strong>región CRISPR</strong> que contiene repeticiones alternadas con cortas secuencias espaciadoras, las cuales son incorporadas a partir de fuentes externas durante infecciones, estos espaciadores se unen por complementariedad a la secuencia objetivo guiando así a las proteínas Cas asociadas y promoviendo la degradación del material genético exógeno.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.researchgate.net/publication/316079372/figure/fig1/AS:482594723766273@1492070956423/The-XIST-repressor-model-for-the-single-active-X-Our-model-depicts-the-putative-dosage.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Conteo de cromosomas X en relación a los autosomas"><img src="https://www.researchgate.net/publication/316079372/figure/fig1/AS:482594723766273@1492070956423/The-XIST-repressor-model-for-the-single-active-X-Our-model-depicts-the-putative-dosage.png" class="img-fluid figure-img" style="width:60.0%" alt="Conteo de cromosomas X en relación a los autosomas"></a></p>
-<figcaption>Conteo de cromosomas X en relación a los autosomas</figcaption>
+<p><a href="crispr.webp" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="@ghorbani2021"><img src="crispr.webp" class="img-fluid figure-img" alt="Ghorbani et&nbsp;al. (2021)"></a></p>
+<figcaption><span class="citation" data-cites="ghorbani2021">Ghorbani et&nbsp;al. (<a href="#ref-ghorbani2021" role="doc-biblioref">2021</a>)</span></figcaption>
 </figure>
 </div>
-<p>En adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma <span class="citation" data-cites="migeon2017">(<a href="#ref-migeon2017" role="doc-biblioref">Migeon 2017</a>)</span>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="imgs/blocking-factor.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Regiones de interés en el cromosoma 19 humano. Tomado de @migeon2017."><img src="imgs/blocking-factor.png" class="img-fluid figure-img" style="width:70.0%" alt="Regiones de interés en el cromosoma 19 humano. Tomado de Migeon (2017)."></a></p>
-<figcaption>Regiones de interés en el cromosoma 19 humano. Tomado de <span class="citation" data-cites="migeon2017">Migeon (<a href="#ref-migeon2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
-</figure>
-</div>
-<p>Nuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea.</p>
+</section>
+<section id="el-fenómeno-del-self-targeting" class="level2">
+<h2 class="anchored" data-anchor-id="el-fenómeno-del-self-targeting">El fenómeno del “self-targeting”</h2>
+<p>Aunque la principal función conocida de los sistemas CRISPR sea la defensa ante virus, también se han encontrado espaciadores autodirigidos (“self-targeting spacers”), es decir, que son complementarios a partes del propio genoma de la bacteria y presuntamente resultan en una autoinmunidad, esto representa una paradoja para la cual se han propuesto dos posibles soluciones: la primera es que sean “accidentes” biológicos que ocurren al azar y a los cuales la bacteria tiene que hacer frente, mientras que la segunda propone que estén relacionados con <strong>funciones no canónicas</strong>, es decir diferentes a la función inmunitaria de los sistemas CRISPR; estas funciones alternativas son un área de investigación muy poco explorada en biología que podría tener importantes implicaciones en cuanto al conocimiento de los sistemas CRISPR y el desarrollo de interesantes herramientas moleculares. <span class="citation" data-cites="wimmer2020">(<a href="#ref-wimmer2020" role="doc-biblioref">Wimmer y Beisel 2020</a>)</span>.</p>
+<p><a href="self-targeting.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="self-targeting.png" class="img-fluid"></a></p>
+<p>El objetivo de esta línea de investigación es ahondar en el conocimiento de las funciones no canónicas de los sistemas CRISPR y ayudar a dilucidar la paradoja de los espaciadores autodirigidos mediante el uso de herramientas computacionales para el análisis de datos genómicos disponibles en línea. Te invitamos a unirte a este fascinante proyecto de investigación, en el que fusionamos diferentes áreas del conocimiento científico, ¡tu participación podría contribuir significativamente a la comprensión de estos procesos biológicos!</p>
 
 
 <div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Corpúsculo de Barr</span>
-<span class="glightbox-desc lightbox-desc-2">Conteo de cromosomas X en relación a los autosomas</span>
-<span class="glightbox-desc lightbox-desc-3">Regiones de interés en el cromosoma 19 humano. Tomado de <span class="citation" data-cites="migeon2017">Migeon (<a href="#ref-migeon2017" role="doc-biblioref">2017</a>)</span>.</span>
+<span class="glightbox-desc lightbox-desc-1">Emmanuelle Charpentier y Jennifer Doudna</span>
+<span class="glightbox-desc lightbox-desc-2"><span class="citation" data-cites="ghorbani2021">Ghorbani et&nbsp;al. (<a href="#ref-ghorbani2021" role="doc-biblioref">2021</a>)</span></span>
 </div>
 
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-barr1949" class="csl-entry" role="listitem">
-Barr, Murray L., y Ewart G. Bertram. 1949. <span>«A <span>Morphological Distinction</span> Between <span>Neurones</span> of the <span>Male</span> and <span>Female</span>, and the <span>Behaviour</span> of the <span>Nucleolar Satellite</span> During <span>Accelerated Nucleoprotein Synthesis</span>»</span>. <em>Nature</em> 163 (4148): 676-77. <a href="https://doi.org/10.1038/163676a0">https://doi.org/10.1038/163676a0</a>.
+<div id="ref-alcalde2020" class="csl-entry" role="listitem">
+Alcalde, Sergi. 2020. <span>«<span>Premio Nobel de Qu<span>í</span>mica 2020 para las inventoras de las "tijeras gen<span>é</span>ticas"</span>»</span>. <em>www.nationalgeographic.com.es</em>. https://www.nationalgeographic.com.es/ciencia/premio-nobel-quimica-2020-para-inventoras-tijeras-geneticas_15961.
 </div>
-<div id="ref-lyon1961" class="csl-entry" role="listitem">
-Lyon, Mary F. 1961. <span>«Gene <span>Action</span> in the <span>X-chromosome</span> of the <span>Mouse</span> (<span>Mus</span> Musculus <span>L</span>.)»</span>. <em>Nature</em> 190 (4773): 372-73. <a href="https://doi.org/10.1038/190372a0">https://doi.org/10.1038/190372a0</a>.
+<div id="ref-ghorbani2021" class="csl-entry" role="listitem">
+Ghorbani, Abozar, Shima Hadifar, Roya Salari, Keramatollah Izadpanah, Michal Burmistrz, Alireza Afsharifar, Mohammad Hadi Eskandari, Ali Niazi, Christopher E. Denes, y G. Gregory Neely. 2021. <span>«A Short Overview of <span>CRISPR-Cas</span> Technology and Its Application in Viral Disease Control»</span>. <em>Transgenic Research</em> 30 (3): 221-38. <a href="https://doi.org/10.1007/s11248-021-00247-w">https://doi.org/10.1007/s11248-021-00247-w</a>.
 </div>
-<div id="ref-migeon2017" class="csl-entry" role="listitem">
-Migeon, Michael A. AND Bjornsson, Barbara R. AND Beer. 2017. <span>«Embryonic loss of human females with partial trisomy 19 identifies region critical for the single active X»</span>. <em>PLOS ONE</em> 12 (4): 1-17. <a href="https://doi.org/10.1371/journal.pone.0170403">https://doi.org/10.1371/journal.pone.0170403</a>.
+<div id="ref-wimmer2020" class="csl-entry" role="listitem">
+Wimmer, Franziska, y Chase L. Beisel. 2020. <span>«<span>CRISPR-Cas Systems</span> and the <span>Paradox</span> of <span>Self-Targeting Spacers</span>»</span>. <em>Frontiers in Microbiology</em> 10. <a href="https://doi.org/10.3389/fmicb.2019.03078">https://doi.org/10.3389/fmicb.2019.03078</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -838,7 +844,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

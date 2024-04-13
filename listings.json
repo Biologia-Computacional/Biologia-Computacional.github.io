@@ -1,5 +1,16 @@
 [
   {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2024/proyecto-crispr/proyecto-crispr.html",
+      "/posts/2024/curso-python.html",
+      "/posts/2023/inactivacion-x.html",
+      "/posts/2023/instalación-linux.html",
+      "/posts/2023/curso-linux.html",
+      "/posts/2023/bienvenida.html"
+    ]
+  },
+  {
     "listing": "/integrantes.html",
     "items": [
       "/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.html",
@@ -16,16 +27,6 @@
       "/members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
       "/members/current/tomás-duque-rueda/tomás-duque-rueda.html",
       "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html"
-    ]
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2024/curso-python.html",
-      "/posts/2023/inactivacion-x.html",
-      "/posts/2023/instalación-linux.html",
-      "/posts/2023/curso-linux.html",
-      "/posts/2023/bienvenida.html"
     ]
   }
 ]
