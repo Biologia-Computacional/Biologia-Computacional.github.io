@@ -128,8 +128,9 @@ rápidamente apretar continuamente una tecla como F2 o F12.
 Luego de hacer procede a apagar tu equipo, luego conecta la USB con Linux y
 luego procede a acceder a la BIOS.
 
-Cada BIOS es diferente, pero debes buscar una sección llamada "Boot" y
-desde allí indicarle a tu computador que arranque el sistema desde la USB.
+Cada BIOS es diferente, pero debes buscar una sección llamada "Boot" o
+"Arranque" y desde allí indicarle a tu computador que arranque el sistema
+desde la USB.
 
 ## Paso 5: Iniciar el proceso de instalación
 
@@ -157,3 +158,38 @@ tema antes de intentarlo.
 ## Video tutorial
 
 {{< video https://www.youtube.com/watch?v=yMgzz1fvVCc >}}
+
+## Solución de problemas
+
+En caso de que haya algún fallo en la instalación y el computador ya no
+inicie como antes puedes restaurar el cargador de arranque de Windows. Para
+esto necesitarás la última versión de Ubuntu montada en tu memoria USB y
+luego seguir los siguientes pasos:
+
+1. Conecta la USB mientras el computador está apagado y haz que arranque
+   desde la memoria entrando a la BIOS como se indica en el [paso
+   4](#paso-4-acceder-a-la-bios).
+2. Ingresa a la opción "Try Ubuntu without installing" (Probar Ubuntu sin
+   instalar, si esto falla, abre la configuración de la BIOS/UEFI,
+   deshabilita "Secure Boot", e intenta nuevamente).
+3. Una vez Ubuntu arranque, presiona Ctrl+Alt+T para abrir la Terminal.
+4. En la línea de comandos, copia los siguientes comandos y presiona Enter
+   después de cada uno:
+
+```bash
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo apt update
+sudo apt install boot-repair
+```
+
+5. Esto debería instalar el programa "Boot Repair", que ahora debe aparecer
+   en el menú de aplicaciones.
+6. Abre este programa y elige "Recommended repair" y espera hasta que
+   termine.
+
+Esto debería arreglar el cargador de arranque, luego puedes apagar el
+computador, desconectar la USB y volverlo a encender.
+
+En [este enlace](https://windowsreport.com/windows-10-bootloader-linux/)
+puedes ver las instrucciones del proceso, al igual que otras opciones de
+reparación.
