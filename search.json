@@ -39,7 +39,7 @@
     "href": "posts/2023/instalación-linux.html#paso-4-acceder-a-la-bios",
     "title": "Tutorial de instalación de Linux",
     "section": "Paso 4: Acceder a la BIOS",
-    "text": "Paso 4: Acceder a la BIOS\nCon el nuevo espacio en el disco duro listo para instalar Linux en él, solo tenemos que arrancar nuestro computador desde la USB que creamos en el paso 2. Para esto debemos buscar en Google cómo acceder a la BIOS en nuestro modelo de computador, puesto que el proceso puede ser diferente entre diferentes equipos, pero básicamente consiste en apagar el equipo, luego apretar el botón de encendido y rápidamente apretar continuamente una tecla como F2 o F12.\nLuego de hacer procede a apagar tu equipo, luego conecta la USB con Linux y luego procede a acceder a la BIOS.\nCada BIOS es diferente, pero debes buscar una sección llamada “Boot” y desde allí indicarle a tu computador que arranque el sistema desde la USB."
+    "text": "Paso 4: Acceder a la BIOS\nCon el nuevo espacio en el disco duro listo para instalar Linux en él, solo tenemos que arrancar nuestro computador desde la USB que creamos en el paso 2. Para esto debemos buscar en Google cómo acceder a la BIOS en nuestro modelo de computador, puesto que el proceso puede ser diferente entre diferentes equipos, pero básicamente consiste en apagar el equipo, luego apretar el botón de encendido y rápidamente apretar continuamente una tecla como F2 o F12.\nLuego de hacer procede a apagar tu equipo, luego conecta la USB con Linux y luego procede a acceder a la BIOS.\nCada BIOS es diferente, pero debes buscar una sección llamada “Boot” o “Arranque” y desde allí indicarle a tu computador que arranque el sistema desde la USB."
   },
   {
     "objectID": "posts/2023/instalación-linux.html#paso-5-iniciar-el-proceso-de-instalación",
@@ -54,6 +54,13 @@
     "title": "Tutorial de instalación de Linux",
     "section": "Video tutorial",
     "text": "Video tutorial"
+  },
+  {
+    "objectID": "posts/2023/instalación-linux.html#solución-de-problemas",
+    "href": "posts/2023/instalación-linux.html#solución-de-problemas",
+    "title": "Tutorial de instalación de Linux",
+    "section": "Solución de problemas",
+    "text": "Solución de problemas\nEn caso de que haya algún fallo en la instalación y el computador ya no inicie como antes puedes restaurar el cargador de arranque de Windows. Para esto necesitarás la última versión de Ubuntu montada en tu memoria USB y luego seguir los siguientes pasos:\n\nConecta la USB mientras el computador está apagado y haz que arranque desde la memoria entrando a la BIOS como se indica en el paso 4.\nIngresa a la opción “Try Ubuntu without installing” (Probar Ubuntu sin instalar, si esto falla, abre la configuración de la BIOS/UEFI, deshabilita “Secure Boot”, e intenta nuevamente).\nUna vez Ubuntu arranque, presiona Ctrl+Alt+T para abrir la Terminal.\nEn la línea de comandos, copia los siguientes comandos y presiona Enter después de cada uno:\n\nsudo add-apt-repository ppa:yannubuntu/boot-repair\nsudo apt update\nsudo apt install boot-repair\n\nEsto debería instalar el programa “Boot Repair”, que ahora debe aparecer en el menú de aplicaciones.\nAbre este programa y elige “Recommended repair” y espera hasta que termine.\n\nEsto debería arreglar el cargador de arranque, luego puedes apagar el computador, desconectar la USB y volverlo a encender.\nEn este enlace puedes ver las instrucciones del proceso, al igual que otras opciones de reparación."
   },
   {
     "objectID": "posts/2023/curso-linux.html",

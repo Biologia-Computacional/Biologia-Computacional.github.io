@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -178,6 +212,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#paso-4-acceder-a-la-bios" id="toc-paso-4-acceder-a-la-bios" class="nav-link" data-scroll-target="#paso-4-acceder-a-la-bios">Paso 4: Acceder a la BIOS</a></li>
   <li><a href="#paso-5-iniciar-el-proceso-de-instalación" id="toc-paso-5-iniciar-el-proceso-de-instalación" class="nav-link" data-scroll-target="#paso-5-iniciar-el-proceso-de-instalación">Paso 5: Iniciar el proceso de instalación</a></li>
   <li><a href="#video-tutorial" id="toc-video-tutorial" class="nav-link" data-scroll-target="#video-tutorial">Video tutorial</a></li>
+  <li><a href="#solución-de-problemas" id="toc-solución-de-problemas" class="nav-link" data-scroll-target="#solución-de-problemas">Solución de problemas</a></li>
   </ul>
 </nav>
     </div>
@@ -296,7 +331,7 @@ Nota
 <h2 class="anchored" data-anchor-id="paso-4-acceder-a-la-bios">Paso 4: Acceder a la BIOS</h2>
 <p>Con el nuevo espacio en el disco duro listo para instalar Linux en él, solo tenemos que arrancar nuestro computador desde la USB que creamos en el <a href="#paso-2-crear-una-usb-booteable">paso 2</a>. Para esto debemos buscar en Google cómo acceder a la BIOS en nuestro modelo de computador, puesto que el proceso puede ser diferente entre diferentes equipos, pero básicamente consiste en apagar el equipo, luego apretar el botón de encendido y rápidamente apretar continuamente una tecla como F2 o F12.</p>
 <p>Luego de hacer procede a apagar tu equipo, luego conecta la USB con Linux y luego procede a acceder a la BIOS.</p>
-<p>Cada BIOS es diferente, pero debes buscar una sección llamada “Boot” y desde allí indicarle a tu computador que arranque el sistema desde la USB.</p>
+<p>Cada BIOS es diferente, pero debes buscar una sección llamada “Boot” o “Arranque” y desde allí indicarle a tu computador que arranque el sistema desde la USB.</p>
 </section>
 <section id="paso-5-iniciar-el-proceso-de-instalación" class="level2">
 <h2 class="anchored" data-anchor-id="paso-5-iniciar-el-proceso-de-instalación">Paso 5: Iniciar el proceso de instalación</h2>
@@ -320,6 +355,25 @@ Nota
 <section id="video-tutorial" class="level2">
 <h2 class="anchored" data-anchor-id="video-tutorial">Video tutorial</h2>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yMgzz1fvVCc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="solución-de-problemas" class="level2">
+<h2 class="anchored" data-anchor-id="solución-de-problemas">Solución de problemas</h2>
+<p>En caso de que haya algún fallo en la instalación y el computador ya no inicie como antes puedes restaurar el cargador de arranque de Windows. Para esto necesitarás la última versión de Ubuntu montada en tu memoria USB y luego seguir los siguientes pasos:</p>
+<ol type="1">
+<li>Conecta la USB mientras el computador está apagado y haz que arranque desde la memoria entrando a la BIOS como se indica en el <a href="#paso-4-acceder-a-la-bios">paso 4</a>.</li>
+<li>Ingresa a la opción “Try Ubuntu without installing” (Probar Ubuntu sin instalar, si esto falla, abre la configuración de la BIOS/UEFI, deshabilita “Secure Boot”, e intenta nuevamente).</li>
+<li>Una vez Ubuntu arranque, presiona Ctrl+Alt+T para abrir la Terminal.</li>
+<li>En la línea de comandos, copia los siguientes comandos y presiona Enter después de cada uno:</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> add-apt-repository ppa:yannubuntu/boot-repair</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install boot-repair</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="5" type="1">
+<li>Esto debería instalar el programa “Boot Repair”, que ahora debe aparecer en el menú de aplicaciones.</li>
+<li>Abre este programa y elige “Recommended repair” y espera hasta que termine.</li>
+</ol>
+<p>Esto debería arreglar el cargador de arranque, luego puedes apagar el computador, desconectar la USB y volverlo a encender.</p>
+<p>En <a href="https://windowsreport.com/windows-10-bootloader-linux/">este enlace</a> puedes ver las instrucciones del proceso, al igual que otras opciones de reparación.</p>
 
 
 </section>
