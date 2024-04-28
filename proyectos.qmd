@@ -1,5 +1,5 @@
 ---
-title: "Proyectos"
+title: "Proyectos ![](/imgs/undraw_pair_programming.svg){width=120px}"
 date-modified: last-modified
 ---
 

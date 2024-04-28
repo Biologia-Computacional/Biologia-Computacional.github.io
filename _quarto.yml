@@ -10,6 +10,7 @@ website:
       - url: integrantes.md
         icon: people-fill
       - url: proyectos.qmd
+        text: 'Proyectos'
         icon: terminal-fill
       - url: club-de-revista.qmd
         icon: easel3-fill
