@@ -29,3 +29,5 @@ cdr |> gt() |>
   fmt_markdown(columns = c(Artículo)) |>
   cols_width( Artículo ~ pct(35) )
 ```
+[Descarga el archivo iCal para añadir este evento a tu
+calendario](club-de-revista.ics)
