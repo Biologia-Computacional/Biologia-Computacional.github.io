@@ -7,6 +7,8 @@ about:
     - icon: envelope-fill
       text: Email
       href: mailto:salomon.bonilla@udea.edu.co
+    - text: "{{< fa brands orcid >}} ORCID"
+      href: https://orcid.org/0009-0007-6823-6254
 ---
 
 Soy estudiante de pregrado de biología de la Universidad de Antioquia, Soy

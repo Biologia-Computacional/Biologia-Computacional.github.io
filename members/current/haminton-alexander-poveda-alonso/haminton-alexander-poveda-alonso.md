@@ -8,6 +8,8 @@ about:
     - icon: envelope-fill
       text: Email
       href: mailto:alexander.poveda@udea.edu.co
+    - text: "{{< fa brands orcid >}} ORCID"
+      href: https://orcid.org/0009-0007-6169-4703
 ---
 
 Soy un estudiante de biología apasionado por la complejidad del mundo
