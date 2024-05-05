@@ -6,7 +6,7 @@ lang: es
 website:
   title: "Grupo de Biología Computacional"
   navbar:
-    left:
+    right:
       - url: integrantes.md
         icon: people-fill
       - url: proyectos.qmd
