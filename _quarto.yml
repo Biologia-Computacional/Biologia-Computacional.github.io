@@ -14,6 +14,7 @@ website:
         icon: terminal-fill
       - url: club-de-revista.qmd
         icon: easel3-fill
+
       - text: 'Cursos'
         icon: journal-code
         menu:
@@ -25,6 +26,8 @@ website:
             icon: terminal
           - text: '{{< fa brands python >}} Curso Python'
             url: cursos/curso-python.md
+          - url: cursos/material-educativo.md
+
       - text: 'Posts'
         url: posts.md
         icon: pencil-square
