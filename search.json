@@ -277,14 +277,14 @@
     "href": "cursos/material-educativo.html#biología-estructural",
     "title": "Material educativo",
     "section": "Biología estructural",
-    "text": "Biología estructural\n\nCurso de PyMOL\nDinámica molecular con GROMACS"
+    "text": "Biología estructural\n\n Curso de PyMOL\nDinámica molecular con GROMACS"
   },
   {
     "objectID": "cursos/material-educativo.html#rna-seq",
     "href": "cursos/material-educativo.html#rna-seq",
     "title": "Material educativo",
     "section": "RNA-seq",
-    "text": "RNA-seq\n\nAnálisis de datos de RNA-seq con DESeq2\nRNA-seq Tutorial (with Reference Genome)\nDESeq2 para principiantes\nDifferential expression with DEseq2\n\n\nSingle cell RNA-seq\n\nIntroducción al single cell RNA-seq\nAnálisis de single cell RNA-seq con Python"
+    "text": "RNA-seq\n\nTutorial: Análisis de datos de RNA-seq con DESeq2\nRNA-seq Tutorial (with Reference Genome)\n DESeq2 para principiantes\nTutorial: Differential expression with DEseq2\n\n\nSingle cell RNA-seq\n\n Introducción al single cell RNA-seq\n Análisis de single cell RNA-seq con Python"
   },
   {
     "objectID": "cursos/material-educativo.html#linux",
@@ -292,6 +292,13 @@
     "title": "Material educativo",
     "section": "Linux",
     "text": "Linux\n\nTutorial: The Linux command line for beginners"
+  },
+  {
+    "objectID": "cursos/material-educativo.html#bases-de-datos",
+    "href": "cursos/material-educativo.html#bases-de-datos",
+    "title": "Material educativo",
+    "section": "Bases de datos",
+    "text": "Bases de datos\n\nTutorial: Databases and SQL"
   },
   {
     "objectID": "index.html",
