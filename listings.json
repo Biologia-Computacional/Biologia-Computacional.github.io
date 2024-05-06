@@ -28,5 +28,12 @@
       "/posts/2023/curso-linux.html",
       "/posts/2023/bienvenida.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/eventos/iscb-latam-2024/index.html",
+      "/eventos/ubuconLA/index.html"
+    ]
   }
 ]

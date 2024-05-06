@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://Biologia-Computacional.github.io/eventos/iscb-latam-2024/index.html</loc>
+    <lastmod>2024-05-06T01:43:52.342Z</lastmod>
+  </url>
+  <url>
     <loc>https://Biologia-Computacional.github.io/club-de-revista.html</loc>
     <lastmod>2024-04-30T04:30:13.681Z</lastmod>
   </url>
@@ -78,7 +82,7 @@
   </url>
   <url>
     <loc>https://Biologia-Computacional.github.io/index.html</loc>
-    <lastmod>2024-05-04T03:17:54.004Z</lastmod>
+    <lastmod>2024-05-06T02:27:57.509Z</lastmod>
   </url>
   <url>
     <loc>https://Biologia-Computacional.github.io/members/current/tomás-duque-rueda/tomás-duque-rueda.html</loc>
@@ -119,5 +123,9 @@
   <url>
     <loc>https://Biologia-Computacional.github.io/posts/2023/bienvenida.html</loc>
     <lastmod>2024-03-02T14:46:43.954Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biologia-Computacional.github.io/eventos/ubuconLA/index.html</loc>
+    <lastmod>2024-05-06T01:44:07.223Z</lastmod>
   </url>
 </urlset>

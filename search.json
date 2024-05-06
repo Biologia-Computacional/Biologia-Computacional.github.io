@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "eventos/iscb-latam-2024/index.html",
+    "href": "eventos/iscb-latam-2024/index.html",
+    "title": "Congreso ISCB SoIBio CCBCOL 2024",
+    "section": "",
+    "text": "Este año tendremos en Medellín el único congreso de Bioinformática y Biología Computacional que tenemos en el momento en Colombia, y esta vez será muy especial porque no solo es el Congreso Colombiano de Bioinformática y Biología Computacional (CCBCOL), sino que este año se unió también la Sociedad Iberoamericana de Bioinformática (SoIBio) y la International Society for Computational Biology (ISCB) para realizar un congreso internacional en nuestro país. Este congreso se realizará en la Universidad CES los días 12 al 15 de Noviembre.\nPuedes encontrar más información sobre el congreso en este enlace."
+  },
+  {
+    "objectID": "eventos/iscb-latam-2024/index.html#ubicación",
+    "href": "eventos/iscb-latam-2024/index.html#ubicación",
+    "title": "Congreso ISCB SoIBio CCBCOL 2024",
+    "section": "Ubicación",
+    "text": "Ubicación"
+  },
+  {
     "objectID": "club-de-revista.html",
     "href": "club-de-revista.html",
     "title": "Club de Revista",
@@ -305,7 +319,14 @@
     "href": "index.html",
     "title": "Grupo de Biología Computacional",
     "section": "",
-    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia."
+    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia.\n\n\n\n\n\n\n\n\n\n\n\n\nCongreso\n\n\nBioinformática\n\n\n\nParticipa en el Congreso Colombiano de Biología Computacional que se realizará en Medellín\n\n\n\n\n\n\n\n\n\n\n\n\n\nCongreso\n\n\nSoftware Libre\n\n\nLinux\n\n\n\nÚnete a uno de los eventos más importantes del Software Libre en Latinoamérica\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "index.html#eventos-de-interés",
+    "href": "index.html#eventos-de-interés",
+    "title": "Grupo de Biología Computacional",
+    "section": "",
+    "text": "Congreso\n\n\nBioinformática\n\n\n\nParticipa en el Congreso Colombiano de Biología Computacional que se realizará en Medellín\n\n\n\n\n\n\n\n\n\n\n\n\n\nCongreso\n\n\nSoftware Libre\n\n\nLinux\n\n\n\nÚnete a uno de los eventos más importantes del Software Libre en Latinoamérica\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "index.html#contacto",
@@ -432,5 +453,12 @@
     "title": "Bienvenida",
     "section": "¿Cuál es el objetivo del grupo?",
     "text": "¿Cuál es el objetivo del grupo?\nNuestro objetivo es difundir, enseñar y promover la investigación y el desarrollo de la Biología Computacional en Colombia, además de promover también el uso de herramientas de Software Libre en general."
+  },
+  {
+    "objectID": "eventos/ubuconLA/index.html",
+    "href": "eventos/ubuconLA/index.html",
+    "title": "UbuConLA 2024",
+    "section": "",
+    "text": "Este año tendremos la UbuConLA en la Universidad de la Costa en la ciudad de Barranquilla, Colombia, los días 16 y 17 de agosto.\nEncuentra aquí más información sobre la UbuConLA.\n\n\n\n Volver arriba"
   }
 ]
