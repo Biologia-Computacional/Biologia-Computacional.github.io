@@ -60,6 +60,10 @@ website:
     creator: "@Nesper94"
   back-to-top-navigation: true
 
+  page-footer:
+    right: Hecho por [Juan C. Arboleda R.](https://nesper94.github.io) con [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+
+
 format:
   html:
     theme:
