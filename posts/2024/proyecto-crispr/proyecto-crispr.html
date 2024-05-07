@@ -533,6 +533,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -861,7 +866,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

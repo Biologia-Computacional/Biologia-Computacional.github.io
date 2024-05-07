@@ -213,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Fecha de modificación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">5 de mayo de 2024</p>
+      <p class="date-modified">6 de mayo de 2024</p>
     </div>
   </div>
     
@@ -227,38 +227,29 @@ ul.task-list li input[type="checkbox"] {
 <p>A continuación encontrarás una lista de materiales educativos que hemos encontrado útiles e interesantes.</p>
 <section id="biología-estructural" class="level2">
 <h2 class="anchored" data-anchor-id="biología-estructural">Biología estructural</h2>
-<ul>
-<li><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/2UJ9_cADkek">Curso de PyMOL</a></li>
-<li><a href="http://www.mdtutorials.com/gmx/">Dinámica molecular con GROMACS</a></li>
-</ul>
+<p><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/2UJ9_cADkek">Curso de PyMOL</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="http://www.mdtutorials.com/gmx/">Dinámica molecular con GROMACS</a></p>
 </section>
 <section id="rna-seq" class="level2">
 <h2 class="anchored" data-anchor-id="rna-seq">RNA-seq</h2>
-<ul>
-<li><a href="https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">Tutorial: Análisis de datos de RNA-seq con DESeq2</a></li>
-<li><a href="https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/rna-seq-tutorial-with-reference-genome/">RNA-seq Tutorial (with Reference Genome)</a></li>
-<li><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://www.youtube.com/watch?v=0b24mpzM_5M">DESeq2 para principiantes</a></li>
-<li><a href="https://genviz.org/module-04-expression/0004/02/01/DifferentialExpression/">Tutorial: Differential expression with DEseq2</a></li>
-</ul>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">Análisis de datos de RNA-seq con DESeq2</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/rna-seq-tutorial-with-reference-genome/">RNA-seq Tutorial (with Reference Genome)</a><br>
+<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://www.youtube.com/watch?v=0b24mpzM_5M">DESeq2 para principiantes</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://genviz.org/module-04-expression/0004/02/01/DifferentialExpression/">Differential expression with DEseq2</a></p>
 <section id="single-cell-rna-seq" class="level3">
 <h3 class="anchored" data-anchor-id="single-cell-rna-seq">Single cell RNA-seq</h3>
-<ul>
-<li><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/_ND6pEsf5Kg">Introducción al single cell RNA-seq</a></li>
-<li><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/jwSPTgF9ESQ">Análisis de single cell RNA-seq con Python</a></li>
-</ul>
+<p><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/_ND6pEsf5Kg">Introducción al single cell RNA-seq</a><br>
+<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/jwSPTgF9ESQ">Análisis de single cell RNA-seq con Python</a><br>
+</p>
 </section>
 </section>
 <section id="linux" class="level2">
 <h2 class="anchored" data-anchor-id="linux">Linux</h2>
-<ul>
-<li><a href="https://ubuntu.com/tutorials/command-line-for-beginners">Tutorial: The Linux command line for beginners</a></li>
-</ul>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://ubuntu.com/tutorials/command-line-for-beginners">The Linux command line for beginners</a></p>
 </section>
 <section id="bases-de-datos" class="level2">
 <h2 class="anchored" data-anchor-id="bases-de-datos">Bases de datos</h2>
-<ul>
-<li><a href="https://swcarpentry.github.io/sql-novice-survey/">Tutorial: Databases and SQL</a></li>
-</ul>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://swcarpentry.github.io/sql-novice-survey/">Databases and SQL</a></p>
 
 
 </section>
@@ -503,6 +494,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
