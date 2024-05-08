@@ -27,8 +27,8 @@ objetos.
 ## Información
 
 El curso se realiza generalmente en la sala de cómputo del Instituto de
-Biología de la Universidad de Antioquia y tiene una duración *estimada* de 3
-a 4 meses. Si te interesa el curso llena el formulario que aparece a
-continuación:
+Biología de la Universidad de Antioquia y tiene una duración *estimada* de
+10 clases de 2 horas por clase. Si te interesa el curso llena el formulario
+que aparece a continuación:
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRbetAzJkrp1nB779Os_v5mqxjEkurQ7XSrvFyNopSAOTkTQ/viewform?embedded=true" width="640" height="446" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
