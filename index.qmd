@@ -10,6 +10,8 @@ listing:
     image-height: 150px
     image-placeholder: /imgs/comp-biology.jpeg
     fields: [image, title, description, categories]
+
+comments: false
 ---
 
 # Grupo de Biología Computacional

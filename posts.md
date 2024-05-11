@@ -7,5 +7,6 @@ listing:
   type: default
   sort-ui: true
   filter-ui: true
+comments: false
 ---
 

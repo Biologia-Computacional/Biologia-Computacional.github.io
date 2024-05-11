@@ -53,6 +53,7 @@ website:
       - icon: github
         href: "https://github.com/Biologia-Computacional"
         text: Mira nuestro GitHub
+
   margin-header: |
     ![](/imgs/profile.png)
   favicon: /imgs/favicon.png
@@ -60,9 +61,12 @@ website:
     creator: "@Nesper94"
   back-to-top-navigation: true
 
+  comments:
+    utterances:
+      repo: Biologia-Computacional/Biologia-Computacional.github.io
+
   page-footer:
     right: Hecho por [Juan C. Arboleda R.](https://nesper94.github.io) con [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
-
 
 format:
   html:

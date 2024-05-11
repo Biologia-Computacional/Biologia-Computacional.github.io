@@ -18,6 +18,8 @@ listing:
     image-placeholder: imgs/comp-biology.jpeg
     image-height: 200px
     filter-ui: true
+
+comments: false
 ---
 
 ## Miembros actuales
