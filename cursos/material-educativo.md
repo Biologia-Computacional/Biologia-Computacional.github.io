@@ -17,7 +17,9 @@ encontrado útiles e interesantes.
 ## Biología estructural
 
 {{<fa brands youtube>}} [Curso de PyMOL](https://youtu.be/2UJ9_cADkek)\
-{{<fa globe>}} [Dinámica molecular con GROMACS](http://www.mdtutorials.com/gmx/)
+{{<fa globe>}} [Dinámica molecular con GROMACS](http://www.mdtutorials.com/gmx/)\
+{{<fa globe>}} [Curso de
+AlphaFold](https://www.ebi.ac.uk/training/online/courses/alphafold/)
 
 ## RNA-seq
 
