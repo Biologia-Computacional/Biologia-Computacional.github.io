@@ -32,7 +32,8 @@ AlphaFold](https://www.ebi.ac.uk/training/online/courses/alphafold/)
 
 {{<fa brands youtube>}} [Introducción al single cell RNA-seq](https://youtu.be/_ND6pEsf5Kg)\
 {{<fa brands youtube>}} [Análisis de single cell RNA-seq con Python](https://youtu.be/jwSPTgF9ESQ)\
-{{<fa brands youtube>}} [Complete single-cell RNAseq analysis walkthrough](https://youtu.be/uvyG9yLuNSE)
+{{<fa brands youtube>}} [Complete single-cell RNAseq analysis walkthrough](https://youtu.be/uvyG9yLuNSE)\
+{{<fa globe>}} [Curso sobre análisis de datos de single cell RNA-seq](https://www.singlecellcourse.org/)
 
 ## Linux
 
