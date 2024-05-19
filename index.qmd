@@ -50,12 +50,15 @@ Así que la Biología Computacional es una oportunidad única para convertir
 nuestras debilidades en fortalezas y seguir construyendo ciencia de alto nivel
 sin tener que esperar cambios en políticas públicas que siempre son lentos y
 tortuosos. Si quieres conocer más sobre la Biología Computacional en
-Colombia te invitamos a leer el siguiente artículo:
+Colombia te invitamos a leer los siguientes artículos:
 
-[{{< fa download >}}](files/bioinfo-Colombia.pdf) Benítez-Páez,
-Alfonso, y Sonia Cárdenas-Brito. 2010. «Bioinformática En Colombia: Presente
-y Futuro de La Investigación Biocomputacional». Biomédica 30 (2): 170.
-[https://doi.org/10.7705/biomedica.v30i2.180](https://doi.org/10.7705/biomedica.v30i2.180).
+- [{{< fa download >}}](files/bioinfo-Colombia.pdf) Benítez-Páez, A. &
+  Cárdenas-Brito, S. Bioinformática en Colombia: presente y futuro de la
+  investigación biocomputacional. Biomédica 30, 170 (2010).
+  [https://doi.org/10.7705/biomedica.v30i2.180](https://doi.org/10.7705/biomedica.v30i2.180).
+- Restrepo, S. et al. Computational Biology in Colombia. PLOS Computational
+  Biology 5, e1000535 (2009).
+  [https://doi.org/10.1371/journal.pcbi.1000535](https://doi.org/10.1371/journal.pcbi.1000535)
 
 Por último, si lo anterior aún no te convence, te invito a leer [las mejores
 razones para incursionar en la Biología
