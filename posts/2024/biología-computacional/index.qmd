@@ -1,0 +1,31 @@
+---
+title: 'Promoviendo la Biología Computacional en Colombia'
+author:
+  - name: Juan Camilo Arboleda Rivera
+    email: juan.arboleda2@udea.edu.co
+    orcid: 0000-0002-0030-056X
+    url: https://nesper94.github.io/
+image: 1COA.png
+---
+
+Parte importante de la misión del Grupo de Biología Computacional es
+promover esta área del conocimiento en Colombia.
+
+El activismo es muy importante para que las cosas que no nos gustan puedan
+cambiar, y por eso debemos hacer lo que más podamos por dar a conocer e
+impulsar la Biología Computacional, favoreciendo la creación de grupos, la
+difusión e intercambio de conocimiento y el desarrollo de investigaciones en
+esta área.
+
+Para dar a conocer la situación actual de la Biología Computacional en
+nuestro país y analizar más sobre este tema hemos creado un [grupo de
+Zotero](https://www.zotero.org/groups/5537430/biologa_computacional) con
+bibliografía relevante sobre el tema. Hasta ahora, en lo que coinciden estos
+artículos es que en Colombia y en Latinoamérica en general hace falta
+MUCHÍSIMO trabajo y muchos más esfuerzos para sacar adelante este campo tan
+importante para el desarrollo tecnológico, científico y económico de nuestra
+sociedad.
+
+Desde nuestro grupo estamos planeando más actividades, pero por el momento
+serán una sorpresa, ya iremos anunciando nuestro paso a paso en esta ardua
+pero importante labor.
