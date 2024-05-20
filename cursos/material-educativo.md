@@ -14,6 +14,16 @@ categories:
 A continuación encontrarás una lista de materiales educativos que hemos
 encontrado útiles e interesantes.
 
+## General
+
+{{<fa globe>}} [Cursos del EBI-EMBL](https://www.ebi.ac.uk/training/)\
+{{<fa globe>}} [Guías de ELIXIR y mejores prácticas para trabajar con datos
+biológicos](https://elixir-europe.org/what-we-offer/guidelines)\
+{{<fa globe>}} [Herramientas para Biología
+Computacional](https://elixir-europe.org/what-we-offer/portals)\
+{{<fa globe>}} [Buscador de cursos, eventos, videos, presentaciones, manuales y
+mucho más](https://tess.elixir-europe.org/)\
+
 ## Biología estructural
 
 {{<fa brands youtube>}} [Curso de PyMOL](https://youtu.be/2UJ9_cADkek)\
