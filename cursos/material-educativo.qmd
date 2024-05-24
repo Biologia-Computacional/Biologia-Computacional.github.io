@@ -1,0 +1,32 @@
+---
+title: 'Material educativo'
+subtitle: 'Biología Computacional y Bioinformática en Español'
+title-block-banner: true
+
+listing:
+  - id: edu
+    contents: "material-educativo/**/index.qmd"
+    type: grid
+    sort-ui: true
+    filter-ui: true
+
+  - id: tutoriales
+    contents: "tutoriales/**/*{.qmd,md}"
+    image-placeholder: "/imgs/favicon.png"
+    type: grid
+    sort-ui: true
+    filter-ui: true
+---
+
+:::{#edu}
+:::
+
+## Tutoriales
+
+:::{#tutoriales}
+:::
+
+## Otros recursos
+
+- [Enlaces a material educativo sobre Biología
+  Computacional](material-educativo/enlaces.qmd)

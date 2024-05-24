@@ -26,7 +26,7 @@ website:
             icon: terminal
           - text: '{{< fa brands python >}} Curso Python'
             url: cursos/curso-python.md
-          - url: cursos/material-educativo.md
+          - url: cursos/material-educativo.qmd
 
       - text: 'Posts'
         url: posts.md
@@ -76,3 +76,4 @@ format:
     css: styles.css
     toc: true
     link-external-newwindow: true
+    lightbox: true
