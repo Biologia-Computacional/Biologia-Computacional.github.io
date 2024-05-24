@@ -7,6 +7,12 @@
     ]
   },
   {
+    "listing": "/cursos/material-educativo/scRNA-seq/index.html",
+    "items": [
+      "/cursos/material-educativo/scRNA-seq/umi/index.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/2024/biología-computacional/index.html",

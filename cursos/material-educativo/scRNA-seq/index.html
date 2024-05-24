@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Juan Camilo Arboleda Rivera">
 
-<title>Grupo de Biología Computacional - Entradas del blog</title>
+<title>Grupo de Biología Computacional - Secuenciamiento de ARN de una única célula</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,32 +21,52 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//imgs/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../..//imgs/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,20 +97,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-scRNA-seq .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-scRNA-seq'] = new List('listing-scRNA-seq', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,8 +154,9 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Grupo de Biología Computacional - Entradas del blog">
+<link rel="stylesheet" href="../../../styles.css">
+<meta name="twitter:title" content="Grupo de Biología Computacional - Secuenciamiento de ARN de una única célula">
+<meta name="twitter:description" content="Single cell RNA sequencing">
 <meta name="twitter:creator" content="@Nesper94">
 <meta name="twitter:card" content="summary">
 </head>
@@ -146,7 +168,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Grupo de Biología Computacional</span>
     </a>
   </div>
@@ -157,17 +179,17 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./integrantes.html"> <i class="bi bi-people-fill" role="img">
+    <a class="nav-link" href="../../../integrantes.html"> <i class="bi bi-people-fill" role="img">
 </i> 
 <span class="menu-text">Integrantes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./proyectos.html"> <i class="bi bi-terminal-fill" role="img">
+    <a class="nav-link" href="../../../proyectos.html"> <i class="bi bi-terminal-fill" role="img">
 </i> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./club-de-revista.html"> <i class="bi bi-easel3-fill" role="img">
+    <a class="nav-link" href="../../../club-de-revista.html"> <i class="bi bi-easel3-fill" role="img">
 </i> 
 <span class="menu-text">Club de Revista</span></a>
   </li>  
@@ -179,32 +201,32 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-cursos">    
         <li>
-    <a class="dropdown-item" href="./cursos/cursos.html"><i class="bi bi-laptop" role="img">
+    <a class="dropdown-item" href="../../../cursos/cursos.html"><i class="bi bi-laptop" role="img">
 </i> 
  <span class="dropdown-text">Cursos y talleres</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cursos/curso-linux.html"><i class="bi bi-terminal" role="img">
+    <a class="dropdown-item" href="../../../cursos/curso-linux.html"><i class="bi bi-terminal" role="img">
 </i> 
  <span class="dropdown-text">Curso Linux</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cursos/curso-python.html">
+    <a class="dropdown-item" href="../../../cursos/curso-python.html">
  <span class="dropdown-text"><i class="fa-brands fa-python" aria-label="python"></i> Curso Python</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cursos/material-educativo.html">
+    <a class="dropdown-item" href="../../../cursos/material-educativo.html">
  <span class="dropdown-text">Material educativo</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> <i class="bi bi-pencil-square" role="img">
+    <a class="nav-link" href="../../../posts.html"> <i class="bi bi-pencil-square" role="img">
 </i> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> <i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="../../../news.html"> <i class="bi bi-newspaper" role="img">
 </i> 
 <span class="menu-text">Noticias</span></a>
   </li>  
@@ -227,24 +249,49 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="./imgs/profile.png" class="img-fluid"></p>
+<p><img src="../../../imgs/profile.png" class="img-fluid"></p>
 </div></div>
-        
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Bioinformática">Bioinformática <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Biología computacional">Biología computacional <span class="quarto-category-count">(6)</span></div><div class="category" data-category="CRISPR">CRISPR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cursos">Cursos <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Educación">Educación <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Inactivación del X">Inactivación del X <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Investigación">Investigación <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linux">Linux <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#más-informacioń-sobre-el-single-cell-rna-seq" id="toc-más-informacioń-sobre-el-single-cell-rna-seq" class="nav-link active" data-scroll-target="#más-informacioń-sobre-el-single-cell-rna-seq">Más informacioń sobre el single cell RNA-seq</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Entradas del blog</h1>
+<h1 class="title">Secuenciamiento de ARN de una única célula</h1>
+<p class="subtitle lead">Single cell RNA sequencing</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>Juan Camilo Arboleda Rivera <a href="mailto:juan.arboleda2@udea.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1 de junio de 2024</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de modificación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">24 de mayo de 2024</p>
+    </div>
+  </div>
     
   </div>
   
@@ -253,304 +300,62 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Por defecto</option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Fecha - Menos reciente
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Fecha - Más reciente
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Autor/a
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="scRNA-seq-vs-bulk-RNA-seq.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="guruprasad2020">Guruprasad et&nbsp;al. (<a href="#ref-guruprasad2020" role="doc-biblioref">2020</a>)</span></figcaption>
+</figure>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1716170041061" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
-<div class="thumbnail">
-<p><a href="./posts/2024/biología-computacional/index.html" class="no-external"></a></p><a href="./posts/2024/biología-computacional/index.html" class="no-external">
-<p><img src="./posts/2024/biología-computacional/1COA.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024/biología-computacional/index.html" class="no-external"></a></p>
+<p>Para explicar la diferencia entre bulk RNA-seq y single cell RNA-seq se usa la analogía con un batido de frutas vs.&nbsp;una ensalada de frutas. En el batido no podemos distinguir una fruta de otra, sino que tenemos sus sabores combinados (este sería el bulk RNA), en cambio en la ensalada de frutas sí podemos distinguir una fruta de otra (single cell RNA-seq).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bulk-and-single-cell-RNA-seq.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="steinheuer2021">Steinheuer, Canzler, y Hackermüller (<a href="#ref-steinheuer2021" role="doc-biblioref">2021</a>)</span></figcaption>
+</figure>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024/biología-computacional/index.html" class="no-external">Promoviendo la Biología Computacional en Colombia</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024/biología-computacional/index.html" class="no-external"></a>
+<section id="más-informacioń-sobre-el-single-cell-rna-seq" class="level2">
+<h2 class="anchored" data-anchor-id="más-informacioń-sobre-el-single-cell-rna-seq">Más informacioń sobre el single cell RNA-seq</h2>
+<div id="listing-scRNA-seq" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1716590779372" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<a href="../../../cursos/material-educativo/scRNA-seq/umi/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="umi/10x-bead.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+¿Qué son los UMIs?
+</h5>
+<div class="card-text listing-description">
+UMI son las siglas de Unique Molecular Identifier (Identificador Molecular Único), y consisten en secuencias cortas (aprox. 14 pares de bases) que se añaden a las moléculas…
 </div>
-<div class="listing-description">
-<a href="./posts/2024/biología-computacional/index.html" class="no-external">Parte importante de la misión del Grupo de Biología Computacional es promover esta área del conocimiento en Colombia.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/2024/biología-computacional/index.html" class="no-external"></a></p><a href="./posts/2024/biología-computacional/index.html" class="no-external">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
 Juan Camilo Arboleda Rivera
 </div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Biología computacional,CRISPR,Bioinformática,Investigación" data-listing-date-sort="1712898000000" data-listing-file-modified-sort="1713042835629" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="490">
-<div class="thumbnail">
-<p><a href="./posts/2024/proyecto-crispr/proyecto-crispr.html" class="no-external"></a></p><a href="./posts/2024/proyecto-crispr/proyecto-crispr.html" class="no-external">
-<p><img src="./posts/2024/proyecto-crispr/crispr.webp" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024/proyecto-crispr/proyecto-crispr.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024/proyecto-crispr/proyecto-crispr.html" class="no-external">Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024/proyecto-crispr/proyecto-crispr.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
-Biología computacional
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CRISPR'); return false;">
-CRISPR
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Bioinformática'); return false;">
-Bioinformática
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Investigación'); return false;">
-Investigación
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2024/proyecto-crispr/proyecto-crispr.html" class="no-external">¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024/proyecto-crispr/proyecto-crispr.html" class="no-external">
-<div class="listing-date">
-12 abr 2024
-</div>
-<div class="listing-author">
-Ana María López Pérez, Haminton Alexander Poveda Alonso
 </div>
 </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Biología computacional,Cursos,Educación,Python" data-listing-date-sort="1708232400000" data-listing-file-modified-sort="1713042829856" data-listing-date-modified-sort="1713042829000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
-<div class="thumbnail">
-<p><a href="./posts/2024/curso-python.html" class="no-external"></a></p><a href="./posts/2024/curso-python.html" class="no-external">
-<p><img src="https://i.blogs.es/1d8a5b/python1/1366_2000.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024/curso-python.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024/curso-python.html" class="no-external">Curso de introducción a Python 2024-1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024/curso-python.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
-Biología computacional
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cursos'); return false;">
-Cursos
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Educación'); return false;">
-Educación
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2024/curso-python.html" class="no-external">Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de introducción a Python en su versión 2024-1 que se llevará a cabo en la Universidad…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024/curso-python.html" class="no-external">
-<div class="listing-date">
-18 feb 2024
-</div>
-<div class="listing-author">
-Juan Camilo Arboleda Rivera
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Inactivación del X,Biología computacional" data-listing-date-sort="1696222800000" data-listing-file-modified-sort="1713042829856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="464">
-<div class="thumbnail">
-<p><a href="./posts/2023/inactivacion-x.html" class="no-external"></a></p><a href="./posts/2023/inactivacion-x.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2023/inactivacion-x.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023/inactivacion-x.html" class="no-external">Proyecto de la inactivación del X</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023/inactivacion-x.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Inactivación del X'); return false;">
-Inactivación del X
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
-Biología computacional
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2023/inactivacion-x.html" class="no-external">Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023/inactivacion-x.html" class="no-external">
-<div class="listing-date">
-2 oct 2023
-</div>
-<div class="listing-author">
-María de los Ángeles Benavides Guaca
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Biología computacional,Linux,Tutorial,Educación" data-listing-date-sort="1695272400000" data-listing-file-modified-sort="1716590779372" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="990">
-<div class="thumbnail">
-<p><a href="./posts/2023/instalación-linux.html" class="no-external"></a></p><a href="./posts/2023/instalación-linux.html" class="no-external">
-<p><img src="https://derivadacero.com/wp-content/uploads/linux.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2023/instalación-linux.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023/instalación-linux.html" class="no-external">Tutorial de instalación de Linux</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023/instalación-linux.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
-Biología computacional
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Linux'); return false;">
-Linux
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
-Tutorial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Educación'); return false;">
-Educación
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2023/instalación-linux.html" class="no-external">¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación de Linux que nos permitirá tener nuestro equipo con Windows y Linux al mismo tiempo.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023/instalación-linux.html" class="no-external">
-<div class="listing-date">
-21 sept 2023
-</div>
-<div class="listing-author">
-Juan Camilo Arboleda Rivera
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Biología computacional,Linux,Cursos,Educación" data-listing-date-sort="1693458000000" data-listing-file-modified-sort="1709390803954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
-<div class="thumbnail">
-<p><a href="./posts/2023/curso-linux.html" class="no-external"></a></p><a href="./posts/2023/curso-linux.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2023/curso-linux.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023/curso-linux.html" class="no-external">Curso de Introducción a Linux y el Software Libre 2023-2</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023/curso-linux.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
-Biología computacional
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Linux'); return false;">
-Linux
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cursos'); return false;">
-Cursos
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Educación'); return false;">
-Educación
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2023/curso-linux.html" class="no-external">Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux y el Software Libre en su versión 2023-2 que se llevará a cabo…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023/curso-linux.html" class="no-external">
-<div class="listing-date">
-31 ago 2023
-</div>
-<div class="listing-author">
-Juan Camilo Arboleda Rivera
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Biología computacional" data-listing-date-sort="1692766800000" data-listing-file-modified-sort="1709390803954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
-<div class="thumbnail">
-<p><a href="./posts/2023/bienvenida.html" class="no-external"></a></p><a href="./posts/2023/bienvenida.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2023/bienvenida.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023/bienvenida.html" class="no-external">Bienvenida</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023/bienvenida.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Biología computacional'); return false;">
-Biología computacional
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2023/bienvenida.html" class="no-external">Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023/bienvenida.html" class="no-external">
-<div class="listing-date">
-23 ago 2023
-</div>
-<div class="listing-author">
-Juan Camilo Arboleda Rivera
-</div>
-</a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+</div>
+
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-guruprasad2020" class="csl-entry" role="listitem">
+Guruprasad, Puneeth, Yong Gu Lee, Ki-Hyun Kim, y Marco Ruella. 2020. <span>«The current landscape of single-cell transcriptomics for cancer immunotherapy»</span>. <em>Journal of Experimental Medicine</em> 218 (diciembre). <a href="https://doi.org/10.1084/jem.20201574">https://doi.org/10.1084/jem.20201574</a>.
+</div>
+<div id="ref-steinheuer2021" class="csl-entry" role="listitem">
+Steinheuer, Lisa, Sebastian Canzler, y Jörg Hackermüller. 2021. <span>«Benchmarking scRNA-seq imputation tools with respect to network inference highlights deficits in performance at high levels of sparsity»</span>, abril. <a href="https://doi.org/10.1101/2021.04.02.438193">https://doi.org/10.1101/2021.04.02.438193</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1108,6 +913,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://utteranc.es/client.js" repo="Biologia-Computacional/Biologia-Computacional.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">

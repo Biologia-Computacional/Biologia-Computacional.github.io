@@ -203,6 +203,20 @@
     "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
   },
   {
+    "objectID": "cursos/material-educativo/scRNA-seq/index.html",
+    "href": "cursos/material-educativo/scRNA-seq/index.html",
+    "title": "Secuenciamiento de ARN de una única célula",
+    "section": "",
+    "text": "Guruprasad et al. (2020)\nPara explicar la diferencia entre bulk RNA-seq y single cell RNA-seq se usa la analogía con un batido de frutas vs. una ensalada de frutas. En el batido no podemos distinguir una fruta de otra, sino que tenemos sus sabores combinados (este sería el bulk RNA), en cambio en la ensalada de frutas sí podemos distinguir una fruta de otra (single cell RNA-seq)."
+  },
+  {
+    "objectID": "cursos/material-educativo/scRNA-seq/index.html#más-informacioń-sobre-el-single-cell-rna-seq",
+    "href": "cursos/material-educativo/scRNA-seq/index.html#más-informacioń-sobre-el-single-cell-rna-seq",
+    "title": "Secuenciamiento de ARN de una única célula",
+    "section": "Más informacioń sobre el single cell RNA-seq",
+    "text": "Más informacioń sobre el single cell RNA-seq\n\n\n\n\n\n\n\n\n¿Qué son los UMIs?\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
     "objectID": "cursos/material-educativo.html",
     "href": "cursos/material-educativo.html",
     "title": "Material educativo",
@@ -341,6 +355,13 @@
     "title": "Curso de Introducción a Linux y el Software Libre",
     "section": "Información",
     "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
+  },
+  {
+    "objectID": "cursos/material-educativo/scRNA-seq/umi/index.html",
+    "href": "cursos/material-educativo/scRNA-seq/umi/index.html",
+    "title": "¿Qué son los UMIs?",
+    "section": "",
+    "text": "UMI son las siglas de Unique Molecular Identifier (Identificador Molecular Único), y consisten en secuencias cortas (aprox. 14 pares de bases) que se añaden a las moléculas de ARN que se van a secuenciar para identificarlas de manera única.\n\n\n\n (s. f.)\n\n\nAl ser secuencias de 14 pares de bases, podemos tener \\(4^{14}\\) diferentes UMIs.\n\n\n\n\n Volver arribaReferencias\n\ns. f. Understanding Single Cell Technologies: Barcodes and UMIS. https://help.geneiousbiologics.com/hc/en-us/articles/4781289585300-Understanding-Single-Cell-technologies-Barcodes-and-UMIs."
   },
   {
     "objectID": "cursos/cursos.html",
