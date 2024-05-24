@@ -1,0 +1,170 @@
+---
+title: 'Bioinformática para los aterrorizados'
+subtitle: 'Una introducción a la ciencia de la bioinformática'
+title-block-banner: true
+
+date: 2024-05
+date-modified: last-modified
+
+author:
+  - name:
+      given: Juan Camilo
+      family: Arboleda Rivera
+    email: juan.arboleda2@udea.edu.co
+    url: https://nesper94.github.io/
+    orcid: 0000-0002-0030-056X
+    corresponding: true
+    roles: 'Traductor'
+    affiliation:
+      - name: Universidad de Antioquia
+        city: Medellín
+        country: Colombia
+
+description: |
+  ¿Qué es la bioinformática y dónde encaja con la investigación de
+  laboratorio en ciencias biológicas? Obten más información sobre las
+  herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a
+  aplicarlos en tu investigación.
+
+license: "CC BY"
+
+funding:
+  statement: "The author(s) received no specific funding for this work."
+
+bibliography: refs.bib
+---
+
+::: {.callout-note}
+Este tutorial es una traducción realizada por el Grupo de Biología
+Computacional de la Universidad de Antioquia. Encuentra el tutorial original
+[en este enlace](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/).
+:::
+
+## Descripción del curso
+
+### ¿Para quién es este curso?
+
+Este curso está dirigido a investigadores experimentales o de laboratorio
+que trabajan en las ciencias biológicas moleculares y que tienen poca o
+ninguna experiencia previa en el uso de bases de datos o herramientas
+bioinformáticas. Este curso proporcionará una visión general amplia de la
+bioinformática como área de estudio y los recursos disponibles públicamente
+a los que los investigadores pueden acceder y utilizar.
+
+Sería una ventaja tener conocimiento a nivel de pregrado de un área
+relacionada a las ciencias de la vida.
+
+Este tutorial es parte de
+[Introductory bioinformatics pathway: A curated set of EMBL-EBI online
+courses](https://www.ebi.ac.uk/training/online/courses/introductory-bioinformatics-pathway/),
+el cual provee una introducción a la bioinformática, una breve guía a los
+recursos disponibles en el EMBL-EBI y más detalles sobre algunos de esos
+recursos, incluyendo Ensembl, UniProt y Expression Atlas.
+
+### ¿Qué lograré?
+
+Al finalizar este curso podrás:
+
+- Evaluar el papel de la bioinformática en las ciencias moleculares.
+- Describir las características principales de las bases de datos primarias
+  y secundarias.
+- Listar las estrategias para describir los datos de manera consistente.
+- Identificar algunos de los diferentes tipos de análisis de datos que se
+  pueden aplicar para resolver problemas biológicos.
+
+### ¿Qué recursos necesito?
+
+No se requieren recursos específicos para completar este curso.
+
+## ¿Qué es la bioinformática?
+
+Puesto de manera simple, la bioinformática es la ciencia de almacenar,
+obtener y analizar grandes cantidades de información biológica. Es un área
+altamente interdisciplinaria que involucra muchos tipos de especialistas,
+incluyendo biólogos, científicos moleculares de la vida, científicos de la
+computación y matemáticos.
+
+El término bioinformática fue acuñado por Paulien Hogeweg y Ben Hesper para
+describir "el estudio de los procesos informáticos en los sistemas bióticos"
+y encontró un uso temprano cuando los primeros datos de secuencias
+biológicas comenzaron a ser compartidos. Mientras que los primeros métodos
+de análisis son todavía fundamentales para muchos experimentos a ggran
+escala en las ciencias moleculares de la vida, hoy en día la bioinformática
+se considera una disciplina mucho más amplia, que abarca el modelamiento y
+el análisis de imágenes adicionalmente a los métodos clásicos usados para la
+comparación de secuencias lineales o estructuras tridimensionales (Figura
+1).
+
+![**Figura 1.** Un amplio panorama de los diferentes tipos de datos que
+hacen parte del área de la bioinformática. Tradicionalmente, la
+bioinformática fue usada para describir la ciencia de almacenar y analizar
+datos de secuencias de biomoléculas, pero el término es usado hoy en día de
+una manera más amplia, abarcando la biología estructural computacional, la
+biología química y la biología de sistemas (tanto la integración de datos
+como el modelamiento de sistemas).](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/bx_terrified_fig_1_700px-696x522-1.jpg)
+
+### Distinción de la informática médica
+
+La bioinformática es distinta de la **informática médica**: el estudio
+interdisciplinario del diseño, desarrollo, adopción y aplicación de
+innovaciones basadas en las tecnologías de la información en la prestación,
+gestión y planificación de servicios de **atención médica**. En algún lugar
+en medio de las dos disciplinas se encuentra la **informática biomédica**:
+el área interdisciplinaria que estudia y busca el uso efectivo de **datos
+biomédicos**, información y conocimiento para la investigación científica,
+la resolución de problemas y la toma de decisiones, motivados por los
+esfuerzos por mejorar la salud humana.
+
+Proyectos iniciados recientemente, como el [Proyecto 100.000
+genomas](https://www.genomicsengland.co.uk/the-100000-genomes-project/#),
+están cerrando las brechas entre estas disciplinas, pero de manera general
+la bioinformática trata con datos de investigaciones y los usa para
+propósitos de investigación, la informática médica trata con datos de
+pacientes individuales para propósitos de gestión clínica (diagnóstico,
+tratamiento, prevención...) y la informática biomédica intenta hacer un
+puente entre estos extremos.
+
+### ¿Para quién es la bioinformática?
+
+![**Figura 2.** Las personas (ficticias) ilustradas aquí, mientras que no son
+bioinformáticos en el sentido clásico, usan bioinformática para su
+investigación. Caricaturas cortesía de Jenny Cham, EMBL-EBI.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/bx_terrified_fig_2_700px-1.jpg)
+
+Las ciencias moleculares de la vida se han vuelto cada vez más impulsadas
+por los datos y dependientes del intercambio de datos a través de bases de
+datos de acceso abierto [@marx2013]. Esto es tan cierto para las ciencias
+aplicadas como para la investigación fundamental. Además, no es necesario
+ser un bioinformático para usar las bases de datos, métodos y herramientas
+biológicas. Sin embargo, a medida que la generación de grandes conjuntos de
+datos se vuelve más y más central para la investigación biomédica, se vuelve
+más necesario para cada científico molecular de la vida entender qué se
+puede (y, muy importante, qué no se puede) lograr usando la bioinformática,
+y ser capaz de trabajar con expertos en bioinformática para diseñar,
+analizar e interpretar sus experimentos (Figura 2).
+
+## El rol de las bases de datos públicas
+
+### Centros bioinformáticos de excelencia
+
+Hay un pequeño número de centros de bioinformática de excelencia a nivel
+mundial que han tomado la responsabilidad de colectar, catalogar y proveer
+acceso abierto a datos biológicos publicados (Figura 3). Entre estos centros
+están:
+
+- El [EMBL-European Bioinformatics Institute](https://www.ebi.ac.uk/) (EMBL-EBI)
+- El [National Center for Biotechnology
+  Information](http://www.ncbi.nlm.nih.gov/) (NCBI) de Estados Unidos
+- El [National Institute of Genetics](https://www.nig.ac.jp/nig/) en Japón
+  (NIG)
+
+Este trabajo comenzó a principios de la década de 1980 cuando los datos de
+secuencias de ADN se empezaron a acumular en la literatura científica. La
+librería de datos del EMBL (ahora el [European Nucleotide
+Archive](https://www.ebi.ac.uk/ena)) fue desarrollada para almacenar
+secuencias de ADN publicadas en la literatura científica. El GenBank del
+NCBI y el DDBJ del NIG le siguieron.
+
+![**Figura 3.** El rol de los centros de bioinformática de excelencia en
+hacer que los datos biológicos estén disponibles para toda la
+comunidad.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/bx_terrified_fig_3-689x516-1.jpg)
+
