@@ -33,8 +33,9 @@ seguridad para prevenir inconvenientes.
 
 Linux tiene muchas versiones diferentes, también conocidas como
 distribuciones o *distros*. Cada una tiene sus particularidades o está
-diseñada para un propósito en específico. A continuación encontrarás enlaces
-a algunas distribuciones:
+diseñada para un propósito en específico, la página
+[distrochooser](https://distrochooser.de/es) te puede ayudar a elegir una
+distribución. A continuación encontrarás enlaces a algunas distribuciones:
 
 Distribuciones diseñadas para computadores viejos o con pocos recursos:
 
