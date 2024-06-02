@@ -79,6 +79,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -204,7 +207,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="../../imgs/profile.png" class="img-fluid"></p>
+<p><a href="../../imgs/profile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../imgs/profile.png" class="img-fluid"></a></p>
 </div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
@@ -277,7 +280,7 @@ Importante
 </div>
 <section id="paso-1-descargar-una-distribución-de-linux" class="level2">
 <h2 class="anchored" data-anchor-id="paso-1-descargar-una-distribución-de-linux">Paso 1: Descargar una distribución de Linux</h2>
-<p>Linux tiene muchas versiones diferentes, también conocidas como distribuciones o <em>distros</em>. Cada una tiene sus particularidades o está diseñada para un propósito en específico. A continuación encontrarás enlaces a algunas distribuciones:</p>
+<p>Linux tiene muchas versiones diferentes, también conocidas como distribuciones o <em>distros</em>. Cada una tiene sus particularidades o está diseñada para un propósito en específico, la página <a href="https://distrochooser.de/es">distrochooser</a> te puede ayudar a elegir una distribución. A continuación encontrarás enlaces a algunas distribuciones:</p>
 <p>Distribuciones diseñadas para computadores viejos o con pocos recursos:</p>
 <ul>
 <li><a href="https://www.linuxliteos.com/index.html">Linux Lite</a></li>
@@ -957,6 +960,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

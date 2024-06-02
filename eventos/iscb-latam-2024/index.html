@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="../../imgs/profile.png" class="img-fluid"></p>
+<p><a href="../../imgs/profile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../../imgs/profile.png" class="img-fluid"></a></p>
 </div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
@@ -226,15 +229,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="https://www.iscb.org/images/stories/latam2024/banner.ConferenceBanner.LATAM.2024.png" class="preview-image img-fluid"></p>
+<p><a href="https://www.iscb.org/images/stories/latam2024/banner.ConferenceBanner.LATAM.2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.iscb.org/images/stories/latam2024/banner.ConferenceBanner.LATAM.2024.png" class="preview-image img-fluid"></a></p>
 <p>Este año tendremos en Medellín el único congreso de Bioinformática y Biología Computacional que tenemos en el momento en Colombia, y esta vez será muy especial porque no solo es el Congreso Colombiano de Bioinformática y Biología Computacional (CCBCOL), sino que este año se unió también la Sociedad Iberoamericana de Bioinformática (SoIBio) y la International Society for Computational Biology (ISCB) para realizar un congreso internacional en nuestro país. Este congreso se realizará en la Universidad CES los días 12 al 15 de Noviembre.</p>
 <p>Puedes encontrar más información sobre el congreso en <a href="https://www.iscb.org/latam2024/home">este enlace</a>.</p>
 <section id="ubicación" class="level2">
 <h2 class="anchored" data-anchor-id="ubicación">Ubicación</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-bf9ee4e5c588de67e961" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-bf9ee4e5c588de67e961">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.20853,-75.553,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Lugar del congreso",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.20853,6.20853],"lng":[-75.553,-75.553]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-7ccb3e2d3b5d4f29123e" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-7ccb3e2d3b5d4f29123e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.20853,-75.553,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Lugar del congreso",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.20853,6.20853],"lng":[-75.553,-75.553]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -816,6 +819,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

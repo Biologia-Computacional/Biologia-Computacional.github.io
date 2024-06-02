@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Juan Camilo Arboleda Rivera">
 
 <title>Grupo de Biología Computacional - Material educativo</title>
 <style>
@@ -32,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="..//imgs/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -45,6 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,11 +76,69 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-edu .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-edu'] = new List('listing-edu', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="Grupo de Biología Computacional - Material educativo">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Biología Computacional y Bioinformática en Español">
 <meta name="twitter:creator" content="@Nesper94">
 <meta name="twitter:card" content="summary">
 </head>
@@ -84,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -165,102 +227,132 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Material educativo</h1>
+            <p class="subtitle lead">Biología Computacional y Bioinformática en Español</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="../imgs/profile.png" class="img-fluid"></p>
+<p><a href="../imgs/profile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../imgs/profile.png" class="img-fluid"></a></p>
 </div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#general" id="toc-general" class="nav-link active" data-scroll-target="#general">General</a></li>
-  <li><a href="#biología-estructural" id="toc-biología-estructural" class="nav-link" data-scroll-target="#biología-estructural">Biología estructural</a></li>
-  <li><a href="#rna-seq" id="toc-rna-seq" class="nav-link" data-scroll-target="#rna-seq">RNA-seq</a>
-  <ul class="collapse">
-  <li><a href="#single-cell-rna-seq" id="toc-single-cell-rna-seq" class="nav-link" data-scroll-target="#single-cell-rna-seq">Single cell RNA-seq</a></li>
-  </ul></li>
-  <li><a href="#linux" id="toc-linux" class="nav-link" data-scroll-target="#linux">Linux</a></li>
-  <li><a href="#bases-de-datos" id="toc-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos">Bases de datos</a></li>
+  <li><a href="#tutoriales" id="toc-tutoriales" class="nav-link active" data-scroll-target="#tutoriales">Tutoriales</a></li>
+  <li><a href="#otros-recursos" id="toc-otros-recursos" class="nav-link" data-scroll-target="#otros-recursos">Otros recursos</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Material educativo</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Biología computacional</div>
-    <div class="quarto-category">Cursos</div>
-    <div class="quarto-category">Educación</div>
+
+
+
+
+<div id="listing-edu" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-edu-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-edu'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+       <option value="index" data-direction="asc">Por defecto</option>
+         <option value="listing-title" data-direction="asc">
+          Título
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Fecha - Menos reciente
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Fecha - Más reciente
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Autor/a
+        </option>
+     </select>
   </div>
-  </div>
-
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Autor/a</div>
-    <div class="quarto-title-meta-contents">
-             <p><a href="https://nesper94.github.io">Juan Camilo Arboleda Rivera</a> <a href="mailto:juan.arboleda2@udea.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-          </div>
-  </div>
-    
-  
-    <div>
-    <div class="quarto-title-meta-heading">Fecha de modificación</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">24 de mayo de 2024</p>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
     </div>
-  </div>
-    
-  </div>
-  
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1717218000000" data-listing-file-modified-sort="1717331264533" data-listing-date-modified-sort="1717331264000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<a href="../cursos/material-educativo/scRNA-seq/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Secuenciamiento de ARN de una única célula
+</h5>
+<div class="card-text listing-description">
+Para explicar la diferencia entre bulk RNA-seq y single cell RNA-seq se usa la analogía con un batido de frutas vs.&nbsp;una ensalada de frutas. En el batido no podemos…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Juan Camilo Arboleda Rivera
+</div>
+<div class="listing-date">
+1 jun 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1717331264533" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<a href="../cursos/material-educativo/scRNA-seq/umi/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+¿Qué son los UMIs?
+</h5>
+<div class="card-text listing-description">
+UMI son las siglas de Unique Molecular Identifier (Identificador Molecular Único), y consisten en secuencias cortas (aprox. 14 pares de bases) que se añaden a las moléculas…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Juan Camilo Arboleda Rivera
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+<section id="tutoriales" class="level2">
+<h2 class="anchored" data-anchor-id="tutoriales">Tutoriales</h2>
+<div id="tutoriales">
 
+</div>
+</section>
+<section id="otros-recursos" class="level2">
+<h2 class="anchored" data-anchor-id="otros-recursos">Otros recursos</h2>
+<ul>
+<li><a href="../cursos/material-educativo/enlaces.html">Enlaces a material educativo sobre Biología Computacional</a></li>
+</ul>
 
-</header>
-
-
-<p>A continuación encontrarás una lista de materiales educativos que hemos encontrado útiles e interesantes.</p>
-<section id="general" class="level2">
-<h2 class="anchored" data-anchor-id="general">General</h2>
-<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.ebi.ac.uk/training/">Cursos del EBI-EMBL</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://elixir-europe.org/what-we-offer/guidelines">Guías de ELIXIR y mejores prácticas para trabajar con datos biológicos</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://elixir-europe.org/what-we-offer/portals">Herramientas para Biología Computacional</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://tess.elixir-europe.org/">Buscador de cursos, eventos, videos, presentaciones, manuales y mucho más</a><br>
-</p>
-</section>
-<section id="biología-estructural" class="level2">
-<h2 class="anchored" data-anchor-id="biología-estructural">Biología estructural</h2>
-<p><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/2UJ9_cADkek">Curso de PyMOL</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="http://www.mdtutorials.com/gmx/">Dinámica molecular con GROMACS</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.ebi.ac.uk/training/online/courses/alphafold/">Curso de AlphaFold</a></p>
-</section>
-<section id="rna-seq" class="level2">
-<h2 class="anchored" data-anchor-id="rna-seq">RNA-seq</h2>
-<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">Análisis de datos de RNA-seq con DESeq2</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/rna-seq-tutorial-with-reference-genome/">RNA-seq Tutorial (with Reference Genome)</a><br>
-<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://www.youtube.com/watch?v=0b24mpzM_5M">DESeq2 para principiantes</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://genviz.org/module-04-expression/0004/02/01/DifferentialExpression/">Differential expression with DEseq2</a></p>
-<section id="single-cell-rna-seq" class="level3">
-<h3 class="anchored" data-anchor-id="single-cell-rna-seq">Single cell RNA-seq</h3>
-<p><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/_ND6pEsf5Kg">Introducción al single cell RNA-seq</a><br>
-<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/jwSPTgF9ESQ">Análisis de single cell RNA-seq con Python</a><br>
-<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/uvyG9yLuNSE">Complete single-cell RNAseq analysis walkthrough</a><br>
-<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.singlecellcourse.org/">Curso sobre análisis de datos de single cell RNA-seq</a></p>
-</section>
-</section>
-<section id="linux" class="level2">
-<h2 class="anchored" data-anchor-id="linux">Linux</h2>
-<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://ubuntu.com/tutorials/command-line-for-beginners">The Linux command line for beginners</a></p>
-</section>
-<section id="bases-de-datos" class="level2">
-<h2 class="anchored" data-anchor-id="bases-de-datos">Bases de datos</h2>
-<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://swcarpentry.github.io/sql-novice-survey/">Databases and SQL</a></p>
 
 
 </section>
@@ -840,6 +932,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
