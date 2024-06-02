@@ -81,8 +81,8 @@ una comunidad interconectada e interdisciplinaria, en la que podamos aprender
 de otros temas y además otros grupos también se beneficien de nuestra
 experiencia.
 
-Si tienes alguna duda no dudes en escribirnos a
-<biologiacomputacional42@gmail.com>.
+Aquí está [nuestra guía de conducta](bienvenida.qmd) con información para
+los miembros del grupo.
 
 ## Contacto
 
