@@ -1,0 +1,33 @@
+---
+title: 'Secuenciamiento de ARN de una única célula'
+subtitle: 'Single cell RNA sequencing'
+
+date: 2024-06
+date-modified: last-modified
+
+author:
+  - name: Juan Camilo Arboleda Rivera
+    email: juan.arboleda2@udea.edu.co
+
+listing:
+  - id: scRNA-seq
+    contents: "**/index.qmd"
+    type: grid
+
+bibliography: refs.bib
+---
+
+![@guruprasad2020](https://www.researchgate.net/publication/347823832/figure/fig1/AS:11431281175996093@1689980864604/scRNA-seq-versus-bulk-RNA-seq-for-profiling-the-TME-A-and-B-Transcriptomic-studies-of.png)
+
+Para explicar la diferencia entre bulk RNA-seq y single cell RNA-seq se usa
+la analogía con un batido de frutas vs. una ensalada de frutas. En el batido
+no podemos distinguir una fruta de otra, sino que tenemos sus sabores
+combinados (este sería el bulk RNA), en cambio en la ensalada de frutas sí
+podemos distinguir una fruta de otra (single cell RNA-seq).
+
+![@steinheuer2021](https://www.researchgate.net/publication/350593672/figure/fig1/AS:1008311830863872@1617411682073/Difference-in-resolution-from-bulk-and-single-cell-RNA-seq-data-on-the-level-of-gene.ppm)
+
+## Más informacioń sobre el single cell RNA-seq
+
+:::{#scRNA-seq}
+:::
