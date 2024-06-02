@@ -1,0 +1,17 @@
+---
+title: '¿Qué son los UMIs?'
+author:
+  - name: Juan Camilo Arboleda Rivera
+    email: juan.arboleda2@udea.edu.co
+
+bibliography: refs.bib
+---
+
+UMI son las siglas de Unique Molecular Identifier (Identificador Molecular
+Único), y consisten en secuencias cortas (aprox. 14 pares de bases) que se
+añaden a las moléculas de ARN que se van a secuenciar para identificarlas de
+manera única.
+
+![@geneious](https://help.geneiousbiologics.com/hc/article_attachments/8234399911316){.preview-image}
+
+Al ser secuencias de 14 pares de bases, podemos tener $4^{14}$ diferentes UMIs.
