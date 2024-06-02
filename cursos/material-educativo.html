@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -93,6 +93,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-edu'] = new List('listing-edu', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-tutoriales .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-tutoriales'] = new List('listing-tutoriales', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -255,7 +283,18 @@ window.Quarto = {
    
   <ul>
   <li><a href="#tutoriales" id="toc-tutoriales" class="nav-link active" data-scroll-target="#tutoriales">Tutoriales</a></li>
-  <li><a href="#otros-recursos" id="toc-otros-recursos" class="nav-link" data-scroll-target="#otros-recursos">Otros recursos</a></li>
+  <li><a href="#recursos-externos" id="toc-recursos-externos" class="nav-link" data-scroll-target="#recursos-externos">Recursos externos</a>
+  <ul class="collapse">
+  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
+  <li><a href="#biología-estructural" id="toc-biología-estructural" class="nav-link" data-scroll-target="#biología-estructural">Biología estructural</a></li>
+  <li><a href="#rna-seq" id="toc-rna-seq" class="nav-link" data-scroll-target="#rna-seq">RNA-seq</a>
+  <ul class="collapse">
+  <li><a href="#single-cell-rna-seq" id="toc-single-cell-rna-seq" class="nav-link" data-scroll-target="#single-cell-rna-seq">Single cell RNA-seq</a></li>
+  </ul></li>
+  <li><a href="#linux" id="toc-linux" class="nav-link" data-scroll-target="#linux">Linux</a></li>
+  <li><a href="#bases-de-datos" id="toc-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos">Bases de datos</a></li>
+  <li><a href="#filogenética" id="toc-filogenética" class="nav-link" data-scroll-target="#filogenética">Filogenética</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -293,10 +332,10 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1717218000000" data-listing-file-modified-sort="1717331264533" data-listing-date-modified-sort="1717331264000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1717218000000" data-listing-file-modified-sort="1717353292666" data-listing-date-modified-sort="1717353292000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="../cursos/material-educativo/scRNA-seq/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top"><img src="https://www.researchgate.net/publication/347823832/figure/fig1/AS:11431281175996093@1689980864604/scRNA-seq-versus-bulk-RNA-seq-for-profiling-the-TME-A-and-B-Transcriptomic-studies-of.png" alt="Guruprasad et al. (2020)" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Secuenciamiento de ARN de una única célula
@@ -316,10 +355,10 @@ Juan Camilo Arboleda Rivera
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1717331264533" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1717353366070" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 <a href="../cursos/material-educativo/scRNA-seq/umi/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top"><img src="https://help.geneiousbiologics.com/hc/article_attachments/8234399911316.png" alt=" (s. f.)" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 ¿Qué son los UMIs?
@@ -341,20 +380,113 @@ Juan Camilo Arboleda Rivera
 No hay resultados
 </div>
 </div>
-<section id="tutoriales" class="level2">
-<h2 class="anchored" data-anchor-id="tutoriales">Tutoriales</h2>
-<div id="tutoriales">
-
+<section id="tutoriales" class="level1">
+<h1>Tutoriales</h1>
+<div id="listing-tutoriales" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-tutoriales-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-tutoriales'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+       <option value="index" data-direction="asc">Por defecto</option>
+         <option value="listing-title" data-direction="asc">
+          Título
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Fecha - Menos reciente
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Fecha - Más reciente
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Autor/a
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Biología computacional,Linux,Tutorial,Educación" data-listing-date-sort="1695272400000" data-listing-file-modified-sort="1717331228937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="999">
+<a href="../posts/2023/instalación-linux.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://derivadacero.com/wp-content/uploads/linux.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="tutoriales">
+Tutorial de instalación de Linux
+</h5>
+<div class="card-text listing-description">
+¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación de Linux que nos permitirá tener nuestro equipo con Windows y Linux al mismo tiempo.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Juan Camilo Arboleda Rivera
+</div>
+<div class="listing-date">
+21 sept 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
 </div>
 </section>
-<section id="otros-recursos" class="level2">
-<h2 class="anchored" data-anchor-id="otros-recursos">Otros recursos</h2>
-<ul>
-<li><a href="../cursos/material-educativo/enlaces.html">Enlaces a material educativo sobre Biología Computacional</a></li>
-</ul>
+<section id="recursos-externos" class="level1">
+<h1>Recursos externos</h1>
+<p>A continuación encontrarás una lista de materiales educativos que hemos encontrado útiles e interesantes.</p>
+<section id="general" class="level2">
+<h2 class="anchored" data-anchor-id="general">General</h2>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.ebi.ac.uk/training/">Cursos del EBI-EMBL</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://elixir-europe.org/what-we-offer/guidelines">Guías de ELIXIR y mejores prácticas para trabajar con datos biológicos</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://elixir-europe.org/what-we-offer/portals">Herramientas para Biología Computacional</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://tess.elixir-europe.org/">Buscador de cursos, eventos, videos, presentaciones, manuales y mucho más</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.ncbi.nlm.nih.gov/home/learn/">Material educativo del NCBI</a><br>
+</p>
+</section>
+<section id="biología-estructural" class="level2">
+<h2 class="anchored" data-anchor-id="biología-estructural">Biología estructural</h2>
+<p><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/2UJ9_cADkek">Curso de PyMOL</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="http://www.mdtutorials.com/gmx/">Dinámica molecular con GROMACS</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.ebi.ac.uk/training/online/courses/alphafold/">Curso de AlphaFold</a></p>
+</section>
+<section id="rna-seq" class="level2">
+<h2 class="anchored" data-anchor-id="rna-seq">RNA-seq</h2>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">Análisis de datos de RNA-seq con DESeq2</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/rna-seq-tutorial-with-reference-genome/">RNA-seq Tutorial (with Reference Genome)</a><br>
+<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://www.youtube.com/watch?v=0b24mpzM_5M">DESeq2 para principiantes</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://genviz.org/module-04-expression/0004/02/01/DifferentialExpression/">Differential expression with DEseq2</a></p>
+<section id="single-cell-rna-seq" class="level3">
+<h3 class="anchored" data-anchor-id="single-cell-rna-seq">Single cell RNA-seq</h3>
+<p><i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/_ND6pEsf5Kg">Introducción al single cell RNA-seq</a><br>
+<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/jwSPTgF9ESQ">Análisis de single cell RNA-seq con Python</a><br>
+<i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://youtu.be/uvyG9yLuNSE">Complete single-cell RNAseq analysis walkthrough</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.singlecellcourse.org/">Curso sobre análisis de datos de single cell RNA-seq</a></p>
+</section>
+</section>
+<section id="linux" class="level2">
+<h2 class="anchored" data-anchor-id="linux">Linux</h2>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://ubuntu.com/tutorials/command-line-for-beginners">The Linux command line for beginners</a></p>
+</section>
+<section id="bases-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="bases-de-datos">Bases de datos</h2>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://swcarpentry.github.io/sql-novice-survey/">Databases and SQL</a></p>
+</section>
+<section id="filogenética" class="level2">
+<h2 class="anchored" data-anchor-id="filogenética">Filogenética</h2>
+<p><i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://www.ccg.unam.mx/~vinuesa/Tutoriales_y_cursos_bioinfo_filogen%C3%A9tica_espa%C3%B1ol_PV.html">Tutoriales y cursos de bioinformática y filogenética en Español</a></p>
 
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
@@ -932,7 +1064,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

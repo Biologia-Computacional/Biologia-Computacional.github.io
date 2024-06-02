@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Juan Camilo Arboleda Rivera">
 
-<title>Grupo de Biología Computacional - Tutorial de instalación de Linux</title>
+<title>Grupo de Biología Computacional</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,37 +21,80 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../..//imgs/favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../..//imgs/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Sin resultados",
     "search-matching-documents-text": "documentos encontrados",
@@ -60,6 +103,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "resultado adicional en este documento",
     "search-more-matches-text": "resultados adicionales en este documento",
     "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancelar",
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
@@ -67,22 +111,21 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="Grupo de Biología Computacional - Tutorial de instalación de Linux">
+<link rel="stylesheet" href="../../../styles.css">
+<meta name="twitter:title" content="Grupo de Biología Computacional">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://derivadacero.com/wp-content/uploads/linux.jpg">
 <meta name="twitter:creator" content="@Nesper94">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Grupo de Biología Computacional</span>
     </a>
   </div>
@@ -91,67 +134,70 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../integrantes.html" rel="" target=""><i class="bi bi-people-fill" role="img">
+    <a class="nav-link" href="../../../integrantes.html"> <i class="bi bi-people-fill" role="img">
 </i> 
- <span class="menu-text">Integrantes</span></a>
+<span class="menu-text">Integrantes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../proyectos.html" rel="" target=""><i class="bi bi-terminal-fill" role="img">
+    <a class="nav-link" href="../../../proyectos.html"> <i class="bi bi-terminal-fill" role="img">
 </i> 
- <span class="menu-text">Proyectos</span></a>
+<span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../club-de-revista.html" rel="" target=""><i class="bi bi-easel3-fill" role="img">
+    <a class="nav-link" href="../../../club-de-revista.html"> <i class="bi bi-easel3-fill" role="img">
 </i> 
- <span class="menu-text">Club de Revista</span></a>
+<span class="menu-text">Club de Revista</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cursos" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cursos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-journal-code" role="img">
 </i> 
  <span class="menu-text">Cursos</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-cursos">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-cursos">    
         <li>
-    <a class="dropdown-item" href="../../cursos/cursos.html" rel="" target=""><i class="bi bi-laptop" role="img">
+    <a class="dropdown-item" href="../../../cursos/cursos.html"><i class="bi bi-laptop" role="img">
 </i> 
  <span class="dropdown-text">Cursos y talleres</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cursos/curso-linux.html" rel="" target=""><i class="bi bi-terminal" role="img">
+    <a class="dropdown-item" href="../../../cursos/curso-linux.html"><i class="bi bi-terminal" role="img">
 </i> 
  <span class="dropdown-text">Curso Linux</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cursos/curso-python.html" rel="" target="">
+    <a class="dropdown-item" href="../../../cursos/curso-python.html">
  <span class="dropdown-text"><i class="fa-brands fa-python" aria-label="python"></i> Curso Python</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../cursos/material-educativo.html">
+ <span class="dropdown-text">Material educativo</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target=""><i class="bi bi-pencil-square" role="img">
+    <a class="nav-link" href="../../../posts.html"> <i class="bi bi-pencil-square" role="img">
 </i> 
- <span class="menu-text">Entradas del blog</span></a>
+<span class="menu-text">Posts</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../en" rel="" target="">
- <span class="menu-text">English</span></a>
+    <a class="nav-link" href="../../../news.html"> <i class="bi bi-newspaper" role="img">
+</i> 
+<span class="menu-text">Noticias</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools tools-wide">
-    <a href="mailto:biologiacomputacional42@gmail.com" rel="" title="Envíanos un email" class="quarto-navigation-tool px-1" aria-label="Envíanos un email"><i class="bi bi-envelope-fill"></i></a>
-    <a href="https://mastodon.social/@biocomputacional" rel="" title="Síguenos en Mastodon" class="quarto-navigation-tool px-1" aria-label="Síguenos en Mastodon"><i class="bi bi-mastodon"></i></a>
-    <a href="https://t.me/biologia_computacional" rel="" title="Únete a nuestro grupo en Telegram" class="quarto-navigation-tool px-1" aria-label="Únete a nuestro grupo en Telegram"><i class="bi bi-telegram"></i></a>
-    <a href="https://twitter.com/biocomp42" rel="" title="Síguenos en Twitter" class="quarto-navigation-tool px-1" aria-label="Síguenos en Twitter"><i class="bi bi-twitter"></i></a>
-    <a href="https://www.facebook.com/groups/biologiacomputacional" rel="" title="Síguenos en Facebook" class="quarto-navigation-tool px-1" aria-label="Síguenos en Facebook"><i class="bi bi-facebook"></i></a>
-    <a href="https://github.com/Biologia-Computacional" rel="" title="Mira nuestro GitHub" class="quarto-navigation-tool px-1" aria-label="Mira nuestro GitHub"><i class="bi bi-github"></i></a>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools tools-wide">
+    <a href="mailto:biologiacomputacional42@gmail.com" title="Envíanos un email" class="quarto-navigation-tool px-1" aria-label="Envíanos un email"><i class="bi bi-envelope-fill"></i></a>
+    <a href="https://mastodon.social/@biocomputacional" title="Síguenos en Mastodon" class="quarto-navigation-tool px-1" aria-label="Síguenos en Mastodon"><i class="bi bi-mastodon"></i></a>
+    <a href="https://t.me/biologia_computacional" title="Únete a nuestro grupo en Telegram" class="quarto-navigation-tool px-1" aria-label="Únete a nuestro grupo en Telegram"><i class="bi bi-telegram"></i></a>
+    <a href="https://twitter.com/biocomp42" title="Síguenos en Twitter" class="quarto-navigation-tool px-1" aria-label="Síguenos en Twitter"><i class="bi bi-twitter"></i></a>
+    <a href="https://www.facebook.com/groups/biologiacomputacional" title="Síguenos en Facebook" class="quarto-navigation-tool px-1" aria-label="Síguenos en Facebook"><i class="bi bi-facebook"></i></a>
+    <a href="https://github.com/Biologia-Computacional" title="Mira nuestro GitHub" class="quarto-navigation-tool px-1" aria-label="Mira nuestro GitHub"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -160,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="../../imgs/profile.png" class="img-fluid"></p>
+<p><a href="../../../imgs/profile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../../imgs/profile.png" class="img-fluid"></a></p>
 </div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
@@ -172,6 +218,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#paso-4-acceder-a-la-bios" id="toc-paso-4-acceder-a-la-bios" class="nav-link" data-scroll-target="#paso-4-acceder-a-la-bios">Paso 4: Acceder a la BIOS</a></li>
   <li><a href="#paso-5-iniciar-el-proceso-de-instalación" id="toc-paso-5-iniciar-el-proceso-de-instalación" class="nav-link" data-scroll-target="#paso-5-iniciar-el-proceso-de-instalación">Paso 5: Iniciar el proceso de instalación</a></li>
   <li><a href="#video-tutorial" id="toc-video-tutorial" class="nav-link" data-scroll-target="#video-tutorial">Video tutorial</a></li>
+  <li><a href="#solución-de-problemas" id="toc-solución-de-problemas" class="nav-link" data-scroll-target="#solución-de-problemas">Solución de problemas</a></li>
   </ul>
 </nav>
     </div>
@@ -196,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
     <div class="quarto-title-meta-contents">
-             <p><a href="https://nesper94.github.io">Juan Camilo Arboleda Rivera</a> </p>
+             <p><a href="https://nesper94.github.io">Juan Camilo Arboleda Rivera</a> <a href="mailto:juan.arboleda2@udea.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
           </div>
   </div>
     
@@ -211,7 +258,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>¡Hola a todos! En este tutorial hablaremos sobre el proceso de instalación de Linux que nos permitirá tener nuestro equipo con Windows y Linux al mismo tiempo.</p>
 <p>Además de leer este tutorial te recomiendo también que veas el <a href="#video-tutorial">video tutorial</a> <strong>antes de iniciar la instalación</strong> para que tengas una idea más clara sobre el proceso.</p>
@@ -230,7 +279,7 @@ Importante
 </div>
 <section id="paso-1-descargar-una-distribución-de-linux" class="level2">
 <h2 class="anchored" data-anchor-id="paso-1-descargar-una-distribución-de-linux">Paso 1: Descargar una distribución de Linux</h2>
-<p>Linux tiene muchas versiones diferentes, también conocidas como distribuciones o <em>distros</em>. Cada una tiene sus particularidades o está diseñada para un propósito en específico. A continuación encontrarás enlaces a algunas distribuciones:</p>
+<p>Linux tiene muchas versiones diferentes, también conocidas como distribuciones o <em>distros</em>. Cada una tiene sus particularidades o está diseñada para un propósito en específico, la página <a href="https://distrochooser.de/es">distrochooser</a> te puede ayudar a elegir una distribución. A continuación encontrarás enlaces a algunas distribuciones:</p>
 <p>Distribuciones diseñadas para computadores viejos o con pocos recursos:</p>
 <ul>
 <li><a href="https://www.linuxliteos.com/index.html">Linux Lite</a></li>
@@ -288,7 +337,7 @@ Nota
 <h2 class="anchored" data-anchor-id="paso-4-acceder-a-la-bios">Paso 4: Acceder a la BIOS</h2>
 <p>Con el nuevo espacio en el disco duro listo para instalar Linux en él, solo tenemos que arrancar nuestro computador desde la USB que creamos en el <a href="#paso-2-crear-una-usb-booteable">paso 2</a>. Para esto debemos buscar en Google cómo acceder a la BIOS en nuestro modelo de computador, puesto que el proceso puede ser diferente entre diferentes equipos, pero básicamente consiste en apagar el equipo, luego apretar el botón de encendido y rápidamente apretar continuamente una tecla como F2 o F12.</p>
 <p>Luego de hacer procede a apagar tu equipo, luego conecta la USB con Linux y luego procede a acceder a la BIOS.</p>
-<p>Cada BIOS es diferente, pero debes buscar una sección llamada “Boot” y desde allí indicarle a tu computador que arranque el sistema desde la USB.</p>
+<p>Cada BIOS es diferente, pero debes buscar una sección llamada “Boot” o “Arranque” y desde allí indicarle a tu computador que arranque el sistema desde la USB.</p>
 </section>
 <section id="paso-5-iniciar-el-proceso-de-instalación" class="level2">
 <h2 class="anchored" data-anchor-id="paso-5-iniciar-el-proceso-de-instalación">Paso 5: Iniciar el proceso de instalación</h2>
@@ -312,6 +361,25 @@ Nota
 <section id="video-tutorial" class="level2">
 <h2 class="anchored" data-anchor-id="video-tutorial">Video tutorial</h2>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yMgzz1fvVCc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="solución-de-problemas" class="level2">
+<h2 class="anchored" data-anchor-id="solución-de-problemas">Solución de problemas</h2>
+<p>En caso de que haya algún fallo en la instalación y el computador ya no inicie como antes puedes restaurar el cargador de arranque de Windows. Para esto necesitarás la última versión de Ubuntu montada en tu memoria USB y luego seguir los siguientes pasos:</p>
+<ol type="1">
+<li>Conecta la USB mientras el computador está apagado y haz que arranque desde la memoria entrando a la BIOS como se indica en el <a href="#paso-4-acceder-a-la-bios">paso 4</a>.</li>
+<li>Ingresa a la opción “Try Ubuntu without installing” (Probar Ubuntu sin instalar, si esto falla, abre la configuración de la BIOS/UEFI, deshabilita “Secure Boot”, e intenta nuevamente).</li>
+<li>Una vez Ubuntu arranque, presiona Ctrl+Alt+T para abrir la Terminal.</li>
+<li>En la línea de comandos, copia los siguientes comandos y presiona Enter después de cada uno:</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> add-apt-repository ppa:yannubuntu/boot-repair</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install boot-repair</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="5" type="1">
+<li>Esto debería instalar el programa “Boot Repair”, que ahora debe aparecer en el menú de aplicaciones.</li>
+<li>Abre este programa y elige “Recommended repair” y espera hasta que termine.</li>
+</ol>
+<p>Esto debería arreglar el cargador de arranque, luego puedes apagar el computador, desconectar la USB y volverlo a encender.</p>
+<p>En <a href="https://windowsreport.com/windows-10-bootloader-linux/">este enlace</a> puedes ver las instrucciones del proceso, al igual que otras opciones de reparación.</p>
 
 
 </section>
@@ -358,6 +426,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -426,13 +521,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -511,10 +608,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -524,8 +643,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -537,7 +665,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -581,6 +832,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -606,6 +858,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -665,7 +943,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://utteranc.es/client.js" repo="Biologia-Computacional/Biologia-Computacional.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Hecho por <a href="https://nesper94.github.io">Juan C. Arboleda R.</a> con <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
 
 
 

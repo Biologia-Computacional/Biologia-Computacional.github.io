@@ -210,81 +210,25 @@
     "text": "UMI son las siglas de Unique Molecular Identifier (Identificador Molecular Único), y consisten en secuencias cortas (aprox. 14 pares de bases) que se añaden a las moléculas de ARN que se van a secuenciar para identificarlas de manera única.\n\n\n\n (s. f.)\n\n\nAl ser secuencias de 14 pares de bases, podemos tener \\(4^{14}\\) diferentes UMIs.\n\n\n\n (s. f.)\n\n\n\n Volver arribaReferencias\n\ns. f. Understanding Single Cell Technologies: Barcodes and UMIS. https://help.geneiousbiologics.com/hc/en-us/articles/4781289585300-Understanding-Single-Cell-technologies-Barcodes-and-UMIs."
   },
   {
-    "objectID": "cursos/material-educativo.html",
-    "href": "cursos/material-educativo.html",
-    "title": "Material educativo",
+    "objectID": "cursos/curso-linux.html",
+    "href": "cursos/curso-linux.html",
+    "title": "Curso de Introducción a Linux y el Software Libre",
     "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n1 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Nuestro grupo ofrece de manera regular el Curso de Introducción a Linux y el Software Libre. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
   },
   {
-    "objectID": "cursos/material-educativo.html#tutoriales",
-    "href": "cursos/material-educativo.html#tutoriales",
-    "title": "Material educativo",
-    "section": "Tutoriales",
-    "text": "Tutoriales"
-  },
-  {
-    "objectID": "cursos/material-educativo.html#otros-recursos",
-    "href": "cursos/material-educativo.html#otros-recursos",
-    "title": "Material educativo",
-    "section": "Otros recursos",
-    "text": "Otros recursos\n\nEnlaces a material educativo sobre Biología Computacional"
-  },
-  {
-    "objectID": "cursos/curso-python.html",
-    "href": "cursos/curso-python.html",
-    "title": "Curso de introducción a Python",
-    "section": "",
-    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
-    "href": "cursos/curso-python.html#qué-vas-a-aprender",
-    "title": "Curso de introducción a Python",
+    "objectID": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "href": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "title": "Curso de Introducción a Linux y el Software Libre",
     "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
   },
   {
-    "objectID": "cursos/curso-python.html#información",
-    "href": "cursos/curso-python.html#información",
-    "title": "Curso de introducción a Python",
+    "objectID": "cursos/curso-linux.html#información",
+    "href": "cursos/curso-linux.html#información",
+    "title": "Curso de Introducción a Linux y el Software Libre",
     "section": "Información",
-    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 10 clases de 2 horas por clase. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Noticias ",
-    "section": "",
-    "text": "2024-04-08\n¡Vamos avanzando viento en popa con nuestro curso de Python en su versión 2024-1! Ver más información.\n2024-03-25\n¡Nuestro grupo ahora tiene un semillero de investigación asociado a la Red de Semilleros de la Universidad de Antioquia!\n2024-02-14\nFelicitaciones a Emmanuel Ortega por su trabajo de grado y su graduación con mención de honor. Foto\n2023-07-27\nHemos publicado un preprint sobre nuestro trabajo con los sistemas CRISPR.\n\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Entradas del blog",
-    "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPromoviendo la Biología Computacional en Colombia\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nEspaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR\n\n\n\n\n\n\nBiología computacional\n\n\nCRISPR\n\n\nBioinformática\n\n\nInvestigación\n\n\n\n¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?\n\n\n\n\n\n12 abr 2024\n\n\nAna María López Pérez, Haminton Alexander Poveda Alonso\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenida\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Proyectos ",
-    "section": "",
-    "text": "Conoce en qué temas estamos trabajando."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-activos",
-    "href": "proyectos.html#proyectos-activos",
-    "title": "Proyectos ",
-    "section": "Proyectos activos",
-    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-anteriores",
-    "href": "proyectos.html#proyectos-anteriores",
-    "title": "Proyectos ",
-    "section": "Proyectos anteriores",
-    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
+    "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
   },
   {
     "objectID": "integrantes.html",
@@ -308,71 +252,106 @@
     "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEmmanuel Ortega Atehortúa\n\n\nBiólogo\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
-    "objectID": "cursos/curso-linux.html",
-    "href": "cursos/curso-linux.html",
-    "title": "Curso de Introducción a Linux y el Software Libre",
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos ",
     "section": "",
-    "text": "Nuestro grupo ofrece de manera regular el Curso de Introducción a Linux y el Software Libre. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+    "text": "Conoce en qué temas estamos trabajando."
   },
   {
-    "objectID": "cursos/curso-linux.html#qué-vas-a-aprender",
-    "href": "cursos/curso-linux.html#qué-vas-a-aprender",
-    "title": "Curso de Introducción a Linux y el Software Libre",
+    "objectID": "proyectos.html#proyectos-activos",
+    "href": "proyectos.html#proyectos-activos",
+    "title": "Proyectos ",
+    "section": "Proyectos activos",
+    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-anteriores",
+    "href": "proyectos.html#proyectos-anteriores",
+    "title": "Proyectos ",
+    "section": "Proyectos anteriores",
+    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Entradas del blog",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPromoviendo la Biología Computacional en Colombia\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nEspaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR\n\n\n\n\n\n\nBiología computacional\n\n\nCRISPR\n\n\nBioinformática\n\n\nInvestigación\n\n\n\n¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?\n\n\n\n\n\n12 abr 2024\n\n\nAna María López Pérez, Haminton Alexander Poveda Alonso\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenida\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Noticias ",
+    "section": "",
+    "text": "2024-04-08\n¡Vamos avanzando viento en popa con nuestro curso de Python en su versión 2024-1! Ver más información.\n2024-03-25\n¡Nuestro grupo ahora tiene un semillero de investigación asociado a la Red de Semilleros de la Universidad de Antioquia!\n2024-02-14\nFelicitaciones a Emmanuel Ortega por su trabajo de grado y su graduación con mención de honor. Foto\n2023-07-27\nHemos publicado un preprint sobre nuestro trabajo con los sistemas CRISPR.\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "cursos/curso-python.html",
+    "href": "cursos/curso-python.html",
+    "title": "Curso de introducción a Python",
+    "section": "",
+    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
+    "href": "cursos/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python",
     "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
   },
   {
-    "objectID": "cursos/curso-linux.html#información",
-    "href": "cursos/curso-linux.html#información",
-    "title": "Curso de Introducción a Linux y el Software Libre",
+    "objectID": "cursos/curso-python.html#información",
+    "href": "cursos/curso-python.html#información",
+    "title": "Curso de introducción a Python",
     "section": "Información",
-    "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
+    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 10 clases de 2 horas por clase. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
   },
   {
-    "objectID": "cursos/material-educativo/enlaces.html",
-    "href": "cursos/material-educativo/enlaces.html",
+    "objectID": "cursos/material-educativo.html",
+    "href": "cursos/material-educativo.html",
     "title": "Material educativo",
     "section": "",
-    "text": "A continuación encontrarás una lista de materiales educativos que hemos encontrado útiles e interesantes."
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n1 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
-    "objectID": "cursos/material-educativo/enlaces.html#general",
-    "href": "cursos/material-educativo/enlaces.html#general",
+    "objectID": "cursos/material-educativo.html#general",
+    "href": "cursos/material-educativo.html#general",
     "title": "Material educativo",
     "section": "General",
     "text": "General\n Cursos del EBI-EMBL\n Guías de ELIXIR y mejores prácticas para trabajar con datos biológicos\n Herramientas para Biología Computacional\n Buscador de cursos, eventos, videos, presentaciones, manuales y mucho más\n Material educativo del NCBI"
   },
   {
-    "objectID": "cursos/material-educativo/enlaces.html#biología-estructural",
-    "href": "cursos/material-educativo/enlaces.html#biología-estructural",
+    "objectID": "cursos/material-educativo.html#biología-estructural",
+    "href": "cursos/material-educativo.html#biología-estructural",
     "title": "Material educativo",
     "section": "Biología estructural",
     "text": "Biología estructural\n Curso de PyMOL\n Dinámica molecular con GROMACS\n Curso de AlphaFold"
   },
   {
-    "objectID": "cursos/material-educativo/enlaces.html#rna-seq",
-    "href": "cursos/material-educativo/enlaces.html#rna-seq",
+    "objectID": "cursos/material-educativo.html#rna-seq",
+    "href": "cursos/material-educativo.html#rna-seq",
     "title": "Material educativo",
     "section": "RNA-seq",
     "text": "RNA-seq\n Análisis de datos de RNA-seq con DESeq2\n RNA-seq Tutorial (with Reference Genome)\n DESeq2 para principiantes\n Differential expression with DEseq2\n\nSingle cell RNA-seq\n Introducción al single cell RNA-seq\n Análisis de single cell RNA-seq con Python\n Complete single-cell RNAseq analysis walkthrough\n Curso sobre análisis de datos de single cell RNA-seq"
   },
   {
-    "objectID": "cursos/material-educativo/enlaces.html#linux",
-    "href": "cursos/material-educativo/enlaces.html#linux",
+    "objectID": "cursos/material-educativo.html#linux",
+    "href": "cursos/material-educativo.html#linux",
     "title": "Material educativo",
     "section": "Linux",
     "text": "Linux\n The Linux command line for beginners"
   },
   {
-    "objectID": "cursos/material-educativo/enlaces.html#bases-de-datos",
-    "href": "cursos/material-educativo/enlaces.html#bases-de-datos",
+    "objectID": "cursos/material-educativo.html#bases-de-datos",
+    "href": "cursos/material-educativo.html#bases-de-datos",
     "title": "Material educativo",
     "section": "Bases de datos",
     "text": "Bases de datos\n Databases and SQL"
   },
   {
-    "objectID": "cursos/material-educativo/enlaces.html#filogenética",
-    "href": "cursos/material-educativo/enlaces.html#filogenética",
+    "objectID": "cursos/material-educativo.html#filogenética",
+    "href": "cursos/material-educativo.html#filogenética",
     "title": "Material educativo",
     "section": "Filogenética",
     "text": "Filogenética\n Tutoriales y cursos de bioinformática y filogenética en Español"
