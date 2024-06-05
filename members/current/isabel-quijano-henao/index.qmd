@@ -1,0 +1,19 @@
+---
+title: Isabel Quijano Henao
+description: Estudiante de pregrado en Biología
+image: isabel-quijano-henao.jpeg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:isabel.quijano@udea.edu.co
+---
+
+Soy estudiante de biología. Me apasiona mucho entender cómo funciona la vida
+en términos moleculares, también me interesan los insectos y artrópodos en
+general, mi sueño es ahondar en estas dos áreas del conocimiento de manera
+conjunta y la biología computacional es un enfoque interesante, es por esto
+que quiero aprender de ello.
+
+En otros aspectos sobre la vida me hace muy feliz dibujar y patinar.

@@ -6,7 +6,6 @@ listing:
   - id: current
     contents: members/current/
     type: grid
-  #image-placeholder: https://cdn-icons-png.flaticon.com/512/30/30831.png
     image-placeholder: imgs/comp-biology.jpeg
     image-height: 200px
     grid-item-align: center
