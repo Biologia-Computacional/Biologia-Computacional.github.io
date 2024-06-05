@@ -1,21 +1,23 @@
 [
   {
-    "listing": "/integrantes.html",
+    "listing": "/index.html",
     "items": [
-      "/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.html",
-      "/members/current/daniela-sánchez/daniela-sánchez.html",
-      "/members/current/david-salomón-bonilla/david-salomón-bonilla.html",
-      "/members/current/gloria-machado-rodríguez/gloria-machado-rodríguez.html",
-      "/members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.html",
-      "/members/current/jose-miguel-tobón-garcía/jose-miguel-tobón-garcía.html",
-      "/members/current/joshua-taborda-mejía/joshua-taborda-mejía.html",
-      "/members/current/juan-camilo-arboleda-rivera/juan-camilo-arboleda-rivera.html",
-      "/members/current/laura-manuela-builes-cerón/laura-manuela-builes-cerón.html",
-      "/members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.html",
-      "/members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html",
-      "/members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
-      "/members/current/tomás-duque-rueda/tomás-duque-rueda.html",
-      "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html"
+      "/eventos/iscb-latam-2024/index.html",
+      "/eventos/ubuconLA/index.html"
+    ]
+  },
+  {
+    "listing": "/cursos/material-educativo/scRNA-seq/index.html",
+    "items": [
+      "/cursos/material-educativo/scRNA-seq/umi/index.html"
+    ]
+  },
+  {
+    "listing": "/cursos/material-educativo.html",
+    "items": [
+      "/cursos/material-educativo/scRNA-seq/index.html",
+      "/cursos/material-educativo/scRNA-seq/umi/index.html",
+      "/posts/2023/instalación-linux.html"
     ]
   },
   {
@@ -31,24 +33,23 @@
     ]
   },
   {
-    "listing": "/cursos/material-educativo.html",
+    "listing": "/integrantes.html",
     "items": [
-      "/cursos/material-educativo/scRNA-seq/index.html",
-      "/cursos/material-educativo/scRNA-seq/umi/index.html",
-      "/posts/2023/instalación-linux.html"
-    ]
-  },
-  {
-    "listing": "/cursos/material-educativo/scRNA-seq/index.html",
-    "items": [
-      "/cursos/material-educativo/scRNA-seq/umi/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/eventos/iscb-latam-2024/index.html",
-      "/eventos/ubuconLA/index.html"
+      "/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.html",
+      "/members/current/daniela-sánchez/daniela-sánchez.html",
+      "/members/current/david-salomón-bonilla/david-salomón-bonilla.html",
+      "/members/current/gloria-machado-rodríguez/gloria-machado-rodríguez.html",
+      "/members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.html",
+      "/members/current/isabel-quijano-henao/index.html",
+      "/members/current/jose-miguel-tobón-garcía/jose-miguel-tobón-garcía.html",
+      "/members/current/joshua-taborda-mejía/joshua-taborda-mejía.html",
+      "/members/current/juan-camilo-arboleda-rivera/juan-camilo-arboleda-rivera.html",
+      "/members/current/laura-manuela-builes-cerón/laura-manuela-builes-cerón.html",
+      "/members/current/maria-de-los-ángeles-benavides/maria-de-los-ángeles-benavides.html",
+      "/members/current/miguel-angel-tangarife-cardona/miguel-angel-tangarife-cardona.html",
+      "/members/current/simón-tamayo-martínez/simón-tamayo-martínez.html",
+      "/members/current/tomás-duque-rueda/tomás-duque-rueda.html",
+      "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html"
     ]
   }
 ]
