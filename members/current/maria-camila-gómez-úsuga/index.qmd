@@ -1,0 +1,21 @@
+---
+title: Maria Camila Gómez Úsuga
+description: Estudiante de pregrado en Biología
+image: maria-camila-gómez-úsuga.jpeg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:mariac.gomez5@udea.edu.co
+---
+
+Soy estudiante de biología con interés en diferentes ramas como la biología
+celular, la genética y la bioquímica. Además, soy amante de las matemáticas,
+por lo que me gusta aprender cómo los principios matemáticos se entrelazan
+con los procesos biológicos, descubriendo así, mi interés en la biología
+computacional y biología de sistemas.
+
+Fuera del campo académico, me gustan los deportes, en especial el voleibol,
+me gusta dibujar y conocer lugares nuevos. Además me gustan los gatos y las
+abejas meliponas.
