@@ -64,3 +64,8 @@ Por último, se te pedirá dejar el grupo si:
 
 Si quieres pertenecer formalmente a nuestro grupo regístrate en [este
 formulario](https://forms.gle/CXSkembQwAVbAnC5A).
+
+## Más información
+
+1. [¿Cómo preparar la exposición para el Club de
+   Revista?](members/instrucciones-cdr.qmd)
