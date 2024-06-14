@@ -31,3 +31,6 @@ cdr |> gt() |>
 ```
 [Descarga el archivo iCal para añadir este evento a tu
 calendario](club-de-revista.ics)
+
+Si eres expositor, revisa nuestros [consejos para preparar un Club de
+Revista](members/instrucciones-cdr.qmd).
