@@ -331,6 +331,7 @@ Nota
 </div>
 <div class="callout-body-container callout-body">
 <p><strong>Problemas liberando espacio:</strong> Al intentar liberar espacio en tu disco te puedes encontrar con que a pesar de que tienes más de 30 GB disponibles, no puedes liberar esa cantidad de espacio. Esto puede deberse a que tu disco duro está fragmentado y lo que debes hacer es <a href="https://www.xataka.com/basics/desfragmentar-el-disco-duro-como-se-hace-y-para-que-sirve">desfragmentarlo</a>.</p>
+<p>En otras ocasiones se debe a que algunos archivos especiales de Windows no permiten reducir el tamaño de la partición. En este caso puedes intentar hacer la reducción de la partición usando el programa <a href="https://www.partitionwizard.com/">MiniTool Partition Wizard</a>.</p>
 </div>
 </div>
 </section>
@@ -960,7 +961,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
