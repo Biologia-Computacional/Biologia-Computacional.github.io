@@ -114,6 +114,11 @@ de que tienes más de 30 GB disponibles, no puedes liberar esa cantidad de
 espacio. Esto puede deberse a que tu disco duro está fragmentado y lo que
 debes hacer es
 [desfragmentarlo](https://www.xataka.com/basics/desfragmentar-el-disco-duro-como-se-hace-y-para-que-sirve).
+
+En otras ocasiones se debe a que algunos archivos especiales de Windows no
+permiten reducir el tamaño de la partición. En este caso puedes intentar
+hacer la reducción de la partición usando el programa
+[MiniTool Partition Wizard](https://www.partitionwizard.com/).
 :::
 
 ## Paso 4: Acceder a la BIOS
