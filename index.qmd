@@ -84,6 +84,11 @@ experiencia.
 Aquí está [nuestra guía de conducta](bienvenida.qmd) con información para
 los miembros del grupo.
 
+Y recuerda lo que dice [la canción de Die
+Ärzte](https://youtu.be/kRrP-bZvD2s):\
+«No es tu culpa que el mundo sea como es, solo sería tu culpa que siga
+siendo igual».
+
 ## Contacto
 
 {{< fa user >}} [Juan Camilo Arboleda Rivera](https://nesper94.github.io)\
