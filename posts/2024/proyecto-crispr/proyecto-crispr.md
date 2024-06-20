@@ -4,7 +4,6 @@ date: 2024-04-12
 author:
   - name: Ana María López Pérez
     email: ana.lopez23@udea.edu.co
-    url: '/members/current/ana-maría-lópez-pérez/ana-maría-lópez-pérez.md'
   - name: Haminton Alexander Poveda Alonso
     email: alexander.poveda@udea.edu.co
     url: '/members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.md'

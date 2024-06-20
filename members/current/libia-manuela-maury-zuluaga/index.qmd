@@ -1,0 +1,21 @@
+---
+title: Manuela Maury Zuluaga
+description: Estudiante de pregrado en Biología
+image: foto.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:manuela.maury@udea.edu.co
+---
+
+Soy estudiante de biología, apasionada por el mundo microscópico, por esto
+mismo he despertado un gran interés en la biología celular y molecular al
+igual que la microbiología en especial el mundo de las bacterias y hongos,
+creo que entender cómo suceden las cosas desde el mundo micro, nos ayuda a
+comprender el funcionamiento de la vida en general y para mi es algo
+maravilloso.
+
+Además de mi pasión por la biología, adoro también la gastronomía y todo el
+mundo culinario y espero algún día poder integrar estas dos pasiones.

@@ -1,7 +1,7 @@
 ---
 title: Haminton Alexander Poveda Alonso
 description: Estudiante de pregrado en Biología
-image: profile.jpg
+image: foto.jpg
 about:
   template: trestles
   links:
