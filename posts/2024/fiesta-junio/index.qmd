@@ -1,0 +1,21 @@
+---
+title: 'Fiesta de mitad de año'
+author:
+  - name: Juan Camilo Arboleda Rivera
+    url: https://nesper94.github.io
+date: 2024-06-24
+date-modified: last-modified
+categories:
+  - Biología computacional
+  - Fiesta
+lightbox: true
+---
+
+Las fiestas del grupo son de los eventos más importantes y esperados de todo
+el año. Nuestra fiesta de mitad de año se llevó a cabo exitosamente.
+Jugamos, cantamos, bailamos, nos deleitamos con excelentes conversaciones y
+nos divertimos mucho.
+
+![](foto_grupal_2024-06-22.jpg){.preview}
+
+¡Estamos ansiosos por la fiesta de fin de año!

@@ -21,6 +21,8 @@ listing:
 comments: false
 ---
 
+![](posts/2024/fiesta-junio/foto_grupal_2024-06-22.jpg){.preview}
+
 ## Miembros actuales
 
 :::{#current}
