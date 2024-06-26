@@ -6,7 +6,7 @@ author:
     email: ana.lopez23@udea.edu.co
   - name: Haminton Alexander Poveda Alonso
     email: alexander.poveda@udea.edu.co
-    url: '/members/current/haminton-alexander-poveda-alonso/haminton-alexander-poveda-alonso.md'
+    url: '/members/current/haminton-alexander-poveda-alonso/index.qmd'
 description: "¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios
 encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la
 resistencia a los antibióticos?"
