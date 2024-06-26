@@ -1,0 +1,13 @@
+- path: https://biologia-computacional.github.io/bioinformatics-for-terrified/
+  title: Bioinformática para los aterrorizados
+  image: https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg
+#  categories:
+#    - Biología computacional
+#    - Tutoriales
+#    - Educación
+#    - Bioinformática
+  description: |
+    ¿Qué es la bioinformática y dónde encaja con la investigación de
+    laboratorio en ciencias biológicas? Obten más información sobre las
+    herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a
+    aplicarlos en tu investigación.

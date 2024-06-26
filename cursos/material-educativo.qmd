@@ -12,7 +12,7 @@ listing:
 
   - id: tutoriales
     contents:
-      - "tutoriales/**/*{.qmd,md}"
+      - "tutoriales/**/*{.qmd,md,yml}"
       - "../posts/2023/instalación-linux.md"
     type: grid
     sort-ui: true
