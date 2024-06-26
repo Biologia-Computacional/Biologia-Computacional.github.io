@@ -1,7 +1,6 @@
 ---
 title: 'Material educativo'
 subtitle: 'Biología Computacional y Bioinformática en Español'
-title-block-banner: true
 
 listing:
   - id: edu
