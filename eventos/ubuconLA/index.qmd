@@ -11,10 +11,10 @@ categories:
   - Linux
 ---
 
-![](https://ubuntucommunity.s3.us-east-2.amazonaws.com/original/3X/5/3/5332469b29451437a181e329ac1813ea46bd4218.jpeg){.preview-image}
+![](https://ubuconla.org/2024/wp-content/uploads/sites/3/2024/06/photo_2024-06-25_19-40-58.jpg){.preview-image}
 
 Este año tendremos la UbuConLA en la Universidad de la Costa en la ciudad de
-Barranquilla, Colombia, los días 16 y 17 de agosto.
+Barranquilla, Colombia, los días 30 y 31 de Agosto.
 
 Encuentra [aquí](https://ubuconla.org/2024/) más información sobre la
 UbuConLA.
