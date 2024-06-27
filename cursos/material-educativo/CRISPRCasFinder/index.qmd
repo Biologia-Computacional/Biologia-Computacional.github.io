@@ -1,0 +1,33 @@
+---
+title: 'CRISPRCasFinder'
+description: |
+  Una herramienta para encontrar y caracterizar sistemas CRISPR en genomas
+  procariotas
+image: https://crisprcas.i2bc.paris-saclay.fr/images/LogoCrisperCas.png
+
+date: 2024-06-27
+date-modified: last-modified
+
+author:
+  - name: Isabel Quijano Henao
+    email: isabel.quijano@udea.edu.co
+
+bibliography: refs.bib
+---
+
+CRISPRCasFinder [@couvin2018] es un programa para identificar y clasificar
+sistemas CRISPR en genomas procariotas. Te permite, además de saber en qué
+parte del genoma hay sistemas CRISPR, saber su clasificación según los
+diferentes tipos y subtipos [@makarova2020], su posible orientación, el
+número de espaciadores e información sobre las repeticiones.
+
+CRISPRCasFinder se puede usar a través de su [versión
+online](https://crisprcas.i2bc.paris-saclay.fr/CrisprCasFinder/Index), pero
+también puede instalarse para usarlo de manera local.
+
+Aquí te dejamos una infografía sobre su funcionamiento:
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200929555@N05/53820475714/in/dateposted-public/" title="Infografía CRISPRCasFinder"><img src="https://live.staticflickr.com/65535/53820475714_6d15d85096_b.jpg" width="576" height="1024" alt="Infografía CRISPRCasFinder"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+Puedes descargar la infografía en formato PDF en [este
+enlace](infografia_Crisprcasfinder.pdf).
