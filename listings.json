@@ -13,27 +13,6 @@
     ]
   },
   {
-    "listing": "/cursos/material-educativo.html",
-    "items": [
-      "/cursos/material-educativo/scRNA-seq/index.html",
-      "/cursos/material-educativo/scRNA-seq/umi/index.html",
-      "/posts/2023/instalación-linux.html"
-    ]
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2024/biología-computacional/index.html",
-      "/posts/2024/fiesta-junio/index.html",
-      "/posts/2024/proyecto-crispr/proyecto-crispr.html",
-      "/posts/2024/curso-python.html",
-      "/posts/2023/inactivacion-x.html",
-      "/posts/2023/instalación-linux.html",
-      "/posts/2023/curso-linux.html",
-      "/posts/2023/bienvenida.html"
-    ]
-  },
-  {
     "listing": "/integrantes.html",
     "items": [
       "/members/current/daniela-sánchez/index.html",
@@ -53,6 +32,28 @@
       "/members/current/simón-tamayo-martínez/index.html",
       "/members/current/tomás-duque-rueda/index.html",
       "/members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2024/biología-computacional/index.html",
+      "/posts/2024/fiesta-junio/index.html",
+      "/posts/2024/proyecto-crispr/proyecto-crispr.html",
+      "/posts/2024/curso-python.html",
+      "/posts/2023/inactivacion-x.html",
+      "/posts/2023/instalación-linux.html",
+      "/posts/2023/curso-linux.html",
+      "/posts/2023/bienvenida.html"
+    ]
+  },
+  {
+    "listing": "/cursos/material-educativo.html",
+    "items": [
+      "/cursos/material-educativo/CRISPRCasFinder/index.html",
+      "/cursos/material-educativo/scRNA-seq/index.html",
+      "/cursos/material-educativo/scRNA-seq/umi/index.html",
+      "/posts/2023/instalación-linux.html"
     ]
   }
 ]

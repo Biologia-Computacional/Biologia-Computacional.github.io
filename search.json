@@ -238,11 +238,109 @@
     "text": "Más informacioń sobre el single cell RNA-seq\n\n\n\n\n\n\n\n\n¿Qué son los UMIs?\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados\n\n\n\n\n\n\nGuruprasad et al. (2020)\nSteinheuer, Canzler, y Hackermüller (2021)"
   },
   {
+    "objectID": "cursos/material-educativo/CRISPRCasFinder/index.html",
+    "href": "cursos/material-educativo/CRISPRCasFinder/index.html",
+    "title": "CRISPRCasFinder",
+    "section": "",
+    "text": "CRISPRCasFinder (Couvin et al. 2018) es un programa para identificar y clasificar sistemas CRISPR en genomas procariotas. Te permite, además de saber en qué parte del genoma hay sistemas CRISPR, saber su clasificación según los diferentes tipos y subtipos (Makarova et al. 2020), su posible orientación, el número de espaciadores e información sobre las repeticiones.\nCRISPRCasFinder se puede usar a través de su versión online, pero también puede instalarse para usarlo de manera local.\nAquí te dejamos una infografía sobre su funcionamiento:\n\n\nPuedes descargar la infografía en formato PDF en este enlace.\n\n\n\n\n Volver arribaReferencias\n\nCouvin, David, Aude Bernheim, Claire Toffano-Nioche, Marie Touchon, Juraj Michalik, Bertrand Néron, Eduardo P C Rocha, Gilles Vergnaud, Daniel Gautheret, y Christine Pourcel. 2018. «CRISPRCasFinder, an Update of CRISRFinder, Includes a Portable Version, Enhanced Performance and Integrates Search for Cas Proteins». Nucleic Acids Research 46 (W1): W246-51. https://doi.org/10.1093/nar/gky425.\n\n\nMakarova, Kira S., Yuri I. Wolf, Jaime Iranzo, Sergey A. Shmakov, Omer S. Alkhnbashi, Stan J. J. Brouns, Emmanuelle Charpentier, et al. 2020. «Evolutionary Classification of CRISPR-Cas Systems: A Burst of Class 2 and Derived Variants». Nature Reviews. Microbiology 18 (2): 67-83. https://doi.org/10.1038/s41579-019-0299-x."
+  },
+  {
+    "objectID": "cursos/curso-linux.html",
+    "href": "cursos/curso-linux.html",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "",
+    "text": "Nuestro grupo ofrece de manera regular el Curso de Introducción a Linux y el Software Libre. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "href": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+  },
+  {
+    "objectID": "cursos/curso-linux.html#información",
+    "href": "cursos/curso-linux.html#información",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "Información",
+    "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
+  },
+  {
+    "objectID": "integrantes.html#miembros-actuales",
+    "href": "integrantes.html#miembros-actuales",
+    "title": "Integrantes",
+    "section": "Miembros actuales",
+    "text": "Miembros actuales\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDaniela Sánchez Aristizábal\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Salomón Bonilla Cárdenas\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGloria Machado Rodríguez\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHaminton Alexander Poveda Alonso\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsabel Quijano Henao\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJose Miguel Tobón García\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Taborda Mejía\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Pablo Araque Ocampo\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaura Manuela Builes Cerón\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManuela Maury Zuluaga\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaria Camila Gómez Úsuga\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaria de los Ángeles Benavides Guaca\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiguel Ángel Tangarife Cardona\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimón Tamayo Martínez\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTomás Duque Rueda\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "integrantes.html#alumni",
+    "href": "integrantes.html#alumni",
+    "title": "Integrantes",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEmmanuel Ortega Atehortúa\n\n\nBiólogo\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos ",
+    "section": "",
+    "text": "Conoce en qué temas estamos trabajando."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-activos",
+    "href": "proyectos.html#proyectos-activos",
+    "title": "Proyectos ",
+    "section": "Proyectos activos",
+    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-anteriores",
+    "href": "proyectos.html#proyectos-anteriores",
+    "title": "Proyectos ",
+    "section": "Proyectos anteriores",
+    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Entradas del blog",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPromoviendo la Biología Computacional en Colombia\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nFiesta de mitad de año\n\n\n\n\n\n\nBiología computacional\n\n\nFiesta\n\n\n\n\n\n\n\n\n\n24 jun 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nEspaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR\n\n\n\n\n\n\nBiología computacional\n\n\nCRISPR\n\n\nBioinformática\n\n\nInvestigación\n\n\n\n¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?\n\n\n\n\n\n12 abr 2024\n\n\nAna María López Pérez, Haminton Alexander Poveda Alonso\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenida\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Noticias ",
+    "section": "",
+    "text": "2024-04-08\n¡Vamos avanzando viento en popa con nuestro curso de Python en su versión 2024-1! Ver más información.\n2024-03-25\n¡Nuestro grupo ahora tiene un semillero de investigación asociado a la Red de Semilleros de la Universidad de Antioquia!\n2024-02-14\nFelicitaciones a Emmanuel Ortega por su trabajo de grado y su graduación con mención de honor. Foto\n2023-07-27\nHemos publicado un preprint sobre nuestro trabajo con los sistemas CRISPR.\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "cursos/curso-python.html",
+    "href": "cursos/curso-python.html",
+    "title": "Curso de introducción a Python",
+    "section": "",
+    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
+    "href": "cursos/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
+  },
+  {
+    "objectID": "cursos/curso-python.html#información",
+    "href": "cursos/curso-python.html#información",
+    "title": "Curso de introducción a Python",
+    "section": "Información",
+    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 10 clases de 2 horas por clase. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
+  },
+  {
     "objectID": "cursos/material-educativo.html",
     "href": "cursos/material-educativo.html",
     "title": "Material educativo",
     "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n1 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nUna herramienta para encontrar y caracterizar sistemas CRISPR en genomas procariotas\n\n\n\nIsabel Quijano Henao\n\n\n27 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n1 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "cursos/material-educativo.html#general",
@@ -287,97 +385,6 @@
     "text": "Filogenética\n Tutoriales y cursos de bioinformática y filogenética en Español"
   },
   {
-    "objectID": "cursos/curso-python.html",
-    "href": "cursos/curso-python.html",
-    "title": "Curso de introducción a Python",
-    "section": "",
-    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
-    "href": "cursos/curso-python.html#qué-vas-a-aprender",
-    "title": "Curso de introducción a Python",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
-  },
-  {
-    "objectID": "cursos/curso-python.html#información",
-    "href": "cursos/curso-python.html#información",
-    "title": "Curso de introducción a Python",
-    "section": "Información",
-    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 10 clases de 2 horas por clase. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Noticias ",
-    "section": "",
-    "text": "2024-04-08\n¡Vamos avanzando viento en popa con nuestro curso de Python en su versión 2024-1! Ver más información.\n2024-03-25\n¡Nuestro grupo ahora tiene un semillero de investigación asociado a la Red de Semilleros de la Universidad de Antioquia!\n2024-02-14\nFelicitaciones a Emmanuel Ortega por su trabajo de grado y su graduación con mención de honor. Foto\n2023-07-27\nHemos publicado un preprint sobre nuestro trabajo con los sistemas CRISPR.\n\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Entradas del blog",
-    "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPromoviendo la Biología Computacional en Colombia\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nFiesta de mitad de año\n\n\n\n\n\n\nBiología computacional\n\n\nFiesta\n\n\n\n\n\n\n\n\n\n24 jun 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nEspaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR\n\n\n\n\n\n\nBiología computacional\n\n\nCRISPR\n\n\nBioinformática\n\n\nInvestigación\n\n\n\n¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?\n\n\n\n\n\n12 abr 2024\n\n\nAna María López Pérez, Haminton Alexander Poveda Alonso\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenida\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Proyectos ",
-    "section": "",
-    "text": "Conoce en qué temas estamos trabajando."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-activos",
-    "href": "proyectos.html#proyectos-activos",
-    "title": "Proyectos ",
-    "section": "Proyectos activos",
-    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-anteriores",
-    "href": "proyectos.html#proyectos-anteriores",
-    "title": "Proyectos ",
-    "section": "Proyectos anteriores",
-    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
-  },
-  {
-    "objectID": "integrantes.html#miembros-actuales",
-    "href": "integrantes.html#miembros-actuales",
-    "title": "Integrantes",
-    "section": "Miembros actuales",
-    "text": "Miembros actuales\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDaniela Sánchez Aristizábal\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Salomón Bonilla Cárdenas\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGloria Machado Rodríguez\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHaminton Alexander Poveda Alonso\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsabel Quijano Henao\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJose Miguel Tobón García\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Taborda Mejía\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Pablo Araque Ocampo\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaura Manuela Builes Cerón\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManuela Maury Zuluaga\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaria Camila Gómez Úsuga\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaria de los Ángeles Benavides Guaca\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiguel Ángel Tangarife Cardona\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimón Tamayo Martínez\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTomás Duque Rueda\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "integrantes.html#alumni",
-    "href": "integrantes.html#alumni",
-    "title": "Integrantes",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEmmanuel Ortega Atehortúa\n\n\nBiólogo\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "cursos/curso-linux.html",
-    "href": "cursos/curso-linux.html",
-    "title": "Curso de Introducción a Linux y el Software Libre",
-    "section": "",
-    "text": "Nuestro grupo ofrece de manera regular el Curso de Introducción a Linux y el Software Libre. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "cursos/curso-linux.html#qué-vas-a-aprender",
-    "href": "cursos/curso-linux.html#qué-vas-a-aprender",
-    "title": "Curso de Introducción a Linux y el Software Libre",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
-  },
-  {
-    "objectID": "cursos/curso-linux.html#información",
-    "href": "cursos/curso-linux.html#información",
-    "title": "Curso de Introducción a Linux y el Software Libre",
-    "section": "Información",
-    "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
-  },
-  {
     "objectID": "cursos/material-educativo/scRNA-seq/umi/index.html",
     "href": "cursos/material-educativo/scRNA-seq/umi/index.html",
     "title": "¿Qué son los UMIs?",
@@ -396,7 +403,7 @@
     "href": "bienvenida.html",
     "title": "¡Bienvenido al Grupo de Biología Computacional!",
     "section": "",
-    "text": "A continuación encontrarás las pautas para participar en el grupo.\n\n\nLas reuniones del grupo son de altísima importancia, y brindan la oportunidad de resolver problemas juntos y de compartir y discutir ideas. En nuestra reunión de grupo generalmente discutimos asuntos sobre los proyectos del grupo, hacemos ensayos de presentaciones, presentamos y discutimos nuevos resultados que hayamos obtenido, socializamos problemas con los que nos hayamos encontrado o simplemente discutimos asuntos internos del grupo.\nEsta es la información sobre la reunión del grupo para el semestre 2024-1:\nHora: Viernes 12:00 - 14:00\nLugar: Salón 7-325, Instituto de Biología, Universidad de Antioquia\n\n\n\nComo parte del grupo se espera que tú:\n\nAsistas al Club de Revista y a las demás reuniones del grupo. Estos espacios son extremadamente importantes. Igualmente, se espera que avises oportunamente si no puedes asistir a algún encuentro.\nAdemás de asistir, se espera que participes activamente en las reuniones. No tienes que saberlo todo, pero sí eres responsable de preguntar cuando no entiendas algo. Tus contribuciones son valiosas, tu perspectiva es diferente a la de cualquier otro y queremos escucharte.\nSeas respetuoso en las reuniones. Debes poner atención, ser amable, y no distraerte jugando o mirando el celular.\nPresentes artículos en el Club de Revista.\nManifiestes tus opiniones con libertad, en particular, si tienes propuestas u opinas que hay cosas que deben mejorar, esperamos que lo digas abiertamente.\nTengas iniciativa. Necesitamos personas innovadoras, con ganas de hacer cosas, ya sea de investigación, de divulgación de la ciencia, o preprar una gran fiesta. No queremos “zombies” que solo estén presentes sin aportar nada.\nBusques y leas artículos de investigación y los compartas con los demás.\nSi tienes asignada una tarea, asegúrate de hacerla a tiempo y de manera diligente.\nSeas organizado con tu trabajo y tengas una bitácora donde reportes todo tu proceso de investigación y tus análisis.\nSeas comunicativo y compartas tus pasiones e intereses. También es muy importante que comuniques si tienes problemas, así te podemos ayudar.\n\nPor último, se te pedirá dejar el grupo si:\n\nAcumulas tres faltas injustificadas a las reuniones.\nNo eres diligente, comprometido y responsable.\n\nSi quieres pertenecer formalmente a nuestro grupo regístrate en este formulario.\n\n\n\n\n¿Cómo preparar la exposición para el Club de Revista?"
+    "text": "A continuación encontrarás las pautas para participar en el grupo.\nAntes que nada debes saber que en nuestro grupo respetamos las leyes de la termodinámica.\n\n\nLas reuniones del grupo son de altísima importancia, y brindan la oportunidad de resolver problemas juntos y de compartir y discutir ideas. En nuestra reunión de grupo generalmente discutimos asuntos sobre los proyectos del grupo, hacemos ensayos de presentaciones, presentamos y discutimos nuevos resultados que hayamos obtenido, socializamos problemas con los que nos hayamos encontrado o simplemente discutimos asuntos internos del grupo.\nEsta es la información sobre la reunión del grupo para el semestre 2024-1:\nHora: Viernes 12:00 - 14:00\nLugar: Salón 7-325, Instituto de Biología, Universidad de Antioquia\n\n\n\nComo parte del grupo se espera que tú:\n\nAsistas al Club de Revista y a las demás reuniones del grupo. Estos espacios son extremadamente importantes. Igualmente, se espera que avises oportunamente si no puedes asistir a algún encuentro.\nAdemás de asistir, se espera que participes activamente en las reuniones. No tienes que saberlo todo, pero sí eres responsable de preguntar cuando no entiendas algo. Tus contribuciones son valiosas, tu perspectiva es diferente a la de cualquier otro y queremos escucharte.\nSeas respetuoso en las reuniones. Debes poner atención, ser amable, y no distraerte jugando o mirando el celular.\nPresentes artículos en el Club de Revista.\nManifiestes tus opiniones con libertad, en particular, si tienes propuestas u opinas que hay cosas que deben mejorar, esperamos que lo digas abiertamente.\nTengas iniciativa. Necesitamos personas innovadoras, con ganas de hacer cosas, ya sea de investigación, de divulgación de la ciencia, o preprar una gran fiesta. No queremos “zombies” que solo estén presentes sin aportar nada.\nBusques y leas artículos de investigación y los compartas con los demás.\nSi tienes asignada una tarea, asegúrate de hacerla a tiempo y de manera diligente.\nSeas organizado con tu trabajo y tengas una bitácora donde reportes todo tu proceso de investigación y tus análisis.\nSeas comunicativo y compartas tus pasiones e intereses. También es muy importante que comuniques si tienes problemas, así te podemos ayudar.\n\nPor último, se te pedirá dejar el grupo si:\n\nAcumulas tres faltas injustificadas a las reuniones.\nNo eres diligente, comprometido y responsable.\n\nSi quieres pertenecer formalmente a nuestro grupo regístrate en este formulario.\n\n\n\n\n¿Cómo preparar la exposición para el Club de Revista?"
   },
   {
     "objectID": "bienvenida.html#reuniones-del-grupo",
