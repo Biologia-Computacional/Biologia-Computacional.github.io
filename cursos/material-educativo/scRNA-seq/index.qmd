@@ -27,6 +27,8 @@ podemos distinguir una fruta de otra (single cell RNA-seq).
 
 ![@steinheuer2021](https://www.researchgate.net/publication/350593672/figure/fig1/AS:1008311830863872@1617411682073/Difference-in-resolution-from-bulk-and-single-cell-RNA-seq-data-on-the-level-of-gene.ppm)
 
+{{< video https://youtu.be/pKngHhBCnHU >}}
+
 ## Más informacioń sobre el single cell RNA-seq
 
 :::{#scRNA-seq}

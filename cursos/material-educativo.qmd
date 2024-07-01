@@ -51,6 +51,8 @@ AlphaFold](https://www.ebi.ac.uk/training/online/courses/alphafold/)
 
 ## RNA-seq
 
+{{< fa brands youtube >}} [Workshop RNA-seq
+UCLA](https://youtu.be/OO4PGQxACuk)\
 {{<fa globe>}} [Análisis de datos de RNA-seq con DESeq2](https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)\
 {{<fa globe>}} [RNA-seq Tutorial (with Reference Genome)](https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/rna-seq-tutorial-with-reference-genome/)\
 {{<fa brands youtube>}} [DESeq2 para principiantes](https://www.youtube.com/watch?v=0b24mpzM_5M)\
