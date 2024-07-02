@@ -68,6 +68,12 @@ website:
   page-footer:
     right: Hecho por [Juan C. Arboleda R.](https://nesper94.github.io) con [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
 
+  site-url: https://biologia-computacional.github.io/
+
+  repo-url: https://github.com/Biologia-Computacional/Biologia-Computacional.github.io
+
+  repo-actions: [issue]
+
 format:
   html:
     theme:
