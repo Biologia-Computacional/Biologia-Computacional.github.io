@@ -261,7 +261,7 @@ window.Quarto = {
   <ul>
   <li><a href="#más-informacioń-sobre-el-single-cell-rna-seq" id="toc-más-informacioń-sobre-el-single-cell-rna-seq" class="nav-link active" data-scroll-target="#más-informacioń-sobre-el-single-cell-rna-seq">Más informacioń sobre el single cell RNA-seq</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/Biologia-Computacional.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -306,14 +306,14 @@ window.Quarto = {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.researchgate.net/publication/347823832/figure/fig1/AS:11431281175996093@1689980864604/scRNA-seq-versus-bulk-RNA-seq-for-profiling-the-TME-A-and-B-Transcriptomic-studies-of.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="@guruprasad2020"><img src="https://www.researchgate.net/publication/347823832/figure/fig1/AS:11431281175996093@1689980864604/scRNA-seq-versus-bulk-RNA-seq-for-profiling-the-TME-A-and-B-Transcriptomic-studies-of.png" class="preview-image img-fluid figure-img" alt="Guruprasad et&nbsp;al. (2020)"></a></p>
+<p><a href="https://www.researchgate.net/publication/347823832/figure/fig1/AS:11431281175996093@1689980864604/scRNA-seq-versus-bulk-RNA-seq-for-profiling-the-TME-A-and-B-Transcriptomic-studies-of.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="@guruprasad2020"><img src="https://www.researchgate.net/publication/347823832/figure/fig1/AS:11431281175996093@1689980864604/scRNA-seq-versus-bulk-RNA-seq-for-profiling-the-TME-A-and-B-Transcriptomic-studies-of.png" class="preview-image img-fluid figure-img" alt="Guruprasad et&nbsp;al. (2020)"></a></p>
 <figcaption><span class="citation" data-cites="guruprasad2020">Guruprasad et&nbsp;al. (<a href="#ref-guruprasad2020" role="doc-biblioref">2020</a>)</span></figcaption>
 </figure>
 </div>
 <p>Para explicar la diferencia entre bulk RNA-seq y single cell RNA-seq se usa la analogía con un batido de frutas vs.&nbsp;una ensalada de frutas. En el batido no podemos distinguir una fruta de otra, sino que tenemos sus sabores combinados (este sería el bulk RNA), en cambio en la ensalada de frutas sí podemos distinguir una fruta de otra (single cell RNA-seq).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.researchgate.net/publication/350593672/figure/fig1/AS:1008311830863872@1617411682073/Difference-in-resolution-from-bulk-and-single-cell-RNA-seq-data-on-the-level-of-gene.ppm" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="@steinheuer2021"><img src="https://www.researchgate.net/publication/350593672/figure/fig1/AS:1008311830863872@1617411682073/Difference-in-resolution-from-bulk-and-single-cell-RNA-seq-data-on-the-level-of-gene.ppm" class="img-fluid figure-img" alt="Steinheuer, Canzler, y Hackermüller (2021)"></a></p>
+<p><a href="https://www.researchgate.net/publication/350593672/figure/fig1/AS:1008311830863872@1617411682073/Difference-in-resolution-from-bulk-and-single-cell-RNA-seq-data-on-the-level-of-gene.ppm" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="@steinheuer2021"><img src="https://www.researchgate.net/publication/350593672/figure/fig1/AS:1008311830863872@1617411682073/Difference-in-resolution-from-bulk-and-single-cell-RNA-seq-data-on-the-level-of-gene.ppm" class="img-fluid figure-img" alt="Steinheuer, Canzler, y Hackermüller (2021)"></a></p>
 <figcaption><span class="citation" data-cites="steinheuer2021">Steinheuer, Canzler, y Hackermüller (<a href="#ref-steinheuer2021" role="doc-biblioref">2021</a>)</span></figcaption>
 </figure>
 </div>
@@ -590,7 +590,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/Biologia-Computacional\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/biologia-computacional\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -933,13 +933,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Biologia-Computacional/Biologia-Computacional.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Hecho por <a href="https://nesper94.github.io">Juan C. Arboleda R.</a> con <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

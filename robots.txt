@@ -1,1 +1,1 @@
-Sitemap: https://Biologia-Computacional.github.io/sitemap.xml
+Sitemap: https://biologia-computacional.github.io/sitemap.xml

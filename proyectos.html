@@ -180,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#proyectos-activos" id="toc-proyectos-activos" class="nav-link active" data-scroll-target="#proyectos-activos">Proyectos activos</a></li>
   <li><a href="#proyectos-anteriores" id="toc-proyectos-anteriores" class="nav-link" data-scroll-target="#proyectos-anteriores">Proyectos anteriores</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/Biologia-Computacional.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -455,7 +455,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/Biologia-Computacional\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/biologia-computacional\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -796,13 +796,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Biologia-Computacional/Biologia-Computacional.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Hecho por <a href="https://nesper94.github.io">Juan C. Arboleda R.</a> con <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
