@@ -21,11 +21,25 @@ Comencemos hablando sobre a qué nos referimos cuando hablamos de un formato.
 El formato de un archivo hace referencia a cómo está guardada la información
 en un objeto digital. Así, aunque dos imágenes puedan ser exactamente
 iguales, si una está en formato JPG y la otra en PNG, la información sobre
-la imágen estará almacenada de manera diferente en cada formato, e incluso
+la imagen estará almacenada de manera diferente en cada formato, e incluso
 es muy probable que los dos archivos tengan un tamaño diferente debido a
-esta razón. La 
+esta razón. La especificación del formato dice cómo se almacena la
+información, por ejemplo, una especificación podría indicar "los primeros 32
+bits del archivo indican la resolución de la imagen".
 
-## ¿Qué son los formatos abiertos?
+## ¿Qué son los formatos abiertos y cerrados?
+
+En los formatos abiertos la especificación está disponible para cualquier
+persona de forma gratuita, de manera que cualquiera puede saber cómo se
+almacena la información en un formato abierto, y cualquiera puede
+desarrollar un programa capaz de leer y crear archivos en un formato
+abierto. Por el contrario, si el archivo es cerrado, significa que su
+especificación es propiedad de alguna compañía, y generalmente solo esa
+compañía sabe exactamente cómo se almacena la información en el archivo.
+Esto trae limitaciones, porque ya no cualquiera puede desarrollar un
+programa que pueda crear un archivo con formato cerrado, ya que no sabrá
+cómo tiene que almacenar los datos o se lo impedirán los términos legales
+del formato.
 
 ## ¿Por qué usar formatos abiertos?
 
@@ -38,18 +52,47 @@ esta razón. La
   propietaria del archivo quien cree un programa para abrirlo, porque
   solamente la compañía conoce o tiene derechos sobre la forma de
   almacenamiento de la información en ese archivo.
-- **Transparencia en el contenido de los archivos.**
+
+- **Transparencia en el contenido de los archivos.** Al tener una
+  especificación abierta, cualquiera puede saber qué contiene
+  específicamente un archivo en su interior, aunque se requiera algo de
+  programación para ello. Con archivos cerrados, al no conocer enteramente
+  la especificación, estos podrían tener información oculta que solo la
+  compañía propietaria del formato conoce y sabe su significado.
+
 - **Mayor interoperatividad.** Muchas aplicaciones son capaces de leer y
-  manipular formatos abiertos.
+  manipular formatos abiertos. Con los formatos cerrados, pasa habitualmente
+  que solo el programa diseñado por la misma compañía propietaria del
+  formato es capaz de trabajar apropiadamente con él.
 
 ## Desventajas de los formatos cerrados
 
+Además de las desventajas ya mencionadas de los formatos cerrados, tenemos
+también los siguientes problemas:
 
+- **Costo:** Muchos de los programas necesarios para abrir y crear archivos
+  con formato cerrado son software de pago, por lo que conseguirlo o
+  actualizar su licencia representa un gasto económico.
+
+- **Intereses:** Los formatos cerrados son diseñados y controlados por su
+  propietario, cuyos intereses pueden no estar bien alineados con los
+  intereses del público general o de sus usuarios, por lo que un formato
+  puede no estar diseñado para funcionar de manera óptima para el usuario
+  sino para funcionar de manera óptima para la compañía; por ejemplo, el
+  archivo podría tener secciones cuya especificación es deliberadamente
+  compleja para que solo el programa propietario lo pueda abrir
+  correctamente y evitar su uso por la competencia.
+
+- **Obsolescencia:** Los archivos en formatos cerrados tienen mayor
+  probabilidad de quedar obsoletos en el futuro porque es posible que el
+  software necesario para abrirlos y manipularlos deje de ser mantenido o su
+  propietario decida hacer modificaciones y dejar de dar soporte al formato.
 
 ## Más información
 
 - <https://es.wikipedia.org/wiki/Formato_abierto>
 - <https://biblioguias.cepal.org/gestion-de-datos-de-investigacion/formatos>
-- <https://slideplayer.es/slide/11201813/>
+- [Software libre y formatos abiertos. ¿Qué es software libre y software privado?](https://slideplayer.es/slide/11201813/)
+- [La importancia de los formatos libres para la preservación
+  digital](https://www.rubenalcaraz.es/pinakes/preservacion-digital/la-importancia-de-los-formatos-libres-para-la-preservacion-digital/)
 
-<div style="width:800px"> <strong style="display:block;margin:12px 0 4px"><a href="https://slideplayer.es/slide/11201813/" title="Software libre y formatos abiertos. ¿Qué es software libre y software privado?" target="_blank">Software libre y formatos abiertos. ¿Qué es software libre y software privado?  El software libre es aquel que se encuentra bajo una licencia libre y.</a></strong><iframe src="https://player.slideplayer.es/41/11201813/" width="800" height="649" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe><div style="padding:5px 0 12px"></div></div>

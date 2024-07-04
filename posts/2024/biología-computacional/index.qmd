@@ -1,5 +1,6 @@
 ---
 title: 'Promoviendo la Biología Computacional en Colombia'
+date: 2024-06
 author:
   - name: Juan Camilo Arboleda Rivera
     email: juan.arboleda2@udea.edu.co

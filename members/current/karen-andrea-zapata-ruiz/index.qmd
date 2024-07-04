@@ -1,0 +1,18 @@
+---
+title: Karen Andrea Zapata Ruiz
+description: Estudiante de pregrado en Biología
+image: foto.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:karen.zapata1@udea.edu.co
+---
+
+¡Hola, soy Karen! Actualmente estudio biología y me apasiona explorar
+diversos campos como la biología celular y la genética. Además, me he
+interesado por la biología computacional porque pienso que es una excelente
+herramienta para explorar temas biológicos complejos.
+
+Adicionalmente, me encanta el dibujo, la pintura y la meditación.
