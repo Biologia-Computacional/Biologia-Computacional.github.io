@@ -1,0 +1,55 @@
+---
+title: '¿Por qué es importante usar formatos abiertos?'
+author:
+  - name: Juan Camilo Arboleda Rivera
+    url: https://nesper94.github.io
+    email: juan.arboleda2@udea.edu.co
+date: 2024-07-04
+date-modified: last-modified
+image: opendoc.png
+categories:
+  - Biología computacional
+  - Alfabetismo digital
+  - Educación
+  - Ciencia abierta
+lightbox: true
+---
+
+## ¿Qué es un formato de archivo?
+
+Comencemos hablando sobre a qué nos referimos cuando hablamos de un formato.
+El formato de un archivo hace referencia a cómo está guardada la información
+en un objeto digital. Así, aunque dos imágenes puedan ser exactamente
+iguales, si una está en formato JPG y la otra en PNG, la información sobre
+la imágen estará almacenada de manera diferente en cada formato, e incluso
+es muy probable que los dos archivos tengan un tamaño diferente debido a
+esta razón. La 
+
+## ¿Qué son los formatos abiertos?
+
+## ¿Por qué usar formatos abiertos?
+
+- **Garantía de acceso a largo plazo.** Imaginemos un escenario hipotético en el
+  que de un momento a otro desaparecen todos los programas que permitían
+  abrir un tipo de archivo en específico. Al ser formatos abiertos y ser su
+  especificación libre y accesible para todos, sería muy sencillo para un
+  programador crear un nuevo programa capaz de abrir y leer este tipo de
+  archivo. En cambio, con un formato cerrado, tendría que ser la compañía
+  propietaria del archivo quien cree un programa para abrirlo, porque
+  solamente la compañía conoce o tiene derechos sobre la forma de
+  almacenamiento de la información en ese archivo.
+- **Transparencia en el contenido de los archivos.**
+- **Mayor interoperatividad.** Muchas aplicaciones son capaces de leer y
+  manipular formatos abiertos.
+
+## Desventajas de los formatos cerrados
+
+
+
+## Más información
+
+- <https://es.wikipedia.org/wiki/Formato_abierto>
+- <https://biblioguias.cepal.org/gestion-de-datos-de-investigacion/formatos>
+- <https://slideplayer.es/slide/11201813/>
+
+<div style="width:800px"> <strong style="display:block;margin:12px 0 4px"><a href="https://slideplayer.es/slide/11201813/" title="Software libre y formatos abiertos. ¿Qué es software libre y software privado?" target="_blank">Software libre y formatos abiertos. ¿Qué es software libre y software privado?  El software libre es aquel que se encuentra bajo una licencia libre y.</a></strong><iframe src="https://player.slideplayer.es/41/11201813/" width="800" height="649" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe><div style="padding:5px 0 12px"></div></div>
