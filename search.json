@@ -574,6 +574,13 @@
     "text": "Desventajas de los formatos cerrados\nAdemás de las desventajas ya mencionadas de los formatos cerrados, tenemos también los siguientes problemas:\n\nCosto: Muchos de los programas necesarios para abrir y crear archivos con formato cerrado son software de pago, por lo que conseguirlo o actualizar su licencia representa un gasto económico.\nIntereses: Los formatos cerrados son diseñados y controlados por su propietario, cuyos intereses pueden no estar bien alineados con los intereses del público general o de sus usuarios, por lo que un formato puede no estar diseñado para funcionar de manera óptima para el usuario sino para funcionar de manera óptima para la compañía; por ejemplo, el archivo podría tener secciones cuya especificación es deliberadamente compleja para que solo el programa propietario lo pueda abrir correctamente y evitar su uso por la competencia.\nObsolescencia: Los archivos en formatos cerrados tienen mayor probabilidad de quedar obsoletos en el futuro porque es posible que el software necesario para abrirlos y manipularlos deje de ser mantenido o su propietario decida hacer modificaciones y dejar de dar soporte al formato."
   },
   {
+    "objectID": "posts/2024/formatos-abiertos/index.html#cambiando-nuestros-hábitos",
+    "href": "posts/2024/formatos-abiertos/index.html#cambiando-nuestros-hábitos",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "Cambiando nuestros hábitos",
+    "text": "Cambiando nuestros hábitos\nDespués de conocer sobre los formatos abiertos, la tarea es habituarnos a usarlos más a menudo. En la siguiente tabla puedes encontrar cuáles son las alternativas abiertas a algunos formatos propietarios lamentablemente muy extendidos:\n\n\n\nTipo de archivo\nFormato cerrado\nFormatos abiertos\n\n\n\n\nTabla\n.xlsx\n.ods, .tsv, .csv\n\n\nTexto enriquecido\n.docx\n.odt\n\n\nPresentación\n.pptx\n.odp\n\n\n\nEl cambio es tan sencillo como hacer click en Guardar como en el menú del programa que estés usando y luego elegir el formato apropiado."
+  },
+  {
     "objectID": "posts/2024/formatos-abiertos/index.html#más-información",
     "href": "posts/2024/formatos-abiertos/index.html#más-información",
     "title": "¿Por qué es importante usar formatos abiertos?",

@@ -185,6 +185,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#qué-son-los-formatos-abiertos-y-cerrados" id="toc-qué-son-los-formatos-abiertos-y-cerrados" class="nav-link" data-scroll-target="#qué-son-los-formatos-abiertos-y-cerrados">¿Qué son los formatos abiertos y cerrados?</a></li>
   <li><a href="#por-qué-usar-formatos-abiertos" id="toc-por-qué-usar-formatos-abiertos" class="nav-link" data-scroll-target="#por-qué-usar-formatos-abiertos">¿Por qué usar formatos abiertos?</a></li>
   <li><a href="#desventajas-de-los-formatos-cerrados" id="toc-desventajas-de-los-formatos-cerrados" class="nav-link" data-scroll-target="#desventajas-de-los-formatos-cerrados">Desventajas de los formatos cerrados</a></li>
+  <li><a href="#cambiando-nuestros-hábitos" id="toc-cambiando-nuestros-hábitos" class="nav-link" data-scroll-target="#cambiando-nuestros-hábitos">Cambiando nuestros hábitos</a></li>
   <li><a href="#más-información" id="toc-más-información" class="nav-link" data-scroll-target="#más-información">Más información</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/Biologia-Computacional.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></nav>
@@ -259,6 +260,37 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Intereses:</strong> Los formatos cerrados son diseñados y controlados por su propietario, cuyos intereses pueden no estar bien alineados con los intereses del público general o de sus usuarios, por lo que un formato puede no estar diseñado para funcionar de manera óptima para el usuario sino para funcionar de manera óptima para la compañía; por ejemplo, el archivo podría tener secciones cuya especificación es deliberadamente compleja para que solo el programa propietario lo pueda abrir correctamente y evitar su uso por la competencia.</p></li>
 <li><p><strong>Obsolescencia:</strong> Los archivos en formatos cerrados tienen mayor probabilidad de quedar obsoletos en el futuro porque es posible que el software necesario para abrirlos y manipularlos deje de ser mantenido o su propietario decida hacer modificaciones y dejar de dar soporte al formato.</p></li>
 </ul>
+</section>
+<section id="cambiando-nuestros-hábitos" class="level2">
+<h2 class="anchored" data-anchor-id="cambiando-nuestros-hábitos">Cambiando nuestros hábitos</h2>
+<p>Después de conocer sobre los formatos abiertos, la tarea es habituarnos a usarlos más a menudo. En la siguiente tabla puedes encontrar cuáles son las alternativas abiertas a algunos formatos propietarios lamentablemente muy extendidos:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Tipo de archivo</th>
+<th>Formato cerrado</th>
+<th>Formatos abiertos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tabla</td>
+<td>.xlsx</td>
+<td>.ods, .tsv, .csv</td>
+</tr>
+<tr class="even">
+<td>Texto enriquecido</td>
+<td>.docx</td>
+<td>.odt</td>
+</tr>
+<tr class="odd">
+<td>Presentación</td>
+<td>.pptx</td>
+<td>.odp</td>
+</tr>
+</tbody>
+</table>
+<p>El cambio es tan sencillo como hacer click en <code>Guardar como</code> en el menú del programa que estés usando y luego elegir el formato apropiado.</p>
 </section>
 <section id="más-información" class="level2">
 <h2 class="anchored" data-anchor-id="más-información">Más información</h2>
@@ -847,7 +879,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
