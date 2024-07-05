@@ -88,6 +88,22 @@ también los siguientes problemas:
   software necesario para abrirlos y manipularlos deje de ser mantenido o su
   propietario decida hacer modificaciones y dejar de dar soporte al formato.
 
+## Cambiando nuestros hábitos
+
+Después de conocer sobre los formatos abiertos, la tarea es habituarnos a
+usarlos más a menudo. En la siguiente tabla puedes encontrar cuáles son las
+alternativas abiertas a algunos formatos propietarios lamentablemente muy
+extendidos:
+
+| Tipo de archivo | Formato cerrado | Formatos abiertos |
+| --------------- | --------------- | ----------------- |
+| Tabla           | .xlsx           | .ods, .tsv, .csv  |
+| Texto enriquecido | .docx         | .odt              |
+| Presentación    | .pptx           | .odp              |
+
+El cambio es tan sencillo como hacer click en `Guardar como` en el menú del
+programa que estés usando y luego elegir el formato apropiado.
+
 ## Más información
 
 - <https://es.wikipedia.org/wiki/Formato_abierto>
