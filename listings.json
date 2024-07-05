@@ -24,6 +24,7 @@
       "/members/current/joshua-taborda-mejía/index.html",
       "/members/current/juan-camilo-arboleda-rivera/index.html",
       "/members/current/juan-pablo-araque-ocampo/index.html",
+      "/members/current/karen-andrea-zapata-ruiz/index.html",
       "/members/current/laura-manuela-builes-cerón/index.html",
       "/members/current/libia-manuela-maury-zuluaga/index.html",
       "/members/current/maria-camila-gómez-úsuga/index.html",
@@ -37,8 +38,9 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/2024/biología-computacional/index.html",
+      "/posts/2024/formatos-abiertos/index.html",
       "/posts/2024/fiesta-junio/index.html",
+      "/posts/2024/biología-computacional/index.html",
       "/posts/2024/proyecto-crispr/proyecto-crispr.html",
       "/posts/2024/curso-python.html",
       "/posts/2023/inactivacion-x.html",
