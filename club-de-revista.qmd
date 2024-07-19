@@ -10,7 +10,7 @@ asistir.
 **Horario:** Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\
 **Lugar:** Salón 7-305, Instituto de Biología, Universidad de Antioquia
 
-La siguiente es la programación del club de revista para el año 2024:
+La siguiente es la programación del Club de Revista para el semestre 2024-2:
 
 ```{r}
 #| echo: false
@@ -19,7 +19,7 @@ library(googlesheets4)
 library(gt) # Tablas
 
 gs4_deauth()
-cdr <- read_sheet('https://docs.google.com/spreadsheets/d/1-r-7m4jrNHCE76D--KAF0wFZHlmpuq4fHp53r2MTYKw/edit?usp=sharing', skip = 3)
+cdr <- read_sheet('https://docs.google.com/spreadsheets/d/1045MTvdp3Q8-q3IFcaTZ4QpYNQkHd3OZXmpBU3iMIrQ/edit?usp=sharing', skip = 3)
 
 cdr |> gt() |>
   sub_missing(missing_text = '') |>
