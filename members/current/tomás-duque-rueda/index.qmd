@@ -7,5 +7,28 @@ about:
     - icon: envelope-fill
       text: Email
       href: mailto:tomas.duquer@udea.edu.co
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/DuquerTomas
 ---
 
+¡Hola a todos! Soy Tomás Duque y soy estudiante de Biología. Dentro de esta
+ciencia, tengo muchos intereses: me gusta la biología marina y la
+limnología, también me apasionan mucho la biotecnología, la microbiología,
+la astrobiología y la biología computacional.
+
+Además, los microorganismos fotosintéticos me parecen los seres más
+fascinantes del planeta. Así, las microalgas y cianobacterias me han
+permitido reunir todas mis pasiones.
+
+Dentro del grupo de Biología Computacional he podido profundizar en varios
+temas de mi interés, como los sistemas CRISPR específicamente de
+cianobacterias.
+
+También he tenido la oportunidad de aprender mucho sobre Machine Learning y
+sus diferentes aplicaciones. Por ejemplo, cómo las redes convolucionales
+profundas nos permiten reconocer y clasificar imágenes, y cómo esto puede
+usarse desde la clasificación morfológica de microorganismos hasta el
+monitoreo satelital de ecosistemas completos; también, cómo la inteligencia
+artificial nos ayuda a identificar patrones e interpretar mejor la
+información de datos ómicos.
