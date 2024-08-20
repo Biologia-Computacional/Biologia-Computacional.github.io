@@ -14,11 +14,557 @@
     "text": "Ubicación"
   },
   {
-    "objectID": "club-de-revista.html",
-    "href": "club-de-revista.html",
-    "title": "Club de Revista",
+    "objectID": "posts/2023/bienvenida.html",
+    "href": "posts/2023/bienvenida.html",
+    "title": "Bienvenida",
     "section": "",
-    "text": "Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia. Cualquier persona puede asistir.\nHorario: Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\nLugar: Salón 7-305, Instituto de Biología, Universidad de Antioquia\nLa siguiente es la programación del Club de Revista para el semestre 2024-2:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFecha\nExpositor\nArtículo\nLínea de investigación\nHora de inicio\nIdioma\n\n\n\n\n17 de julio\nDaniela Sánchez Aristizábal\nPrediction of drug-target interactions based on multi-layer network representation learning\nMachine-Learning\n12:10\nInglés\n\n\n24 de julio\nJose Miguel Tobón García\nAnalysis of DNA Sequence Classification Using CNN and Hybrid Models\nMachine-Learning\n13:00\nInglés\n\n\n31 de julio\nJuan Camilo Arboleda Rivera\nPrediction of DNA Methylation based on Multi-dimensional feature encoding and double convolutional fully connected convolutional neural network\nMachine-Learning\n12:10\nInglés\n\n\n7 de agosto\nFestivo\n\n\n\n\n\n\n\n\n\n\n14 de agosto\n\n\nReunión administrativa GBC\n\n\n12:10\nEspañol\n\n\n21 de agosto\nSimón Tamayo Martínez\n\n\nCRISPR\n12:10\nInglés\n\n\n28 de agosto\nHaminton Alexander Poveda Alonso\n\n\nCRISPR\n12:10\nInglés\n\n\n4 de septiembre\nDavid Salomón Bonilla Cárdenas\n\n\nCRISPR\n12:10\nInglés\n\n\n11 de septiembre\nMaria de los Ángeles Benavides Guaca\n\n\nInactivación del X\n12:10\nInglés\n\n\n18 de septiembre\nJoshua Taborda Mejía\n\n\nCRISPR\n12:10\nInglés\n\n\n25 de septiembre\nIsabel Quijano Henao\n\n\nCRISPR\n\n\nInglés\n\n\n2 de octubre\nMaria Camila Gómez Úsuga\n\n\nCRISPR\n\n\nInglés\n\n\n9 de octubre\nKatherine Mendez\n\n\nInactivación del X\n12:10\nInglés\n\n\n16 de octubre\nPascual Bueno\n\n\nMachine-Learning\n12:10\nInglés\n\n\n23 de octubre\nKaren Zapata\n\n\nCRISPR\n12:10\nEspanglish\n\n\n30 de octubre\nManuela Maury\n\n\nMachine-Learning\n13:00\nEspanglish\n\n\n6 de noviembre\nJuan Pablo Araque\n\n\nCRISPR\n12:10\nEspañol\n\n\n13 de noviembre\nLaura Builes Cerón\n\n\nCRISPR\n12:10\nInglés\n\n\n20 de noviembre\nJuan Camilo Arboleda Rivera\n\n\nCRISPR\n12:10\nInglés\n\n\n27 de noviembre\nDaniela Sánchez Aristizábal\n\n\nCianobacterias\n12:10\nInglés\n\n\n4 de diciembre\nJose Miguel Tobón García\n\n\nInactivación del X\n12:10\nInglés\n\n\n11 de diciembre\nSimón Tamayo Martínez\n\n\nCRISPR\n12:10\nInglés\n\n\n\n\n\n\n\n\nDescarga el archivo iCal para añadir este evento a tu calendario\nSi eres expositor, revisa nuestros consejos para preparar un Club de Revista.\n\n\n\n Volver arriba"
+    "text": "Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre."
+  },
+  {
+    "objectID": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
+    "href": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
+    "title": "Bienvenida",
+    "section": "¿De qué se trata la Biología Computacional?",
+    "text": "¿De qué se trata la Biología Computacional?\nLa Biología Computacional es una disciplina muy extensa, y podríamos definirla como un área interdisciplinaria en la que se usan métodos computacionales para analizar datos biológicos, incluyendo en su campo de acción el análisis de secuencias, la metagenómica y la bioinformática tradicional; sin embargo, también incluye el modelamiento matemático, las simulaciones computacionales de sistemas biológicos, la Biología de Sistemas y el desarrollo de software para Biología."
+  },
+  {
+    "objectID": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
+    "href": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
+    "title": "Bienvenida",
+    "section": "¿Cuál es el objetivo del grupo?",
+    "text": "¿Cuál es el objetivo del grupo?\nNuestro objetivo es difundir, enseñar y promover la investigación y el desarrollo de la Biología Computacional en Colombia, además de promover también el uso de herramientas de Software Libre en general."
+  },
+  {
+    "objectID": "posts/2023/inactivacion-x.html",
+    "href": "posts/2023/inactivacion-x.html",
+    "title": "Proyecto de la inactivación del X",
+    "section": "",
+    "text": "Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios."
+  },
+  {
+    "objectID": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
+    "href": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
+    "title": "Proyecto de la inactivación del X",
+    "section": "Búsqueda del factor autosómico responsable del X activo en la lionización",
+    "text": "Búsqueda del factor autosómico responsable del X activo en la lionización\nLa lionización, nombre por el que también se conoce el silenciamiento del cromosoma X en hembras mamíferas placentarias fue descubierto por la genetista Mary Lyon en 1961 (Lyon 1961). Es un proceso crucial en el temprano desarrollo embrionario porque produce la igualación de expresión de genes ya que el sexo en estos organismos esta definido por la combinación de un par de cromosomas sexuales X y Y, hembras XX y machos XY. El cromosoma X, que posee alrededor de 1000 genes más que el Y, lo supera con creces, por lo que el silenciamiento de uno de los X en las mamíferas es uno de los tantos mecanismos de dosis de compensación que se han desarrollado en animales que tienen este problema.\nEl resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un cuerpo de Barr (Barr y Bertram 1949).\n\n\n\nCorpúsculo de Barr\n\n\nEn el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de conteo de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la elección de cual de ellos silenciará y dará inicio a la expresión del Xist, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un esparcimiento a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el establecimiento.\nAquí nos centramos en los pasos de conteo y elección de los futuros cromosomas X activo Xa e inactivo Xi, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.\n\n\n\nConteo de cromosomas X en relación a los autosomas\n\n\nEn adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma (Migeon 2017).\n\n\n\nRegiones de interés en el cromosoma 19 humano. Tomado de Migeon (2017).\n\n\nNuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea.\n\n\n\nCorpúsculo de Barr\nConteo de cromosomas X en relación a los autosomas\nRegiones de interés en el cromosoma 19 humano. Tomado de Migeon (2017)."
+  },
+  {
+    "objectID": "posts/2024/formatos-abiertos/index.html",
+    "href": "posts/2024/formatos-abiertos/index.html",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "",
+    "text": "Comencemos hablando sobre a qué nos referimos cuando hablamos de un formato. El formato de un archivo hace referencia a cómo está guardada la información en un objeto digital. Así, aunque dos imágenes puedan ser exactamente iguales, si una está en formato JPG y la otra en PNG, la información sobre la imagen estará almacenada de manera diferente en cada formato, e incluso es muy probable que los dos archivos tengan un tamaño diferente debido a esta razón. La especificación del formato dice cómo se almacena la información, por ejemplo, una especificación podría indicar “los primeros 32 bits del archivo indican la resolución de la imagen”."
+  },
+  {
+    "objectID": "posts/2024/formatos-abiertos/index.html#qué-es-un-formato-de-archivo",
+    "href": "posts/2024/formatos-abiertos/index.html#qué-es-un-formato-de-archivo",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "",
+    "text": "Comencemos hablando sobre a qué nos referimos cuando hablamos de un formato. El formato de un archivo hace referencia a cómo está guardada la información en un objeto digital. Así, aunque dos imágenes puedan ser exactamente iguales, si una está en formato JPG y la otra en PNG, la información sobre la imagen estará almacenada de manera diferente en cada formato, e incluso es muy probable que los dos archivos tengan un tamaño diferente debido a esta razón. La especificación del formato dice cómo se almacena la información, por ejemplo, una especificación podría indicar “los primeros 32 bits del archivo indican la resolución de la imagen”."
+  },
+  {
+    "objectID": "posts/2024/formatos-abiertos/index.html#qué-son-los-formatos-abiertos-y-cerrados",
+    "href": "posts/2024/formatos-abiertos/index.html#qué-son-los-formatos-abiertos-y-cerrados",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "¿Qué son los formatos abiertos y cerrados?",
+    "text": "¿Qué son los formatos abiertos y cerrados?\nEn los formatos abiertos la especificación está disponible para cualquier persona de forma gratuita, de manera que cualquiera puede saber cómo se almacena la información en un formato abierto, y cualquiera puede desarrollar un programa capaz de leer y crear archivos en un formato abierto. Por el contrario, si el archivo es cerrado, significa que su especificación es propiedad de alguna compañía, y generalmente solo esa compañía sabe exactamente cómo se almacena la información en el archivo. Esto trae limitaciones, porque ya no cualquiera puede desarrollar un programa que pueda crear un archivo con formato cerrado, ya que no sabrá cómo tiene que almacenar los datos o se lo impedirán los términos legales del formato."
+  },
+  {
+    "objectID": "posts/2024/formatos-abiertos/index.html#por-qué-usar-formatos-abiertos",
+    "href": "posts/2024/formatos-abiertos/index.html#por-qué-usar-formatos-abiertos",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "¿Por qué usar formatos abiertos?",
+    "text": "¿Por qué usar formatos abiertos?\n\nGarantía de acceso a largo plazo. Imaginemos un escenario hipotético en el que de un momento a otro desaparecen todos los programas que permitían abrir un tipo de archivo en específico. Al ser formatos abiertos y ser su especificación libre y accesible para todos, sería muy sencillo para un programador crear un nuevo programa capaz de abrir y leer este tipo de archivo. En cambio, con un formato cerrado, tendría que ser la compañía propietaria del archivo quien cree un programa para abrirlo, porque solamente la compañía conoce o tiene derechos sobre la forma de almacenamiento de la información en ese archivo.\nTransparencia en el contenido de los archivos. Al tener una especificación abierta, cualquiera puede saber qué contiene específicamente un archivo en su interior, aunque se requiera algo de programación para ello. Con archivos cerrados, al no conocer enteramente la especificación, estos podrían tener información oculta que solo la compañía propietaria del formato conoce y sabe su significado.\nMayor interoperatividad. Muchas aplicaciones son capaces de leer y manipular formatos abiertos. Con los formatos cerrados, pasa habitualmente que solo el programa diseñado por la misma compañía propietaria del formato es capaz de trabajar apropiadamente con él."
+  },
+  {
+    "objectID": "posts/2024/formatos-abiertos/index.html#desventajas-de-los-formatos-cerrados",
+    "href": "posts/2024/formatos-abiertos/index.html#desventajas-de-los-formatos-cerrados",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "Desventajas de los formatos cerrados",
+    "text": "Desventajas de los formatos cerrados\nAdemás de las desventajas ya mencionadas de los formatos cerrados, tenemos también los siguientes problemas:\n\nCosto: Muchos de los programas necesarios para abrir y crear archivos con formato cerrado son software de pago, por lo que conseguirlo o actualizar su licencia representa un gasto económico.\nIntereses: Los formatos cerrados son diseñados y controlados por su propietario, cuyos intereses pueden no estar bien alineados con los intereses del público general o de sus usuarios, por lo que un formato puede no estar diseñado para funcionar de manera óptima para el usuario sino para funcionar de manera óptima para la compañía; por ejemplo, el archivo podría tener secciones cuya especificación es deliberadamente compleja para que solo el programa propietario lo pueda abrir correctamente y evitar su uso por la competencia.\nObsolescencia: Los archivos en formatos cerrados tienen mayor probabilidad de quedar obsoletos en el futuro porque es posible que el software necesario para abrirlos y manipularlos deje de ser mantenido o su propietario decida hacer modificaciones y dejar de dar soporte al formato."
+  },
+  {
+    "objectID": "posts/2024/formatos-abiertos/index.html#cambiando-nuestros-hábitos",
+    "href": "posts/2024/formatos-abiertos/index.html#cambiando-nuestros-hábitos",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "Cambiando nuestros hábitos",
+    "text": "Cambiando nuestros hábitos\nDespués de conocer sobre los formatos abiertos, la tarea es habituarnos a usarlos más a menudo. En la siguiente tabla puedes encontrar cuáles son las alternativas abiertas a algunos formatos propietarios lamentablemente muy extendidos:\n\n\n\nTipo de archivo\nFormato cerrado\nFormatos abiertos\n\n\n\n\nTabla\n.xlsx\n.ods, .tsv, .csv\n\n\nTexto enriquecido\n.docx\n.odt\n\n\nPresentación\n.pptx\n.odp\n\n\n\nEl cambio es tan sencillo como hacer click en Guardar como en el menú del programa que estés usando y luego elegir el formato apropiado."
+  },
+  {
+    "objectID": "posts/2024/formatos-abiertos/index.html#más-información",
+    "href": "posts/2024/formatos-abiertos/index.html#más-información",
+    "title": "¿Por qué es importante usar formatos abiertos?",
+    "section": "Más información",
+    "text": "Más información\n\nhttps://es.wikipedia.org/wiki/Formato_abierto\nhttps://biblioguias.cepal.org/gestion-de-datos-de-investigacion/formatos\nSoftware libre y formatos abiertos. ¿Qué es software libre y software privado?\nLa importancia de los formatos libres para la preservación digital"
+  },
+  {
+    "objectID": "posts/2024/proyecto-crispr/proyecto-crispr.html",
+    "href": "posts/2024/proyecto-crispr/proyecto-crispr.html",
+    "title": "Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR",
+    "section": "",
+    "text": "En los últimos años, CRISPR ha tomado gran relevancia en el ámbito de la biología gracias al enorme potencial en edición genómica mostrado por las “tijeras genéticas” CRISPR-Cas9, que fueron desarrolladas por Emmanuelle Charpentier y Jennifer A. Doudna lo que las hizo acreedoras del premio Nobel de Química en el año 2020; su trabajo publicado en el año 2012 titulado: “A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity” dio la vuelta al mundo y fue de gran importancia para el desarrollo de este método de edición genómica. El descubrimiento principal para la creación de esta herramienta se dio por casualidad: durante los estudios de Emmanuelle Charpentier sobre el patógeno Streptococcus pyogenes, Charpentier identificó que una molécula previamente conocida como ARNtracr era parte de los sistemas CRISPR/Cas cuya función canónica es conferir resistencia a patógenos externos como los virus, con base en esto Charpentier y Doudna recrearon las “tijeras genéticas” de las bacterias en un tubo de ensayo y revolucionaron la historia de la medicina (Alcalde 2020).\n\n\n\nEmmanuelle Charpentier y Jennifer Doudna\n\n\nLos sistemas CRISPR/Cas funcionan como sistemas inmunes en las bacterias y arqueas; estos les permiten defenderse de virus que las han infectado previamente: ¡tienen memoria! CRISPR por sus siglas en inglés Clustered Regularly Interspaced Short Palindromic Repeats son una serie de secuencias de ADN presentes en el genoma de algunos organismos procariotas, esta serie de regiones son responsables del funcionamiento del sistema inmune que poseen estos organismos contra la integración de material genético exógeno. Este complejo sistema está formado por el operón Cas que alberga los datos genéticos necesarios para la producción de las endonucleasas Cas (CRISPR associated) junto con otras proteínas cruciales para el funcionamiento del sistema CRISPR/Cas, además de la región CRISPR que contiene repeticiones alternadas con cortas secuencias espaciadoras, las cuales son incorporadas a partir de fuentes externas durante infecciones, estos espaciadores se unen por complementariedad a la secuencia objetivo guiando así a las proteínas Cas asociadas y promoviendo la degradación del material genético exógeno.\n\n\n\nGhorbani et al. (2021)"
+  },
+  {
+    "objectID": "posts/2024/proyecto-crispr/proyecto-crispr.html#qué-son-los-sistemas-crispr",
+    "href": "posts/2024/proyecto-crispr/proyecto-crispr.html#qué-son-los-sistemas-crispr",
+    "title": "Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR",
+    "section": "",
+    "text": "En los últimos años, CRISPR ha tomado gran relevancia en el ámbito de la biología gracias al enorme potencial en edición genómica mostrado por las “tijeras genéticas” CRISPR-Cas9, que fueron desarrolladas por Emmanuelle Charpentier y Jennifer A. Doudna lo que las hizo acreedoras del premio Nobel de Química en el año 2020; su trabajo publicado en el año 2012 titulado: “A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity” dio la vuelta al mundo y fue de gran importancia para el desarrollo de este método de edición genómica. El descubrimiento principal para la creación de esta herramienta se dio por casualidad: durante los estudios de Emmanuelle Charpentier sobre el patógeno Streptococcus pyogenes, Charpentier identificó que una molécula previamente conocida como ARNtracr era parte de los sistemas CRISPR/Cas cuya función canónica es conferir resistencia a patógenos externos como los virus, con base en esto Charpentier y Doudna recrearon las “tijeras genéticas” de las bacterias en un tubo de ensayo y revolucionaron la historia de la medicina (Alcalde 2020).\n\n\n\nEmmanuelle Charpentier y Jennifer Doudna\n\n\nLos sistemas CRISPR/Cas funcionan como sistemas inmunes en las bacterias y arqueas; estos les permiten defenderse de virus que las han infectado previamente: ¡tienen memoria! CRISPR por sus siglas en inglés Clustered Regularly Interspaced Short Palindromic Repeats son una serie de secuencias de ADN presentes en el genoma de algunos organismos procariotas, esta serie de regiones son responsables del funcionamiento del sistema inmune que poseen estos organismos contra la integración de material genético exógeno. Este complejo sistema está formado por el operón Cas que alberga los datos genéticos necesarios para la producción de las endonucleasas Cas (CRISPR associated) junto con otras proteínas cruciales para el funcionamiento del sistema CRISPR/Cas, además de la región CRISPR que contiene repeticiones alternadas con cortas secuencias espaciadoras, las cuales son incorporadas a partir de fuentes externas durante infecciones, estos espaciadores se unen por complementariedad a la secuencia objetivo guiando así a las proteínas Cas asociadas y promoviendo la degradación del material genético exógeno.\n\n\n\nGhorbani et al. (2021)"
+  },
+  {
+    "objectID": "posts/2024/proyecto-crispr/proyecto-crispr.html#el-fenómeno-del-self-targeting",
+    "href": "posts/2024/proyecto-crispr/proyecto-crispr.html#el-fenómeno-del-self-targeting",
+    "title": "Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR",
+    "section": "El fenómeno del “self-targeting”",
+    "text": "El fenómeno del “self-targeting”\nAunque la principal función conocida de los sistemas CRISPR sea la defensa ante virus, también se han encontrado espaciadores autodirigidos (“self-targeting spacers”), es decir, que son complementarios a partes del propio genoma de la bacteria y presuntamente resultan en una autoinmunidad, esto representa una paradoja para la cual se han propuesto dos posibles soluciones: la primera es que sean “accidentes” biológicos que ocurren al azar y a los cuales la bacteria tiene que hacer frente, mientras que la segunda propone que estén relacionados con funciones no canónicas, es decir diferentes a la función inmunitaria de los sistemas CRISPR; estas funciones alternativas son un área de investigación muy poco explorada en biología que podría tener importantes implicaciones en cuanto al conocimiento de los sistemas CRISPR y el desarrollo de interesantes herramientas moleculares. (Wimmer y Beisel 2020).\n\nEl objetivo de esta línea de investigación es ahondar en el conocimiento de las funciones no canónicas de los sistemas CRISPR y ayudar a dilucidar la paradoja de los espaciadores autodirigidos mediante el uso de herramientas computacionales para el análisis de datos genómicos disponibles en línea. Te invitamos a unirte a este fascinante proyecto de investigación, en el que fusionamos diferentes áreas del conocimiento científico, ¡tu participación podría contribuir significativamente a la comprensión de estos procesos biológicos!\n\n\n\nEmmanuelle Charpentier y Jennifer Doudna\nGhorbani et al. (2021)"
+  },
+  {
+    "objectID": "posts/2024/fiesta-junio/index.html",
+    "href": "posts/2024/fiesta-junio/index.html",
+    "title": "Fiesta de mitad de año",
+    "section": "",
+    "text": "Las fiestas del grupo son de los eventos más importantes y esperados de todo el año. Nuestra fiesta de mitad de año se llevó a cabo exitosamente. Jugamos, cantamos, bailamos, nos deleitamos con excelentes conversaciones y nos divertimos mucho.\n\n¡Estamos ansiosos por la fiesta de fin de año!\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/gloria-machado-rodríguez/index.html",
+    "href": "members/current/gloria-machado-rodríguez/index.html",
+    "title": "Gloria Machado Rodríguez",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/daniela-sánchez/index.html",
+    "href": "members/current/daniela-sánchez/index.html",
+    "title": "Daniela Sánchez Aristizábal",
+    "section": "",
+    "text": "¡Hola! Soy Daniela Sánchez, actualmente estoy en mi último año de Biología en la Universidad de Antioquia. Me apasiona mucho la biología molecular y me llama la atención el uso de herramientas computacionales para comprender fenómenos moleculares.\nMis intereses se centran en la regulación de la expresión génica, la biología de sistemas dinámicos y las aplicaciones de Machine Learning en el análisis de datos ómicos. Fuera del ámbito académico, disfruto de pasar tiempo en la naturaleza, especialmente en el río, y compartir tiempo con mis mascotas. Además, me gusta practicar pilates y disfruto mucho el arte del crochet.\nObservar y entender fenómenos biológicos y naturales es una de mis mayores pasiones, es por esto que la ciencia se ha convertido en una parte importante en mi vida.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/juan-camilo-arboleda-rivera/index.html",
+    "href": "members/current/juan-camilo-arboleda-rivera/index.html",
+    "title": "Juan Camilo Arboleda Rivera",
+    "section": "",
+    "text": "Soy biólogo y trabajo actualmente en el Grupo de Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos y el Grupo de Biología Computacional en la Universidad de Antioquia (UdeA), Colombia. Trabajo como profesor en el curso de Genética en el Instituto de Biología en la UdeA."
+  },
+  {
+    "objectID": "members/current/juan-camilo-arboleda-rivera/index.html#intereses",
+    "href": "members/current/juan-camilo-arboleda-rivera/index.html#intereses",
+    "title": "Juan Camilo Arboleda Rivera",
+    "section": "Intereses",
+    "text": "Intereses\nEstoy principalmente interesado en áreas como la Biología Computacional, la Biología de Sistemas, Biología Molecular, Genética y Bioinformática. También soy un entusiasta de Linux y el Software Libre y me gusta aprender sobre programación y sus aplicaciones en Biología.\nMe encanta aprender y enseñar, porque estoy convencido de que el conocimiento es nuestra posesión más valiosa como humanos y que es lo más importante para el desarrollo de las sociedades.\nLas matemáticas son mi amor platónico y soy un fan declarado de Richard Feynman."
+  },
+  {
+    "objectID": "members/current/juan-camilo-arboleda-rivera/index.html#hobbies",
+    "href": "members/current/juan-camilo-arboleda-rivera/index.html#hobbies",
+    "title": "Juan Camilo Arboleda Rivera",
+    "section": "Hobbies",
+    "text": "Hobbies\nEn mis tiempos libres me gusta practicar guitarra y violín, aunque no me considero muy bueno en ello. Además me encantan las películas de Godzilla y el cine de serie B, como Yo compré una moto vampiro o Sharknado. También me gusta mucho leer y escuchar podcasts."
+  },
+  {
+    "objectID": "members/current/haminton-alexander-poveda-alonso/index.html",
+    "href": "members/current/haminton-alexander-poveda-alonso/index.html",
+    "title": "Haminton Alexander Poveda Alonso",
+    "section": "",
+    "text": "Soy un estudiante de biología apasionado por la complejidad del mundo natural; disfruto profundamente aprendiendo sobre diversos temas, especialmente me interesa la microbiología, la biología molecular, la bioquímica, el desarrollo, la inmunología y las neurociencias.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/david-salomón-bonilla/index.html",
+    "href": "members/current/david-salomón-bonilla/index.html",
+    "title": "David Salomón Bonilla Cárdenas",
+    "section": "",
+    "text": "Soy estudiante de pregrado de biología de la Universidad de Antioquia, Soy un apasionado de la biología y mis áreas de mayor interés son la Biología molecular, la inmunología y las neurociencias.\nMe gusta conocer y explorar la naturaleza, la divulgación científica, el baile y las artes marciales.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/laura-manuela-builes-cerón/index.html",
+    "href": "members/current/laura-manuela-builes-cerón/index.html",
+    "title": "Laura Manuela Builes Cerón",
+    "section": "",
+    "text": "Soy una estudiante de biología interesada principalmente en la biología computacional, la programación y la genética. Me gusta asistir a encuentros de divulgación científica y astrobiología, además de maravillarme por los procesos biológicos que encuentro cada día.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/simón-tamayo-martínez/index.html",
+    "href": "members/current/simón-tamayo-martínez/index.html",
+    "title": "Simón Tamayo Martínez",
+    "section": "",
+    "text": "Estudiante de biología con intereses en la computación.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/tomás-duque-rueda/index.html",
+    "href": "members/current/tomás-duque-rueda/index.html",
+    "title": "Tomás Duque Rueda",
+    "section": "",
+    "text": "¡Hola a todos! Soy Tomás Duque y soy estudiante de Biología. Dentro de esta ciencia, tengo muchos intereses: me gusta la biología marina y la limnología, también me apasionan mucho la biotecnología, la microbiología, la astrobiología y la biología computacional.\nAdemás, los microorganismos fotosintéticos me parecen los seres más fascinantes del planeta. Así, las microalgas y cianobacterias me han permitido reunir todas mis pasiones.\nDentro del grupo de Biología Computacional he podido profundizar en varios temas de mi interés, como los sistemas CRISPR específicamente de cianobacterias.\nTambién he tenido la oportunidad de aprender mucho sobre Machine Learning y sus diferentes aplicaciones. Por ejemplo, cómo las redes convolucionales profundas nos permiten reconocer y clasificar imágenes, y cómo esto puede usarse desde la clasificación morfológica de microorganismos hasta el monitoreo satelital de ecosistemas completos; también, cómo la inteligencia artificial nos ayuda a identificar patrones e interpretar mejor la información de datos ómicos.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/libia-manuela-maury-zuluaga/index.html",
+    "href": "members/current/libia-manuela-maury-zuluaga/index.html",
+    "title": "Manuela Maury Zuluaga",
+    "section": "",
+    "text": "Soy estudiante de biología, apasionada por el mundo microscópico, por esto mismo he despertado un gran interés en la biología celular y molecular al igual que la microbiología en especial el mundo de las bacterias y hongos, creo que entender cómo suceden las cosas desde el mundo micro, nos ayuda a comprender el funcionamiento de la vida en general y para mi es algo maravilloso.\nAdemás de mi pasión por la biología, adoro también la gastronomía y todo el mundo culinario y espero algún día poder integrar estas dos pasiones.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "bienvenida.html",
+    "href": "bienvenida.html",
+    "title": "¡Bienvenido al Grupo de Biología Computacional!",
+    "section": "",
+    "text": "A continuación encontrarás las pautas para participar en el grupo.\nAntes que nada debes saber que en nuestro grupo respetamos las leyes de la termodinámica.\n\n\nLas reuniones del grupo son de altísima importancia, y brindan la oportunidad de resolver problemas juntos y de compartir y discutir ideas. En nuestra reunión de grupo generalmente discutimos asuntos sobre los proyectos del grupo, hacemos ensayos de presentaciones, presentamos y discutimos nuevos resultados que hayamos obtenido, socializamos problemas con los que nos hayamos encontrado o simplemente discutimos asuntos internos del grupo.\nEsta es la información sobre la reunión del grupo para el semestre 2024-1:\nHora: Viernes 12:00 - 14:00\nLugar: Salón 7-325, Instituto de Biología, Universidad de Antioquia\n\n\n\nComo parte del grupo se espera que tú:\n\nAsistas al Club de Revista y a las demás reuniones del grupo. Estos espacios son extremadamente importantes. Igualmente, se espera que avises oportunamente si no puedes asistir a algún encuentro.\nAdemás de asistir, se espera que participes activamente en las reuniones. No tienes que saberlo todo, pero sí eres responsable de preguntar cuando no entiendas algo. Tus contribuciones son valiosas, tu perspectiva es diferente a la de cualquier otro y queremos escucharte.\nSeas respetuoso en las reuniones. Debes poner atención, ser amable, y no distraerte jugando o mirando el celular.\nPresentes artículos en el Club de Revista.\nManifiestes tus opiniones con libertad, en particular, si tienes propuestas u opinas que hay cosas que deben mejorar, esperamos que lo digas abiertamente.\nTengas iniciativa. Necesitamos personas innovadoras, con ganas de hacer cosas, ya sea de investigación, de divulgación de la ciencia, o preprar una gran fiesta. No queremos “zombies” que solo estén presentes sin aportar nada.\nBusques y leas artículos de investigación y los compartas con los demás.\nSi tienes asignada una tarea, asegúrate de hacerla a tiempo y de manera diligente.\nSeas organizado con tu trabajo y tengas una bitácora donde reportes todo tu proceso de investigación y tus análisis.\nSeas comunicativo y compartas tus pasiones e intereses. También es muy importante que comuniques si tienes problemas, así te podemos ayudar.\n\nPor último, se te pedirá dejar el grupo si:\n\nAcumulas tres faltas injustificadas a las reuniones.\nNo eres diligente, comprometido y responsable.\n\nSi quieres pertenecer formalmente a nuestro grupo regístrate en este formulario.\n\n\n\n\n¿Cómo preparar la exposición para el Club de Revista?"
+  },
+  {
+    "objectID": "bienvenida.html#reuniones-del-grupo",
+    "href": "bienvenida.html#reuniones-del-grupo",
+    "title": "¡Bienvenido al Grupo de Biología Computacional!",
+    "section": "",
+    "text": "Las reuniones del grupo son de altísima importancia, y brindan la oportunidad de resolver problemas juntos y de compartir y discutir ideas. En nuestra reunión de grupo generalmente discutimos asuntos sobre los proyectos del grupo, hacemos ensayos de presentaciones, presentamos y discutimos nuevos resultados que hayamos obtenido, socializamos problemas con los que nos hayamos encontrado o simplemente discutimos asuntos internos del grupo.\nEsta es la información sobre la reunión del grupo para el semestre 2024-1:\nHora: Viernes 12:00 - 14:00\nLugar: Salón 7-325, Instituto de Biología, Universidad de Antioquia"
+  },
+  {
+    "objectID": "bienvenida.html#guía-de-conducta",
+    "href": "bienvenida.html#guía-de-conducta",
+    "title": "¡Bienvenido al Grupo de Biología Computacional!",
+    "section": "",
+    "text": "Como parte del grupo se espera que tú:\n\nAsistas al Club de Revista y a las demás reuniones del grupo. Estos espacios son extremadamente importantes. Igualmente, se espera que avises oportunamente si no puedes asistir a algún encuentro.\nAdemás de asistir, se espera que participes activamente en las reuniones. No tienes que saberlo todo, pero sí eres responsable de preguntar cuando no entiendas algo. Tus contribuciones son valiosas, tu perspectiva es diferente a la de cualquier otro y queremos escucharte.\nSeas respetuoso en las reuniones. Debes poner atención, ser amable, y no distraerte jugando o mirando el celular.\nPresentes artículos en el Club de Revista.\nManifiestes tus opiniones con libertad, en particular, si tienes propuestas u opinas que hay cosas que deben mejorar, esperamos que lo digas abiertamente.\nTengas iniciativa. Necesitamos personas innovadoras, con ganas de hacer cosas, ya sea de investigación, de divulgación de la ciencia, o preprar una gran fiesta. No queremos “zombies” que solo estén presentes sin aportar nada.\nBusques y leas artículos de investigación y los compartas con los demás.\nSi tienes asignada una tarea, asegúrate de hacerla a tiempo y de manera diligente.\nSeas organizado con tu trabajo y tengas una bitácora donde reportes todo tu proceso de investigación y tus análisis.\nSeas comunicativo y compartas tus pasiones e intereses. También es muy importante que comuniques si tienes problemas, así te podemos ayudar.\n\nPor último, se te pedirá dejar el grupo si:\n\nAcumulas tres faltas injustificadas a las reuniones.\nNo eres diligente, comprometido y responsable.\n\nSi quieres pertenecer formalmente a nuestro grupo regístrate en este formulario."
+  },
+  {
+    "objectID": "bienvenida.html#más-información",
+    "href": "bienvenida.html#más-información",
+    "title": "¡Bienvenido al Grupo de Biología Computacional!",
+    "section": "",
+    "text": "¿Cómo preparar la exposición para el Club de Revista?"
+  },
+  {
+    "objectID": "cursos/cursos.html",
+    "href": "cursos/cursos.html",
+    "title": "Cursos y talleres",
+    "section": "",
+    "text": "Como parte del esfuerzo para promover la Biología Computacional y el Software Libre, nuestro grupo desarrolla cursos y talleres en los que enseñamos diferentes herramientas que son muy útiles no solo en la ciencia sino en el mundo digital en general. A continuación encontrarás una lista de herramientas que usamos en nuestro grupo y que te podemos enseñar.\n\nLinux\nGit/GitHub\nPython\nC++\nBash (Requisito Linux)\nR\nLaTeX\nVim (Requisito Linux)\nBiología de Sistemas\n\nModelamiento matemático\nTeoría de grafos\n\nBioinformática (Requisito Linux)\n\nFastQC\nTrimmomatic\nEnsamblaje de genomas\nMetagenómica\nAnálisis de expresión genética\n\nAnálisis de datos en Pandas (Requisito Python básico)\nMake (Requisito Linux)\nSistemas Dinámicos\nMachine Learning\nBases de datos SQL\nDinámica molecular (Requisito Linux)\nRobótica con Arduino\nDesarrollo de GUIs con Qt (Requisito C++)\nMarkdown\n\nSi quieres aprender sobre alguno de estos temas no dudes en escribirnos y manifestarnos tu interés. También te sugerimos llenar el siguiente formulario para saber cuáles son tus intereses:\n\nCargando…\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "cursos/material-educativo/scRNA-seq/umi/index.html",
+    "href": "cursos/material-educativo/scRNA-seq/umi/index.html",
+    "title": "¿Qué son los UMIs?",
+    "section": "",
+    "text": "UMI son las siglas de Unique Molecular Identifier (Identificador Molecular Único), y consisten en secuencias cortas (aprox. 14 pares de bases) que se añaden a las moléculas de ARN que se van a secuenciar para identificarlas de manera única.\n\n\n\n (s. f.)\n\n\nAl ser secuencias de 14 pares de bases, podemos tener \\(4^{14}\\) diferentes UMIs.\n\n\n\n (s. f.)\n\n\n\n Volver arribaReferencias\n\ns. f. Understanding Single Cell Technologies: Barcodes and UMIS. https://help.geneiousbiologics.com/hc/en-us/articles/4781289585300-Understanding-Single-Cell-technologies-Barcodes-and-UMIs."
+  },
+  {
+    "objectID": "cursos/material-educativo.html",
+    "href": "cursos/material-educativo.html",
+    "title": "Material educativo",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nUna herramienta para encontrar y caracterizar sistemas CRISPR en genomas procariotas\n\n\n\nIsabel Quijano Henao\n\n\n27 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n1 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "cursos/material-educativo.html#general",
+    "href": "cursos/material-educativo.html#general",
+    "title": "Material educativo",
+    "section": "General",
+    "text": "General\n Cursos del EBI-EMBL\n Guías de ELIXIR y mejores prácticas para trabajar con datos biológicos\n Herramientas para Biología Computacional\n Buscador de cursos, eventos, videos, presentaciones, manuales y mucho más\n Material educativo del NCBI"
+  },
+  {
+    "objectID": "cursos/material-educativo.html#biología-estructural",
+    "href": "cursos/material-educativo.html#biología-estructural",
+    "title": "Material educativo",
+    "section": "Biología estructural",
+    "text": "Biología estructural\n Curso de PyMOL\n Dinámica molecular con GROMACS\n Curso de AlphaFold"
+  },
+  {
+    "objectID": "cursos/material-educativo.html#rna-seq",
+    "href": "cursos/material-educativo.html#rna-seq",
+    "title": "Material educativo",
+    "section": "RNA-seq",
+    "text": "RNA-seq\n Workshop RNA-seq UCLA\n Análisis de datos de RNA-seq con DESeq2\n RNA-seq Tutorial (with Reference Genome)\n DESeq2 para principiantes\n Differential expression with DEseq2\n\nSingle cell RNA-seq\n Introducción al single cell RNA-seq\n Análisis de single cell RNA-seq con Python\n Complete single-cell RNAseq analysis walkthrough\n Curso sobre análisis de datos de single cell RNA-seq"
+  },
+  {
+    "objectID": "cursos/material-educativo.html#linux",
+    "href": "cursos/material-educativo.html#linux",
+    "title": "Material educativo",
+    "section": "Linux",
+    "text": "Linux\n The Linux command line for beginners"
+  },
+  {
+    "objectID": "cursos/material-educativo.html#bases-de-datos",
+    "href": "cursos/material-educativo.html#bases-de-datos",
+    "title": "Material educativo",
+    "section": "Bases de datos",
+    "text": "Bases de datos\n Databases and SQL"
+  },
+  {
+    "objectID": "cursos/material-educativo.html#filogenética",
+    "href": "cursos/material-educativo.html#filogenética",
+    "title": "Material educativo",
+    "section": "Filogenética",
+    "text": "Filogenética\n Tutoriales y cursos de bioinformática y filogenética en Español"
+  },
+  {
+    "objectID": "cursos/curso-python.html",
+    "href": "cursos/curso-python.html",
+    "title": "Curso de introducción a Python",
+    "section": "",
+    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
+    "href": "cursos/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
+  },
+  {
+    "objectID": "cursos/curso-python.html#información",
+    "href": "cursos/curso-python.html#información",
+    "title": "Curso de introducción a Python",
+    "section": "Información",
+    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 10 clases de 2 horas por clase. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Noticias ",
+    "section": "",
+    "text": "2024-04-08\n¡Vamos avanzando viento en popa con nuestro curso de Python en su versión 2024-1! Ver más información.\n2024-03-25\n¡Nuestro grupo ahora tiene un semillero de investigación asociado a la Red de Semilleros de la Universidad de Antioquia!\n2024-02-14\nFelicitaciones a Emmanuel Ortega por su trabajo de grado y su graduación con mención de honor. Foto\n2023-07-27\nHemos publicado un preprint sobre nuestro trabajo con los sistemas CRISPR.\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Entradas del blog",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n¿Por qué es importante usar formatos abiertos?\n\n\n\n\n\n\nBiología computacional\n\n\nAlfabetismo digital\n\n\nEducación\n\n\nCiencia abierta\n\n\n\n\n\n\n\n\n\n4 jul 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nFiesta de mitad de año\n\n\n\n\n\n\nBiología computacional\n\n\nFiesta\n\n\n\n\n\n\n\n\n\n24 jun 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nPromoviendo la Biología Computacional en Colombia\n\n\n\n\n\n\n\n\n\n\n\n1 jun 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nEspaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR\n\n\n\n\n\n\nBiología computacional\n\n\nCRISPR\n\n\nBioinformática\n\n\nInvestigación\n\n\n\n¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?\n\n\n\n\n\n12 abr 2024\n\n\nAna María López Pérez, Haminton Alexander Poveda Alonso\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenida\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos ",
+    "section": "",
+    "text": "Conoce en qué temas estamos trabajando."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-activos",
+    "href": "proyectos.html#proyectos-activos",
+    "title": "Proyectos ",
+    "section": "Proyectos activos",
+    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
+  },
+  {
+    "objectID": "proyectos.html#proyectos-anteriores",
+    "href": "proyectos.html#proyectos-anteriores",
+    "title": "Proyectos ",
+    "section": "Proyectos anteriores",
+    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
+  },
+  {
+    "objectID": "integrantes.html",
+    "href": "integrantes.html",
+    "title": "Integrantes",
+    "section": "",
+    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "integrantes.html#miembros-actuales",
+    "href": "integrantes.html#miembros-actuales",
+    "title": "Integrantes",
+    "section": "",
+    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "integrantes.html#alumni",
+    "href": "integrantes.html#alumni",
+    "title": "Integrantes",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEmmanuel Ortega Atehortúa\n\n\nBiólogo\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "cursos/curso-linux.html",
+    "href": "cursos/curso-linux.html",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "",
+    "text": "Nuestro grupo ofrece de manera regular el Curso de Introducción a Linux y el Software Libre. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "href": "cursos/curso-linux.html#qué-vas-a-aprender",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+  },
+  {
+    "objectID": "cursos/curso-linux.html#información",
+    "href": "cursos/curso-linux.html#información",
+    "title": "Curso de Introducción a Linux y el Software Libre",
+    "section": "Información",
+    "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
+  },
+  {
+    "objectID": "cursos/material-educativo/CRISPRCasFinder/index.html",
+    "href": "cursos/material-educativo/CRISPRCasFinder/index.html",
+    "title": "CRISPRCasFinder",
+    "section": "",
+    "text": "CRISPRCasFinder (Couvin et al. 2018) es un programa para identificar y clasificar sistemas CRISPR en genomas procariotas. Te permite, además de saber en qué parte del genoma hay sistemas CRISPR, saber su clasificación según los diferentes tipos y subtipos (Makarova et al. 2020), su posible orientación, el número de espaciadores e información sobre las repeticiones.\nCRISPRCasFinder se puede usar a través de su versión online, pero también puede instalarse para usarlo de manera local.\nAquí te dejamos una infografía sobre su funcionamiento:\n\n\nPuedes descargar la infografía en formato PDF en este enlace.\n\n\n\n\n Volver arribaReferencias\n\nCouvin, David, Aude Bernheim, Claire Toffano-Nioche, Marie Touchon, Juraj Michalik, Bertrand Néron, Eduardo P C Rocha, Gilles Vergnaud, Daniel Gautheret, y Christine Pourcel. 2018. «CRISPRCasFinder, an Update of CRISRFinder, Includes a Portable Version, Enhanced Performance and Integrates Search for Cas Proteins». Nucleic Acids Research 46 (W1): W246-51. https://doi.org/10.1093/nar/gky425.\n\n\nMakarova, Kira S., Yuri I. Wolf, Jaime Iranzo, Sergey A. Shmakov, Omer S. Alkhnbashi, Stan J. J. Brouns, Emmanuelle Charpentier, et al. 2020. «Evolutionary Classification of CRISPR-Cas Systems: A Burst of Class 2 and Derived Variants». Nature Reviews. Microbiology 18 (2): 67-83. https://doi.org/10.1038/s41579-019-0299-x."
+  },
+  {
+    "objectID": "cursos/material-educativo/scRNA-seq/index.html",
+    "href": "cursos/material-educativo/scRNA-seq/index.html",
+    "title": "Secuenciamiento de ARN de una única célula",
+    "section": "",
+    "text": "Guruprasad et al. (2020)\nPara explicar la diferencia entre bulk RNA-seq y single cell RNA-seq se usa la analogía con un batido de frutas vs. una ensalada de frutas. En el batido no podemos distinguir una fruta de otra, sino que tenemos sus sabores combinados (este sería el bulk RNA), en cambio en la ensalada de frutas sí podemos distinguir una fruta de otra (single cell RNA-seq)."
+  },
+  {
+    "objectID": "cursos/material-educativo/scRNA-seq/index.html#más-informacioń-sobre-el-single-cell-rna-seq",
+    "href": "cursos/material-educativo/scRNA-seq/index.html#más-informacioń-sobre-el-single-cell-rna-seq",
+    "title": "Secuenciamiento de ARN de una única célula",
+    "section": "Más informacioń sobre el single cell RNA-seq",
+    "text": "Más informacioń sobre el single cell RNA-seq\n\n\n\n\n\n\n\n\n¿Qué son los UMIs?\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados\n\n\n\n\n\n\nGuruprasad et al. (2020)\nSteinheuer, Canzler, y Hackermüller (2021)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Grupo de Biología Computacional",
+    "section": "",
+    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia.\n\n\n\n\n\n\n\n\n\n\n\n\nCongreso\n\n\nBioinformática\n\n\n\nParticipa en el Congreso Colombiano de Biología Computacional que se realizará en Medellín\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "index.html#eventos-de-interés",
+    "href": "index.html#eventos-de-interés",
+    "title": "Grupo de Biología Computacional",
+    "section": "",
+    "text": "Congreso\n\n\nBioinformática\n\n\n\nParticipa en el Congreso Colombiano de Biología Computacional que se realizará en Medellín\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Grupo de Biología Computacional",
+    "section": "Contacto",
+    "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
+  },
+  {
+    "objectID": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
+    "href": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
+    "title": "Emmanuel Ortega Atehortúa",
+    "section": "",
+    "text": "Soy biólogo y trabajo actualmente en el Grupo de Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos y el Grupo de Biología Computacional en la Universidad de Antioquia (UdeA), Colombia.\nEstoy principalmente interesado en áreas como la Biología Teórica, Biología matemática, Biología computacional y Biología de sistemas. Dentro de la biología mis principales áreas son la virología y la evolución.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/karen-andrea-zapata-ruiz/index.html",
+    "href": "members/current/karen-andrea-zapata-ruiz/index.html",
+    "title": "Karen Andrea Zapata Ruiz",
+    "section": "",
+    "text": "¡Hola, soy Karen! Actualmente estudio biología y me apasiona explorar diversos campos como la biología celular y la genética. Además, me he interesado por la biología computacional porque pienso que es una excelente herramienta para explorar temas biológicos complejos.\nAdicionalmente, me encanta el dibujo, la pintura y la meditación.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/maria-camila-gómez-úsuga/index.html",
+    "href": "members/current/maria-camila-gómez-úsuga/index.html",
+    "title": "Maria Camila Gómez Úsuga",
+    "section": "",
+    "text": "Soy estudiante de biología con interés en diferentes ramas como la biología celular, la genética y la bioquímica. Además, soy amante de las matemáticas, por lo que me gusta aprender cómo los principios matemáticos se entrelazan con los procesos biológicos, descubriendo así, mi interés en la biología computacional y biología de sistemas.\nFuera del campo académico, me gustan los deportes, en especial el voleibol, me gusta dibujar y conocer lugares nuevos. Además me gustan los gatos y las abejas meliponas.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/miguel-angel-tangarife-cardona/index.html",
+    "href": "members/current/miguel-angel-tangarife-cardona/index.html",
+    "title": "Miguel Ángel Tangarife Cardona",
+    "section": "",
+    "text": "Soy estudiante de los últimos semestres de biología, estoy vinculado a el Grupo de Biología Computacional y el grupo de Bacteriología Agrícola y Ambiental (BA&A) en la Universidad de Antioquia (UdeA), Colombia."
+  },
+  {
+    "objectID": "members/current/miguel-angel-tangarife-cardona/index.html#intereses",
+    "href": "members/current/miguel-angel-tangarife-cardona/index.html#intereses",
+    "title": "Miguel Ángel Tangarife Cardona",
+    "section": "Intereses",
+    "text": "Intereses\nMis intereses se enmarcan en el campo de la microbiología agrícola, bioinformática, y biología molecular. Me encanta trabajar en biotecnología, amante de los bacteriófagos, las bacterias, el baile y el café."
+  },
+  {
+    "objectID": "members/current/joshua-taborda-mejía/index.html",
+    "href": "members/current/joshua-taborda-mejía/index.html",
+    "title": "Joshua Taborda Mejía",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/maria-de-los-ángeles-benavides/index.html",
+    "href": "members/current/maria-de-los-ángeles-benavides/index.html",
+    "title": "Maria de los Ángeles Benavides Guaca",
+    "section": "",
+    "text": "Soy una estudiante del pregrado de biología interesada en los mecanismos epigenéticos y fisiológicos de diferentes organismos, además también siento mucha curiosidad por los procesos de desarrollo embriológico.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/isabel-quijano-henao/index.html",
+    "href": "members/current/isabel-quijano-henao/index.html",
+    "title": "Isabel Quijano Henao",
+    "section": "",
+    "text": "Soy estudiante de biología. Me apasiona mucho entender cómo funciona la vida en términos moleculares, también me interesan los insectos y artrópodos en general, mi sueño es ahondar en estas dos áreas del conocimiento de manera conjunta y la biología computacional es un enfoque interesante, es por esto que quiero aprender de ello.\nEn otros aspectos sobre la vida me hace muy feliz dibujar y patinar.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/current/juan-pablo-araque-ocampo/index.html",
+    "href": "members/current/juan-pablo-araque-ocampo/index.html",
+    "title": "Juan Pablo Araque Ocampo",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "members/current/jose-miguel-tobón-garcía/index.html",
+    "href": "members/current/jose-miguel-tobón-garcía/index.html",
+    "title": "Jose Miguel Tobón García",
+    "section": "",
+    "text": "Me llamo José Miguel Tobón y soy estudiante de pregrado en el Instituto de Biología de la Universidad de Antioquia. Mi pasión por los peces ha sido una constante en mi vida, lo que ha despertado un interés especial hacia estos organismos. Recientemente, he incursionado en el mundo de la programación, buscando integrarla armoniosamente con mi trabajo como biólogo.\nActualmente, me encuentro inmerso en un proyecto de machine learning, donde estoy adquiriendo experiencia y conocimientos en esta área. Mi objetivo a largo plazo es fusionar la ecología con el potencial de la programación, buscando contribuir al desarrollo de soluciones innovadoras en este campo.\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "members/instrucciones-cdr.html",
+    "href": "members/instrucciones-cdr.html",
+    "title": "Consejos para preparar el Club de Revista",
+    "section": "",
+    "text": "Ten en cuenta los siguientes consejos para escoger el artículo que presentarás en el Club de Revista:\n\nElige un artículo relevante. Esto quiere decir que el artículo esté cercanamente relacionado con el proyecto con el que estés trabajando, o donde usen métodos que sean de interés. La idea es que la lectura y exposición del artículo te nutran y te permitan aprender.\nElige un artículo preferiblemente de los últimos 5 años. Esta no es una regla absoluta, porque también hay artículos que es importante discutir y que son más viejos, pero idealmente uno de los objetivos del Club de Revista es mantenerse actualizado con la literatura más reciente.\nRevisa que el artículo sea de buena calidad. Esto generalmente implica leer o darle un vistazo al artículo. A veces conviene fijarse en qué revista fue publicado, aunque muy buenos artículos son publicados en revistas malas, y también artículos muy malos son publicados en revistas prestigiosas.\nLee el artículo con antelación. Comprender un artículo académico y sus métodos, y preparar una exposición sobre ello no es algo que pueda hacerse fácilmente en una semana o dos, asegúrate de elegir y leer el artículo con al menos un mes de anticipación a la fecha de la exposición. Lee el artículo mínimo dos veces para entenderlo bien.\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "posts/2024/curso-python.html",
+    "href": "posts/2024/curso-python.html",
+    "title": "Curso de introducción a Python 2024-1",
+    "section": "",
+    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de introducción a Python en su versión 2024-1 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "posts/2024/curso-python.html#qué-vas-a-aprender",
+    "href": "posts/2024/curso-python.html#qué-vas-a-aprender",
+    "title": "Curso de introducción a Python 2024-1",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
+  },
+  {
+    "objectID": "posts/2024/curso-python.html#información",
+    "href": "posts/2024/curso-python.html#información",
+    "title": "Curso de introducción a Python 2024-1",
+    "section": "Información",
+    "text": "Información\nEl curso se realizará los lunes de cada semana, comenzando el Lunes 26 de Febrero de 10 am a 12 m en la sala de cómputo del Instituto de Biología, UdeA. Este curso no requiere inscripción sino solamente asistir y su duración estimada es de 2 a 3 meses."
+  },
+  {
+    "objectID": "posts/2024/curso-python.html#cierre",
+    "href": "posts/2024/curso-python.html#cierre",
+    "title": "Curso de introducción a Python 2024-1",
+    "section": "Cierre",
+    "text": "Cierre\nEl curso de Python en su versión 2024-1 tuvo una muy buena acogida en el Instituto de Biología, ha sido una experiencia muy grata aprendiendo programación. Esperamos seguir ofreciendo el curso en una próxima ocasión.\n\n\n\nAlgunos estudiantes del Curso de introducción a Python 2024-1\n\n\n\n\n\nAlgunos estudiantes del Curso de introducción a Python 2024-1"
+  },
+  {
+    "objectID": "posts/2024/biología-computacional/index.html",
+    "href": "posts/2024/biología-computacional/index.html",
+    "title": "Promoviendo la Biología Computacional en Colombia",
+    "section": "",
+    "text": "Parte importante de la misión del Grupo de Biología Computacional es promover esta área del conocimiento en Colombia.\nEl activismo es muy importante para que las cosas que no nos gustan puedan cambiar, y por eso debemos hacer lo que más podamos por dar a conocer e impulsar la Biología Computacional, favoreciendo la creación de grupos, la difusión e intercambio de conocimiento y el desarrollo de investigaciones en esta área.\nPara dar a conocer la situación actual de la Biología Computacional en nuestro país y analizar más sobre este tema hemos creado un grupo de Zotero con bibliografía relevante sobre el tema. Hasta ahora, en lo que coinciden estos artículos es que en Colombia y en Latinoamérica en general hace falta MUCHÍSIMO trabajo y muchos más esfuerzos para sacar adelante este campo tan importante para el desarrollo tecnológico, científico y económico de nuestra sociedad.\nDesde nuestro grupo estamos planeando más actividades, pero por el momento serán una sorpresa, ya iremos anunciando nuestro paso a paso en esta ardua pero importante labor.\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html",
+    "href": "posts/2023/curso-linux.html",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "",
+    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux y el Software Libre en su versión 2023-2 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html#qué-vas-a-aprender",
+    "href": "posts/2023/curso-linux.html#qué-vas-a-aprender",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "¿Qué vas a aprender?",
+    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
+  },
+  {
+    "objectID": "posts/2023/curso-linux.html#información",
+    "href": "posts/2023/curso-linux.html#información",
+    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "section": "Información",
+    "text": "Información\nEl curso se realizará el miércoles de cada semana, comenzando el Miércoles 13 de Septiembre de 4 pm a 6 pm en el salón 7-325 del Instituto de Biología, UdeA."
   },
   {
     "objectID": "posts/2023/instalación-linux.html",
@@ -77,563 +623,10 @@
     "text": "Solución de problemas\nEn caso de que haya algún fallo en la instalación y el computador ya no inicie como antes puedes restaurar el cargador de arranque de Windows. Para esto necesitarás la última versión de Ubuntu montada en tu memoria USB y luego seguir los siguientes pasos:\n\nConecta la USB mientras el computador está apagado y haz que arranque desde la memoria entrando a la BIOS como se indica en el paso 4.\nIngresa a la opción “Try Ubuntu without installing” (Probar Ubuntu sin instalar, si esto falla, abre la configuración de la BIOS/UEFI, deshabilita “Secure Boot”, e intenta nuevamente).\nUna vez Ubuntu arranque, presiona Ctrl+Alt+T para abrir la Terminal.\nEn la línea de comandos, copia los siguientes comandos y presiona Enter después de cada uno:\n\nsudo add-apt-repository ppa:yannubuntu/boot-repair\nsudo apt update\nsudo apt install boot-repair\n\nEsto debería instalar el programa “Boot Repair”, que ahora debe aparecer en el menú de aplicaciones.\nAbre este programa y elige “Recommended repair” y espera hasta que termine.\n\nEsto debería arreglar el cargador de arranque, luego puedes apagar el computador, desconectar la USB y volverlo a encender.\nEn este enlace puedes ver las instrucciones del proceso, al igual que otras opciones de reparación."
   },
   {
-    "objectID": "posts/2023/curso-linux.html",
-    "href": "posts/2023/curso-linux.html",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
+    "objectID": "club-de-revista.html",
+    "href": "club-de-revista.html",
+    "title": "Club de Revista",
     "section": "",
-    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de Introducción a Linux y el Software Libre en su versión 2023-2 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "posts/2023/curso-linux.html#qué-vas-a-aprender",
-    "href": "posts/2023/curso-linux.html#qué-vas-a-aprender",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
-  },
-  {
-    "objectID": "posts/2023/curso-linux.html#información",
-    "href": "posts/2023/curso-linux.html#información",
-    "title": "Curso de Introducción a Linux y el Software Libre 2023-2",
-    "section": "Información",
-    "text": "Información\nEl curso se realizará el miércoles de cada semana, comenzando el Miércoles 13 de Septiembre de 4 pm a 6 pm en el salón 7-325 del Instituto de Biología, UdeA."
-  },
-  {
-    "objectID": "posts/2024/biología-computacional/index.html",
-    "href": "posts/2024/biología-computacional/index.html",
-    "title": "Promoviendo la Biología Computacional en Colombia",
-    "section": "",
-    "text": "Parte importante de la misión del Grupo de Biología Computacional es promover esta área del conocimiento en Colombia.\nEl activismo es muy importante para que las cosas que no nos gustan puedan cambiar, y por eso debemos hacer lo que más podamos por dar a conocer e impulsar la Biología Computacional, favoreciendo la creación de grupos, la difusión e intercambio de conocimiento y el desarrollo de investigaciones en esta área.\nPara dar a conocer la situación actual de la Biología Computacional en nuestro país y analizar más sobre este tema hemos creado un grupo de Zotero con bibliografía relevante sobre el tema. Hasta ahora, en lo que coinciden estos artículos es que en Colombia y en Latinoamérica en general hace falta MUCHÍSIMO trabajo y muchos más esfuerzos para sacar adelante este campo tan importante para el desarrollo tecnológico, científico y económico de nuestra sociedad.\nDesde nuestro grupo estamos planeando más actividades, pero por el momento serán una sorpresa, ya iremos anunciando nuestro paso a paso en esta ardua pero importante labor.\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "posts/2024/curso-python.html",
-    "href": "posts/2024/curso-python.html",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "",
-    "text": "Bienvenidos nuevamente a nuestro blog, estamos felices de anunciar el inicio del Curso de introducción a Python en su versión 2024-1 que se llevará a cabo en la Universidad de Antioquia. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html#qué-vas-a-aprender",
-    "href": "posts/2024/curso-python.html#qué-vas-a-aprender",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html#información",
-    "href": "posts/2024/curso-python.html#información",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "Información",
-    "text": "Información\nEl curso se realizará los lunes de cada semana, comenzando el Lunes 26 de Febrero de 10 am a 12 m en la sala de cómputo del Instituto de Biología, UdeA. Este curso no requiere inscripción sino solamente asistir y su duración estimada es de 2 a 3 meses."
-  },
-  {
-    "objectID": "posts/2024/curso-python.html#cierre",
-    "href": "posts/2024/curso-python.html#cierre",
-    "title": "Curso de introducción a Python 2024-1",
-    "section": "Cierre",
-    "text": "Cierre\nEl curso de Python en su versión 2024-1 tuvo una muy buena acogida en el Instituto de Biología, ha sido una experiencia muy grata aprendiendo programación. Esperamos seguir ofreciendo el curso en una próxima ocasión.\n\n\n\nAlgunos estudiantes del Curso de introducción a Python 2024-1\n\n\n\n\n\nAlgunos estudiantes del Curso de introducción a Python 2024-1"
-  },
-  {
-    "objectID": "members/instrucciones-cdr.html",
-    "href": "members/instrucciones-cdr.html",
-    "title": "Consejos para preparar el Club de Revista",
-    "section": "",
-    "text": "Ten en cuenta los siguientes consejos para escoger el artículo que presentarás en el Club de Revista:\n\nElige un artículo relevante. Esto quiere decir que el artículo esté cercanamente relacionado con el proyecto con el que estés trabajando, o donde usen métodos que sean de interés. La idea es que la lectura y exposición del artículo te nutran y te permitan aprender.\nElige un artículo preferiblemente de los últimos 5 años. Esta no es una regla absoluta, porque también hay artículos que es importante discutir y que son más viejos, pero idealmente uno de los objetivos del Club de Revista es mantenerse actualizado con la literatura más reciente.\nRevisa que el artículo sea de buena calidad. Esto generalmente implica leer o darle un vistazo al artículo. A veces conviene fijarse en qué revista fue publicado, aunque muy buenos artículos son publicados en revistas malas, y también artículos muy malos son publicados en revistas prestigiosas.\nLee el artículo con antelación. Comprender un artículo académico y sus métodos, y preparar una exposición sobre ello no es algo que pueda hacerse fácilmente en una semana o dos, asegúrate de elegir y leer el artículo con al menos un mes de anticipación a la fecha de la exposición. Lee el artículo mínimo dos veces para entenderlo bien.\n\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/jose-miguel-tobón-garcía/index.html",
-    "href": "members/current/jose-miguel-tobón-garcía/index.html",
-    "title": "Jose Miguel Tobón García",
-    "section": "",
-    "text": "Me llamo José Miguel Tobón y soy estudiante de pregrado en el Instituto de Biología de la Universidad de Antioquia. Mi pasión por los peces ha sido una constante en mi vida, lo que ha despertado un interés especial hacia estos organismos. Recientemente, he incursionado en el mundo de la programación, buscando integrarla armoniosamente con mi trabajo como biólogo.\nActualmente, me encuentro inmerso en un proyecto de machine learning, donde estoy adquiriendo experiencia y conocimientos en esta área. Mi objetivo a largo plazo es fusionar la ecología con el potencial de la programación, buscando contribuir al desarrollo de soluciones innovadoras en este campo.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/juan-pablo-araque-ocampo/index.html",
-    "href": "members/current/juan-pablo-araque-ocampo/index.html",
-    "title": "Juan Pablo Araque Ocampo",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
-    "objectID": "members/current/isabel-quijano-henao/index.html",
-    "href": "members/current/isabel-quijano-henao/index.html",
-    "title": "Isabel Quijano Henao",
-    "section": "",
-    "text": "Soy estudiante de biología. Me apasiona mucho entender cómo funciona la vida en términos moleculares, también me interesan los insectos y artrópodos en general, mi sueño es ahondar en estas dos áreas del conocimiento de manera conjunta y la biología computacional es un enfoque interesante, es por esto que quiero aprender de ello.\nEn otros aspectos sobre la vida me hace muy feliz dibujar y patinar.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/maria-de-los-ángeles-benavides/index.html",
-    "href": "members/current/maria-de-los-ángeles-benavides/index.html",
-    "title": "Maria de los Ángeles Benavides Guaca",
-    "section": "",
-    "text": "Soy una estudiante del pregrado de biología interesada en los mecanismos epigenéticos y fisiológicos de diferentes organismos, además también siento mucha curiosidad por los procesos de desarrollo embriológico.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/joshua-taborda-mejía/index.html",
-    "href": "members/current/joshua-taborda-mejía/index.html",
-    "title": "Joshua Taborda Mejía",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
-    "objectID": "members/current/miguel-angel-tangarife-cardona/index.html",
-    "href": "members/current/miguel-angel-tangarife-cardona/index.html",
-    "title": "Miguel Ángel Tangarife Cardona",
-    "section": "",
-    "text": "Soy estudiante de los últimos semestres de biología, estoy vinculado a el Grupo de Biología Computacional y el grupo de Bacteriología Agrícola y Ambiental (BA&A) en la Universidad de Antioquia (UdeA), Colombia."
-  },
-  {
-    "objectID": "members/current/miguel-angel-tangarife-cardona/index.html#intereses",
-    "href": "members/current/miguel-angel-tangarife-cardona/index.html#intereses",
-    "title": "Miguel Ángel Tangarife Cardona",
-    "section": "Intereses",
-    "text": "Intereses\nMis intereses se enmarcan en el campo de la microbiología agrícola, bioinformática, y biología molecular. Me encanta trabajar en biotecnología, amante de los bacteriófagos, las bacterias, el baile y el café."
-  },
-  {
-    "objectID": "members/current/maria-camila-gómez-úsuga/index.html",
-    "href": "members/current/maria-camila-gómez-úsuga/index.html",
-    "title": "Maria Camila Gómez Úsuga",
-    "section": "",
-    "text": "Soy estudiante de biología con interés en diferentes ramas como la biología celular, la genética y la bioquímica. Además, soy amante de las matemáticas, por lo que me gusta aprender cómo los principios matemáticos se entrelazan con los procesos biológicos, descubriendo así, mi interés en la biología computacional y biología de sistemas.\nFuera del campo académico, me gustan los deportes, en especial el voleibol, me gusta dibujar y conocer lugares nuevos. Además me gustan los gatos y las abejas meliponas.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/karen-andrea-zapata-ruiz/index.html",
-    "href": "members/current/karen-andrea-zapata-ruiz/index.html",
-    "title": "Karen Andrea Zapata Ruiz",
-    "section": "",
-    "text": "¡Hola, soy Karen! Actualmente estudio biología y me apasiona explorar diversos campos como la biología celular y la genética. Además, me he interesado por la biología computacional porque pienso que es una excelente herramienta para explorar temas biológicos complejos.\nAdicionalmente, me encanta el dibujo, la pintura y la meditación.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
-    "href": "members/alumni/emmanuel-ortega-atehortúa/emmanuel-ortega-atehortúa.html",
-    "title": "Emmanuel Ortega Atehortúa",
-    "section": "",
-    "text": "Soy biólogo y trabajo actualmente en el Grupo de Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos y el Grupo de Biología Computacional en la Universidad de Antioquia (UdeA), Colombia.\nEstoy principalmente interesado en áreas como la Biología Teórica, Biología matemática, Biología computacional y Biología de sistemas. Dentro de la biología mis principales áreas son la virología y la evolución.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Grupo de Biología Computacional",
-    "section": "",
-    "text": "El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia.\n\n\n\n\n\n\n\n\n\n\n\n\nCongreso\n\n\nBioinformática\n\n\n\nParticipa en el Congreso Colombiano de Biología Computacional que se realizará en Medellín\n\n\n\n\n\n\n\n\n\n\n\n\n\nCongreso\n\n\nSoftware Libre\n\n\nLinux\n\n\n\nÚnete a uno de los eventos más importantes del Software Libre en Latinoamérica\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "index.html#eventos-de-interés",
-    "href": "index.html#eventos-de-interés",
-    "title": "Grupo de Biología Computacional",
-    "section": "",
-    "text": "Congreso\n\n\nBioinformática\n\n\n\nParticipa en el Congreso Colombiano de Biología Computacional que se realizará en Medellín\n\n\n\n\n\n\n\n\n\n\n\n\n\nCongreso\n\n\nSoftware Libre\n\n\nLinux\n\n\n\nÚnete a uno de los eventos más importantes del Software Libre en Latinoamérica\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Grupo de Biología Computacional",
-    "section": "Contacto",
-    "text": "Contacto\n Juan Camilo Arboleda Rivera\n juan.arboleda2@udea.edu.co"
-  },
-  {
-    "objectID": "cursos/material-educativo/scRNA-seq/index.html",
-    "href": "cursos/material-educativo/scRNA-seq/index.html",
-    "title": "Secuenciamiento de ARN de una única célula",
-    "section": "",
-    "text": "Guruprasad et al. (2020)\nPara explicar la diferencia entre bulk RNA-seq y single cell RNA-seq se usa la analogía con un batido de frutas vs. una ensalada de frutas. En el batido no podemos distinguir una fruta de otra, sino que tenemos sus sabores combinados (este sería el bulk RNA), en cambio en la ensalada de frutas sí podemos distinguir una fruta de otra (single cell RNA-seq)."
-  },
-  {
-    "objectID": "cursos/material-educativo/scRNA-seq/index.html#más-informacioń-sobre-el-single-cell-rna-seq",
-    "href": "cursos/material-educativo/scRNA-seq/index.html#más-informacioń-sobre-el-single-cell-rna-seq",
-    "title": "Secuenciamiento de ARN de una única célula",
-    "section": "Más informacioń sobre el single cell RNA-seq",
-    "text": "Más informacioń sobre el single cell RNA-seq\n\n\n\n\n\n\n\n\n¿Qué son los UMIs?\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados\n\n\n\n\n\n\nGuruprasad et al. (2020)\nSteinheuer, Canzler, y Hackermüller (2021)"
-  },
-  {
-    "objectID": "cursos/material-educativo/CRISPRCasFinder/index.html",
-    "href": "cursos/material-educativo/CRISPRCasFinder/index.html",
-    "title": "CRISPRCasFinder",
-    "section": "",
-    "text": "CRISPRCasFinder (Couvin et al. 2018) es un programa para identificar y clasificar sistemas CRISPR en genomas procariotas. Te permite, además de saber en qué parte del genoma hay sistemas CRISPR, saber su clasificación según los diferentes tipos y subtipos (Makarova et al. 2020), su posible orientación, el número de espaciadores e información sobre las repeticiones.\nCRISPRCasFinder se puede usar a través de su versión online, pero también puede instalarse para usarlo de manera local.\nAquí te dejamos una infografía sobre su funcionamiento:\n\n\nPuedes descargar la infografía en formato PDF en este enlace.\n\n\n\n\n Volver arribaReferencias\n\nCouvin, David, Aude Bernheim, Claire Toffano-Nioche, Marie Touchon, Juraj Michalik, Bertrand Néron, Eduardo P C Rocha, Gilles Vergnaud, Daniel Gautheret, y Christine Pourcel. 2018. «CRISPRCasFinder, an Update of CRISRFinder, Includes a Portable Version, Enhanced Performance and Integrates Search for Cas Proteins». Nucleic Acids Research 46 (W1): W246-51. https://doi.org/10.1093/nar/gky425.\n\n\nMakarova, Kira S., Yuri I. Wolf, Jaime Iranzo, Sergey A. Shmakov, Omer S. Alkhnbashi, Stan J. J. Brouns, Emmanuelle Charpentier, et al. 2020. «Evolutionary Classification of CRISPR-Cas Systems: A Burst of Class 2 and Derived Variants». Nature Reviews. Microbiology 18 (2): 67-83. https://doi.org/10.1038/s41579-019-0299-x."
-  },
-  {
-    "objectID": "cursos/curso-linux.html",
-    "href": "cursos/curso-linux.html",
-    "title": "Curso de Introducción a Linux y el Software Libre",
-    "section": "",
-    "text": "Nuestro grupo ofrece de manera regular el Curso de Introducción a Linux y el Software Libre. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "cursos/curso-linux.html#qué-vas-a-aprender",
-    "href": "cursos/curso-linux.html#qué-vas-a-aprender",
-    "title": "Curso de Introducción a Linux y el Software Libre",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos del sistema operativo Linux y el software libre. Los estudiantes aprenderán qué es Linux, sus semejanzas y diferencias con otros sistemas operativos, cómo instalarlo, sus aplicaciones en el ámbito científico y cómo usar sus principales herramientas. También aprenderán sobre la filosofía del Software Libre y algunas herramientas usadas para su desarrollo.\nPuedes descargar el plan del curso con información más detallada en este enlace."
-  },
-  {
-    "objectID": "cursos/curso-linux.html#información",
-    "href": "cursos/curso-linux.html#información",
-    "title": "Curso de Introducción a Linux y el Software Libre",
-    "section": "Información",
-    "text": "Información\nSi te interesa este curso llena el siguiente formulario y nos comunicaremos contigo cuando ofrezcamos el curso:\n\nCargando…"
-  },
-  {
-    "objectID": "integrantes.html",
-    "href": "integrantes.html",
-    "title": "Integrantes",
-    "section": "",
-    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "integrantes.html#miembros-actuales",
-    "href": "integrantes.html#miembros-actuales",
-    "title": "Integrantes",
-    "section": "",
-    "text": "Estudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesora del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfesor del Instituto de Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudiante de pregrado en Biología\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "integrantes.html#alumni",
-    "href": "integrantes.html#alumni",
-    "title": "Integrantes",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEmmanuel Ortega Atehortúa\n\n\nBiólogo\n\n\n\n\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Proyectos ",
-    "section": "",
-    "text": "Conoce en qué temas estamos trabajando."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-activos",
-    "href": "proyectos.html#proyectos-activos",
-    "title": "Proyectos ",
-    "section": "Proyectos activos",
-    "text": "Proyectos activos\n\nDinámica poblacional del sistema Ameba, Mimivirus, Virófago, Transpovirón.\nFactores autosómicos implicados en la inactivación del cromosoma X.\nRepresentación del ADN en aplicaciones de Machine Learning.\nEspaciadores autodirigidos y nuevas funciones de los sistemas CRISPR."
-  },
-  {
-    "objectID": "proyectos.html#proyectos-anteriores",
-    "href": "proyectos.html#proyectos-anteriores",
-    "title": "Proyectos ",
-    "section": "Proyectos anteriores",
-    "text": "Proyectos anteriores\n\nCircuitos de regulación genética con funciones morfogenéticas."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Entradas del blog",
-    "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n¿Por qué es importante usar formatos abiertos?\n\n\n\n\n\n\nBiología computacional\n\n\nAlfabetismo digital\n\n\nEducación\n\n\nCiencia abierta\n\n\n\n\n\n\n\n\n\n4 jul 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nFiesta de mitad de año\n\n\n\n\n\n\nBiología computacional\n\n\nFiesta\n\n\n\n\n\n\n\n\n\n24 jun 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nPromoviendo la Biología Computacional en Colombia\n\n\n\n\n\n\n\n\n\n\n\n1 jun 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nEspaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR\n\n\n\n\n\n\nBiología computacional\n\n\nCRISPR\n\n\nBioinformática\n\n\nInvestigación\n\n\n\n¿Autoinmunidad? ¿Nuevas funciones desconocidas? ¿Qué misterios encierran los sistemas CRISPR en bacterias? ¿Tienen relación con la resistencia a los antibióticos?\n\n\n\n\n\n12 abr 2024\n\n\nAna María López Pérez, Haminton Alexander Poveda Alonso\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de introducción a Python 2024-1\n\n\n\n\n\n\nBiología computacional\n\n\nCursos\n\n\nEducación\n\n\nPython\n\n\n\n\n\n\n\n\n\n18 feb 2024\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto de la inactivación del X\n\n\n\n\n\n\nInactivación del X\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n2 oct 2023\n\n\nMaría de los Ángeles Benavides Guaca\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial de instalación de Linux\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nTutorial\n\n\nEducación\n\n\n\n\n\n\n\n\n\n21 sept 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nCurso de Introducción a Linux y el Software Libre 2023-2\n\n\n\n\n\n\nBiología computacional\n\n\nLinux\n\n\nCursos\n\n\nEducación\n\n\n\n\n\n\n\n\n\n31 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenida\n\n\n\n\n\n\nBiología computacional\n\n\n\n\n\n\n\n\n\n23 ago 2023\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Noticias ",
-    "section": "",
-    "text": "2024-04-08\n¡Vamos avanzando viento en popa con nuestro curso de Python en su versión 2024-1! Ver más información.\n2024-03-25\n¡Nuestro grupo ahora tiene un semillero de investigación asociado a la Red de Semilleros de la Universidad de Antioquia!\n2024-02-14\nFelicitaciones a Emmanuel Ortega por su trabajo de grado y su graduación con mención de honor. Foto\n2023-07-27\nHemos publicado un preprint sobre nuestro trabajo con los sistemas CRISPR.\n\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "cursos/curso-python.html",
-    "href": "cursos/curso-python.html",
-    "title": "Curso de introducción a Python",
-    "section": "",
-    "text": "Nuestro grupo ofrece regularmente un Curso de introducción a Python. Este curso es completamente gratuito y no se requiere ningún conocimiento previo."
-  },
-  {
-    "objectID": "cursos/curso-python.html#qué-vas-a-aprender",
-    "href": "cursos/curso-python.html#qué-vas-a-aprender",
-    "title": "Curso de introducción a Python",
-    "section": "¿Qué vas a aprender?",
-    "text": "¿Qué vas a aprender?\nEste curso cubrirá los principales aspectos sobre el lenguaje de programación Python. Los estudiantes aprenderán qué es Python, sus principales características, sus semejanzas y diferencias con otros lenguajes de programación y sus aplicaciones en el ámbito científico. También aprenderán los elementos básicos de la programación orientada a objetos."
-  },
-  {
-    "objectID": "cursos/curso-python.html#información",
-    "href": "cursos/curso-python.html#información",
-    "title": "Curso de introducción a Python",
-    "section": "Información",
-    "text": "Información\nEl curso se realiza generalmente en la sala de cómputo del Instituto de Biología de la Universidad de Antioquia y tiene una duración estimada de 10 clases de 2 horas por clase. Si te interesa el curso llena el formulario que aparece a continuación:\n\nCargando…"
-  },
-  {
-    "objectID": "cursos/material-educativo.html",
-    "href": "cursos/material-educativo.html",
-    "title": "Material educativo",
-    "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nUna herramienta para encontrar y caracterizar sistemas CRISPR en genomas procariotas\n\n\n\nIsabel Quijano Henao\n\n\n27 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n1 jun 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan Camilo Arboleda Rivera\n\n\n\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "cursos/material-educativo.html#general",
-    "href": "cursos/material-educativo.html#general",
-    "title": "Material educativo",
-    "section": "General",
-    "text": "General\n Cursos del EBI-EMBL\n Guías de ELIXIR y mejores prácticas para trabajar con datos biológicos\n Herramientas para Biología Computacional\n Buscador de cursos, eventos, videos, presentaciones, manuales y mucho más\n Material educativo del NCBI"
-  },
-  {
-    "objectID": "cursos/material-educativo.html#biología-estructural",
-    "href": "cursos/material-educativo.html#biología-estructural",
-    "title": "Material educativo",
-    "section": "Biología estructural",
-    "text": "Biología estructural\n Curso de PyMOL\n Dinámica molecular con GROMACS\n Curso de AlphaFold"
-  },
-  {
-    "objectID": "cursos/material-educativo.html#rna-seq",
-    "href": "cursos/material-educativo.html#rna-seq",
-    "title": "Material educativo",
-    "section": "RNA-seq",
-    "text": "RNA-seq\n Workshop RNA-seq UCLA\n Análisis de datos de RNA-seq con DESeq2\n RNA-seq Tutorial (with Reference Genome)\n DESeq2 para principiantes\n Differential expression with DEseq2\n\nSingle cell RNA-seq\n Introducción al single cell RNA-seq\n Análisis de single cell RNA-seq con Python\n Complete single-cell RNAseq analysis walkthrough\n Curso sobre análisis de datos de single cell RNA-seq"
-  },
-  {
-    "objectID": "cursos/material-educativo.html#linux",
-    "href": "cursos/material-educativo.html#linux",
-    "title": "Material educativo",
-    "section": "Linux",
-    "text": "Linux\n The Linux command line for beginners"
-  },
-  {
-    "objectID": "cursos/material-educativo.html#bases-de-datos",
-    "href": "cursos/material-educativo.html#bases-de-datos",
-    "title": "Material educativo",
-    "section": "Bases de datos",
-    "text": "Bases de datos\n Databases and SQL"
-  },
-  {
-    "objectID": "cursos/material-educativo.html#filogenética",
-    "href": "cursos/material-educativo.html#filogenética",
-    "title": "Material educativo",
-    "section": "Filogenética",
-    "text": "Filogenética\n Tutoriales y cursos de bioinformática y filogenética en Español"
-  },
-  {
-    "objectID": "cursos/material-educativo/scRNA-seq/umi/index.html",
-    "href": "cursos/material-educativo/scRNA-seq/umi/index.html",
-    "title": "¿Qué son los UMIs?",
-    "section": "",
-    "text": "UMI son las siglas de Unique Molecular Identifier (Identificador Molecular Único), y consisten en secuencias cortas (aprox. 14 pares de bases) que se añaden a las moléculas de ARN que se van a secuenciar para identificarlas de manera única.\n\n\n\n (s. f.)\n\n\nAl ser secuencias de 14 pares de bases, podemos tener \\(4^{14}\\) diferentes UMIs.\n\n\n\n (s. f.)\n\n\n\n Volver arribaReferencias\n\ns. f. Understanding Single Cell Technologies: Barcodes and UMIS. https://help.geneiousbiologics.com/hc/en-us/articles/4781289585300-Understanding-Single-Cell-technologies-Barcodes-and-UMIs."
-  },
-  {
-    "objectID": "cursos/cursos.html",
-    "href": "cursos/cursos.html",
-    "title": "Cursos y talleres",
-    "section": "",
-    "text": "Como parte del esfuerzo para promover la Biología Computacional y el Software Libre, nuestro grupo desarrolla cursos y talleres en los que enseñamos diferentes herramientas que son muy útiles no solo en la ciencia sino en el mundo digital en general. A continuación encontrarás una lista de herramientas que usamos en nuestro grupo y que te podemos enseñar.\n\nLinux\nGit/GitHub\nPython\nC++\nBash (Requisito Linux)\nR\nLaTeX\nVim (Requisito Linux)\nBiología de Sistemas\n\nModelamiento matemático\nTeoría de grafos\n\nBioinformática (Requisito Linux)\n\nFastQC\nTrimmomatic\nEnsamblaje de genomas\nMetagenómica\nAnálisis de expresión genética\n\nAnálisis de datos en Pandas (Requisito Python básico)\nMake (Requisito Linux)\nSistemas Dinámicos\nMachine Learning\nBases de datos SQL\nDinámica molecular (Requisito Linux)\nRobótica con Arduino\nDesarrollo de GUIs con Qt (Requisito C++)\nMarkdown\n\nSi quieres aprender sobre alguno de estos temas no dudes en escribirnos y manifestarnos tu interés. También te sugerimos llenar el siguiente formulario para saber cuáles son tus intereses:\n\nCargando…\n\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "bienvenida.html",
-    "href": "bienvenida.html",
-    "title": "¡Bienvenido al Grupo de Biología Computacional!",
-    "section": "",
-    "text": "A continuación encontrarás las pautas para participar en el grupo.\nAntes que nada debes saber que en nuestro grupo respetamos las leyes de la termodinámica.\n\n\nLas reuniones del grupo son de altísima importancia, y brindan la oportunidad de resolver problemas juntos y de compartir y discutir ideas. En nuestra reunión de grupo generalmente discutimos asuntos sobre los proyectos del grupo, hacemos ensayos de presentaciones, presentamos y discutimos nuevos resultados que hayamos obtenido, socializamos problemas con los que nos hayamos encontrado o simplemente discutimos asuntos internos del grupo.\nEsta es la información sobre la reunión del grupo para el semestre 2024-1:\nHora: Viernes 12:00 - 14:00\nLugar: Salón 7-325, Instituto de Biología, Universidad de Antioquia\n\n\n\nComo parte del grupo se espera que tú:\n\nAsistas al Club de Revista y a las demás reuniones del grupo. Estos espacios son extremadamente importantes. Igualmente, se espera que avises oportunamente si no puedes asistir a algún encuentro.\nAdemás de asistir, se espera que participes activamente en las reuniones. No tienes que saberlo todo, pero sí eres responsable de preguntar cuando no entiendas algo. Tus contribuciones son valiosas, tu perspectiva es diferente a la de cualquier otro y queremos escucharte.\nSeas respetuoso en las reuniones. Debes poner atención, ser amable, y no distraerte jugando o mirando el celular.\nPresentes artículos en el Club de Revista.\nManifiestes tus opiniones con libertad, en particular, si tienes propuestas u opinas que hay cosas que deben mejorar, esperamos que lo digas abiertamente.\nTengas iniciativa. Necesitamos personas innovadoras, con ganas de hacer cosas, ya sea de investigación, de divulgación de la ciencia, o preprar una gran fiesta. No queremos “zombies” que solo estén presentes sin aportar nada.\nBusques y leas artículos de investigación y los compartas con los demás.\nSi tienes asignada una tarea, asegúrate de hacerla a tiempo y de manera diligente.\nSeas organizado con tu trabajo y tengas una bitácora donde reportes todo tu proceso de investigación y tus análisis.\nSeas comunicativo y compartas tus pasiones e intereses. También es muy importante que comuniques si tienes problemas, así te podemos ayudar.\n\nPor último, se te pedirá dejar el grupo si:\n\nAcumulas tres faltas injustificadas a las reuniones.\nNo eres diligente, comprometido y responsable.\n\nSi quieres pertenecer formalmente a nuestro grupo regístrate en este formulario.\n\n\n\n\n¿Cómo preparar la exposición para el Club de Revista?"
-  },
-  {
-    "objectID": "bienvenida.html#reuniones-del-grupo",
-    "href": "bienvenida.html#reuniones-del-grupo",
-    "title": "¡Bienvenido al Grupo de Biología Computacional!",
-    "section": "",
-    "text": "Las reuniones del grupo son de altísima importancia, y brindan la oportunidad de resolver problemas juntos y de compartir y discutir ideas. En nuestra reunión de grupo generalmente discutimos asuntos sobre los proyectos del grupo, hacemos ensayos de presentaciones, presentamos y discutimos nuevos resultados que hayamos obtenido, socializamos problemas con los que nos hayamos encontrado o simplemente discutimos asuntos internos del grupo.\nEsta es la información sobre la reunión del grupo para el semestre 2024-1:\nHora: Viernes 12:00 - 14:00\nLugar: Salón 7-325, Instituto de Biología, Universidad de Antioquia"
-  },
-  {
-    "objectID": "bienvenida.html#guía-de-conducta",
-    "href": "bienvenida.html#guía-de-conducta",
-    "title": "¡Bienvenido al Grupo de Biología Computacional!",
-    "section": "",
-    "text": "Como parte del grupo se espera que tú:\n\nAsistas al Club de Revista y a las demás reuniones del grupo. Estos espacios son extremadamente importantes. Igualmente, se espera que avises oportunamente si no puedes asistir a algún encuentro.\nAdemás de asistir, se espera que participes activamente en las reuniones. No tienes que saberlo todo, pero sí eres responsable de preguntar cuando no entiendas algo. Tus contribuciones son valiosas, tu perspectiva es diferente a la de cualquier otro y queremos escucharte.\nSeas respetuoso en las reuniones. Debes poner atención, ser amable, y no distraerte jugando o mirando el celular.\nPresentes artículos en el Club de Revista.\nManifiestes tus opiniones con libertad, en particular, si tienes propuestas u opinas que hay cosas que deben mejorar, esperamos que lo digas abiertamente.\nTengas iniciativa. Necesitamos personas innovadoras, con ganas de hacer cosas, ya sea de investigación, de divulgación de la ciencia, o preprar una gran fiesta. No queremos “zombies” que solo estén presentes sin aportar nada.\nBusques y leas artículos de investigación y los compartas con los demás.\nSi tienes asignada una tarea, asegúrate de hacerla a tiempo y de manera diligente.\nSeas organizado con tu trabajo y tengas una bitácora donde reportes todo tu proceso de investigación y tus análisis.\nSeas comunicativo y compartas tus pasiones e intereses. También es muy importante que comuniques si tienes problemas, así te podemos ayudar.\n\nPor último, se te pedirá dejar el grupo si:\n\nAcumulas tres faltas injustificadas a las reuniones.\nNo eres diligente, comprometido y responsable.\n\nSi quieres pertenecer formalmente a nuestro grupo regístrate en este formulario."
-  },
-  {
-    "objectID": "bienvenida.html#más-información",
-    "href": "bienvenida.html#más-información",
-    "title": "¡Bienvenido al Grupo de Biología Computacional!",
-    "section": "",
-    "text": "¿Cómo preparar la exposición para el Club de Revista?"
-  },
-  {
-    "objectID": "members/current/libia-manuela-maury-zuluaga/index.html",
-    "href": "members/current/libia-manuela-maury-zuluaga/index.html",
-    "title": "Manuela Maury Zuluaga",
-    "section": "",
-    "text": "Soy estudiante de biología, apasionada por el mundo microscópico, por esto mismo he despertado un gran interés en la biología celular y molecular al igual que la microbiología en especial el mundo de las bacterias y hongos, creo que entender cómo suceden las cosas desde el mundo micro, nos ayuda a comprender el funcionamiento de la vida en general y para mi es algo maravilloso.\nAdemás de mi pasión por la biología, adoro también la gastronomía y todo el mundo culinario y espero algún día poder integrar estas dos pasiones.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/tomás-duque-rueda/index.html",
-    "href": "members/current/tomás-duque-rueda/index.html",
-    "title": "Tomás Duque Rueda",
-    "section": "",
-    "text": "¡Hola a todos! Soy Tomás Duque y soy estudiante de Biología. Dentro de esta ciencia, tengo muchos intereses: me gusta la biología marina y la limnología, también me apasionan mucho la biotecnología, la microbiología, la astrobiología y la biología computacional.\nAdemás, los microorganismos fotosintéticos me parecen los seres más fascinantes del planeta. Así, las microalgas y cianobacterias me han permitido reunir todas mis pasiones.\nDentro del grupo de Biología Computacional he podido profundizar en varios temas de mi interés, como los sistemas CRISPR específicamente de cianobacterias.\nTambién he tenido la oportunidad de aprender mucho sobre Machine Learning y sus diferentes aplicaciones. Por ejemplo, cómo las redes convolucionales profundas nos permiten reconocer y clasificar imágenes, y cómo esto puede usarse desde la clasificación morfológica de microorganismos hasta el monitoreo satelital de ecosistemas completos; también, cómo la inteligencia artificial nos ayuda a identificar patrones e interpretar mejor la información de datos ómicos.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/simón-tamayo-martínez/index.html",
-    "href": "members/current/simón-tamayo-martínez/index.html",
-    "title": "Simón Tamayo Martínez",
-    "section": "",
-    "text": "Estudiante de biología con intereses en la computación.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/laura-manuela-builes-cerón/index.html",
-    "href": "members/current/laura-manuela-builes-cerón/index.html",
-    "title": "Laura Manuela Builes Cerón",
-    "section": "",
-    "text": "Soy una estudiante de biología interesada principalmente en la biología computacional, la programación y la genética. Me gusta asistir a encuentros de divulgación científica y astrobiología, además de maravillarme por los procesos biológicos que encuentro cada día.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/david-salomón-bonilla/index.html",
-    "href": "members/current/david-salomón-bonilla/index.html",
-    "title": "David Salomón Bonilla Cárdenas",
-    "section": "",
-    "text": "Soy estudiante de pregrado de biología de la Universidad de Antioquia, Soy un apasionado de la biología y mis áreas de mayor interés son la Biología molecular, la inmunología y las neurociencias.\nMe gusta conocer y explorar la naturaleza, la divulgación científica, el baile y las artes marciales.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/haminton-alexander-poveda-alonso/index.html",
-    "href": "members/current/haminton-alexander-poveda-alonso/index.html",
-    "title": "Haminton Alexander Poveda Alonso",
-    "section": "",
-    "text": "Soy un estudiante de biología apasionado por la complejidad del mundo natural; disfruto profundamente aprendiendo sobre diversos temas, especialmente me interesa la microbiología, la biología molecular, la bioquímica, el desarrollo, la inmunología y las neurociencias.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/juan-camilo-arboleda-rivera/index.html",
-    "href": "members/current/juan-camilo-arboleda-rivera/index.html",
-    "title": "Juan Camilo Arboleda Rivera",
-    "section": "",
-    "text": "Soy biólogo y trabajo actualmente en el Grupo de Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos y el Grupo de Biología Computacional en la Universidad de Antioquia (UdeA), Colombia. Trabajo como profesor en el curso de Genética en el Instituto de Biología en la UdeA."
-  },
-  {
-    "objectID": "members/current/juan-camilo-arboleda-rivera/index.html#intereses",
-    "href": "members/current/juan-camilo-arboleda-rivera/index.html#intereses",
-    "title": "Juan Camilo Arboleda Rivera",
-    "section": "Intereses",
-    "text": "Intereses\nEstoy principalmente interesado en áreas como la Biología Computacional, la Biología de Sistemas, Biología Molecular, Genética y Bioinformática. También soy un entusiasta de Linux y el Software Libre y me gusta aprender sobre programación y sus aplicaciones en Biología.\nMe encanta aprender y enseñar, porque estoy convencido de que el conocimiento es nuestra posesión más valiosa como humanos y que es lo más importante para el desarrollo de las sociedades.\nLas matemáticas son mi amor platónico y soy un fan declarado de Richard Feynman."
-  },
-  {
-    "objectID": "members/current/juan-camilo-arboleda-rivera/index.html#hobbies",
-    "href": "members/current/juan-camilo-arboleda-rivera/index.html#hobbies",
-    "title": "Juan Camilo Arboleda Rivera",
-    "section": "Hobbies",
-    "text": "Hobbies\nEn mis tiempos libres me gusta practicar guitarra y violín, aunque no me considero muy bueno en ello. Además me encantan las películas de Godzilla y el cine de serie B, como Yo compré una moto vampiro o Sharknado. También me gusta mucho leer y escuchar podcasts."
-  },
-  {
-    "objectID": "members/current/daniela-sánchez/index.html",
-    "href": "members/current/daniela-sánchez/index.html",
-    "title": "Daniela Sánchez Aristizábal",
-    "section": "",
-    "text": "¡Hola! Soy Daniela Sánchez, actualmente estoy en mi último año de Biología en la Universidad de Antioquia. Me apasiona mucho la biología molecular y me llama la atención el uso de herramientas computacionales para comprender fenómenos moleculares.\nMis intereses se centran en la regulación de la expresión génica, la biología de sistemas dinámicos y las aplicaciones de Machine Learning en el análisis de datos ómicos. Fuera del ámbito académico, disfruto de pasar tiempo en la naturaleza, especialmente en el río, y compartir tiempo con mis mascotas. Además, me gusta practicar pilates y disfruto mucho el arte del crochet.\nObservar y entender fenómenos biológicos y naturales es una de mis mayores pasiones, es por esto que la ciencia se ha convertido en una parte importante en mi vida.\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "members/current/gloria-machado-rodríguez/index.html",
-    "href": "members/current/gloria-machado-rodríguez/index.html",
-    "title": "Gloria Machado Rodríguez",
-    "section": "",
-    "text": "Volver arriba"
-  },
-  {
-    "objectID": "posts/2024/fiesta-junio/index.html",
-    "href": "posts/2024/fiesta-junio/index.html",
-    "title": "Fiesta de mitad de año",
-    "section": "",
-    "text": "Las fiestas del grupo son de los eventos más importantes y esperados de todo el año. Nuestra fiesta de mitad de año se llevó a cabo exitosamente. Jugamos, cantamos, bailamos, nos deleitamos con excelentes conversaciones y nos divertimos mucho.\n\n¡Estamos ansiosos por la fiesta de fin de año!\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "posts/2024/proyecto-crispr/proyecto-crispr.html",
-    "href": "posts/2024/proyecto-crispr/proyecto-crispr.html",
-    "title": "Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR",
-    "section": "",
-    "text": "En los últimos años, CRISPR ha tomado gran relevancia en el ámbito de la biología gracias al enorme potencial en edición genómica mostrado por las “tijeras genéticas” CRISPR-Cas9, que fueron desarrolladas por Emmanuelle Charpentier y Jennifer A. Doudna lo que las hizo acreedoras del premio Nobel de Química en el año 2020; su trabajo publicado en el año 2012 titulado: “A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity” dio la vuelta al mundo y fue de gran importancia para el desarrollo de este método de edición genómica. El descubrimiento principal para la creación de esta herramienta se dio por casualidad: durante los estudios de Emmanuelle Charpentier sobre el patógeno Streptococcus pyogenes, Charpentier identificó que una molécula previamente conocida como ARNtracr era parte de los sistemas CRISPR/Cas cuya función canónica es conferir resistencia a patógenos externos como los virus, con base en esto Charpentier y Doudna recrearon las “tijeras genéticas” de las bacterias en un tubo de ensayo y revolucionaron la historia de la medicina (Alcalde 2020).\n\n\n\nEmmanuelle Charpentier y Jennifer Doudna\n\n\nLos sistemas CRISPR/Cas funcionan como sistemas inmunes en las bacterias y arqueas; estos les permiten defenderse de virus que las han infectado previamente: ¡tienen memoria! CRISPR por sus siglas en inglés Clustered Regularly Interspaced Short Palindromic Repeats son una serie de secuencias de ADN presentes en el genoma de algunos organismos procariotas, esta serie de regiones son responsables del funcionamiento del sistema inmune que poseen estos organismos contra la integración de material genético exógeno. Este complejo sistema está formado por el operón Cas que alberga los datos genéticos necesarios para la producción de las endonucleasas Cas (CRISPR associated) junto con otras proteínas cruciales para el funcionamiento del sistema CRISPR/Cas, además de la región CRISPR que contiene repeticiones alternadas con cortas secuencias espaciadoras, las cuales son incorporadas a partir de fuentes externas durante infecciones, estos espaciadores se unen por complementariedad a la secuencia objetivo guiando así a las proteínas Cas asociadas y promoviendo la degradación del material genético exógeno.\n\n\n\nGhorbani et al. (2021)"
-  },
-  {
-    "objectID": "posts/2024/proyecto-crispr/proyecto-crispr.html#qué-son-los-sistemas-crispr",
-    "href": "posts/2024/proyecto-crispr/proyecto-crispr.html#qué-son-los-sistemas-crispr",
-    "title": "Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR",
-    "section": "",
-    "text": "En los últimos años, CRISPR ha tomado gran relevancia en el ámbito de la biología gracias al enorme potencial en edición genómica mostrado por las “tijeras genéticas” CRISPR-Cas9, que fueron desarrolladas por Emmanuelle Charpentier y Jennifer A. Doudna lo que las hizo acreedoras del premio Nobel de Química en el año 2020; su trabajo publicado en el año 2012 titulado: “A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity” dio la vuelta al mundo y fue de gran importancia para el desarrollo de este método de edición genómica. El descubrimiento principal para la creación de esta herramienta se dio por casualidad: durante los estudios de Emmanuelle Charpentier sobre el patógeno Streptococcus pyogenes, Charpentier identificó que una molécula previamente conocida como ARNtracr era parte de los sistemas CRISPR/Cas cuya función canónica es conferir resistencia a patógenos externos como los virus, con base en esto Charpentier y Doudna recrearon las “tijeras genéticas” de las bacterias en un tubo de ensayo y revolucionaron la historia de la medicina (Alcalde 2020).\n\n\n\nEmmanuelle Charpentier y Jennifer Doudna\n\n\nLos sistemas CRISPR/Cas funcionan como sistemas inmunes en las bacterias y arqueas; estos les permiten defenderse de virus que las han infectado previamente: ¡tienen memoria! CRISPR por sus siglas en inglés Clustered Regularly Interspaced Short Palindromic Repeats son una serie de secuencias de ADN presentes en el genoma de algunos organismos procariotas, esta serie de regiones son responsables del funcionamiento del sistema inmune que poseen estos organismos contra la integración de material genético exógeno. Este complejo sistema está formado por el operón Cas que alberga los datos genéticos necesarios para la producción de las endonucleasas Cas (CRISPR associated) junto con otras proteínas cruciales para el funcionamiento del sistema CRISPR/Cas, además de la región CRISPR que contiene repeticiones alternadas con cortas secuencias espaciadoras, las cuales son incorporadas a partir de fuentes externas durante infecciones, estos espaciadores se unen por complementariedad a la secuencia objetivo guiando así a las proteínas Cas asociadas y promoviendo la degradación del material genético exógeno.\n\n\n\nGhorbani et al. (2021)"
-  },
-  {
-    "objectID": "posts/2024/proyecto-crispr/proyecto-crispr.html#el-fenómeno-del-self-targeting",
-    "href": "posts/2024/proyecto-crispr/proyecto-crispr.html#el-fenómeno-del-self-targeting",
-    "title": "Espaciadores autodirigidos: dilucidando las funciones no canónicas de los sistemas CRISPR",
-    "section": "El fenómeno del “self-targeting”",
-    "text": "El fenómeno del “self-targeting”\nAunque la principal función conocida de los sistemas CRISPR sea la defensa ante virus, también se han encontrado espaciadores autodirigidos (“self-targeting spacers”), es decir, que son complementarios a partes del propio genoma de la bacteria y presuntamente resultan en una autoinmunidad, esto representa una paradoja para la cual se han propuesto dos posibles soluciones: la primera es que sean “accidentes” biológicos que ocurren al azar y a los cuales la bacteria tiene que hacer frente, mientras que la segunda propone que estén relacionados con funciones no canónicas, es decir diferentes a la función inmunitaria de los sistemas CRISPR; estas funciones alternativas son un área de investigación muy poco explorada en biología que podría tener importantes implicaciones en cuanto al conocimiento de los sistemas CRISPR y el desarrollo de interesantes herramientas moleculares. (Wimmer y Beisel 2020).\n\nEl objetivo de esta línea de investigación es ahondar en el conocimiento de las funciones no canónicas de los sistemas CRISPR y ayudar a dilucidar la paradoja de los espaciadores autodirigidos mediante el uso de herramientas computacionales para el análisis de datos genómicos disponibles en línea. Te invitamos a unirte a este fascinante proyecto de investigación, en el que fusionamos diferentes áreas del conocimiento científico, ¡tu participación podría contribuir significativamente a la comprensión de estos procesos biológicos!\n\n\n\nEmmanuelle Charpentier y Jennifer Doudna\nGhorbani et al. (2021)"
-  },
-  {
-    "objectID": "posts/2024/formatos-abiertos/index.html",
-    "href": "posts/2024/formatos-abiertos/index.html",
-    "title": "¿Por qué es importante usar formatos abiertos?",
-    "section": "",
-    "text": "Comencemos hablando sobre a qué nos referimos cuando hablamos de un formato. El formato de un archivo hace referencia a cómo está guardada la información en un objeto digital. Así, aunque dos imágenes puedan ser exactamente iguales, si una está en formato JPG y la otra en PNG, la información sobre la imagen estará almacenada de manera diferente en cada formato, e incluso es muy probable que los dos archivos tengan un tamaño diferente debido a esta razón. La especificación del formato dice cómo se almacena la información, por ejemplo, una especificación podría indicar “los primeros 32 bits del archivo indican la resolución de la imagen”."
-  },
-  {
-    "objectID": "posts/2024/formatos-abiertos/index.html#qué-es-un-formato-de-archivo",
-    "href": "posts/2024/formatos-abiertos/index.html#qué-es-un-formato-de-archivo",
-    "title": "¿Por qué es importante usar formatos abiertos?",
-    "section": "",
-    "text": "Comencemos hablando sobre a qué nos referimos cuando hablamos de un formato. El formato de un archivo hace referencia a cómo está guardada la información en un objeto digital. Así, aunque dos imágenes puedan ser exactamente iguales, si una está en formato JPG y la otra en PNG, la información sobre la imagen estará almacenada de manera diferente en cada formato, e incluso es muy probable que los dos archivos tengan un tamaño diferente debido a esta razón. La especificación del formato dice cómo se almacena la información, por ejemplo, una especificación podría indicar “los primeros 32 bits del archivo indican la resolución de la imagen”."
-  },
-  {
-    "objectID": "posts/2024/formatos-abiertos/index.html#qué-son-los-formatos-abiertos-y-cerrados",
-    "href": "posts/2024/formatos-abiertos/index.html#qué-son-los-formatos-abiertos-y-cerrados",
-    "title": "¿Por qué es importante usar formatos abiertos?",
-    "section": "¿Qué son los formatos abiertos y cerrados?",
-    "text": "¿Qué son los formatos abiertos y cerrados?\nEn los formatos abiertos la especificación está disponible para cualquier persona de forma gratuita, de manera que cualquiera puede saber cómo se almacena la información en un formato abierto, y cualquiera puede desarrollar un programa capaz de leer y crear archivos en un formato abierto. Por el contrario, si el archivo es cerrado, significa que su especificación es propiedad de alguna compañía, y generalmente solo esa compañía sabe exactamente cómo se almacena la información en el archivo. Esto trae limitaciones, porque ya no cualquiera puede desarrollar un programa que pueda crear un archivo con formato cerrado, ya que no sabrá cómo tiene que almacenar los datos o se lo impedirán los términos legales del formato."
-  },
-  {
-    "objectID": "posts/2024/formatos-abiertos/index.html#por-qué-usar-formatos-abiertos",
-    "href": "posts/2024/formatos-abiertos/index.html#por-qué-usar-formatos-abiertos",
-    "title": "¿Por qué es importante usar formatos abiertos?",
-    "section": "¿Por qué usar formatos abiertos?",
-    "text": "¿Por qué usar formatos abiertos?\n\nGarantía de acceso a largo plazo. Imaginemos un escenario hipotético en el que de un momento a otro desaparecen todos los programas que permitían abrir un tipo de archivo en específico. Al ser formatos abiertos y ser su especificación libre y accesible para todos, sería muy sencillo para un programador crear un nuevo programa capaz de abrir y leer este tipo de archivo. En cambio, con un formato cerrado, tendría que ser la compañía propietaria del archivo quien cree un programa para abrirlo, porque solamente la compañía conoce o tiene derechos sobre la forma de almacenamiento de la información en ese archivo.\nTransparencia en el contenido de los archivos. Al tener una especificación abierta, cualquiera puede saber qué contiene específicamente un archivo en su interior, aunque se requiera algo de programación para ello. Con archivos cerrados, al no conocer enteramente la especificación, estos podrían tener información oculta que solo la compañía propietaria del formato conoce y sabe su significado.\nMayor interoperatividad. Muchas aplicaciones son capaces de leer y manipular formatos abiertos. Con los formatos cerrados, pasa habitualmente que solo el programa diseñado por la misma compañía propietaria del formato es capaz de trabajar apropiadamente con él."
-  },
-  {
-    "objectID": "posts/2024/formatos-abiertos/index.html#desventajas-de-los-formatos-cerrados",
-    "href": "posts/2024/formatos-abiertos/index.html#desventajas-de-los-formatos-cerrados",
-    "title": "¿Por qué es importante usar formatos abiertos?",
-    "section": "Desventajas de los formatos cerrados",
-    "text": "Desventajas de los formatos cerrados\nAdemás de las desventajas ya mencionadas de los formatos cerrados, tenemos también los siguientes problemas:\n\nCosto: Muchos de los programas necesarios para abrir y crear archivos con formato cerrado son software de pago, por lo que conseguirlo o actualizar su licencia representa un gasto económico.\nIntereses: Los formatos cerrados son diseñados y controlados por su propietario, cuyos intereses pueden no estar bien alineados con los intereses del público general o de sus usuarios, por lo que un formato puede no estar diseñado para funcionar de manera óptima para el usuario sino para funcionar de manera óptima para la compañía; por ejemplo, el archivo podría tener secciones cuya especificación es deliberadamente compleja para que solo el programa propietario lo pueda abrir correctamente y evitar su uso por la competencia.\nObsolescencia: Los archivos en formatos cerrados tienen mayor probabilidad de quedar obsoletos en el futuro porque es posible que el software necesario para abrirlos y manipularlos deje de ser mantenido o su propietario decida hacer modificaciones y dejar de dar soporte al formato."
-  },
-  {
-    "objectID": "posts/2024/formatos-abiertos/index.html#cambiando-nuestros-hábitos",
-    "href": "posts/2024/formatos-abiertos/index.html#cambiando-nuestros-hábitos",
-    "title": "¿Por qué es importante usar formatos abiertos?",
-    "section": "Cambiando nuestros hábitos",
-    "text": "Cambiando nuestros hábitos\nDespués de conocer sobre los formatos abiertos, la tarea es habituarnos a usarlos más a menudo. En la siguiente tabla puedes encontrar cuáles son las alternativas abiertas a algunos formatos propietarios lamentablemente muy extendidos:\n\n\n\nTipo de archivo\nFormato cerrado\nFormatos abiertos\n\n\n\n\nTabla\n.xlsx\n.ods, .tsv, .csv\n\n\nTexto enriquecido\n.docx\n.odt\n\n\nPresentación\n.pptx\n.odp\n\n\n\nEl cambio es tan sencillo como hacer click en Guardar como en el menú del programa que estés usando y luego elegir el formato apropiado."
-  },
-  {
-    "objectID": "posts/2024/formatos-abiertos/index.html#más-información",
-    "href": "posts/2024/formatos-abiertos/index.html#más-información",
-    "title": "¿Por qué es importante usar formatos abiertos?",
-    "section": "Más información",
-    "text": "Más información\n\nhttps://es.wikipedia.org/wiki/Formato_abierto\nhttps://biblioguias.cepal.org/gestion-de-datos-de-investigacion/formatos\nSoftware libre y formatos abiertos. ¿Qué es software libre y software privado?\nLa importancia de los formatos libres para la preservación digital"
-  },
-  {
-    "objectID": "posts/2023/inactivacion-x.html",
-    "href": "posts/2023/inactivacion-x.html",
-    "title": "Proyecto de la inactivación del X",
-    "section": "",
-    "text": "Breve introducción al mecanismo de inactivación del cromosoma X en mamíferos placentarios."
-  },
-  {
-    "objectID": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
-    "href": "posts/2023/inactivacion-x.html#búsqueda-del-factor-autosómico-responsable-del-x-activo-en-la-lionización",
-    "title": "Proyecto de la inactivación del X",
-    "section": "Búsqueda del factor autosómico responsable del X activo en la lionización",
-    "text": "Búsqueda del factor autosómico responsable del X activo en la lionización\nLa lionización, nombre por el que también se conoce el silenciamiento del cromosoma X en hembras mamíferas placentarias fue descubierto por la genetista Mary Lyon en 1961 (Lyon 1961). Es un proceso crucial en el temprano desarrollo embrionario porque produce la igualación de expresión de genes ya que el sexo en estos organismos esta definido por la combinación de un par de cromosomas sexuales X y Y, hembras XX y machos XY. El cromosoma X, que posee alrededor de 1000 genes más que el Y, lo supera con creces, por lo que el silenciamiento de uno de los X en las mamíferas es uno de los tantos mecanismos de dosis de compensación que se han desarrollado en animales que tienen este problema.\nEl resultado final es la presencia de un cromosoma X activo y otro inactivo en la mayoría de sus genes, convertido en un cuerpo de Barr (Barr y Bertram 1949).\n\n\n\nCorpúsculo de Barr\n\n\nEn el caso de organismos diploides, para llegar a la inactivación se debe pasar anteriormente por una serie de pasos de conteo de los cromosomas X que posee la célula respecto a sus autosomas. Una vez la celula ha censado la presencia de más de un cromosoma X respecto a su juego de cromosomas 2n recurre a la elección de cual de ellos silenciará y dará inicio a la expresión del Xist, factor clave de la inactivacion, desde el futuro X inactivo. El producto de ARN del Xist tendrá un esparcimiento a lo largo de todo el cromosoma, promoviendo la cascada de inactivación que conlleva una serie de modificaciones epigenéticas que incluyen la modificación de histonas, metilaciones de ADN y, que finalemnte puede heredarse a las futuras células hijas y mantenrse a lo largo de la vida post-embrionaria del organismo mediante el establecimiento.\nAquí nos centramos en los pasos de conteo y elección de los futuros cromosomas X activo Xa e inactivo Xi, basándonos en la evidencia de su relación con los autosomas, a razón de la presencia de un solo X activo en organismos diploides con trisomía del X, pero que se puede presentar dos Xa en los casos de tetraploidía. Se estima que esta relacion está dada por un represor sensible a la dosis con origen en los autosomas dadas las anteriores proporciones según los juegos de cromosomas que posea la célula.\n\n\n\nConteo de cromosomas X en relación a los autosomas\n\n\nEn adición, dada la amplitud de los genomas, es necesario reducir los candidatos a este factor, por lo que nos podemos referir a una serie de estudios recientes en genomas humanos que sugiere que este factor puede encontrarse en el cromosoma 19 entre una región de 4.5 a 12.5 MB en el brazo corto y otra de 41 a 41.5 MB en el brazo largo del cromosoma (Migeon 2017).\n\n\n\nRegiones de interés en el cromosoma 19 humano. Tomado de Migeon (2017).\n\n\nNuestro objetivo es hallar este factor de conteo autosómico mediante el análisis con herramientas computacionales y bases de datos disponibles en línea.\n\n\n\nCorpúsculo de Barr\nConteo de cromosomas X en relación a los autosomas\nRegiones de interés en el cromosoma 19 humano. Tomado de Migeon (2017)."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html",
-    "href": "posts/2023/bienvenida.html",
-    "title": "Bienvenida",
-    "section": "",
-    "text": "Bienvenidos al blog del Grupo de Biología Computacional, un grupo dedicado a entender la Biología usando herramientas computacionales y Software Libre."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
-    "href": "posts/2023/bienvenida.html#de-qué-se-trata-la-biología-computacional",
-    "title": "Bienvenida",
-    "section": "¿De qué se trata la Biología Computacional?",
-    "text": "¿De qué se trata la Biología Computacional?\nLa Biología Computacional es una disciplina muy extensa, y podríamos definirla como un área interdisciplinaria en la que se usan métodos computacionales para analizar datos biológicos, incluyendo en su campo de acción el análisis de secuencias, la metagenómica y la bioinformática tradicional; sin embargo, también incluye el modelamiento matemático, las simulaciones computacionales de sistemas biológicos, la Biología de Sistemas y el desarrollo de software para Biología."
-  },
-  {
-    "objectID": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
-    "href": "posts/2023/bienvenida.html#cuál-es-el-objetivo-del-grupo",
-    "title": "Bienvenida",
-    "section": "¿Cuál es el objetivo del grupo?",
-    "text": "¿Cuál es el objetivo del grupo?\nNuestro objetivo es difundir, enseñar y promover la investigación y el desarrollo de la Biología Computacional en Colombia, además de promover también el uso de herramientas de Software Libre en general."
-  },
-  {
-    "objectID": "eventos/ubuconLA/index.html",
-    "href": "eventos/ubuconLA/index.html",
-    "title": "UbuConLA 2024",
-    "section": "",
-    "text": "Este año tendremos la UbuConLA en la Universidad de la Costa en la ciudad de Barranquilla, Colombia, los días 30 y 31 de Agosto.\nEncuentra aquí más información sobre la UbuConLA.\n\n\n\n Volver arriba"
+    "text": "Te invitamos a participar en nuestro club de revista donde discutimos las últimas investigaciones y avances de la ciencia. Cualquier persona puede asistir.\nHorario: Miércoles, normalmente de 12 a 1 pm, ocasionalmente de 1 a 2 pm.\nLugar: Salón 7-305, Instituto de Biología, Universidad de Antioquia\nLa siguiente es la programación del Club de Revista para el semestre 2024-2:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFecha\nExpositor\nArtículo\nLínea de investigación\nHora de inicio\nIdioma\n\n\n\n\n17 de julio\nDaniela Sánchez Aristizábal\nPrediction of drug-target interactions based on multi-layer network representation learning\nMachine-Learning\n12:10\nInglés\n\n\n24 de julio\nJose Miguel Tobón García\nAnalysis of DNA Sequence Classification Using CNN and Hybrid Models\nMachine-Learning\n13:00\nInglés\n\n\n31 de julio\nJuan Camilo Arboleda Rivera\nPrediction of DNA Methylation based on Multi-dimensional feature encoding and double convolutional fully connected convolutional neural network\nMachine-Learning\n12:10\nInglés\n\n\n7 de agosto\nFestivo\n\n\n\n\n\n\n\n\n\n\n14 de agosto\n\n\nReunión administrativa GBC\n\n\n12:10\nEspañol\n\n\n21 de agosto\nSimón Tamayo Martínez\n\n\nCRISPR\n12:10\nInglés\n\n\n28 de agosto\nHaminton Alexander Poveda Alonso\n\n\nCRISPR\n12:10\nInglés\n\n\n4 de septiembre\nDavid Salomón Bonilla Cárdenas\n\n\nCRISPR\n12:10\nInglés\n\n\n11 de septiembre\nMaria de los Ángeles Benavides Guaca\n\n\nInactivación del X\n12:10\nInglés\n\n\n18 de septiembre\nJoshua Taborda Mejía\n\n\nCRISPR\n12:10\nInglés\n\n\n25 de septiembre\nIsabel Quijano Henao\n\n\nCRISPR\n\n\nInglés\n\n\n2 de octubre\nMaria Camila Gómez Úsuga\n\n\nCRISPR\n\n\nInglés\n\n\n9 de octubre\nKatherine Mendez\n\n\nInactivación del X\n12:10\nInglés\n\n\n16 de octubre\nPascual Bueno\n\n\nMachine-Learning\n12:10\nInglés\n\n\n23 de octubre\nKaren Zapata\n\n\nCRISPR\n12:10\nEspanglish\n\n\n30 de octubre\nManuela Maury\n\n\nMachine-Learning\n13:00\nEspanglish\n\n\n6 de noviembre\nJuan Pablo Araque\n\n\nCRISPR\n12:10\nEspañol\n\n\n13 de noviembre\nLaura Builes Cerón\n\n\nCRISPR\n12:10\nInglés\n\n\n20 de noviembre\nJuan Camilo Arboleda Rivera\n\n\nCRISPR\n12:10\nInglés\n\n\n27 de noviembre\nDaniela Sánchez Aristizábal\n\n\nCianobacterias\n12:10\nInglés\n\n\n4 de diciembre\nJose Miguel Tobón García\n\n\nInactivación del X\n12:10\nInglés\n\n\n11 de diciembre\nSimón Tamayo Martínez\n\n\nCRISPR\n12:10\nInglés\n\n\n\n\n\n\n\n\nDescarga el archivo iCal para añadir este evento a tu calendario\nSi eres expositor, revisa nuestros consejos para preparar un Club de Revista.\n\n\n\n Volver arriba"
   }
 ]

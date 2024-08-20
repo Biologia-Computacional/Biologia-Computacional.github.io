@@ -1,15 +1,25 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/cursos/material-educativo.html",
     "items": [
-      "/eventos/iscb-latam-2024/index.html",
-      "/eventos/ubuconLA/index.html"
+      "/cursos/material-educativo/CRISPRCasFinder/index.html",
+      "/cursos/material-educativo/scRNA-seq/index.html",
+      "/cursos/material-educativo/scRNA-seq/umi/index.html",
+      "/posts/2023/instalación-linux.html"
     ]
   },
   {
-    "listing": "/cursos/material-educativo/scRNA-seq/index.html",
+    "listing": "/posts.html",
     "items": [
-      "/cursos/material-educativo/scRNA-seq/umi/index.html"
+      "/posts/2024/formatos-abiertos/index.html",
+      "/posts/2024/fiesta-junio/index.html",
+      "/posts/2024/biología-computacional/index.html",
+      "/posts/2024/proyecto-crispr/proyecto-crispr.html",
+      "/posts/2024/curso-python.html",
+      "/posts/2023/inactivacion-x.html",
+      "/posts/2023/instalación-linux.html",
+      "/posts/2023/curso-linux.html",
+      "/posts/2023/bienvenida.html"
     ]
   },
   {
@@ -36,26 +46,15 @@
     ]
   },
   {
-    "listing": "/posts.html",
+    "listing": "/cursos/material-educativo/scRNA-seq/index.html",
     "items": [
-      "/posts/2024/formatos-abiertos/index.html",
-      "/posts/2024/fiesta-junio/index.html",
-      "/posts/2024/biología-computacional/index.html",
-      "/posts/2024/proyecto-crispr/proyecto-crispr.html",
-      "/posts/2024/curso-python.html",
-      "/posts/2023/inactivacion-x.html",
-      "/posts/2023/instalación-linux.html",
-      "/posts/2023/curso-linux.html",
-      "/posts/2023/bienvenida.html"
+      "/cursos/material-educativo/scRNA-seq/umi/index.html"
     ]
   },
   {
-    "listing": "/cursos/material-educativo.html",
+    "listing": "/index.html",
     "items": [
-      "/cursos/material-educativo/CRISPRCasFinder/index.html",
-      "/cursos/material-educativo/scRNA-seq/index.html",
-      "/cursos/material-educativo/scRNA-seq/umi/index.html",
-      "/posts/2023/instalación-linux.html"
+      "/eventos/iscb-latam-2024/index.html"
     ]
   }
 ]
