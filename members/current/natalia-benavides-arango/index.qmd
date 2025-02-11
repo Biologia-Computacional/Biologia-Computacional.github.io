@@ -1,0 +1,21 @@
+---
+title: Natalia Benavides Arango
+description: Estudiante de pregrado en Microbiología Industrial y Ambiental
+image: foto.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:natalia.benavides@udea.edu.co
+---
+
+Holaaaa Mundoooo! Soy Nati Benavides, hija amada de Dios, y una loquita por
+vivir la vida siendo alegre. Soy una mezcla entre el Pacífico y el Oriente
+Antioqueño. Me apasionan los paisajes, la investigación, la microbiología de
+suelos, la música y el silencio, y sobre todo tratar de comprender la vida
+en todas sus dimensiones desde la razón y la fe. Actualmente soy estudiante
+de Microbiología Industrial y Ambiental en la Universidad de Antioquia, con
+la expectativa de seguir viendo más allá en lo pequeño, al igual que seguir
+comprendiendo y aprendiendo de las dinámicas de sistemas biológicos y
+promover la aplicación de tales conocimientos en la sociedad actual.

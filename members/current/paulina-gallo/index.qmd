@@ -1,0 +1,20 @@
+---
+title: Paulina Gallo Machado
+description: Estudiante de pregrado en Biología
+image: foto.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:paulina.gallo@udea.edu.co
+---
+Soy estudiante de biología en la Universidad de Antioquía, llena de
+curiosidad y pasión por la naturaleza y la vida.
+
+Mis intereses están relacionados con el estudio de las interacciones de los
+sistemas biológicos y la construcción de espacios en los que los humanos
+puedan interactuar con la naturaleza de manera amigable.
+
+Estoy interesada en el estudio de la biología computacional como una
+herramienta de gran utilidad para mi desarrollo personal y profesional.

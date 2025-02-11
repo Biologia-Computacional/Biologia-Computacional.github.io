@@ -1,0 +1,20 @@
+---
+title: Pascual Bueno Arcila
+description: Estudiante de pregrado en Biología
+image: foto.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:pascual.bueno@udea.edu.co
+---
+
+¡Hola! Mi nombre es Pascual, soy estudiante de pregrado en biología y un
+completo apasionado por el aprendizaje en cualquiera de sus formas. Me
+encanta el café, la música, las plantas, leer y parchar. Si pudiera tener un
+superpoder, sería saber programar y tener telequinesis. Los ámbitos de la
+biología que más me interesan son el desarrollo de plantas, la genética y la
+ecología. Espero algún día poder aportar mi granito de arena en alguna de
+estas áreas y ayudar a construir el conocimiento de la hermosa ciencia que
+es la biología.

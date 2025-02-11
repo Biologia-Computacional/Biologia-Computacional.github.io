@@ -1,0 +1,17 @@
+---
+title: Katherine Méndez Gómez
+description: Estudiante de pregrado en Biología
+image: foto.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:katherine.mendezg@udea.edu.co
+    - icon: github
+      text: GitHub
+      href: https://github.com/katemgg
+---
+
+Soy Katherine Méndez Gómez estudiante de biología, mis intereses
+profesionales son la ecofisiologia de insectos y la bioinformática.
