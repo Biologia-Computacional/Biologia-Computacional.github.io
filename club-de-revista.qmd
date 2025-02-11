@@ -7,10 +7,10 @@ Te invitamos a participar en nuestro club de revista donde discutimos las
 últimas investigaciones y avances de la ciencia. Cualquier persona puede
 asistir.
 
-**Horario:** Viernes de 1 a 2 pm.\
+**Horario:** Viernes de 12 a 1 pm.\
 **Lugar:** Salón 7-325, Instituto de Biología, Universidad de Antioquia
 
-La siguiente es la programación del Club de Revista para el semestre 2024-2:
+La siguiente es la programación del Club de Revista para el semestre 2025-1:
 
 ```{r}
 #| echo: false
