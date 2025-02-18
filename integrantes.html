@@ -87,7 +87,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
@@ -631,7 +632,29 @@ Estudiante de pregrado en Biología
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1732211838660" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1739309050053" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<a href="./members/current/natalia-benavides-arango/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/natalia-benavides-arango/foto.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Natalia Benavides Arango
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Microbiología Industrial y Ambiental
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-listing-file-modified-sort="1732211838660" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
 <a href="./members/current/pascual-bueno-arcila/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -653,10 +676,32 @@ Estudiante de pregrado en Biología
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-listing-file-modified-sort="1713042829844" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="g-col-1" data-index="17" data-listing-file-modified-sort="1739309023746" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<a href="./members/current/paulina-gallo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./members/current/paulina-gallo/foto.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Paulina Gallo Machado
+</h5>
+<div class="card-text listing-description">
+Estudiante de pregrado en Biología
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-listing-file-modified-sort="1713042829844" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="./members/current/simón-tamayo-martínez/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top"><img src="imgs/comp-biology.jpeg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="imgs/comp-biology.jpeg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Simón Tamayo Martínez
@@ -673,10 +718,10 @@ Estudiante de pregrado en Biología
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-listing-file-modified-sort="1721870534100" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
+<div class="g-col-1" data-index="19" data-listing-file-modified-sort="1721870534100" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
 <a href="./members/current/tomás-duque-rueda/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top"><img src="imgs/comp-biology.jpeg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="imgs/comp-biology.jpeg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Tomás Duque Rueda
@@ -697,6 +742,9 @@ Estudiante de pregrado en Biología
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
+<nav id="current-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </section>
 <section id="alumni" class="level2">
@@ -1314,7 +1362,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
