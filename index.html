@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//imgs/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,65 +74,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-eventos .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-eventos'] = new List('listing-eventos', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Grupo de Biología Computacional">
@@ -240,10 +180,7 @@ window.Quarto = {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#grupo-de-biología-computacional" id="toc-grupo-de-biología-computacional" class="nav-link active" data-scroll-target="#grupo-de-biología-computacional">Grupo de Biología Computacional</a>
-  <ul class="collapse">
-  <li><a href="#eventos-de-interés" id="toc-eventos-de-interés" class="nav-link" data-scroll-target="#eventos-de-interés">Eventos de interés</a></li>
-  </ul></li>
+  <li><a href="#grupo-de-biología-computacional" id="toc-grupo-de-biología-computacional" class="nav-link active" data-scroll-target="#grupo-de-biología-computacional">Grupo de Biología Computacional</a></li>
   <li><a href="#por-qué-hacer-biología-computacional-en-colombia" id="toc-por-qué-hacer-biología-computacional-en-colombia" class="nav-link" data-scroll-target="#por-qué-hacer-biología-computacional-en-colombia">¿Por qué hacer Biología Computacional en Colombia?</a></li>
   <li><a href="#pertenencia-al-grupo" id="toc-pertenencia-al-grupo" class="nav-link" data-scroll-target="#pertenencia-al-grupo">Pertenencia al grupo</a>
   <ul class="collapse">
@@ -261,39 +198,9 @@ window.Quarto = {
 <section id="grupo-de-biología-computacional" class="level1">
 <h1>Grupo de Biología Computacional</h1>
 <p>El Grupo de Biología Computacional hace parte del Instituto de Biología de la Universidad de Antioquia y su objetivo es comprender diversos fenómenos biológicos usando herramientas computacionales, además de promover la Biología Computacional en Colombia.</p>
-<section id="eventos-de-interés" class="level2">
-<h2 class="anchored" data-anchor-id="eventos-de-interés">Eventos de interés</h2>
-<div id="listing-eventos" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Congreso,Bioinformática" data-listing-file-modified-sort="1714959832342" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
-<a href="./eventos/iscb-latam-2024/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="https://www.iscb.org/images/stories/latam2024/banner.ConferenceBanner.LATAM.2024.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Congreso ISCB SoIBio CCBCOL 2024
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Congreso'); return false;">
-Congreso
+<div id="eventos">
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Bioinformática'); return false;">
-Bioinformática
-</div>
-</div>
-<div class="card-text listing-description">
-Participa en el Congreso Colombiano de Biología Computacional que se realizará en Medellín
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
-</section>
 </section>
 <section id="por-qué-hacer-biología-computacional-en-colombia" class="level1">
 <h1>¿Por qué hacer Biología Computacional en Colombia?</h1>
@@ -318,7 +225,6 @@ No hay resultados
 <h2 class="anchored" data-anchor-id="contacto">Contacto</h2>
 <p><i class="fa-solid fa-user" aria-label="user"></i> <a href="https://nesper94.github.io">Juan Camilo Arboleda Rivera</a><br>
 <i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:juan.arboleda2@udea.edu.co" class="email">juan.arboleda2@udea.edu.co</a></p>
-
 
 
 </section>
@@ -897,7 +803,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
