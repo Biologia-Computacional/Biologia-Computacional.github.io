@@ -1,15 +1,15 @@
 ---
 image: "/imgs/profile.png"
-listing:
-  - id: eventos
-    contents: "eventos/*/**/index.qmd"
-    sort: 'date desc'
-    type: grid
-    grid-columns: 3
-    page-size: 3
-    image-height: 150px
-    image-placeholder: /imgs/comp-biology.jpeg
-    fields: [image, title, description, categories]
+#listing:
+#  - id: eventos
+#    contents: "eventos/*/**/index.qmd"
+#    sort: 'date desc'
+#    type: grid
+#    grid-columns: 3
+#    page-size: 3
+#    image-height: 150px
+#    image-placeholder: /imgs/comp-biology.jpeg
+#    fields: [image, title, description, categories]
 
 comments: false
 ---
@@ -20,11 +20,6 @@ El Grupo de Biología Computacional hace parte del Instituto de Biología de la
 Universidad de Antioquia y su objetivo es comprender diversos fenómenos
 biológicos usando herramientas computacionales, además de promover la Biología
 Computacional en Colombia.
-
-## Eventos de interés
-
-::: {#eventos}
-:::
 
 # ¿Por qué hacer Biología Computacional en Colombia?
 
